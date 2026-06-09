@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/project/list",
+    "pages/project/detail",
+    "pages/project/edit",
+    "pages/task/kanban",
+    "pages/task/detail",
+    "pages/task/edit",
+    "pages/business/product",
+    "pages/business/activity",
+    "pages/business/equipment",
+    "pages/business/material",
+    "pages/statistics/index",
+    "pages/mine/index",
+    "pages/mine/tasks",
+    "pages/mine/projects",
+    "pages/mine/settings",
+    "pages/mine/help",
+    "pages/mine/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "茶店项目协作",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

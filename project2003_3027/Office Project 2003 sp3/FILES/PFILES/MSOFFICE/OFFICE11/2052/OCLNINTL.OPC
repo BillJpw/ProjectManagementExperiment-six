@@ -1,0 +1,180 @@
+#### OPC FILE VERSION 11 -- WARNING -- VERY DELICATE FILE SYNTAX ####
+;
+;	Last Saved Date: 9/28/2000
+;	LCID=2052
+;	Simplified Chinese
+;
+
+[RISKY, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\95
+HKLM\Software\Microsoft\Shared Tools\Location\Find Fast
+HKLM\Software\Microsoft\Shared Tools\Location\FindFast
+HKLM\SOFTWARE\Shared Tools Location\FindFast
+
+[RISKY, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECTMSIREG] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\ffastlog.txt
+HKLM\Software\Microsoft\Shared Tools\findfast.cpl
+
+[RISKY, ACCESS97, ACCESS97RT, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECTMSIREG, WORDMSIREG] "Microsoft Office"
+WINDIR\mso97.acl    "User data"
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Shared Tools\Find Fast\97
+
+[RISKY, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, PROJECTMSIREG, WORDMSIREG] "Microsoft Office"
+MSAPPS9XDIR\vba\vba332.dll
+\vba\vba3chs.dll
+\vba\vba3en.dll
+\vba\vbacv10.dll
+\vba\vbacv10d.dll
+\vba\vbacv20.dll
+\vba\vbe.dll
+\vba\vbeext1.olb
+\vba\vechscn3.cnt
+\vba\vechscn3.ftg
+\vba\vechscn3.fts
+\vba\vechscn3.gid
+\vba\vechscn3.hlp
+\vba\vechsdf3.ftg
+\vba\vechsdf3.fts
+\vba\vechsdf3.gid
+\vba\vechsdf3.hlp
+\vba\vechser3.ftg
+\vba\vechser3.fts
+\vba\vechser3.gid
+\vba\vechshw3.cnt
+\vba\vechshw3.ftg
+\vba\vechshw3.fts
+\vba\vechshw3.gid
+\vba\vechshw3.hlp
+\vba\vechslr3.cnt
+\vba\vechslr3.ftg
+\vba\vechslr3.fts
+\vba\vechslr3.gid
+\vba\vechslr3.hlp
+\vba\vechsmc3.ftg
+\vba\vechsmc3.fts
+\vba\vechsmc3.gid
+\vba\vechsmc3.hlp
+\vba\vechsui3.cnt
+\vba\vechsui3.ftg
+\vba\vechsui3.fts
+\vba\vechsui3.gid
+\vba\vechsui3.hlp
+\vba\veen3.aw
+\vba\veena3.aw
+\vba\veencn3.cnt
+\vba\veencn3.ftg
+\vba\veencn3.fts
+\vba\veencn3.gid
+\vba\veencn3.hlp
+\vba\veendf3.ftg
+\vba\veendf3.fts
+\vba\veendf3.gid
+\vba\veendf3.hlp
+\vba\veener3.ftg
+\vba\veener3.fts
+\vba\veener3.gid
+\vba\veenhw3.cnt
+\vba\veenhw3.ftg
+\vba\veenhw3.fts
+\vba\veenhw3.gid
+\vba\veenhw3.hlp
+\vba\veenlr3.cnt
+\vba\veenlr3.ftg
+\vba\veenlr3.fts
+\vba\veenlr3.gid
+\vba\veenlr3.hlp
+\vba\veenmc3.ftg
+\vba\veenmc3.fts
+\vba\veenmc3.gid
+\vba\veenmc3.hlp
+\vba\veenob3.cnt
+\vba\veenob3.hlp
+\vba\veenui3.cnt
+\vba\veenui3.ftg
+\vba\veenui3.fts
+\vba\veenui3.gid
+\vba\veenui3.hlp
+SHAREDDLL=MSAPPS9XDIR\vba\vba3chs.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vba3en.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbe.dll
+SHAREDDLL=MSAPPS9XDIR\vba\vbeext1.olb
+
+[SAFE, ACCESS95, ACCESS97, EXCEL95, EXCEL97, OUTLOOK97, POWERPOINT95, POWERPOINT97, PROJECT95, PROJECT98, SCHEDULE95, WORD95, WORD97] "Microsoft Office"
+SHAREDDLL=OFFICEROOT95DIR\office\fastboot.exe
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95] "Microsoft Office 95 Setup"
+OFFICEROOT95DIR\office\setup\setup.lst
+
+[SAFE, ACCESS95, EXCEL95, POWERPOINT95, PROJECT95, WORD95, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, WORD97, PROJECT98, ACCESSMSIREG, EXCELMSIREG, OUTLOOKMSIREG, POWERPOINTMSIREG, WORDMSIREG, PROJECTMSIREG] "Microsoft Office"
+SHAREDDLL=SYSDIR\ffastlog.txt
+SYSDIR\ffastlog.txt
+
+[SAFE, ACCESS97, EXCEL97, MSDRAW97, MSDRAW98, OUTLOOK97, PHOTODRAW1, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+HKLM\Software\Microsoft\Windows\Help\mso97.dll
+OFFICE97DIR\mso7chs.dll
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, PUBLISHER5, WORD97] "Microsoft Office"
+SHAREDDLL=OFFICE97DIR\actors\clippit.act
+
+[SAFE, ACCESS97, EXCEL97, OUTLOOK97, POWERPOINT97, PROJECT98, WORD97] "Microsoft Office"
+MENU_ITEM=Startup\Office 启动
+OFFICE97DIR\eula8.gid
+\setup\off97pro.stf
+\setup\off97std.sdf
+\setup\setup.lst
+\shortcut bar\mscreate.dir
+\shortcut bar\office\mscreate.dir
+OFFICEROOT97DIR\mscreate.dir
+
+[SAFE, EXCEL95, POWERPOINT95, PROJECT94, PROJECT95] "Microsoft Excel, PowerPoint and Project"
+MSAPPS9XDIR\vba\vbach.aw
+\vba\vbach.cnt
+\vba\vbach.hlp
+
+[RISKY, SYSTEM95] "Microsoft Office 95"
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.aw
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.cnt
+HKLM\Software\Microsoft\Windows\Help\Vbade2a.hlp
+SHAREDDLL=SYSDIR\selfreg.dll
+SYSDIR\gapi.dll
+\msvcp50.dll
+\sdmdbcs.dll
+\selfreg.dll
+
+;*************************
+; PROJECT 98 - SAFE
+*************************
+[SAFE, PROJECT98] "Microsoft Project 98 使用的文件"
+
+;shortcuts
+MENU_ITEM=Microsoft Office\Microsoft Project 安装程序
+SHORTCUT=OFFICEROOT97DIR\Microsoft Project 安装程序.lnk
+
+;templates
+TEMPLATES97DIR\Microsoft Project\航空项目计划.mpt
+\Microsoft Project\特殊事件计划.mpt
+\Microsoft Project\Intranet 项目计划.mpt
+\Microsoft Project\ISO 9000 计划.mpt
+\Microsoft Project\软件开发计划.mpt
+\Microsoft Project\办公室装修计划.mpt
+
+;*************************
+; PROJECT 95 - SAFE
+;*************************
+
+[SAFE, PROJECT95] "Microsoft Project 95 使用的文件"
+
+;*************************
+; PROJECT 95- RISKY
+;*************************
+
+[RISKY, PROJECT95] "Microsoft Project 95 使用的文件"
+
+;*************************
+; PROJECT 95 and 98 
+;*************************
+
+[SAFE, PROJECT95, PROJECT98] "所有 Microsoft Project 版本使用的文件"
+

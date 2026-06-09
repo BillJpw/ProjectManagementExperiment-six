@@ -1,0 +1,169 @@
+// ========== Design Tokens ==========
+$primary: #FF6B6B;
+$primary-light: #FF8E8E;
+$primary-bg: #FFE5E5;
+$secondary: #5352ED;
+$secondary-light: #7B68EE;
+$secondary-bg: #EEF0FF;
+$success: #2ED573;
+$success-bg: #E8F8F5;
+$warning: #FF9F43;
+$warning-bg: #FFF4E5;
+$danger: #FF4757;
+$danger-bg: #FFE5E5;
+
+$text-primary: #333333;
+$text-secondary: #666666;
+$text-placeholder: #999999;
+$text-disabled: #CCCCCC;
+
+$bg-primary: #F5F7FA;
+$bg-white: #FFFFFF;
+$border-color: #F0F0F0;
+$border-light: #F5F5F5;
+
+$radius-sm: 8rpx;
+$radius-md: 16rpx;
+$radius-lg: 20rpx;
+$radius-xl: 24rpx;
+$radius-round: 50rpx;
+
+$shadow-sm: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+$shadow-md: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 8rpx 30rpx rgba(0, 0, 0, 0.08);
+
+// ========== Utility Classes ==========
+.mt-10 { margin-top: 10rpx; }
+.mt-20 { margin-top: 20rpx; }
+.mt-30 { margin-top: 30rpx; }
+.mb-10 { margin-bottom: 10rpx; }
+.mb-20 { margin-bottom: 20rpx; }
+.mb-30 { margin-bottom: 30rpx; }
+.ml-10 { margin-left: 10rpx; }
+.mr-10 { margin-right: 10rpx; }
+.pt-20 { padding-top: 20rpx; }
+.pb-20 { padding-bottom: 20rpx; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-primary { color: $primary; }
+.text-secondary { color: $secondary; }
+.text-success { color: $success; }
+.text-warning { color: $warning; }
+.text-danger { color: $danger; }
+.text-small { font-size: 24rpx; }
+.text-muted { color: $text-placeholder; }
+.font-bold { font-weight: bold; }
+
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.flex-between { display: flex; justify-content: space-between; align-items: center; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.flex-wrap { flex-wrap: wrap; }
+.flex-1 { flex: 1; }
+.gap-10 { gap: 10rpx; }
+.gap-20 { gap: 20rpx; }
+.gap-30 { gap: 30rpx; }
+
+// ========== Global Styles ==========
+page {
+  background-color: $bg-primary;
+  font-size: 28rpx;
+  color: $text-primary;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.container {
+  padding: 24rpx;
+}
+
+// Card base
+.card {
+  background: #fff;
+  border-radius: $radius-lg;
+  padding: 28rpx;
+  margin-bottom: 24rpx;
+  box-shadow: $shadow-md;
+}
+
+.card-flat {
+  background: #fff;
+  border-radius: $radius-lg;
+  padding: 28rpx;
+  margin-bottom: 24rpx;
+}
+
+// Button base
+.btn-primary {
+  background: linear-gradient(135deg, $primary 0%, $primary-light 100%);
+  color: #fff;
+  border: none;
+  border-radius: $radius-round;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+.btn-primary:active { opacity: 0.85; transform: scale(0.98); }
+
+.btn-secondary {
+  background: #f5f5f5;
+  color: $text-secondary;
+  border: none;
+  border-radius: $radius-round;
+}
+.btn-secondary:active { background: #e8e8e8; }
+
+.btn-outline {
+  background: #fff;
+  color: $primary;
+  border: 2rpx solid $primary;
+  border-radius: $radius-round;
+}
+
+// Tags
+.tag {
+  display: inline-block;
+  padding: 6rpx 16rpx;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  margin-right: 12rpx;
+}
+
+.tag-high { background: $danger-bg; color: $danger; }
+.tag-medium { background: $warning-bg; color: $warning; }
+.tag-low { background: $success-bg; color: $success; }
+.tag-info { background: $secondary-bg; color: $secondary; }
+
+// Status colors
+.status-pending { color: $warning; }
+.status-in_progress { color: $secondary; }
+.status-done { color: $success; }
+.status-overdue { color: $danger; }
+
+// Animations
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20rpx); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(30rpx); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200%; }
+  100% { background-position: 200%; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+// Scrollbar
+::-webkit-scrollbar { display: none; width: 0; height: 0; color: transparent; }

@@ -1,0 +1,3837 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+	<book>
+		<label>Microsoft ActiveX 数据对象 (ADO)</label>
+		<topic><label>Microsoft ActiveX 数据对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/dasdkadooverview.htm</url></topic><book>
+			<label>ADO 程序员指南</label>
+			<topic><label>ADO 程序员指南</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoprogrammersguide.htm</url></topic><book>
+				<label>简介</label>
+				<topic><label>简介</label><url>mk:@MSITStore:ado210.chm::/htm/mdconintroduction.htm</url></topic><topic>
+					<label>ADO 的新增内容</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdmscwhatsnewinado.htm</url>
+				</topic>
+				<topic>
+					<label>前提条件</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdconprerequisites.htm</url>
+				</topic>
+				<topic>
+					<label>组成 ADO 家族的库</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdconadofamilyoflibraries.htm</url>
+				</topic>
+				<topic>
+					<label>ADO 在 Microsoft Data Access 中的作用</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdconroleofadoinuda.htm</url>
+				</topic>
+				<topic>
+					<label>ADO 任务表</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdcontasktable.htm</url>
+				</topic>
+				<topic>
+					<label>ADO 技术表</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdcontechnologytable.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>第 1 节：ActiveX Data Objects (ADO)</label>
+				<topic><label>第 1 节：ActiveX Data Objects (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscsection1_ado.htm</url></topic><book>
+					<label>第 1 章：ADO 基础</label>
+					<topic><label>第 1 章：ADO 基础</label><url>mk:@MSITStore:ado210.chm::/htm/mdconadofundamentals.htm</url></topic><topic>
+						<label>使用 ADO 能做些什么</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconwhatyoucandowithado.htm</url>
+					</topic>
+					<topic>
+						<label>ADO 对象模型</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconadoobjectmodel.htm</url>
+					</topic>
+					<book>
+						<label>HelloData：简单的 ADO 应用程序</label>
+						<topic><label>HelloData：简单的 ADO 应用程序</label><url>mk:@MSITStore:ado210.chm::/htm/mdtuthellodata.htm</url></topic><topic>
+							<label>HelloData 详细信息</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdtutwhatthecodedoes.htm</url>
+						</topic>
+						<topic>
+							<label>HelloData 代码</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdtuthellodatacode.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>OLE DB 提供者</label>
+						<topic><label>OLE DB 提供者</label><url>mk:@MSITStore:ado210.chm::/htm/mdconservicecomponentsandproviders.htm</url></topic><topic>
+							<label>数据提供者</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcondataproviders.htm</url>
+						</topic>
+						<topic>
+							<label>服务提供者和组件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconserviceproviders.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>错误</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconerrors.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 2 章：获取数据</label>
+					<topic><label>第 2 章：获取数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdcongettingdata.htm</url></topic><topic>
+						<label>建立连接</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconmakingaconnection.htm</url>
+					</topic>
+					<book>
+						<label>使用 Connection 对象</label>
+						<topic><label>使用 Connection 对象</label><url>mk:@MSITStore:ado210.chm::/htm/mdconusingconnection.htm</url></topic><topic>
+							<label>创建连接字符串</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconfillinconnstring.htm</url>
+						</topic>
+						<topic>
+							<label>控制事务</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconcontrollingtrx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>使用 Command 对象</label>
+						<topic><label>使用 Command 对象</label><url>mk:@MSITStore:ado210.chm::/htm/mdconworkwithcmdobject.htm</url></topic><topic>
+							<label>Command 对象概述</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconcommandoverview.htm</url>
+						</topic>
+						<topic>
+							<label>创建并执行简单的命令</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconsimplecommand.htm</url>
+						</topic>
+						<topic>
+							<label>Command 对象参数</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconcommandparams.htm</url>
+						</topic>
+						<topic>
+							<label>使用命令调用存储过程</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconcommandstoredproc.htm</url>
+						</topic>
+						<topic>
+							<label>命名命令</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconnamedcommands.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>将数据添加到 Recordset</label>
+						<topic><label>将数据添加到 Recordset</label><url>mk:@MSITStore:ado210.chm::/htm/mdcongettingdataintors.htm</url></topic><topic>
+							<label>Recordset 对象的 Open 方法</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrecordsetopen.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>第 3 章：检验数据</label>
+					<topic><label>第 3 章：检验数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdconexploringtherecordset.htm</url></topic><book>
+						<label>定位当前记录</label>
+						<topic><label>定位当前记录</label><url>mk:@MSITStore:ado210.chm::/htm/mdconexaminecurrentrecord.htm</url></topic><topic>
+							<label>对行计数</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrsrecordcount.htm</url>
+						</topic>
+						<topic>
+							<label>记录集的限制</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrslimits.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>导航数据</label>
+						<topic><label>导航数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdcondatanavigation.htm</url></topic><topic>
+							<label>跳转到记录</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrsjumptorecord.htm</url>
+						</topic>
+						<topic>
+							<label>在 Recordset 中移动的更多方法</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrsmorewaystomove.htm</url>
+						</topic>
+						<topic>
+							<label>使用书签</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrsbookmarks.htm</url>
+						</topic>
+						<topic>
+							<label>使用页</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrspages.htm</url>
+						</topic>
+						<topic>
+							<label>Recordset 定位</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrspositioning.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>了解 Recordset 结构</label>
+						<topic><label>了解 Recordset 结构</label><url>mk:@MSITStore:ado210.chm::/htm/mdconrsstructure.htm</url></topic><topic>
+							<label>Fields 集合</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconrsfieldscollection.htm</url>
+						</topic>
+						<topic>
+							<label>Field 对象</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconfieldobject.htm</url>
+						</topic>
+						<topic>
+							<label>使用 Recordset</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconworkingwithrecordsets.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>第 4 章：编辑数据</label>
+					<topic><label>第 4 章：编辑数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdconeditingdata.htm</url></topic><topic>
+						<label>编辑现有记录</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconeditexistingrecords.htm</url>
+					</topic>
+					<book>
+						<label>添加记录</label>
+						<topic><label>添加记录</label><url>mk:@MSITStore:ado210.chm::/htm/mdconaddingrecords.htm</url></topic><topic>
+							<label>用 AddNew 添加记录</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconaddingonatatime.htm</url>
+						</topic>
+						<topic>
+							<label>添加多个字段</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconaddingmultiple.htm</url>
+						</topic>
+						<topic>
+							<label>确定编辑模式</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcondeterminingeditmode.htm</url>
+						</topic>
+						<topic>
+							<label>在“立即模式”和“批模式”中使用 AddNew</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconaddnewinimmeditatebatch.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>确定可支持的功能</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcondeterminingsupport.htm</url>
+					</topic>
+					<topic>
+						<label>使用 Delete 方法删除记录</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcondeletingrecords.htm</url>
+					</topic>
+					<topic>
+						<label>替代方案：使用 SQL 语句</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconalternativedelete.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 5 章：更新和保持数据</label>
+					<topic><label>第 5 章：更新和保持数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdconupdatepersistdata.htm</url></topic><book>
+						<label>更新数据</label>
+						<topic><label>更新数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdconupdatingdata.htm</url></topic><topic>
+							<label>立即模式</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconimmediatemode.htm</url>
+						</topic>
+						<book>
+							<label>批模式</label>
+							<topic><label>批模式</label><url>mk:@MSITStore:ado210.chm::/htm/mdconbatchmode.htm</url></topic><topic>
+								<label>发送更新：UpdateBatch</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconupdatebatchmthd.htm</url>
+							</topic>
+							<topic>
+								<label>对更新记录进行筛选</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconfilterupdates.htm</url>
+							</topic>
+							<topic>
+								<label>处理失败的更新</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconfailedupdates.htm</url>
+							</topic>
+							<topic>
+								<label>检测和解决冲突</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdcondetectresolveconflicts.htm</url>
+							</topic>
+							<topic>
+								<label>断开和重新连接 Recordset</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdcondisconnectedrs.htm</url>
+							</topic>
+							<topic>
+								<label>更新 JOIN 结果：Unique Table</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconupdatingjoins.htm</url>
+							</topic>
+						</book>
+						<topic>
+							<label>事务处理</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcontrxproc.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>保持数据</label>
+						<topic><label>保持数据</label><url>mk:@MSITStore:ado210.chm::/htm/mdconpersistdata.htm</url></topic><topic>
+							<label>有关 Recordset 持久性的详细信息</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscrecordsetpersistence.htm</url>
+						</topic>
+						<topic>
+							<label>持久保留筛选和分级的 Recordsets</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconpersistfilteredrs.htm</url>
+						</topic>
+						<book>
+							<label>以 XML 格式持久保持记录</label>
+							<topic><label>以 XML 格式持久保持记录</label><url>mk:@MSITStore:ado210.chm::/htm/mdconpersistingrecordsxmlformat.htm</url></topic><topic>
+								<label>XML 持久性格式</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconxmlpersistformat.htm</url>
+							</topic>
+							<topic>
+								<label>名称空间</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconnamespaces.htm</url>
+							</topic>
+							<topic>
+								<label>架构节</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconschemasection.htm</url>
+							</topic>
+							<topic>
+								<label>数据节</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdcondatasection.htm</url>
+							</topic>
+							<topic>
+								<label>XML 中的分级 Recordsets</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconhierarchicalrecordsetsxml.htm</url>
+							</topic>
+							<topic>
+								<label>XML 中的 Recordset 动态属性</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconrecordsetdynamicpropertiesxml.htm</url>
+							</topic>
+							<topic>
+								<label>XSLT 转换</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconxmlxsltrans.htm</url>
+							</topic>
+							<topic>
+								<label>保存到 XML DOM 对象</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconpersisttoxmldom.htm</url>
+							</topic>
+							<topic>
+								<label>XML 安全性考虑</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdconxmlsecurityconsiderations.htm</url>
+							</topic>
+							<book>
+								<label>XML Recordset 持久性方案</label>
+								<topic><label>XML Recordset 持久性方案</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowxmlrspersistscenario.htm</url></topic><topic>
+									<label>步骤 1：安装应用程序</label>
+									<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep1setupapplication.htm</url>
+								</topic>
+								<topic>
+									<label>步骤 2：获取数据</label>
+									<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep2getdata.htm</url>
+								</topic>
+								<topic>
+									<label>步骤 3：发送数据</label>
+									<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep3senddata.htm</url>
+								</topic>
+								<topic>
+									<label>步骤 4：接收和显示数据</label>
+									<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep4receivedisplaydata.htm</url>
+								</topic>
+							</book>
+						</book>
+					</book>
+				</book>
+				<book>
+					<label>第 6 章：错误处理</label>
+					<topic><label>第 6 章：错误处理</label><url>mk:@MSITStore:ado210.chm::/htm/mdconerrorhandling.htm</url></topic><book>
+						<label>ADO 错误</label>
+						<topic><label>ADO 错误</label><url>mk:@MSITStore:ado210.chm::/htm/mdconadoerrors.htm</url></topic><topic>
+							<label>ADO 错误参考</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconadoerrorreference.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>提供者错误</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconprovidererrors.htm</url>
+					</topic>
+					<topic>
+						<label>与字段有关的错误信息</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconfieldrelatederrors.htm</url>
+					</topic>
+					<topic>
+						<label>与 Recordset 有关的错误信息</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconrecordsetrelatederrors.htm</url>
+					</topic>
+					<book>
+						<label>在其他语言中处理错误</label>
+						<topic><label>在其他语言中处理错误</label><url>mk:@MSITStore:ado210.chm::/htm/mdconhandlingerrors.htm</url></topic><topic>
+							<label>在 VBScript 中处理错误</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconhandlingerrorsvbscript.htm</url>
+						</topic>
+						<topic>
+							<label>在 Visual C++ 中处理错误</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconhandlingerrorsvc.htm</url>
+						</topic>
+						<topic>
+							<label>在 Visual J++ 中处理错误</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconhandlingerrorsvj.htm</url>
+						</topic>
+						<topic>
+							<label>在 JScript 中处理错误</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconhandlingerrorsjscript.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>预料错误</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconanticipatingerrors.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 7 章：处理 ADO 事件</label>
+					<topic><label>第 7 章：处理 ADO 事件</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoeventmodelasynchronousoperations.htm</url></topic><topic>
+						<label>ADO 事件处理程序汇总</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscadoevents.htm</url>
+					</topic>
+					<topic>
+						<label>事件类型</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmsctypesofevents.htm</url>
+					</topic>
+					<topic>
+						<label>事件参数</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmsceventparameters.htm</url>
+					</topic>
+					<topic>
+						<label>事件处理程序如何协同工作</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmschoweventhandlersworktogether.htm</url>
+					</topic>
+					<book>
+						<label>不同语言的 ADO 事件实例</label>
+						<topic><label>不同语言的 ADO 事件实例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoeventinstantiation.htm</url></topic><topic>
+							<label>Visual Basic</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsvb.htm</url>
+						</topic>
+						<topic>
+							<label>Visual C++</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsvc.htm</url>
+						</topic>
+						<topic>
+							<label>Visual J++</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsvj.htm</url>
+						</topic>
+						<topic>
+							<label>VBScript</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsvbscript.htm</url>
+						</topic>
+						<topic>
+							<label>JScript</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsjscript.htm</url>
+						</topic>
+						<topic>
+							<label>ADO/WFC</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconeventsadowfc.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>第 8 章：理解游标和锁定</label>
+					<topic><label>第 8 章：理解游标和锁定</label><url>mk:@MSITStore:ado210.chm::/htm/mdconcursorsandlocks.htm</url></topic><topic>
+						<label>什么是游标？</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconwhatsacursor.htm</url>
+					</topic>
+					<book>
+						<label>游标的类型</label>
+						<topic><label>游标的类型</label><url>mk:@MSITStore:ado210.chm::/htm/mdconcursortypes.htm</url></topic><topic>
+							<label>仅向前游标</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconforwardonlycursor.htm</url>
+						</topic>
+						<topic>
+							<label>静态游标</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconstaticcursors.htm</url>
+						</topic>
+						<topic>
+							<label>键集游标</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconkeysetcursors.htm</url>
+						</topic>
+						<topic>
+							<label>动态游标</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcondynamiccursors.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>游标位置的重要性</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconcursorlocationsignificance.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft Cursor Service for OLE DB</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconclientcursorengine.htm</url>
+					</topic>
+					<book>
+						<label>什么是锁定？</label>
+						<topic><label>什么是锁定？</label><url>mk:@MSITStore:ado210.chm::/htm/mdconwhatisalock.htm</url></topic><topic>
+							<label>锁定类型</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcontypesoflocks.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>使用 CacheSize</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconcachesize.htm</url>
+					</topic>
+					<topic>
+						<label>游标和锁定特征</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdconcursorlockmatrix.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 9 章：数据构形</label>
+					<topic><label>第 9 章：数据构形</label><url>mk:@MSITStore:ado210.chm::/htm/mdmschierarchicalcursorsdatashaping.htm</url></topic><book>
+						<label>数据构形汇总</label>
+						<topic><label>数据构形汇总</label><url>mk:@MSITStore:ado210.chm::/htm/mdmschierarchicalcursorsdatashapingdetail.htm</url></topic><topic>
+							<label>数据构形</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowdatashaping.htm</url>
+						</topic>
+						<topic>
+							<label>重构形</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowreshaping.htm</url>
+						</topic>
+						<topic>
+							<label>孙子合计</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowgrandchildaggregates.htm</url>
+						</topic>
+						<topic>
+							<label>使用包含 COMPUTE 命令的参数化命令</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowparameterizedcommandswithinterveningcomputecommands.htm</url>
+						</topic>
+						<topic>
+							<label>持久保留分级记录集</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowpersistinghierarchicalrecordsets.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>数据构形所需的提供者</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscrequiredprovidersfordatashaping.htm</url>
+					</topic>
+					<book>
+						<label>常规构形命令</label>
+						<topic><label>常规构形命令</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscshapecommandsingeneral.htm</url></topic><topic>
+							<label>合计函数、CALC 函数和 NEW 关键字</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconaggregatefunctionscalcfunctionnewkeyword.htm</url>
+						</topic>
+						<topic>
+							<label>向基本数据提供者发出命令</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconissuingcommandstounderlyingdataprovider.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Shape Append 子句</label>
+						<topic><label>Shape Append 子句</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscshapeappendcommand.htm</url></topic><topic>
+							<label>非参数化命令的操作</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconoperationofnonparameterizedcommands.htm</url>
+						</topic>
+						<topic>
+							<label>参数化命令的操作</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconoperationofparameterizedcommands.htm</url>
+						</topic>
+						<topic>
+							<label>混合命令</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconhybridcommands.htm</url>
+						</topic>
+						<topic>
+							<label>插入 Shape COMPUTE 子句</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdconinterveningshapecomputeclauses.htm</url>
+						</topic>
+					</book>
+					<topic>
+						<label>Shape Compute 子句</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscshapecomputecommand.htm</url>
+					</topic>
+					<topic>
+						<label>虚构分级记录集</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdobjfabricatinghierarchicalrecordsets.htm</url>
+					</topic>
+					<topic>
+						<label>访问分级 Recordset 中的行</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscaccessingrowsinhierarchicalrecordset.htm</url>
+					</topic>
+					<topic>
+						<label>规范构形语法</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscformalshapegrammar.htm</url>
+					</topic>
+					<topic>
+						<label>Visual Basic for Applications 函数</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscvbafunctions.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 10 章：Record 和 Stream</label>
+					<topic><label>第 10 章：Record 和 Stream</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadofordocuments.htm</url></topic><topic>
+						<label>流和持久性</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscstreamspersistence.htm</url>
+					</topic>
+					<book>
+						<label>使用 ADO for Internet Publishing</label>
+						<topic><label>使用 ADO for Internet Publishing</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadoforinetpub.htm</url></topic><topic>
+							<label>OLE DB Provider for Internet Publishing</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowusingadowithrosebud.htm</url>
+						</topic>
+						<book>
+							<label>Internet 发布方案</label>
+							<topic><label>Internet 发布方案</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowinternetpublishingscenario.htm</url></topic><topic>
+								<label>步骤 1：设置 Visual Basic 工程</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep1setupvisualbasicproject.htm</url>
+							</topic>
+							<topic>
+								<label>步骤 2：初始化主列表框</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep2initializemainlistbox.htm</url>
+							</topic>
+							<topic>
+								<label>步骤 3：预置字段列表框</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep3populatefieldslistbox.htm</url>
+							</topic>
+							<topic>
+								<label>步骤 4：预置详细文本框</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep4populatedetailstextbox.htm</url>
+							</topic>
+						</book>
+						<topic>
+							<label>绝对和相对 URL</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmsccompleteabsoluterelativeurls.htm</url>
+						</topic>
+						<topic>
+							<label>记录和提供者提供的字段</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscrecordsprovidersuppliedextrafields.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+			<book>
+				<label>第 2 节：远程数据服务 (RDS)</label>
+				<topic><label>第 2 节：远程数据服务 (RDS)</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscsection2_rds.htm</url></topic><book>
+					<label>第 11 章：RDS 基础</label>
+					<topic><label>第 11 章：RDS 基础</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscoverviewofremotedataservice.htm</url></topic><topic>
+						<label>远程数据访问的解决方案</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmsctherdsproblem.htm</url>
+					</topic>
+					<topic>
+						<label>基本 RDS 编程模型</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscbasicrdsprogrammingmodel.htm</url>
+					</topic>
+					<topic>
+						<label>RDS 编程模型详细信息</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmsctherdsprogrammingmodelindetail.htm</url>
+					</topic>
+					<topic>
+						<label>使用对象的 RDS 编程模型</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsprogrammingmodelwithobjects.htm</url>
+					</topic>
+					<topic>
+						<label>RDS 对象模型汇总</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmsctherdsobjectmodel.htm</url>
+					</topic>
+					<book>
+						<label>RDS 方案</label>
+						<topic>
+							<label>地址簿应用程序的系统需求</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowabsysrequire.htm</url>
+						</topic>
+						<topic>
+							<label>运行地址簿范例应用程序</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowrunab.htm</url>
+						</topic>
+						<topic>
+							<label>地址簿数据绑定对象</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowabdbobj.htm</url>
+						</topic>
+						<topic>
+							<label>地址簿命令按钮</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowabcombuttons.htm</url>
+						</topic>
+						<topic>
+							<label>地址簿定位按钮</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhownavbuttons.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>第 12 章：RDS 教程</label>
+					<topic><label>第 12 章：RDS 教程</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowrdstutorial.htm</url></topic><topic>
+						<label>步骤 1：指定服务器程序（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep1specifyserverprogram.htm</url>
+					</topic>
+					<topic>
+						<label>步骤 2：调用服务器程序（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep2invokeserverprogram.htm</url>
+					</topic>
+					<topic>
+						<label>步骤 3：服务器获取 Recordset（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep3serverobtainsrecordset.htm</url>
+					</topic>
+					<topic>
+						<label>步骤 4：服务器返回 Recordset（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep4serverreturnsrecordset.htm</url>
+					</topic>
+					<topic>
+						<label>步骤 5：启用 DataControl（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep5datacontrol.htm</url>
+					</topic>
+					<topic>
+						<label>步骤 6：将更改发送到服务器（RDS 教程）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowstep6changessenttoserver.htm</url>
+					</topic>
+					<topic>
+						<label>RDS 教程 (VBScript)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowrdstutorialvbscript.htm</url>
+					</topic>
+					<topic>
+						<label>RDS 教程 (Visual J++)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowrdstutorialvj.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>第 13 章：RDS 用法和安全性</label>
+					<topic><label>第 13 章：RDS 用法和安全性</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowoverview.htm</url></topic><topic>
+						<label>配置 RDS</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowconfigurationinformation.htm</url>
+					</topic>
+					<topic>
+						<label>授予 Web 服务器计算机客户特权：RDS 客户特权 [ADO]</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowgrantguest.htm</url>
+					</topic>
+					<topic>
+						<label>注册自定义业务对象</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowregistry.htm</url>
+					</topic>
+					<topic>
+						<label>将业务对象标记为可安全执行脚本</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowsfs.htm</url>
+					</topic>
+					<topic>
+						<label>在客户端注册业务对象以便配合 DCOM 使用</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowcsregistry.htm</url>
+					</topic>
+					<topic>
+						<label>设置 DCOM 流调度格式</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowdcomstreammarshalingformat.htm</url>
+					</topic>
+					<topic>
+						<label>启用 DLL 以在 DCOM 上运行</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowdllmts.htm</url>
+					</topic>
+					<topic>
+						<label>在 IIS 上配置虚拟服务器</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowvirtualservers.htm</url>
+					</topic>
+					<topic>
+						<label>在 IIS 上指定每个处理程序的线程数</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowthreadsperprocessor.htm</url>
+					</topic>
+					<topic>
+						<label>保护 RDS 应用程序</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowsecurityforrdswithinternetexplorer.htm</url>
+					</topic>
+					<topic>
+						<label>将 DataFactory 配置为安全和无限制模式</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdhowconfiguringdatafactory.htm</url>
+					</topic>
+					<book>
+						<label>使用 RDS 和相关技术</label>
+						<topic><label>使用 RDS 和相关技术</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowrelatedtech.htm</url></topic><topic>
+							<label>将 RDS 与 ODBC Connection Pooling 配合使用</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowsqlstab.htm</url>
+						</topic>
+						<topic>
+							<label>在 Component Services 中运行业务对象</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowdispenser.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>DataFactory 自定义</label>
+						<topic><label>DataFactory 自定义</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscdatafactorycustomization.htm</url></topic><topic>
+							<label>了解自定义文件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscunderstandingcustomizationfile.htm</url>
+						</topic>
+						<topic>
+							<label>自定义文件 Connect 节</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmsccustomizationfileconnectsection.htm</url>
+						</topic>
+						<topic>
+							<label>自定义文件 SQL 节</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmsccustomizationfilesqlsection.htm</url>
+						</topic>
+						<topic>
+							<label>自定义文件 UserList 节</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmsccustomizationfileuserlistsection.htm</url>
+						</topic>
+						<topic>
+							<label>自定义文件 Logs 节</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmsccustomizationfilelogssection.htm</url>
+						</topic>
+						<topic>
+							<label>所需的客户端设置</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscrequiredclientsettings.htm</url>
+						</topic>
+						<topic>
+							<label>编写自定义处理程序</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscwritingyourowncustomizedhandler.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>RDS 疑难解答</label>
+						<topic><label>RDS 疑难解答</label><url>mk:@MSITStore:ado210.chm::/htm/mdhowtroubleshooting.htm</url></topic><topic>
+							<label>在 Windows 2000 上配置 RDS</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowconfigurerdsonwin2k.htm</url>
+						</topic>
+						<topic>
+							<label>“Internet 服务器错误：访问被拒绝”</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowaccessdenied.htm</url>
+						</topic>
+						<topic>
+							<label>RDS 返回“未读取流”错误</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowrdsstreamnotread.htm</url>
+						</topic>
+						<topic>
+							<label>可重复读取隔离级出现死锁</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowdeadlock.htm</url>
+						</topic>
+						<topic>
+							<label>确保足够的 TempDB 空间</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowtempdb.htm</url>
+						</topic>
+						<topic>
+							<label>最小化日志文件空间的使用</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowminlogfile.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+			<book>
+				<label>第 3 节：ADO (Multidimensional) (ADO MD)</label>
+				<topic><label>第 3 节：ADO (Multidimensional) (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdoverview.htm</url></topic><book>
+					<label>第 14 章：ADO MD 基础</label>
+					<topic><label>第 14 章：ADO MD 基础</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdfundamentals.htm</url></topic><topic>
+						<label>多维模式和数据概述</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammscoverviewmdschemasanddata.htm</url>
+					</topic>
+					<topic>
+						<label>使用多维数据</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammscworkingwithmddata.htm</url>
+					</topic>
+					<topic>
+						<label>将 ADO MD 与 ADO 配合使用</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammscusingadowithadomd.htm</url>
+					</topic>
+					<topic>
+						<label>ADO MD 编程</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammscprogrammingwithadomd.htm</url>
+					</topic>
+				</book>
+			</book>
+			<book>
+				<label>第 4 节：ADO Extensions for Data Definition Language and Security (ADOX)</label>
+				<topic><label>第 4 节：ADO Extensions for Data Definition Language and Security (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddloverview.htm</url></topic><book>
+					<label>第 15 章：ADOX 基础</label>
+					<topic><label>第 15 章：ADOX 基础</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoxfundamentals.htm</url></topic><topic>
+						<label>ADOX 的提供者支持</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adconprovidersupportforadox.htm</url>
+					</topic>
+				</book>
+			</book>
+			<book>
+				<label>第 5 节：附录</label>
+				<topic><label>第 5 节：附录</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscsectionv_appendixes.htm</url></topic><book>
+					<label>附录 A：提供者</label>
+					<topic><label>附录 A：提供者</label><url>mk:@MSITStore:ado210.chm::/htm/mdrefadoprovinfo.htm</url></topic><topic>
+						<label>Microsoft OLE DB Provider for ODBC</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefodbcprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for Microsoft Indexing Service</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefindservprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for Microsoft Active Directory Service</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefadsprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for Microsoft Jet</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefjetprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for SQL Server</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefsqlprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for Oracle</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdreforacleprovspec.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Provider for Internet Publishing</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefproviderrosebud.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft Data Shaping Service for OLE DB (ADO Service Provider)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefmsdatashape.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Persistence Provider (ADO Service Provider)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefmspersist.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft OLE DB Remoting Provider (ADO Service Provider)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefmsremote.htm</url>
+					</topic>
+					<topic>
+						<label>Microsoft Cursor Service for OLE DB (ADO Service Component)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefcursorengine.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>附录 B：ADO 错误</label>
+					<topic><label>附录 B：ADO 错误</label><url>mk:@MSITStore:ado210.chm::/htm/mdreferrorcodes.htm</url></topic><topic>
+						<label>ADO 错误代码</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefadoerror.htm</url>
+					</topic>
+					<topic>
+						<label>DataControl 错误代码</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefrdserror.htm</url>
+					</topic>
+					<topic>
+						<label>Internet Explorer 错误代码</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefieerror.htm</url>
+					</topic>
+					<topic>
+						<label>Internet Information Services 错误代码</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefiiserror.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>附录 C：ADO 编程</label>
+					<topic><label>附录 C：ADO 编程</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscprogrammingwithado.htm</url></topic><topic>
+						<label>通过 Microsoft Visual Basic 使用 ADO</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithmicrosoftvisualbasic.htm</url>
+					</topic>
+					<book>
+						<label>通过脚本语言使用 ADO</label>
+						<topic><label>通过脚本语言使用 ADO</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithmicrosoftvisualbasicscriptingedition.htm</url></topic><topic>
+							<label>VBScript ADO 编程</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscadoinvbscript.htm</url>
+						</topic>
+						<topic>
+							<label>JScript ADO 编程</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscadoinjscript.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>通过 Microsoft Visual C++ 使用 ADO</label>
+						<topic><label>通过 Microsoft Visual C++ 使用 ADO</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithmicrosoftvisualc.htm</url></topic><topic>
+							<label>Visual C++ ADO 编程</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdhowhowvcusersshouldreadadodocumentation.htm</url>
+						</topic>
+						<topic>
+							<label>Visual C++ Extensions for ADO</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscadovcextensions.htm</url>
+						</topic>
+						<topic>
+							<label>使用 Visual C++ Extensions</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadovcextensions.htm</url>
+						</topic>
+						<topic>
+							<label>Visual C++ Extensions 头文件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscvcextensionsheaderindetail.htm</url>
+						</topic>
+						<topic>
+							<label>Visual C++ Extensions 范例</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscexampleadowithextensions.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>通过 Microsoft Visual J++ 使用 ADO</label>
+						<topic><label>通过 Microsoft Visual J++ 使用 ADO</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithmicrosoftvisualj.htm</url></topic><topic>
+							<label>ADO/WFC 编程</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscadoforjava.htm</url>
+						</topic>
+						<topic>
+							<label>使用 Java Type Library Wizard</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithjavatypelibararywizard.htm</url>
+						</topic>
+						<topic>
+							<label>使用 Microsoft SDK for Java</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscusingadowithmicrosoftsdkforjava.htm</url>
+						</topic>
+						<topic>
+							<label>ADO Java 类封装</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmscadojavaclasswrappers.htm</url>
+						</topic>
+					</book>
+				</book>
+				<topic>
+					<label>附录 D：ADO 范例</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdhowadosamples.htm</url>
+				</topic>
+			</book>
+			<topic>
+				<label>ADO 词汇表</label>
+				<url>mk:@MSITStore:ado210.chm::/htm/mddefglossary.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>ADO 程序员参考</label>
+			<topic><label>ADO 程序员参考</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscmicrosoftadoprogrammersreference.htm</url></topic><book>
+				<label>ADO API 参考</label>
+				<topic><label>ADO API 参考</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoapireference.htm</url></topic><topic>
+					<label>ADO 对象模型</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/mdmscadoobjmod.htm</url>
+				</topic>
+				<book>
+					<label>ADO 对象和接口</label>
+					<topic><label>ADO 对象和接口</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoobjects.htm</url></topic><topic>
+						<label>ADORecordConstruction 接口 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdobjadorecordconstruction.htm</url>
+					</topic>
+					<topic>
+						<label>ADORecordsetConstruction 接口 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdobjadorecordsetconstruction.htm</url>
+					</topic>
+					<book>
+						<label>Command 对象 (ADO)</label>
+						<topic><label>Command 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjcommand.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjcommandpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Connection 对象 (ADO)</label>
+						<topic><label>Connection 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjconnection.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjconnectionpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Error 对象 (ADO)</label>
+						<topic><label>Error 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjerror.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjerrorpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Field 对象 (ADO)</label>
+						<topic><label>Field 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjfield.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjfieldpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Parameter 对象 (ADO)</label>
+						<topic><label>Parameter 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjparameter.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjparameterpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Property 对象 (ADO)</label>
+						<topic><label>Property 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjproperty.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjpropertypme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Record 对象 (ADO)</label>
+						<topic><label>Record 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjrecord.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjrecordpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Recordset 对象 (ADO)</label>
+						<topic><label>Recordset 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjodbrec.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjodbrecpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Stream 对象 (ADO)</label>
+						<topic><label>Stream 对象 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjstream.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjstreampme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADO 集合</label>
+					<topic><label>ADO 集合</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocollections.htm</url></topic><book>
+						<label>Errors 集合 (ADO)</label>
+						<topic><label>Errors 集合 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdcolerrors.htm</url></topic><topic>
+							<label>Errors 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcolerrorspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Fields 集合 (ADO)</label>
+						<topic><label>Fields 集合 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdcolfields.htm</url></topic><topic>
+							<label>Fields 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcolfieldspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Parameters 集合 (ADO)</label>
+						<topic><label>Parameters 集合 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdcolparameters.htm</url></topic><topic>
+							<label>Parameters 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcolparameterspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Properties 集合 (ADO)</label>
+						<topic><label>Properties 集合 (ADO)</label><url>mk:@MSITStore:ado210.chm::/htm/mdcolproperties.htm</url></topic><topic>
+							<label>Properties 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdcolpropertiespme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADO 属性</label>
+					<topic><label>ADO 属性</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoproperties.htm</url></topic><topic>
+						<label>AbsolutePage 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproabpage.htm</url>
+					</topic>
+					<topic>
+						<label>AbsolutePosition 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproabpos.htm</url>
+					</topic>
+					<topic>
+						<label>ActiveCommand 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecommand.htm</url>
+					</topic>
+					<topic>
+						<label>ActiveConnection 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecon.htm</url>
+					</topic>
+					<topic>
+						<label>ActualSize 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproactualsize.htm</url>
+					</topic>
+					<topic>
+						<label>Attributes 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproattributes.htm</url>
+					</topic>
+					<topic>
+						<label>BOF 和 EOF 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprobof.htm</url>
+					</topic>
+					<topic>
+						<label>Bookmark 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprobookmark.htm</url>
+					</topic>
+					<topic>
+						<label>CacheSize 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocachesize.htm</url>
+					</topic>
+					<topic>
+						<label>Chapter 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprochapter.htm</url>
+					</topic>
+					<topic>
+						<label>Charset 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocharset.htm</url>
+					</topic>
+					<topic>
+						<label>CommandText 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocommandtext.htm</url>
+					</topic>
+					<topic>
+						<label>CommandTimeout 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocommandtimeout.htm</url>
+					</topic>
+					<topic>
+						<label>CommandType 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocommandtype.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectionString 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectionstring.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectionTimeout 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectiontimeout.htm</url>
+					</topic>
+					<topic>
+						<label>Count 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocount.htm</url>
+					</topic>
+					<topic>
+						<label>CursorLocation 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocursorlocation.htm</url>
+					</topic>
+					<topic>
+						<label>CursorType 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprocursortype.htm</url>
+					</topic>
+					<topic>
+						<label>DataMember 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodatamember.htm</url>
+					</topic>
+					<topic>
+						<label>DataSource 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodatasource.htm</url>
+					</topic>
+					<topic>
+						<label>DefaultDatabase 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodefaultdatabase.htm</url>
+					</topic>
+					<topic>
+						<label>DefinedSize 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodefinedsize.htm</url>
+					</topic>
+					<topic>
+						<label>Description 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodescription.htm</url>
+					</topic>
+					<topic>
+						<label>Direction 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodirection.htm</url>
+					</topic>
+					<topic>
+						<label>EditMode 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproeditmode.htm</url>
+					</topic>
+					<topic>
+						<label>EOS 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproeos.htm</url>
+					</topic>
+					<topic>
+						<label>Filter 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprofilter.htm</url>
+					</topic>
+					<topic>
+						<label>HelpContext 和 HelpFile 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprohelpcontext.htm</url>
+					</topic>
+					<topic>
+						<label>Index 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproindex.htm</url>
+					</topic>
+					<topic>
+						<label>IsolationLevel 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproisolationlevel.htm</url>
+					</topic>
+					<topic>
+						<label>Item 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproitem.htm</url>
+					</topic>
+					<topic>
+						<label>LineSeparator 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprolineseparator.htm</url>
+					</topic>
+					<topic>
+						<label>LockType 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprolocktype.htm</url>
+					</topic>
+					<topic>
+						<label>MarshalOptions 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpromarshaloptions.htm</url>
+					</topic>
+					<topic>
+						<label>MaxRecords 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpromaxrecords.htm</url>
+					</topic>
+					<topic>
+						<label>Mode 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpromode.htm</url>
+					</topic>
+					<topic>
+						<label>Name 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproname.htm</url>
+					</topic>
+					<topic>
+						<label>NativeError 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpronativeerror.htm</url>
+					</topic>
+					<topic>
+						<label>Number 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpronumber.htm</url>
+					</topic>
+					<topic>
+						<label>NumericScale 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpronumericscale.htm</url>
+					</topic>
+					<topic>
+						<label>OriginalValue 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprooriginalvalue.htm</url>
+					</topic>
+					<topic>
+						<label>PageCount 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpropagecount.htm</url>
+					</topic>
+					<topic>
+						<label>PageSize 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpropagesize.htm</url>
+					</topic>
+					<topic>
+						<label>ParentRow 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproparentrow.htm</url>
+					</topic>
+					<topic>
+						<label>ParentURL 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproparenturl.htm</url>
+					</topic>
+					<topic>
+						<label>Position 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproposition.htm</url>
+					</topic>
+					<topic>
+						<label>Precision 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproprecision.htm</url>
+					</topic>
+					<topic>
+						<label>Prepared 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproprepared.htm</url>
+					</topic>
+					<topic>
+						<label>Provider 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproprovider.htm</url>
+					</topic>
+					<topic>
+						<label>RecordCount 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorecordcount.htm</url>
+					</topic>
+					<topic>
+						<label>RecordType 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorecordtypeproperty.htm</url>
+					</topic>
+					<topic>
+						<label>Row 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorow.htm</url>
+					</topic>
+					<topic>
+						<label>RowPosition 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorowposition.htm</url>
+					</topic>
+					<topic>
+						<label>Rowset 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorowset.htm</url>
+					</topic>
+					<topic>
+						<label>Size 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosize.htm</url>
+					</topic>
+					<topic>
+						<label>Size 属性 (ADO Stream)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosizestream.htm</url>
+					</topic>
+					<topic>
+						<label>Sort 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosortpropertyado.htm</url>
+					</topic>
+					<topic>
+						<label>Source 属性 (ADO Error)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproerrsource.htm</url>
+					</topic>
+					<topic>
+						<label>Source 属性 (ADO Record)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosourcerecord.htm</url>
+					</topic>
+					<topic>
+						<label>Source 属性 (ADO Recordset)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorstsource.htm</url>
+					</topic>
+					<topic>
+						<label>SQLState 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosqlstate.htm</url>
+					</topic>
+					<topic>
+						<label>State 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprostate.htm</url>
+					</topic>
+					<topic>
+						<label>Status 属性 (ADO Field)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprostatusfield.htm</url>
+					</topic>
+					<topic>
+						<label>Status 属性 (ADO Recordset)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprostatus.htm</url>
+					</topic>
+					<topic>
+						<label>StayInSync 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprostayinsync.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprotype.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (ADO Stream)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprotypestream.htm</url>
+					</topic>
+					<topic>
+						<label>UnderlyingValue 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprounderlyingvalue.htm</url>
+					</topic>
+					<topic>
+						<label>Value 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprovalue.htm</url>
+					</topic>
+					<topic>
+						<label>Version 属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproversion.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO 动态属性</label>
+					<topic><label>ADO 动态属性</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadodynamicproperties.htm</url></topic><topic>
+						<label>ADO 动态属性索引</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdrefadodynamicpropertyindex.htm</url>
+					</topic>
+					<topic>
+						<label>Optimize 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprooptimizepropertyrds.htm</url>
+					</topic>
+					<topic>
+						<label>Prompt 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodynprompt.htm</url>
+					</topic>
+					<topic>
+						<label>Reshape Name 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodynname.htm</url>
+					</topic>
+					<topic>
+						<label>Resync Command 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodynresynccommand.htm</url>
+					</topic>
+					<topic>
+						<label>Unique Table、Unique Schema 和 Unique Catalog 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodynuniquetable.htm</url>
+					</topic>
+					<topic>
+						<label>Update Resync 动态属性 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprodynupdateresync.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO 方法</label>
+					<topic><label>ADO 方法</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadomethods.htm</url></topic><topic>
+						<label>AddNew 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnew.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthappend.htm</url>
+					</topic>
+					<topic>
+						<label>AppendChunk 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthappchunk.htm</url>
+					</topic>
+					<topic>
+						<label>BeginTrans、CommitTrans 和 RollbackTrans 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthbegintrans.htm</url>
+					</topic>
+					<topic>
+						<label>Cancel 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthadocancel.htm</url>
+					</topic>
+					<topic>
+						<label>CancelBatch 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcancelbatch.htm</url>
+					</topic>
+					<topic>
+						<label>CancelUpdate 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcancelupdate.htm</url>
+					</topic>
+					<topic>
+						<label>Clear 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthclear.htm</url>
+					</topic>
+					<topic>
+						<label>Clone 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthclone.htm</url>
+					</topic>
+					<topic>
+						<label>Close 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthclose.htm</url>
+					</topic>
+					<topic>
+						<label>CompareBookmarks 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcomparebookmarks.htm</url>
+					</topic>
+					<topic>
+						<label>CopyRecord 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcopyrecord.htm</url>
+					</topic>
+					<topic>
+						<label>CopyTo 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcopyto.htm</url>
+					</topic>
+					<topic>
+						<label>CreateParameter 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcreateparam.htm</url>
+					</topic>
+					<topic>
+						<label>Delete 方法（ADO Parameters 集合）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcoldelete.htm</url>
+					</topic>
+					<topic>
+						<label>Delete 方法（ADO Fields 集合）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcoldeletefield.htm</url>
+					</topic>
+					<topic>
+						<label>Delete 方法 (ADO Recordset)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrstdelete.htm</url>
+					</topic>
+					<topic>
+						<label>DeleteRecord 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeleterecord.htm</url>
+					</topic>
+					<topic>
+						<label>Execute 方法 (ADO Command)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcmdexecute.htm</url>
+					</topic>
+					<topic>
+						<label>Execute 方法 (ADO Connections)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcnnexecute.htm</url>
+					</topic>
+					<topic>
+						<label>Find 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthfindmethodado.htm</url>
+					</topic>
+					<topic>
+						<label>Flush 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthflush.htm</url>
+					</topic>
+					<topic>
+						<label>GetChildren 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetchildrenmethodado.htm</url>
+					</topic>
+					<topic>
+						<label>GetChunk 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetchunk.htm</url>
+					</topic>
+					<topic>
+						<label>GetRows 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetrows.htm</url>
+					</topic>
+					<topic>
+						<label>GetString 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetstringmethod(recordset)ado.htm</url>
+					</topic>
+					<topic>
+						<label>LoadFromFile 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthloadfromfile.htm</url>
+					</topic>
+					<topic>
+						<label>Move 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthmove.htm</url>
+					</topic>
+					<topic>
+						<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirst.htm</url>
+					</topic>
+					<topic>
+						<label>MoveRecord 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthmoverecord.htm</url>
+					</topic>
+					<topic>
+						<label>NextRecordset 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthnextrec.htm</url>
+					</topic>
+					<topic>
+						<label>Open 方法 (ADO Connection)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcnnopen.htm</url>
+					</topic>
+					<topic>
+						<label>Open 方法 (ADO Record)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenrecord.htm</url>
+					</topic>
+					<topic>
+						<label>Open 方法 (ADO Recordset)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrstopen.htm</url>
+					</topic>
+					<topic>
+						<label>Open 方法 (ADO Stream)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenstream.htm</url>
+					</topic>
+					<topic>
+						<label>OpenSchema 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenschema.htm</url>
+					</topic>
+					<topic>
+						<label>Read 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthread.htm</url>
+					</topic>
+					<topic>
+						<label>ReadText 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthreadtext.htm</url>
+					</topic>
+					<topic>
+						<label>Refresh 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthadorefresh.htm</url>
+					</topic>
+					<topic>
+						<label>Requery 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthadorequery.htm</url>
+					</topic>
+					<topic>
+						<label>Resync 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthadoresync.htm</url>
+					</topic>
+					<topic>
+						<label>Save 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrstsave.htm</url>
+					</topic>
+					<topic>
+						<label>SaveToFile 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthsavetofile.htm</url>
+					</topic>
+					<topic>
+						<label>Seek 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthseek.htm</url>
+					</topic>
+					<topic>
+						<label>SetEOS 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthseteos.htm</url>
+					</topic>
+					<topic>
+						<label>SkipLine 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthskipline.htm</url>
+					</topic>
+					<topic>
+						<label>Stat 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthstat.htm</url>
+					</topic>
+					<topic>
+						<label>Supports 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthsupports.htm</url>
+					</topic>
+					<topic>
+						<label>Update 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdate.htm</url>
+					</topic>
+					<topic>
+						<label>UpdateBatch 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatebatch.htm</url>
+					</topic>
+					<topic>
+						<label>Write 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthwrite.htm</url>
+					</topic>
+					<topic>
+						<label>WriteText 方法 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthwritetext.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO 事件</label>
+					<topic><label>ADO 事件</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoeventsref.htm</url></topic><topic>
+						<label>BeginTransComplete、CommitTransComplete 和 RollbackTransComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtbegintranscomplete.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectComplete 和 Disconnect 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtconnectconnectionevents.htm</url>
+					</topic>
+					<topic>
+						<label>EndOfRecordset 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtendofrecordset.htm</url>
+					</topic>
+					<topic>
+						<label>ExecuteComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtexecutecomplete.htm</url>
+					</topic>
+					<topic>
+						<label>FetchComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtfetchcomplete.htm</url>
+					</topic>
+					<topic>
+						<label>FetchProgress 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtfetchprogress.htm</url>
+					</topic>
+					<topic>
+						<label>InfoMessage 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtinfomessage.htm</url>
+					</topic>
+					<topic>
+						<label>WillChangeField 和 FieldChangeComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillchangefield.htm</url>
+					</topic>
+					<topic>
+						<label>WillChangeRecord 和 RecordChangeComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillchangerecord.htm</url>
+					</topic>
+					<topic>
+						<label>WillChangeRecordset 和 RecordsetChangeComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillchangerecordset.htm</url>
+					</topic>
+					<topic>
+						<label>WillConnect 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillconnectevent.htm</url>
+					</topic>
+					<topic>
+						<label>WillExecute 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillexecuteevent.htm</url>
+					</topic>
+					<topic>
+						<label>WillMove 和 MoveComplete 事件 (ADO)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtwillmove.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO 枚举常量</label>
+					<topic><label>ADO 枚举常量</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadoenumerations.htm</url></topic><topic>
+						<label>ADCPROP_ASYNCTHREADPRIORITY_ENUM</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstadcprop_asyncthreadpriority_enum.htm</url>
+					</topic>
+					<topic>
+						<label>ADCPROP_AUTORECALC_ENUM</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstadcprop_autorecalc_enum.htm</url>
+					</topic>
+					<topic>
+						<label>ADCPROP_UPDATECRITERIA_ENUM</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstadcprop_updatecriteria_enum.htm</url>
+					</topic>
+					<topic>
+						<label>ADCPROP_UPDATERESYNC_ENUM</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstceresyncenum.htm</url>
+					</topic>
+					<topic>
+						<label>AffectEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstaffectenum.htm</url>
+					</topic>
+					<topic>
+						<label>BookmarkEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstbookmarkenum.htm</url>
+					</topic>
+					<topic>
+						<label>CommandTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcommandtypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>CompareEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcompareenum.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectModeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstconnectmodeenum.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectOptionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstconnectoptionenum.htm</url>
+					</topic>
+					<topic>
+						<label>ConnectPromptEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstconnectpromptenum.htm</url>
+					</topic>
+					<topic>
+						<label>CopyRecordOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcopyrecordoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>CursorLocationEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcursorlocationenum.htm</url>
+					</topic>
+					<topic>
+						<label>CursorOptionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcursoroptionenum.htm</url>
+					</topic>
+					<topic>
+						<label>CursorTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstcursortypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>DataTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstdatatypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>EditModeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcsteditmodeenum.htm</url>
+					</topic>
+					<topic>
+						<label>ErrorValueEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcsterrorvalueenum.htm</url>
+					</topic>
+					<topic>
+						<label>EventReasonEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcsteventreasonenum.htm</url>
+					</topic>
+					<topic>
+						<label>EventStatusEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcsteventstatusenum.htm</url>
+					</topic>
+					<topic>
+						<label>ExecuteOptionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstexecuteoptionenum.htm</url>
+					</topic>
+					<topic>
+						<label>FieldEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstfieldenum.htm</url>
+					</topic>
+					<topic>
+						<label>FieldAttributeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstfieldattributeenum.htm</url>
+					</topic>
+					<topic>
+						<label>FieldStatusEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstfieldstatusenum.htm</url>
+					</topic>
+					<topic>
+						<label>FilterGroupEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstfiltergroupenum.htm</url>
+					</topic>
+					<topic>
+						<label>GetRowsOptionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstgetrowsoptionenum.htm</url>
+					</topic>
+					<topic>
+						<label>IsolationLevelEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstisolationlevelenum.htm</url>
+					</topic>
+					<topic>
+						<label>LineSeparatorsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstlineseparatorsenum.htm</url>
+					</topic>
+					<topic>
+						<label>LockTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstlocktypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>MarshalOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstmarshaloptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>MoveRecordOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstmoverecordoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>ObjectStateEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstobjectstateenum.htm</url>
+					</topic>
+					<topic>
+						<label>ParameterAttributesEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstparameterattributesenum.htm</url>
+					</topic>
+					<topic>
+						<label>ParameterDirectionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstparameterdirectionenum.htm</url>
+					</topic>
+					<topic>
+						<label>PersistFormatEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstpersistformatenum.htm</url>
+					</topic>
+					<topic>
+						<label>PositionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstpositionenum.htm</url>
+					</topic>
+					<topic>
+						<label>PropertyAttributesEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstpropertyattributesenum.htm</url>
+					</topic>
+					<topic>
+						<label>RecordCreateOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstrecordcreateoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>RecordOpenOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstrecordopenoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>RecordStatusEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstrecordstatusenum.htm</url>
+					</topic>
+					<topic>
+						<label>RecordTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstrecordtypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>ResyncEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstresyncenum.htm</url>
+					</topic>
+					<topic>
+						<label>SaveOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstsaveoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>SchemaEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstschemaenum.htm</url>
+					</topic>
+					<topic>
+						<label>SearchDirectionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstsearchdirectionenum.htm</url>
+					</topic>
+					<topic>
+						<label>SeekEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstseekenum.htm</url>
+					</topic>
+					<topic>
+						<label>StreamOpenOptionsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcststreamopenoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>StreamReadEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcststreamreadenum.htm</url>
+					</topic>
+					<topic>
+						<label>StreamTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcststreamtypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>StreamWriteEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcststreamwriteoptionsenum.htm</url>
+					</topic>
+					<topic>
+						<label>StringFormatEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcststringformatenum.htm</url>
+					</topic>
+					<topic>
+						<label>XactAttributeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdcstxactattributeenum.htm</url>
+					</topic>
+					<book>
+						<label>ADO 语法索引</label>
+						<topic><label>ADO 语法索引</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadosyntaxindexes.htm</url></topic><book>
+							<label>用于 COM 的 ADO for Visual C++ 语法索引</label>
+							<topic><label>用于 COM 的 ADO for Visual C++ 语法索引</label><url>mk:@MSITStore:ado210.chm::/htm/mdidxadoforvcppsyntax.htm</url></topic><topic>
+								<label>集合（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcollectionsvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Command（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcommandvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Connection（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxconnectionvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Error（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxerrorvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Field（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxfieldvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Parameter（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxparametervcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Record（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Recordset（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordsetvcppsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Stream（ADO for Visual C++ 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxstreamvcppsyntax.htm</url>
+							</topic>
+						</book>
+						<book>
+							<label>使用 #import 的 ADO for Visual C++ 语法索引</label>
+							<topic><label>使用 #import 的 ADO for Visual C++ 语法索引</label><url>mk:@MSITStore:ado210.chm::/htm/mdidxadoforvcsyntaxindexwithimport.htm</url></topic><topic>
+								<label>集合（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcollectionsvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Command（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcommandvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Connection（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxconnectionvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Error（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxerrorvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Field（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxfieldvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Parameter（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxparametervcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Property（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxpropertyvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Record（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Recordset（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordsetvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>Stream（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxstreamvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>ConnectionEvents（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxconnectioneventsvcimport.htm</url>
+							</topic>
+							<topic>
+								<label>RecordsetEvents（使用 #import 的 Visual C++ 语法索引）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordseteventsvcimport.htm</url>
+							</topic>
+						</book>
+						<book>
+							<label>ADO/WFC 语法索引</label>
+							<topic><label>ADO/WFC 语法索引</label><url>mk:@MSITStore:ado210.chm::/htm/mdidxadoforjavasyntax.htm</url></topic><topic>
+								<label>集合（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcollectionsjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Command（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxcommandjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Connection（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxconnectionjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>DataSpace（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrdsdataspaceadowfcsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Error（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxerrorjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Field（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxfieldjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>ObjectProxy（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxobjectproxyadowfcsyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Parameter（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxparameterjavasyntax.htm</url>
+							</topic>
+							<topic>
+								<label>Recordset（ADO/WFC 语法）</label>
+								<url>mk:@MSITStore:ado210.chm::/htm/mdidxrecordsetjavasyntax.htm</url>
+							</topic>
+						</book>
+					</book>
+				</book>
+				<book>
+					<label>ADO 代码范例</label>
+					<topic><label>ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamples.htm</url></topic><book>
+						<label>Microsoft Visual Basic 中的 ADO 代码范例</label>
+						<topic><label>Microsoft Visual Basic 中的 ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamplesinvisualbasic.htm</url></topic><topic>
+							<label>AbsolutePage、PageCount 和 PageSize 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabpagex.htm</url>
+						</topic>
+						<topic>
+							<label>AbsolutePosition 和 CursorLocation 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabposx.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveCommand 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecommandx.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactiveconx.htm</url>
+						</topic>
+						<topic>
+							<label>ActualSize 和 DefinedSize 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactualsizex.htm</url>
+						</topic>
+						<topic>
+							<label>AddNew 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnewx.htm</url>
+						</topic>
+						<topic>
+							<label>Append 和 CreateParameter 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendx.htm</url>
+						</topic>
+						<topic>
+							<label>AppendChunk 和 GetChunk 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendchunkx.htm</url>
+						</topic>
+						<topic>
+							<label>Attributes 和 Name 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproattributesx.htm</url>
+						</topic>
+						<topic>
+							<label>BeginTrans、CommitTrans 和 RollbackTrans 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthbegintransx.htm</url>
+						</topic>
+						<topic>
+							<label>BOF、EOF 和 Bookmark 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprobofx.htm</url>
+						</topic>
+						<topic>
+							<label>CacheSize 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocachesizex.htm</url>
+						</topic>
+						<topic>
+							<label>Cancel 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcancelx.htm</url>
+						</topic>
+						<topic>
+							<label>Clone 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthclonex.htm</url>
+						</topic>
+						<topic>
+							<label>CompareBookmarks 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcomparebookmarksx.htm</url>
+						</topic>
+						<topic>
+							<label>ConnectionString、ConnectionTimeout 和 State 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproconstringx.htm</url>
+						</topic>
+						<topic>
+							<label>ConvertToString 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthconverttostringvbx.htm</url>
+						</topic>
+						<topic>
+							<label>CopyRecord、CopyTo 和 SaveToFile 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcopyrecordvbx.htm</url>
+						</topic>
+						<topic>
+							<label>Count 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocountx.htm</url>
+						</topic>
+						<topic>
+							<label>CreateRecordset 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcreaterecordsetvbx.htm</url>
+						</topic>
+						<topic>
+							<label>CursorType、LockType 和 EditMode 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocursortypex.htm</url>
+						</topic>
+						<topic>
+							<label>Delete 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeletex.htm</url>
+						</topic>
+						<topic>
+							<label>DeleteRecord 和 MoveRecord 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeleterecordvbx.htm</url>
+						</topic>
+						<topic>
+							<label>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprodescriptionx.htm</url>
+						</topic>
+						<topic>
+							<label>EOS 和 LineSeparator 属性、SkipLine 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproeosvbx.htm</url>
+						</topic>
+						<topic>
+							<label>Execute、Requery 和 Clear 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthexecutex.htm</url>
+						</topic>
+						<topic>
+							<label>Filter 和 RecordCount 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprofilterx.htm</url>
+						</topic>
+						<topic>
+							<label>Find 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthfindx.htm</url>
+						</topic>
+						<topic>
+							<label>GetRows 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetrowsx.htm</url>
+						</topic>
+						<topic>
+							<label>GetString 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetstringx.htm</url>
+						</topic>
+						<topic>
+							<label>IsolationLevel 和 Mode 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproisolationlevelx.htm</url>
+						</topic>
+						<topic>
+							<label>Item 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthitemx.htm</url>
+						</topic>
+						<topic>
+							<label>MarshalOptions 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromarshaloptionsx.htm</url>
+						</topic>
+						<topic>
+							<label>MaxRecords 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromaxrecordsx.htm</url>
+						</topic>
+						<topic>
+							<label>Move 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovex.htm</url>
+						</topic>
+						<topic>
+							<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirstx.htm</url>
+						</topic>
+						<topic>
+							<label>NextRecordset 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthnextrecx.htm</url>
+						</topic>
+						<topic>
+							<label>NumericScale 和 Precision 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpronumericscalex.htm</url>
+						</topic>
+						<topic>
+							<label>Open 和 Close 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenx.htm</url>
+						</topic>
+						<topic>
+							<label>OpenSchema 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenschemax.htm</url>
+						</topic>
+						<topic>
+							<label>Optimize 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooptimizex.htm</url>
+						</topic>
+						<topic>
+							<label>OriginalValue 和 UnderlyingValue 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooriginalvaluex.htm</url>
+						</topic>
+						<topic>
+							<label>Prepared 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropreparedx.htm</url>
+						</topic>
+						<topic>
+							<label>Provider 和 DefaultDatabase 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproproviderx.htm</url>
+						</topic>
+						<topic>
+							<label>Read、ReadText、Write 和 WriteText 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthreadvbx.htm</url>
+						</topic>
+						<topic>
+							<label>Refresh 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthrefreshx.htm</url>
+						</topic>
+						<topic>
+							<label>Resync 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthresyncx.htm</url>
+						</topic>
+						<topic>
+							<label>Save 和 Open 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsavex.htm</url>
+						</topic>
+						<topic>
+							<label>Seek 方法和 Index 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthseekx.htm</url>
+						</topic>
+						<topic>
+							<label>Sort 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosortx.htm</url>
+						</topic>
+						<topic>
+							<label>Source 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosourcex.htm</url>
+						</topic>
+						<topic>
+							<label>State 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatex.htm</url>
+						</topic>
+						<topic>
+							<label>Status 属性范例 (Field) (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatuspropertyexamplefieldvb.htm</url>
+						</topic>
+						<topic>
+							<label>Status 属性范例（记录集）(VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatusx.htm</url>
+						</topic>
+						<topic>
+							<label>StayInSync 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostayinsyncx.htm</url>
+						</topic>
+						<topic>
+							<label>Supports 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsupportsx.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Field) (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprotypex.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Property) (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropropertytypex.htm</url>
+						</topic>
+						<topic>
+							<label>Update 和 CancelUpdate 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatex.htm</url>
+						</topic>
+						<topic>
+							<label>UpdateBatch 和 CancelBatch 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatebatchx.htm</url>
+						</topic>
+						<topic>
+							<label>Value 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprovaluex.htm</url>
+						</topic>
+						<topic>
+							<label>Version 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproversionx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual Basic Scripting Edition 中的 ADO 代码范例</label>
+						<topic><label>Microsoft Visual Basic Scripting Edition 中的 ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamplesinvbscript.htm</url></topic><topic>
+							<label>AddNew 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnewvbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Clone 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthclonevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Delete 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeletevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Execute、Requery 和 Clear 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthexecutevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Move 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirstvbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Open 和 Close 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenclosevbscriptx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual C++ 中的 ADO 代码范例</label>
+						<topic><label>Microsoft Visual C++ 中的 ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamplesinvisualc.htm</url></topic><topic>
+							<label>ADO 事件模型范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdevteventmodelxvc.htm</url>
+						</topic>
+						<topic>
+							<label>AbsolutePage、PageCount 和 PageSize 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepagexvc.htm</url>
+						</topic>
+						<topic>
+							<label>AbsolutePosition 和 CursorLocation 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepositionxvc.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveCommand 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecommandxvc.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactiveconnectionxvc.htm</url>
+						</topic>
+						<topic>
+							<label>ActualSize 和 DefinedSize 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactualsizexvc.htm</url>
+						</topic>
+						<topic>
+							<label>AddNew 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnewxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Append 和 CreateParameter 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendxvc.htm</url>
+						</topic>
+						<topic>
+							<label>AppendChunk 和 GetChunk 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendchunkxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Attributes 和 Name 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproattributesxvc.htm</url>
+						</topic>
+						<topic>
+							<label>BeginTrans、CommitTrans 和 RollbackTrans 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthbegintransxvc.htm</url>
+						</topic>
+						<topic>
+							<label>BOF、EOF 和 Bookmark 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprobofxvc.htm</url>
+						</topic>
+						<topic>
+							<label>CacheSize 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocachesizexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Cancel 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcancelxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Clone 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthclonexvc.htm</url>
+						</topic>
+						<topic>
+							<label>CompareBookmarks 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcomparebookmarksxvc.htm</url>
+						</topic>
+						<topic>
+							<label>ConnectionString、ConnectionTimeout 和 State 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectionstringxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Count 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocountxvc.htm</url>
+						</topic>
+						<topic>
+							<label>CursorType、LockType 和 EditMode 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocursortypexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Delete 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeletexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprodescriptionxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Execute、Requery 和 Clear 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthexecutexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Filter 和 RecordCount 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprofilterxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Find 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthfindxvc.htm</url>
+						</topic>
+						<topic>
+							<label>GetRows 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetrowsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>GetString 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetstringxvc.htm</url>
+						</topic>
+						<topic>
+							<label>IsolationLevel 和 Mode 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproisolationlevelxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Item 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthitemxvc.htm</url>
+						</topic>
+						<topic>
+							<label>MarshalOptions 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromarshaloptionsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>MaxRecords 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromaxrecordsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Move 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovexvc.htm</url>
+						</topic>
+						<topic>
+							<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirstxvc.htm</url>
+						</topic>
+						<topic>
+							<label>NextRecordset 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthnextrecordsetxvc.htm</url>
+						</topic>
+						<topic>
+							<label>NumericScale 和 Precision 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpronumericscalexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Open 和 Close 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenxvc.htm</url>
+						</topic>
+						<topic>
+							<label>OpenSchema 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenschemaxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Optimize 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooptimizexvc.htm</url>
+						</topic>
+						<topic>
+							<label>OriginalValue 和 UnderlyingValue 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooriginalvaluexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Prepared 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropreparedxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Provider 和 DefaultDatabase 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproproviderxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Refresh 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthrefreshxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Resync 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthresyncxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Save 和 Open 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsavexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Seek 方法和 Index 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthseekxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Sort 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosortxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Source 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosourcexvc.htm</url>
+						</topic>
+						<topic>
+							<label>State 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Status 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatusxvc.htm</url>
+						</topic>
+						<topic>
+							<label>StayInSync 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostayinsyncxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Supports 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsupportsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Field) (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprotypexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Property) (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropropertytypexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Update 和 CancelUpdate 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatexvc.htm</url>
+						</topic>
+						<topic>
+							<label>UpdateBatch 和 CancelBatch 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatebatchxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Value 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprovaluexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Version 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproversionxvc.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual J++ 中的 ADO 代码范例</label>
+						<topic><label>Microsoft Visual J++ 中的 ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamplesinvisualj.htm</url></topic><topic>
+							<label>AbsolutePage、PageCount 和 PageSize 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepagexvj.htm</url>
+						</topic>
+						<topic>
+							<label>AbsolutePosition 和 CursorLocation 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepositionxvj.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveCommand 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecommandxvj.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactiveconnectionxvj.htm</url>
+						</topic>
+						<topic>
+							<label>ActualSize 和 DefinedSize 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactualsizexvj.htm</url>
+						</topic>
+						<topic>
+							<label>AddNew 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnewxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Append 和 CreateParameter 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendxvj.htm</url>
+						</topic>
+						<topic>
+							<label>AppendChunk 和 GetChunk 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendchunkxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Attributes 和 Name 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproattributesxvj.htm</url>
+						</topic>
+						<topic>
+							<label>BeginTrans、CommitTrans 和 RollbackTrans 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthbegintransxvj.htm</url>
+						</topic>
+						<topic>
+							<label>BOF、EOF 和 Bookmark 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprobofxvj.htm</url>
+						</topic>
+						<topic>
+							<label>CacheSize 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocachesizexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Cancel 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcancelxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Clone 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthclonexvj.htm</url>
+						</topic>
+						<topic>
+							<label>CompareBookmarks 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcomparebookmarksxvj.htm</url>
+						</topic>
+						<topic>
+							<label>ConnectionString、ConnectionTimeout 和 State 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectionstringxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Count 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocountxvj.htm</url>
+						</topic>
+						<topic>
+							<label>CursorType、LockType 和 EditMode 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocursortypexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Delete 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthdeletexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Description、HelpContext、HelpFile、NativeError、Number、Source 和 SQLState 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprodescriptionxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Execute、Requery 和 Clear 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthexecutexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Filter 和 RecordCount 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprofilterxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Find 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthfindxvj.htm</url>
+						</topic>
+						<topic>
+							<label>GetRows 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetrowsxvj.htm</url>
+						</topic>
+						<topic>
+							<label>GetString 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetstringxvj.htm</url>
+						</topic>
+						<topic>
+							<label>IsolationLevel 和 Mode 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproisolationlevelxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Item 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthitemxvj.htm</url>
+						</topic>
+						<topic>
+							<label>MarshalOptions 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromarshaloptionsxvj.htm</url>
+						</topic>
+						<topic>
+							<label>MaxRecords 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpromaxrecordsxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Move 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovexvj.htm</url>
+						</topic>
+						<topic>
+							<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirstxvj.htm</url>
+						</topic>
+						<topic>
+							<label>NextRecordset 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthnextrecordsetxvj.htm</url>
+						</topic>
+						<topic>
+							<label>NumericScale 和 Precision 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpronumericscalexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Open 和 Close 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenxvj.htm</url>
+						</topic>
+						<topic>
+							<label>OpenSchema 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthopenschemaxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Optimize 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooptimizexvj.htm</url>
+						</topic>
+						<topic>
+							<label>OriginalValue 和 UnderlyingValue 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprooriginalvaluexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Prepared 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropreparedxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Provider 和 DefaultDatabase 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproproviderxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Refresh 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthrefreshxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Resync 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthresyncxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Save 和 Open 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsavexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Sort 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosortxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Source 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosourcexvj.htm</url>
+						</topic>
+						<topic>
+							<label>State 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Status 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostatusxvj.htm</url>
+						</topic>
+						<topic>
+							<label>StayInSync 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprostayinsyncxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Supports 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsupportsxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Field) (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprotypexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Type 属性范例 (Property) (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdpropropertytypexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Update 和 CancelUpdate 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatexvj.htm</url>
+						</topic>
+						<topic>
+							<label>UpdateBatch 和 CancelBatch 方法范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthupdatebatchxvj.htm</url>
+						</topic>
+						<topic>
+							<label>Value 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprovaluexvj.htm</url>
+						</topic>
+						<topic>
+							<label>Version 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproversionxvj.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft JScript 中的 ADO 代码范例</label>
+						<topic><label>Microsoft JScript 中的 ADO 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscadocodeexamplesinjscript.htm</url></topic><topic>
+							<label>AbsolutePage、PageCount 和 PageSize 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepagejs.htm</url>
+						</topic>
+						<topic>
+							<label>AbsolutePosition 和 CursorLocation 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproabsolutepositionjs.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveCommand 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactivecommandjs.htm</url>
+						</topic>
+						<topic>
+							<label>ActiveConnection、CommandText、CommandTimeout、CommandType、Size 和 Direction 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactiveconnectionjs.htm</url>
+						</topic>
+						<topic>
+							<label>ActualSize 和 DefinedSize 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproactualsizejs.htm</url>
+						</topic>
+						<topic>
+							<label>AddNew 方法范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthaddnewjs.htm</url>
+						</topic>
+						<topic>
+							<label>Append 和 CreateParameter 方法范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthappendjs.htm</url>
+						</topic>
+						<topic>
+							<label>CacheSize 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprocachesizejs.htm</url>
+						</topic>
+						<topic>
+							<label>Execute、Requery 和 Clear 方法范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthexecutejs.htm</url>
+						</topic>
+						<topic>
+							<label>Filter 和 RecordCount 属性范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprofilterjs.htm</url>
+						</topic>
+						<topic>
+							<label>Find 方法范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthfindjs.htm</url>
+						</topic>
+						<topic>
+							<label>GetRows 方法范例 (JScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthgetrowsjs.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+			<book>
+				<label>RDS API 参考</label>
+				<topic><label>RDS API 参考</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsapireference.htm</url></topic><book>
+					<label>RDS 对象</label>
+					<topic><label>RDS 对象</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsobjects.htm</url></topic><book>
+						<label>DataControl 对象 (RDS)</label>
+						<topic><label>DataControl 对象 (RDS)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjdatacontrol.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjdatacontrolpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>DataFactory 对象 (RDSServer)</label>
+						<topic><label>DataFactory 对象 (RDSServer)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjdatafactory.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjdatafactorypme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>DataSpace 对象 (RDS)</label>
+						<topic><label>DataSpace 对象 (RDS)</label><url>mk:@MSITStore:ado210.chm::/htm/mdobjdataspace.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjdataspacepme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>RDS 属性</label>
+					<topic><label>RDS 属性</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsproperties.htm</url></topic><topic>
+						<label>Connect 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectprop.htm</url>
+					</topic>
+					<topic>
+						<label>ExecuteOptions 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproexecuteoptions.htm</url>
+					</topic>
+					<topic>
+						<label>FetchOptions 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprofetchoptions.htm</url>
+					</topic>
+					<topic>
+						<label>FilterColumn 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprofiltercol.htm</url>
+					</topic>
+					<topic>
+						<label>FilterCriterion 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprofiltercrit.htm</url>
+					</topic>
+					<topic>
+						<label>FilterValue 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdpropropfilter.htm</url>
+					</topic>
+					<topic>
+						<label>Handler 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprohandlerpropertyrds.htm</url>
+					</topic>
+					<topic>
+						<label>InternetTimeout 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprointernettimeout.htm</url>
+					</topic>
+					<topic>
+						<label>ReadyState 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproreadystate.htm</url>
+					</topic>
+					<topic>
+						<label>Recordset,SourceRecordset 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprorecordset.htm</url>
+					</topic>
+					<topic>
+						<label>Server 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdproserverprop.htm</url>
+					</topic>
+					<topic>
+						<label>SortColumn 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosortcol.htm</url>
+					</topic>
+					<topic>
+						<label>SortDirection 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosortdir.htm</url>
+					</topic>
+					<topic>
+						<label>SQL 属性 [ADO]</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprosqlprop.htm</url>
+					</topic>
+					<topic>
+						<label>URL 属性 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdprourlproperty.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>RDS 方法</label>
+					<topic><label>RDS 方法</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsmethods.htm</url></topic><topic>
+						<label>Cancel 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrdscancel.htm</url>
+					</topic>
+					<topic>
+						<label>CancelUpdate 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrdscanupd.htm</url>
+					</topic>
+					<topic>
+						<label>ConvertToString 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthconvstring.htm</url>
+					</topic>
+					<topic>
+						<label>CreateObject 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcreateobj.htm</url>
+					</topic>
+					<topic>
+						<label>CreateRecordset 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthcreaterec.htm</url>
+					</topic>
+					<topic>
+						<label>MoveFirst、MoveLast、MoveNext 和 MovePrevious 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthmovefirstadc.htm</url>
+					</topic>
+					<topic>
+						<label>Query 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthquery.htm</url>
+					</topic>
+					<topic>
+						<label>Refresh 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthrdsrefresh.htm</url>
+					</topic>
+					<topic>
+						<label>Reset 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthreset.htm</url>
+					</topic>
+					<topic>
+						<label>SubmitChanges 方法 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdmthsubchanges.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>RDS 事件</label>
+					<topic><label>RDS 事件</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsevents.htm</url></topic><topic>
+						<label>onError 事件 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtonerror.htm</url>
+					</topic>
+					<topic>
+						<label>onReadyStateChange 事件 (RDS)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/mdevtonreadystatechange.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>RDS 代码范例</label>
+					<topic><label>RDS 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdscodeexamples.htm</url></topic><book>
+						<label>Microsoft Visual Basic 中的 RDS 代码范例</label>
+						<topic><label>Microsoft Visual Basic 中的 RDS 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsexamplesvb.htm</url></topic><topic>
+							<label>Handler 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprohandlerx.htm</url>
+						</topic>
+						<topic>
+							<label>InternetTimeout 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprointernettimeoutx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual Basic Scripting Edition 中的 RDS 代码范例</label>
+						<topic><label>Microsoft Visual Basic Scripting Edition 中的 RDS 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsexamplesvbscript.htm</url></topic><topic>
+							<label>Cancel 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcanadcx.htm</url>
+						</topic>
+						<topic>
+							<label>CancelUpdate 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcanupdadcx.htm</url>
+						</topic>
+						<topic>
+							<label>Connect 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproconnectx.htm</url>
+						</topic>
+						<topic>
+							<label>ConvertToString 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthconverttostringx.htm</url>
+						</topic>
+						<topic>
+							<label>CreateRecordset 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthcreaterecordsetx.htm</url>
+						</topic>
+						<topic>
+							<label>DataControl 对象范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjaddataconx.htm</url>
+						</topic>
+						<topic>
+							<label>DataSpace 对象和 CreateObject 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjaddataspx.htm</url>
+						</topic>
+						<topic>
+							<label>DataFactory 对象、Query 方法和 CreateObject 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdobjaddatafacx.htm</url>
+						</topic>
+						<topic>
+							<label>ExecuteOptions 和 FetchOptions 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproexecuteoptionsx.htm</url>
+						</topic>
+						<topic>
+							<label>FilterColumn、FilterCriterion、FilterValue、SortColumn 和 SortDirection 属性以及 Reset 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosortfilterx.htm</url>
+						</topic>
+						<topic>
+							<label>ReadyState 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproreadystateadcx.htm</url>
+						</topic>
+						<topic>
+							<label>Recordset 和 SourceRecordset 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprorecsourcerecx.htm</url>
+						</topic>
+						<topic>
+							<label>Refresh 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthrefreshvbs.htm</url>
+						</topic>
+						<topic>
+							<label>Server 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdproserveradcx.htm</url>
+						</topic>
+						<topic>
+							<label>SQL 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprosqladcx.htm</url>
+						</topic>
+						<topic>
+							<label>SubmitChanges 方法范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdmthsubchgx.htm</url>
+						</topic>
+						<topic>
+							<label>URL 属性范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprourlvbscriptx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual C++ 中的 RDS 代码范例</label>
+						<topic><label>Microsoft Visual C++ 中的 RDS 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsexamplesvc.htm</url></topic><topic>
+							<label>Handler 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprohandlerxvc.htm</url>
+						</topic>
+						<topic>
+							<label>InternetTimeout 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprointernettimeoutxvc.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual J++ 中的 RDS 代码范例</label>
+						<topic><label>Microsoft Visual J++ 中的 RDS 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/mdmscrdsexamplesvj.htm</url></topic><topic>
+							<label>Handler 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprohandlerxvj.htm</url>
+						</topic>
+						<topic>
+							<label>InternetTimeout 属性范例 (VJ++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/mdprointernettimoutxvj.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+			<book>
+				<label>ADO MD API 参考</label>
+				<topic><label>ADO MD API 参考</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadoapireference.htm</url></topic><topic>
+					<label>ADO MD 对象模型</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/ammscobjectmodel.htm</url>
+				</topic>
+				<book>
+					<label>ADO MD 对象</label>
+					<topic><label>ADO MD 对象</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdobjects.htm</url></topic><book>
+						<label>Axis 对象 (ADO MD)</label>
+						<topic><label>Axis 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjaxis.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjaxispme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Catalog 对象 (ADO MD)</label>
+						<topic><label>Catalog 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjcatalog.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjcatalogpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Cell 对象 (ADO MD)</label>
+						<topic><label>Cell 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjcell.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjcellpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Cellset 对象 (ADO MD)</label>
+						<topic><label>Cellset 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjcellset.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjcellsetpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>CubeDef 对象 (ADO MD)</label>
+						<topic><label>CubeDef 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjcubedef.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjcubedefpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Dimension 对象 (ADO MD)</label>
+						<topic><label>Dimension 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjdimension.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjdimensionpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Hierarchy 对象 (ADO MD)</label>
+						<topic><label>Hierarchy 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjhierarchy.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjhierarchypme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Level 对象 (ADO MD)</label>
+						<topic><label>Level 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjlevel.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjlevelpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Member 对象 (ADO MD)</label>
+						<topic><label>Member 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjmember.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjmemberpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Position 对象 (ADO MD)</label>
+						<topic><label>Position 对象 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amobjposition.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjpositionpme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADO MD 集合</label>
+					<topic><label>ADO MD 集合</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdcollections.htm</url></topic><book>
+						<label>Axes 集合 (ADO MD)</label>
+						<topic><label>Axes 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcolaxes.htm</url></topic><topic>
+							<label>Axes 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcolaxespme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>CubeDefs 集合 (ADO MD)</label>
+						<topic><label>CubeDefs 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcolcubedefs.htm</url></topic><topic>
+							<label>CubeDefs 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcolcubedefspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Dimensions 集合 (ADO MD)</label>
+						<topic><label>Dimensions 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcoldimensions.htm</url></topic><topic>
+							<label>Dimensions 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcoldimensionspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Hierarchies 集合 (ADO MD)</label>
+						<topic><label>Hierarchies 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcolhierarchies.htm</url></topic><topic>
+							<label>Hierarchies 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcolhierarchiespme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Levels 集合 (ADO MD)</label>
+						<topic><label>Levels 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcollevels.htm</url></topic><topic>
+							<label>Levels 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcollevelspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Members 集合 (ADO MD)</label>
+						<topic><label>Members 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcolmembers.htm</url></topic><topic>
+							<label>Members 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcolmemberspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Positions 集合 (ADO MD)</label>
+						<topic><label>Positions 集合 (ADO MD)</label><url>mk:@MSITStore:ado210.chm::/htm/amcolpositions.htm</url></topic><topic>
+							<label>Positions 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amcolpositionspme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADO MD 属性</label>
+					<topic><label>ADO MD 属性</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdproperties.htm</url></topic><topic>
+						<label>ActiveConnection 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproactiveconnection.htm</url>
+					</topic>
+					<topic>
+						<label>Caption 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprocaption.htm</url>
+					</topic>
+					<topic>
+						<label>ChildCount 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprochildcount.htm</url>
+					</topic>
+					<topic>
+						<label>Children 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprochildren.htm</url>
+					</topic>
+					<topic>
+						<label>Depth 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprodepth.htm</url>
+					</topic>
+					<topic>
+						<label>Description 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprodescription.htm</url>
+					</topic>
+					<topic>
+						<label>DimensionCount 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprodimensioncount.htm</url>
+					</topic>
+					<topic>
+						<label>DrilledDown 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprodrilleddown.htm</url>
+					</topic>
+					<topic>
+						<label>FilterAxis 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprofilteraxis.htm</url>
+					</topic>
+					<topic>
+						<label>FormattedValue 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproformattedvalue.htm</url>
+					</topic>
+					<topic>
+						<label>Item 属性 (ADO MD Cellset)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproitem.htm</url>
+					</topic>
+					<topic>
+						<label>LevelDepth 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproleveldepth.htm</url>
+					</topic>
+					<topic>
+						<label>LevelName 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprolevelname.htm</url>
+					</topic>
+					<topic>
+						<label>Name 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproname.htm</url>
+					</topic>
+					<topic>
+						<label>Ordinal 属性 (ADO MD Cell)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproordinalcell.htm</url>
+					</topic>
+					<topic>
+						<label>Ordinal 属性 (ADO MD Position)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproordinalposition.htm</url>
+					</topic>
+					<topic>
+						<label>Parent 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproparent.htm</url>
+					</topic>
+					<topic>
+						<label>ParentSameAsPrev 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amproparentsameasprev.htm</url>
+					</topic>
+					<topic>
+						<label>Source 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprosource.htm</url>
+					</topic>
+					<topic>
+						<label>State 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprostate.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprotype.htm</url>
+					</topic>
+					<topic>
+						<label>UniqueName 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprouniquename.htm</url>
+					</topic>
+					<topic>
+						<label>Value 属性 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amprovalue.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO MD 方法</label>
+					<topic><label>ADO MD 方法</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdmethods.htm</url></topic><topic>
+						<label>Close 方法 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammthclose.htm</url>
+					</topic>
+					<topic>
+						<label>Open 方法 (ADO MD)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/ammthopen.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO MD 枚举常量</label>
+					<topic><label>ADO MD 枚举常量</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdenumeratedconstants.htm</url></topic><topic>
+						<label>MemberTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/amcstmembertypeenum.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADO MD 代码范例</label>
+					<topic><label>ADO MD 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdexamples.htm</url></topic><book>
+						<label>Visual Basic 中的 ADO MD 代码范例</label>
+						<topic><label>Visual Basic 中的 ADO MD 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdcodeexamplesvb.htm</url></topic><topic>
+							<label>Cellset 范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjvbadosimpleexamplevbx.htm</url>
+						</topic>
+						<topic>
+							<label>Catalog 范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjvbadocubedocexamplevbx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Visual Basic Scripting Edition 中的 ADO MD 代码范例</label>
+						<topic><label>Visual Basic Scripting Edition 中的 ADO MD 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/ammscadomdcodeexamplesvbscript.htm</url></topic><topic>
+							<label>Axis 范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjaspadosimpleexamplevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>Members 范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjaspadocomplexexamplevbscriptx.htm</url>
+						</topic>
+						<topic>
+							<label>CubeDef 范例 (VBScript)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/amobjaspadocubedocexamplevbscriptx.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+			<book>
+				<label>ADOX API 参考</label>
+				<topic><label>ADOX API 参考</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoapireference.htm</url></topic><topic>
+					<label>ADOX 对象模型</label>
+					<url>mk:@MSITStore:ado210.chm::/htm/admscobjectmodel.htm</url>
+				</topic>
+				<book>
+					<label>ADOX 对象</label>
+					<topic><label>ADOX 对象</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddlobjects.htm</url></topic><book>
+						<label>Catalog 对象 (ADOX)</label>
+						<topic><label>Catalog 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjcatalog.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjcatalogpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Column 对象 (ADOX)</label>
+						<topic><label>Column 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjcolumn.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjcolumnpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Group 对象 (ADOX)</label>
+						<topic><label>Group 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjgroup.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjgrouppme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Index 对象 (ADOX)</label>
+						<topic><label>Index 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjindex.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjindexpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Key 对象 (ADOX)</label>
+						<topic><label>Key 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjkey.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjkeypme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Procedure 对象 (ADOX)</label>
+						<topic><label>Procedure 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjprocedure.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjprocedurepme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Table 对象 (ADOX)</label>
+						<topic><label>Table 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjtable.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjtablepme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>User 对象 (ADOX)</label>
+						<topic><label>User 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjuser.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjuserpme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>View 对象 (ADOX)</label>
+						<topic><label>View 对象 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adobjview.htm</url></topic><topic>
+							<label>属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adobjviewpme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADOX 集合</label>
+					<topic><label>ADOX 集合</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddlcollections.htm</url></topic><book>
+						<label>Columns 集合 (ADOX)</label>
+						<topic><label>Columns 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolcolumns.htm</url></topic><topic>
+							<label>Columns 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolcolumnspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Groups 集合 (ADOX)</label>
+						<topic><label>Groups 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolgroups.htm</url></topic><topic>
+							<label>Groups 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolgroupspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Indexes 集合 (ADOX)</label>
+						<topic><label>Indexes 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolindexes.htm</url></topic><topic>
+							<label>Indexes 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolindexespme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Keys 集合 (ADOX)</label>
+						<topic><label>Keys 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolkeys.htm</url></topic><topic>
+							<label>Keys 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolkeyspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Procedures 集合 (ADOX)</label>
+						<topic><label>Procedures 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolprocedures.htm</url></topic><topic>
+							<label>Procedures 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolprocedurespme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Tables 集合 (ADOX)</label>
+						<topic><label>Tables 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcoltables.htm</url></topic><topic>
+							<label>Tables 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcoltablespme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Users 集合 (ADOX)</label>
+						<topic><label>Users 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolusers.htm</url></topic><topic>
+							<label>Users 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcoluserspme.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Views 集合 (ADOX)</label>
+						<topic><label>Views 集合 (ADOX)</label><url>mk:@MSITStore:ado210.chm::/htm/adcolviews.htm</url></topic><topic>
+							<label>Views 集合的属性、方法和事件</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adcolviewspme.htm</url>
+						</topic>
+					</book>
+				</book>
+				<book>
+					<label>ADOX 属性</label>
+					<topic><label>ADOX 属性</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddlproperties.htm</url></topic><topic>
+						<label>ActiveConnection 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproactiveconnection.htm</url>
+					</topic>
+					<topic>
+						<label>Attributes 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproattributes.htm</url>
+					</topic>
+					<topic>
+						<label>Clustered 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproclustered.htm</url>
+					</topic>
+					<topic>
+						<label>Command 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprocommand.htm</url>
+					</topic>
+					<topic>
+						<label>DateCreated 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprodatecreated.htm</url>
+					</topic>
+					<topic>
+						<label>DateModified 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprodatemodified.htm</url>
+					</topic>
+					<topic>
+						<label>DefinedSize 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprodefinedsize.htm</url>
+					</topic>
+					<topic>
+						<label>DeleteRule 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprodeleterule.htm</url>
+					</topic>
+					<topic>
+						<label>IndexNulls 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproindexnulls.htm</url>
+					</topic>
+					<topic>
+						<label>Name 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproname.htm</url>
+					</topic>
+					<topic>
+						<label>NumericScale 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adpronumericscale.htm</url>
+					</topic>
+					<topic>
+						<label>ParentCatalog 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproparentcatalog.htm</url>
+					</topic>
+					<topic>
+						<label>Precision 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproprecision.htm</url>
+					</topic>
+					<topic>
+						<label>PrimaryKey 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproprimarykey.htm</url>
+					</topic>
+					<topic>
+						<label>RelatedColumn 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprorelatedcolumn.htm</url>
+					</topic>
+					<topic>
+						<label>RelatedTable 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprorelatedtable.htm</url>
+					</topic>
+					<topic>
+						<label>SortOrder 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprosortorder.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (Column) (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprotypecolumn.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (Key) (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprotypekey.htm</url>
+					</topic>
+					<topic>
+						<label>Type 属性 (Table) (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprotypetable.htm</url>
+					</topic>
+					<topic>
+						<label>Unique 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adprounique.htm</url>
+					</topic>
+					<topic>
+						<label>UpdateRule 属性 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adproupdaterule.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADOX 方法</label>
+					<topic><label>ADOX 方法</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddlmethods.htm</url></topic><topic>
+						<label>Append 方法 (ADOX Columns)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendcolumns.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Groups)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendgroups.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Indexes)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendindexes.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Keys)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendkeys.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Procedures)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendprocedures.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Tables)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendtables.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Users)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendusers.htm</url>
+					</topic>
+					<topic>
+						<label>Append 方法 (ADOX Views)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthappendviews.htm</url>
+					</topic>
+					<topic>
+						<label>ChangePassword 方法 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthchangepassword.htm</url>
+					</topic>
+					<topic>
+						<label>Create 方法 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthcreate.htm</url>
+					</topic>
+					<topic>
+						<label>Delete 方法（ADOX 集合）</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthdelete.htm</url>
+					</topic>
+					<topic>
+						<label>GetObjectOwner 方法 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthgetobjectowner.htm</url>
+					</topic>
+					<topic>
+						<label>GetPermissions 方法 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthgetpermissions.htm</url>
+					</topic>
+					<topic>
+						<label>SetObjectOwner 方法 [ADOX]</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthsetobjectowner.htm</url>
+					</topic>
+					<topic>
+						<label>SetPermissions 方法 (ADOX)</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/admthsetpermissions.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADOX 枚举常量</label>
+					<topic><label>ADOX 枚举常量</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoxenumeratedconstants.htm</url></topic><topic>
+						<label>ActionEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstactionenum.htm</url>
+					</topic>
+					<topic>
+						<label>AllowNullsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstallownullsenum.htm</url>
+					</topic>
+					<topic>
+						<label>ColumnAttributesEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstcolumnattributesenum.htm</url>
+					</topic>
+					<topic>
+						<label>InheritTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstinherittypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>KeyTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstkeytypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>ObjectTypeEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstobjecttypeenum.htm</url>
+					</topic>
+					<topic>
+						<label>RightsEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstrightsenum.htm</url>
+					</topic>
+					<topic>
+						<label>RuleEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstruleenum.htm</url>
+					</topic>
+					<topic>
+						<label>SortOrderEnum</label>
+						<url>mk:@MSITStore:ado210.chm::/htm/adcstsortorderenum.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>ADOX 代码范例</label>
+					<topic><label>ADOX 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoddlexamples.htm</url></topic><book>
+						<label>Microsoft Visual Basic 中的 ADOX 代码范例</label>
+						<topic><label>Microsoft Visual Basic 中的 ADOX 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoxcodeexamplesvb.htm</url></topic><topic>
+							<label>Attributes 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscattributespropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Catalog 的 ActiveConnection 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscconnectionopeningexample.htm</url>
+						</topic>
+						<topic>
+							<label>Clustered 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscclusteredpropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Columns 和 Tables 的 Append 方法、Name 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admsctablecreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>Command 和 CommandText 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscproceduretextexample.htm</url>
+						</topic>
+						<topic>
+							<label>Connection 的 Close 方法，Table 的 Type 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscconnectionclosingexample.htm</url>
+						</topic>
+						<topic>
+							<label>Create 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscdatabasecreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>DateCreated 和 DateModified 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscdatecreateddatemodifiedpropertiesexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>DefinedSize 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscdefinedsizepropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>DeleteRule 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscdeleterulepropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>GetObjectOwner 和 SetObjectOwner 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscgetobjectownersetobjectownermethodsexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>GetPermissions 和 SetPermissions 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscgrantingpermissionsexample.htm</url>
+						</topic>
+						<topic>
+							<label>Groups 和 Users 的 Append、ChangePassword 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscgroupsusersappendchangepasswordmethodsexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Indexes 的 Append 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscindexcreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>IndexNulls 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscindexnullspropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Keys 的 Append 方法，Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admsckeycreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>NumericScale 和 Precision 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscnumericscaleprecisionpropertiesexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Parameters 集合，Command 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscprocedureparameterexample.htm</url>
+						</topic>
+						<topic>
+							<label>ParentCatalog 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscparentcatalogexample.htm</url>
+						</topic>
+						<topic>
+							<label>PrimaryKey 和 Unique 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscprimarykeyuniquepropertiesexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Procedures 的 Append 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscprocedurecreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>Procedures 的 Delete 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscproceduredeletionexample.htm</url>
+						</topic>
+						<topic>
+							<label>Procedures 的 Refresh 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscprocedurerefreshexample.htm</url>
+						</topic>
+						<topic>
+							<label>SortOrder 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscsortorderpropertyexamplex.htm</url>
+						</topic>
+						<topic>
+							<label>Views 和 Fields 集合范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscviewfieldexample.htm</url>
+						</topic>
+						<topic>
+							<label>Views 的 Append 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscviewcreationexample.htm</url>
+						</topic>
+						<topic>
+							<label>Views 集合，CommandText 属性范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscviewtextexample.htm</url>
+						</topic>
+						<topic>
+							<label>Views 的 Delete 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscviewdeletionexample.htm</url>
+						</topic>
+						<topic>
+							<label>Views 的 Refresh 方法范例 (VB)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admscviewsrefreshx.htm</url>
+						</topic>
+					</book>
+					<book>
+						<label>Microsoft Visual C++ 中的 ADOX 代码范例</label>
+						<topic><label>Microsoft Visual C++ 中的 ADOX 代码范例</label><url>mk:@MSITStore:ado210.chm::/htm/admscadoxcodeexamplesvc.htm</url></topic><topic>
+							<label>Attributes 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproattributesxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Catalog 的 ActiveConnection 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproactiveconnectionxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Clustered 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproclusteredxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Columns 和 Tables 的 Append 方法，Name 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthappendxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Command 和 CommandText 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adprocommandxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Connection 的 Close 方法，Table 的 Type 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthconnectionclosexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Create 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthcreatexvc.htm</url>
+						</topic>
+						<topic>
+							<label>DateCreated 和 DateModified 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adprodatecreatedxvc.htm</url>
+						</topic>
+						<topic>
+							<label>DefinedSize 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adprodefinedsizexvc.htm</url>
+						</topic>
+						<topic>
+							<label>DeleteRule 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adprodeleterulexvc.htm</url>
+						</topic>
+						<topic>
+							<label>GetObjectOwner 和 SetObjectOwner 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthgetobjectownerxvc.htm</url>
+						</topic>
+						<topic>
+							<label>GetPermissions 和 SetPermissions 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthgetpermissionsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Groups 和 Users 的 Append、ChangePassword 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthgroupsusersappendxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Indexes 的 Append 方法范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthindexesappendxvc.htm</url>
+						</topic>
+						<topic>
+							<label>IndexNulls 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproindexnullsxvc.htm</url>
+						</topic>
+						<topic>
+							<label>Keys 的 Append 方法，Key 的 Type、RelatedColumn、RelatedTable 和 UpdateRule 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/admthkeysappendxvc.htm</url>
+						</topic>
+						<topic>
+							<label>NumericScale 和 Precision 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adpronumericscalexvc.htm</url>
+						</topic>
+						<topic>
+							<label>Parameters 集合，Command 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproparameterscollectionxvc.htm</url>
+						</topic>
+						<topic>
+							<label>ParentCatalog 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproparentcatalogxvc.htm</url>
+						</topic>
+						<topic>
+							<label>PrimaryKey 和 Unique 属性范例 (VC++)</label>
+							<url>mk:@MSITStore:ado210.chm::/htm/adproprimarykeyxvc.htm</url>
+						</topic>
+					</book>
+				</book>
+			</book>
+		</book>
+		<topic>
+			<label>法律和版权信息</label>
+			<url>mk:@MSITStore:ado210.chm::/htm/ado_sdk_copyright_and_trademarks.htm</url>
+		</topic>
+	</book>
+</toc>

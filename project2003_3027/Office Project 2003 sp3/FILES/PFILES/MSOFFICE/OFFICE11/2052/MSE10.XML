@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+	<book>
+		<label>Microsoft Script Editor</label>
+		<topic>
+			<label>Microsoft Script Editor Help</label>
+			<url>mk@MSITStore:mse10.chm::/html/seconIntroduction.htm</url>
+		</topic>
+		<topic>
+			<label>About the Microsoft Script Editor Window</label>
+			<url>mk@MSITStore:mse10.chm::/html/sewinAboutMSEWindow.htm</url>
+		</topic>
+		<topic>
+			<label>About the Refresh Toolbar</label>
+			<url>mk@MSITStore:mse10.chm::/html/sewinAboutRefreshToolbar.htm</url>
+		</topic>
+		<topic>
+			<label>About the Debug Tools</label>
+			<url>mk@MSITStore:mse10.chm::/html/secodAboutDebugTools.htm</url>
+		</topic>
+		<book>
+			<label>HTML in Microsoft Office Applications</label>
+			<topic>
+				<label>About the HTML Source for Office Documents</label>
+				<url>mk@MSITStore:mse10.chm::/html/sedocOfficeHTML.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft Access Data Access Pages</label>
+				<url>mk@MSITStore:mse10.chm::/html/sedocDataAccessPageHTML.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft Excel Workbooks</label>
+				<url>mk@MSITStore:mse10.chm::/html/sedocExcelWorkbookHTML.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft PowerPoint Presentations</label>
+				<url>mk@MSITStore:mse10.chm::/html/sedocPowerPointPresentationHTML.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft Word Documents</label>
+				<url>mk@MSITStore:mse10.chm::/html/sedocWordDocumentHTML.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>Working with Script and HTML in the Script Editor</label>
+			<topic>
+				<label>About Events</label>
+				<url>mk@MSITStore:mse10.chm::/html/secodOfficeDocumentEvents.htm</url>
+			</topic>
+			<topic>
+				<label>Creating and Editing Scripts on HTML Pages</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_csconCreatingScriptsInHTMLEditor.htm</url>
+			</topic>
+			<topic>
+				<label>Setting the targetSchema Property</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxurfTargetSchemeProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Setting the keywords Property</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxurfKeywordsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Dragging and Dropping Text</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskDraggingDroppingText.htm</url>
+			</topic>
+			<topic>
+				<label>Changing and Selecting Text</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskChangingCustomizingText.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>Customizing the Script Editor</label>
+			<topic>
+				<label>Accessibility Options</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxconAccessibilityOptions.htm</url>
+			</topic>
+			<topic>
+				<label>Changing Font Color, Size, and Style</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskChangingFontColorSizeStyle.htm</url>
+			</topic>
+			<topic>
+				<label>Customizing the Editor's Features and Options</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskCustomizingEditorsFeaturesOptions.htm</url>
+			</topic>
+			<topic>
+				<label>Managing Code Formatting</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskManagingCodeFormatting.htm</url>
+			</topic>
+			<topic>
+				<label>Customizing Toolbars</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskAddingButtonsToToolbars.htm</url>
+			</topic>
+			<topic>
+				<label>Customizing Shortcut Keys</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskRemappingKeys.htm</url>
+			</topic>
+			<topic>
+				<label>Script Editor Default Shortcut Keys</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxurfVisualStudio70DefaultShortcutKeys.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>Managing Views and Windows</label>
+			<topic>
+				<label>Managing the Script Editor and View</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskManagingCodeEditorWindowView.htm</url>
+			</topic>
+			<topic>
+				<label>Arranging Windows</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskCustomizingWindowLayouts.htm</url>
+			</topic>
+			<topic>
+				<label>Window Types</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxgrfWindowTypesS.htm</url>
+			</topic>
+			<topic>
+				<label>Outlining and Hiding Code</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskOutliningCode.htm</url>
+			</topic>
+			<topic>
+				<label>Managing Tabs and Items in the Toolbox</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskManagingToolsTabsOnToolbox.htm</url>
+			</topic>
+			<topic>
+				<label>Using the Clipboard Ring</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskUnderstandingClipboardRing.htm</url>
+			</topic>
+			<topic>
+				<label>Object Browser</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxurfobjectbrowsers.htm</url>
+			</topic>
+			<topic>
+				<label>Design View</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_csdlgDesignViewHTMLEditor.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>Navigating, Searching and Replacing</label>
+			<topic>
+				<label>Navigating Text</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxtskNavigatingText.htm</url>
+			</topic>
+			<topic>
+				<label>Navigating in the Document Outline Window</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxoriNavigatingInOutlineWindow.htm</url>
+			</topic>
+			<topic>
+				<label>Searching and Replacing</label>
+				<url>mk@MSITStore:mse10.chm::/html/of_vxoriSearchingReplacing.htm</url>
+			</topic>
+			<topic>
+				<label>Searching Interactively</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskSearchingActiveFilesOrWindows.htm</url>
+			</topic>
+			<topic>
+				<label>Searching for Symbols: Objects, Definitions and References</label>
+				<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csenvir.chm::/html/vxtskSearchingObjectsS.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>Using the Debugger</label>
+			<book>
+				<label>Inspecting Your Program</label>
+				<topic><label>Inspecting Your Program</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowViewingModifyingData.htm</url></topic><book>
+					<label>Using the QuickWatch Dialog Box</label>
+					<topic><label>Using the QuickWatch Dialog Box</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowUsingQuickWatch.htm</url></topic><topic>
+						<label>Evaluating an Expression in QuickWatch</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEvaluatingExpressionInQuickWatch.htm</url>
+					</topic>
+					<topic>
+						<label>Editing a Value in QuickWatch</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEditingValueInQuickwatch.htm</url>
+					</topic>
+					<topic>
+						<label>Adding a QuickWatch Expression to the Watch Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskAddingQuickWatchExpressionToWatchWindow.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Using the Watch Window</label>
+					<topic><label>Using the Watch Window</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowUsingWatchWindow.htm</url></topic><topic>
+						<label>Evaluating an Expression in the Watch Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEvaluatingExpressionInWatchWindow.htm</url>
+					</topic>
+					<topic>
+						<label>Editing a Value in the Watch Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEditingValueInWatchWindow.htm</url>
+					</topic>
+				</book>
+				<topic>
+					<label>Using the Locals Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskUsingLocalsWindow.htm</url>
+				</topic>
+				<topic>
+					<label>Using the Autos Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskUsingAutosWindow.htm</url>
+				</topic>
+				<topic>
+					<label>Using the Call Stack Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Viewing_the_Call_Stack_for_a_Function.htm</url>
+				</topic>
+				<topic>
+					<label>Using the Running Documents Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskUsingRunningDocumentsWindow.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>Execution Control</label>
+				<topic>
+					<label>Setting the Execution Point</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowSettingExecutionPoint.htm</url>
+				</topic>
+				<topic>
+					<label>Starting Execution</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Starting_the_Debugger.htm</url>
+				</topic>
+				<topic>
+					<label>Stepping</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Stepping_Into_Functions.htm</url>
+				</topic>
+				<topic>
+					<label>Running to a Specified Function</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowRunToSpecifiedFunction.htm</url>
+				</topic>
+				<topic>
+					<label>Running to the Cursor Location</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vchowRunToCursorLocation.htm</url>
+				</topic>
+				<topic>
+					<label>Running to a Specified Location</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Running_to_a_Location.htm</url>
+				</topic>
+				<topic>
+					<label>Breaking Execution</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Halting_a_Program.htm</url>
+				</topic>
+				<topic>
+					<label>Stopping Execution</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskStoppingExecution.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>Using Breakpoints</label>
+				<book>
+					<label>Breakpoints</label>
+					<topic><label>Breakpoints</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/_asug_Setting_Breakpoints.htm</url></topic><topic>
+						<label>Inserting a New Breakpoint from the Debug Menu</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskInsertingNewBreakpointFromDebugMenu.htm</url>
+					</topic>
+					<topic>
+						<label>Removing All Breakpoints</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskRemovingAllBreakpoints.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Breakpoint Operations in a Source Window</label>
+					<topic><label>Breakpoint Operations in a Source Window</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskBreakpointOperationsInSourceWindow.htm</url></topic><topic>
+						<label>Inserting a Function Breakpoint in a Source Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskInsertingFunctionBreakpointInSourceWindow.htm</url>
+					</topic>
+					<topic>
+						<label>Inserting a File Breakpoint in a Source Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskInsertingFileBreakpointInSourceWindow.htm</url>
+					</topic>
+					<topic>
+						<label>Deleting a Breakpoint in a Source Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskDeletingBreakpointInSourceWindow.htm</url>
+					</topic>
+					<topic>
+						<label>Editing a Breakpoint in a Source Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEditingBreakpointInSourceWindow.htm</url>
+					</topic>
+					<topic>
+						<label>Enabling/Disabling a Breakpoint in a Source Window</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEnablingDisablingBreakpointInSourceWindow.htm</url>
+					</topic>
+				</book>
+				<topic>
+					<label>Using the Breakpoints Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskBreakpointsWindow.htm</url>
+				</topic>
+				<book>
+					<label>Condition</label>
+					<topic><label>Condition</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vcoriCondition.htm</url></topic><topic>
+						<label>Opening the Breakpoint Condition Dialog Box</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskOpeningBreakpointConditionDialogBox.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Hit Count</label>
+					<topic><label>Hit Count</label><url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vcoriHitCount.htm</url></topic><topic>
+						<label>Opening the Hit Count Dialog Box</label>
+						<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskOpeningHitCountDialogBox.htm</url>
+					</topic>
+				</book>
+				<topic>
+					<label>Deleting a Breakpoint in the Call Stack Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskDeletingBreakpointInCallStackWindow.htm</url>
+				</topic>
+				<topic>
+					<label>Enabling/Disabling a Breakpoint in the Call Stack Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEnablingDisablingBreakpointInCallStackWindow.htm</url>
+				</topic>
+				<topic>
+					<label>Editing a Breakpoint in the Call Stack Window</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskEditingBreakpointInCallStackWindow.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>Applying the Debugger to Other Programs</label>
+				<topic>
+					<label>Attaching to a Running Program or Multiple Programs</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskAttachingToRunningProgram.htm</url>
+				</topic>
+				<topic>
+					<label>Setting the Current Program</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskSettingActiveProgram.htm</url>
+				</topic>
+				<topic>
+					<label>Just-In-Time Debugging</label>
+					<url>mk@MSITStore:mse10.chm::/mk:@MSITStore:csdebug.chm::/html/vctskJust-In-TimeDebugging.htm</url>
+				</topic>
+			</book>
+		</book>
+	</book>
+	<book>
+		<label>HTML Reference Help</label>
+		<book>
+			<label>DHTML, HTML &amp; CSS Reference</label>
+			<topic><label>DHTML, HTML &amp; CSS Reference</label><url>mk@MSITStore:htmlref.chm::/workshop/author/default.htm#1</url></topic><book>
+				<label>HTML References</label>
+				<topic>
+					<label>Elements</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/html/reference/elements.htm#ie40_htmlref</url>
+				</topic>
+				<topic>
+					<label>Character Sets</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/charsets/charsets.htm#ie40_charsets</url>
+				</topic>
+			</book>
+			<topic>
+				<label>HTML Applications (HTA) Reference</label>
+				<url>mk@MSITStore:htmlref.chm::/workshop/author/hta/reference/htaref.htm</url>
+			</topic>
+			<book>
+				<label>DHTML References</label>
+				<topic>
+					<label>Objects</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/objects.htm</url>
+				</topic>
+				<topic>
+					<label>Properties</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/properties.htm#om40_prop</url>
+				</topic>
+				<topic>
+					<label>Internet Explorer 5.5 Properties</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/properties/ie55.htm</url>
+				</topic>
+				<topic>
+					<label>Methods</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/methods.htm#om40_methods</url>
+				</topic>
+				<topic>
+					<label>Events</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/events.htm#om40_event</url>
+				</topic>
+				<topic>
+					<label>Collections</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/collections.htm#om40_coll</url>
+				</topic>
+				<topic>
+					<label>Color Table</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/colors/colors.htm</url>
+				</topic>
+				<topic>
+					<label>Command Identifiers</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/commandids.htm</url>
+				</topic>
+				<topic>
+					<label>Default Behaviors Reference</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/behaviors/reference/reference.htm#3</url>
+				</topic>
+				<topic>
+					<label>Behaviors Library</label>
+					<url>mk@MSITStore:htmlref.chm::/http://msdn.microsoft.com/workshop/author/behaviors/library/behaviorslibrary.asp</url>
+				</topic>
+				<topic>
+					<label>Language Codes</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/dhtml/reference/language_codes.htm</url>
+				</topic>
+				<topic>
+					<label>Visual Filters &amp; Transitions</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/filter/reference/reference.htm#1</url>
+				</topic>
+			</book>
+			<book>
+				<label>DHTML Scriptlets</label>
+				<topic>
+					<label>Introduction</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/components/scriptlet/default.htm</url>
+				</topic>
+				<topic>
+					<label>Overview</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/components/scriptlet/overview/overview.htm</url>
+				</topic>
+				<topic>
+					<label>Designing and Using</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/components/scriptlet/howto.htm</url>
+				</topic>
+				<topic>
+					<label>Container Object Reference</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/components/scriptlet/reference/scriptcont.htm</url>
+				</topic>
+				<topic>
+					<label>Object Model Extensions</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/components/scriptlet/reference/omext.htm</url>
+				</topic>
+				<topic>
+					<label>See Also: Scripting Site</label>
+					<url>mk@MSITStore:htmlref.chm::/http://msdn.microsoft.com/scripting/default.htm#1</url>
+				</topic>
+			</book>
+			<topic>
+				<label>HTML Components (HTC) Reference</label>
+				<url>mk@MSITStore:htmlref.chm::/workshop/components/htc/reference/htcref.htm#1</url>
+			</topic>
+			<book>
+				<label>CSS</label>
+				<topic>
+					<label>CSS Attributes Reference</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/css/reference/attributes.htm</url>
+				</topic>
+				<topic>
+					<label>CSS Length Units</label>
+					<url>mk@MSITStore:htmlref.chm::/workshop/author/css/reference/lengthunits.htm</url>
+				</topic>
+			</book>
+		</book>
+	</book>
+	<book>
+		<label>JScript Help</label>
+		<book>
+			<label>JScript</label>
+			<book>
+				<label>JScript Language Reference</label>
+				<topic><label>JScript Language Reference</label><url>mk@MSITStore:jscript5.chm::/htm/JStoc.htm</url></topic><topic>
+					<label>Feature Information</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSFea1.htm</url>
+				</topic>
+				<topic>
+					<label>Alphabetic Keyword List</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSAlp2.htm</url>
+				</topic>
+				<topic>
+					<label>Errors</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsErrors.htm</url>
+				</topic>
+				<topic>
+					<label>Functions</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSFun3.htm</url>
+				</topic>
+				<topic>
+					<label>Methods</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSMet4.htm</url>
+				</topic>
+				<topic>
+					<label>Objects</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSObj5.htm</url>
+				</topic>
+				<topic>
+					<label>Operators</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSOpe6.htm</url>
+				</topic>
+				<topic>
+					<label>Properties</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSPro7.htm</url>
+				</topic>
+				<topic>
+					<label>Statements</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/JSSta8.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>JScript Tutorial</label>
+				<topic><label>JScript Tutorial</label><url>mk@MSITStore:jscript5.chm::/htm/JStutor.htm</url></topic><topic>
+					<label>What Is JScript?</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/about.htm</url>
+				</topic>
+				<book>
+					<label>JScript Basics</label>
+					<topic><label>JScript Basics</label><url>mk@MSITStore:jscript5.chm::/htm/JStutor.htm#JScriptBasics</url></topic><topic>
+						<label>Writing JScript Code</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/statement.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Variables</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/declare.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Data Types</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/datatype.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Operators</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/jsoperators.htm</url>
+					</topic>
+					<topic>
+						<label>Controlling Program Flow</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/conditionals.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Functions</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/functions.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Objects</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/objects.htm</url>
+					</topic>
+					<topic>
+						<label>JScript Reserved Keywords</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/jsreserved.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Advanced JScript</label>
+					<topic><label>Advanced JScript</label><url>mk@MSITStore:jscript5.chm::/htm/JStutor.htm#advancedjscript</url></topic><topic>
+						<label>Recursion</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/recurse.htm</url>
+					</topic>
+					<topic>
+						<label>Variable Scope</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/scope.htm</url>
+					</topic>
+					<topic>
+						<label>Copying, Passing, and Comparing Data</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/valref.htm</url>
+					</topic>
+					<topic>
+						<label>Using Arrays</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/usingarr.htm</url>
+					</topic>
+					<topic>
+						<label>Advanced Object Creation</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/constructor.htm</url>
+					</topic>
+					<topic>
+						<label>Special Characters</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/specialcharacter.htm</url>
+					</topic>
+					<topic>
+						<label>Troubleshooting Your Scripts</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/cautions.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Using JScript In Internet Explorer</label>
+					<topic><label>Using JScript In Internet Explorer</label><url>mk@MSITStore:jscript5.chm::/htm/JStutor.htm#usingjscript</url></topic><topic>
+						<label>Displaying Information in the Browser</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/writeclear.htm</url>
+					</topic>
+					<topic>
+						<label>Using Message Boxes</label>
+						<url>mk@MSITStore:jscript5.chm::/htm/Alert.htm</url>
+					</topic>
+				</book>
+			</book>
+			<book>
+				<label>Scripting Run-Time Reference</label>
+				<topic><label>Scripting Run-Time Reference</label><url>mk@MSITStore:jscript5.chm::/htm/JSFSOTOC.htm</url></topic><topic>
+					<label>Feature Information </label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsscrunfea.htm</url>
+				</topic>
+				<topic>
+					<label>Alphabetic Keyword List</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsscrunalp2.htm</url>
+				</topic>
+				<topic>
+					<label>Methods</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsscrunmth.htm</url>
+				</topic>
+				<topic>
+					<label>Objects</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsscrunobj.htm</url>
+				</topic>
+				<topic>
+					<label>Properties</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/jsscrunpro.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>FileSystemObject Object Tutorial</label>
+				<topic><label>FileSystemObject Object Tutorial</label><url>mk@MSITStore:jscript5.chm::/htm/jsfsotutor.htm#filesystemobject</url></topic><topic>
+					<label>The FileSystemObject Object Model</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgUsingFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>Introduction to the FileSystemObject and the Scripting Run-Time Library Reference </label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgIntroToFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>FileSystemObject Objects</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgFileSystemObjects.htm</url>
+				</topic>
+				<topic>
+					<label>Programming the FileSystemObject</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgProgrammingFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>Working with Drives and Folders</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgWorkingWithDrives.htm</url>
+				</topic>
+				<topic>
+					<label>Working with Files</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgWorkingWithFiles.htm</url>
+				</topic>
+				<topic>
+					<label>FileSystemObject Sample Code</label>
+					<url>mk@MSITStore:jscript5.chm::/htm/sgFSOSample.htm</url>
+				</topic>
+			</book>
+		</book>
+	</book>
+	<book>
+		<label>VBScript Help</label>
+		<book>
+			<label>VBScript</label>
+			<book>
+				<label>VBScript Language Reference</label>
+				<topic><label>VBScript Language Reference</label><url>mk@MSITStore:vbscrip5.chm::/html/VBStoc.htm</url></topic><topic>
+					<label>Feature Information</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSFea1.htm</url>
+				</topic>
+				<topic>
+					<label>Alphabetic Keyword List</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSAlp2.htm</url>
+				</topic>
+				<topic>
+					<label>Constants</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSCon3.htm</url>
+				</topic>
+				<topic>
+					<label>Errors</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSErrs.htm</url>
+				</topic>
+				<topic>
+					<label>Events</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSEvt.htm</url>
+				</topic>
+				<topic>
+					<label>Functions</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSFun4.htm</url>
+				</topic>
+				<topic>
+					<label>Methods</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSMet5.htm</url>
+				</topic>
+				<topic>
+					<label>Objects</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSObj6.htm</url>
+				</topic>
+				<topic>
+					<label>Operators</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSOpe7.htm</url>
+				</topic>
+				<topic>
+					<label>Properties</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSPro8.htm</url>
+				</topic>
+				<topic>
+					<label>Statements</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/VBSSta9.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>VBScript Tutorial</label>
+				<topic><label>VBScript Tutorial</label><url>mk@MSITStore:vbscrip5.chm::/html/VBStutor.htm</url></topic><topic>
+					<label>What Is VBScript?</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/vbswhat.htm</url>
+				</topic>
+				<topic>
+					<label>Adding VBScript Code to an HTML Page</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/vbshtml.htm</url>
+				</topic>
+				<book>
+					<label>VBScript Basics</label>
+					<topic><label>VBScript Basics</label><url>mk@MSITStore:vbscrip5.chm::/html/VBStutor.htm#vbscriptbasics</url></topic><topic>
+						<label>VBScript Data Types</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsdatatype.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript Variables</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsvariables.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript Constants</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsconstants.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript Operators</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsoperators.htm</url>
+					</topic>
+					<topic>
+						<label>Using Conditional Statements</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/VBSConditional.htm</url>
+					</topic>
+					<topic>
+						<label>Looping Through Code</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/VBSLooping.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript Procedures</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsprocedures.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript Coding Conventions</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbscodingconventions.htm</url>
+					</topic>
+				</book>
+				<book>
+					<label>Using VBScript in Internet Explorer</label>
+					<topic><label>Using VBScript in Internet Explorer</label><url>mk@MSITStore:vbscrip5.chm::/html/VBStutor.htm#usingvbscript</url></topic><topic>
+						<label>A Simple VBScript Page</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsfirst.htm</url>
+					</topic>
+					<topic>
+						<label>VBScript and Forms</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbscntrl.htm</url>
+					</topic>
+					<topic>
+						<label>Using VBScript with Objects</label>
+						<url>mk@MSITStore:vbscrip5.chm::/html/vbsobjs.htm</url>
+					</topic>
+				</book>
+			</book>
+			<book>
+				<label>Scripting Run-Time Reference</label>
+				<topic><label>Scripting Run-Time Reference</label><url>mk@MSITStore:vbscrip5.chm::/html/VBSFSOTOC.htm</url></topic><topic>
+					<label>Feature Information</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsofea.htm</url>
+				</topic>
+				<topic>
+					<label>Alphabetic Keyword List</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsoalp.htm</url>
+				</topic>
+				<topic>
+					<label>Constants</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsocon.htm</url>
+				</topic>
+				<topic>
+					<label>Methods</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsomet.htm</url>
+				</topic>
+				<topic>
+					<label>Objects</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsoobj.htm</url>
+				</topic>
+				<topic>
+					<label>Properties</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/fsopro.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>FileSystemObject Object Tutorial</label>
+				<topic><label>FileSystemObject Object Tutorial</label><url>mk@MSITStore:vbscrip5.chm::/html/VBSfsotutor.htm#filesystemobject</url></topic><topic>
+					<label>The FileSystemObject Object Model</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgUsingFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>Introduction to the FileSystemObject and the Scripting Run-Time Library Reference</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgIntroToFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>FileSystemObject Objects</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgFileSystemObjects.htm</url>
+				</topic>
+				<topic>
+					<label>Programming the FileSystemObject</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgProgrammingFileSystemObject.htm</url>
+				</topic>
+				<topic>
+					<label>Working with Drives and Folders</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgWorkingWithDrives.htm</url>
+				</topic>
+				<topic>
+					<label>Working with Files</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgWorkingWithFiles.htm%20</url>
+				</topic>
+				<topic>
+					<label>FileSystemObject Sample Code</label>
+					<url>mk@MSITStore:vbscrip5.chm::/html/sgFSOSample.htm</url>
+				</topic>
+			</book>
+		</book>
+	</book>
+</toc>

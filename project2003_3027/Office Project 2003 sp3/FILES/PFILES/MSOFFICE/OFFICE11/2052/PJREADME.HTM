@@ -1,0 +1,1222 @@
+<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Language" content="zh-cn"><META HTTP-EQUIV="assetid" CONTENT="HR01048335"><title>Microsoft Office Project 2003 自述文件</title></head><body><h1>Microsoft Office Project 2003 自述文件</h1><META HTTP-EQUIV="assetid" CONTENT="HR01048335"><title>Microsoft Office Project 2003 自述文件</title>
+
+<style>
+<!--
+	h1	{font-size: 140%; margin-top: .4em;}
+code         { font-family:宋体,  Courier New; font-size: 8pt; line-height: 100% }
+	h2	{font-size: 120%; margin-top: .2em;}
+	h3	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h4	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	h5	{font-size: 100%; margin-top: .2em; font-weight: bold;}
+	body	{bgcolor: #ffffff; font-family:宋体,  Tahoma, Arial, Helvetica, sans-serif; font-size: 80%; }
+	p	{font-size: 100%; margin-left: 2em;}
+	pre	{font-size: 100%; margin-left: 2em;}
+	ol	{font-size: 100%; margin-top: .5em; margin-left: 4em;}
+	ul	{font-size: 100%; margin-top: .5em;; margin-left: 4em;}
+	li	{margin-bottom: .7em; margin-left: 0em;}
+	table	{font-size: 100%; margin-top: 1em; margin-left: 2em;}
+	th	{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr	{vertical-align: top;}
+	td	{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+	
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+
+<h3>&copy; 2003 Microsoft Corporation.保留所有权利。</h3><p>本文档提供有关 Microsoft Office Project 2003 的最新信息。</p>
+<h3>如何使用本文档</h3>
+<p>若要在屏幕中查看自述文件，请将浏览器窗口最大化。若要打印自述文件，请单击工具栏上的“打印”按钮。<b class="bterm"></b></p>
+<hr>
+
+<h2>目录</h2>
+
+<h3>使用 Microsoft Office Project</h3>
+
+<p><a href="#InstallOWC10">安装 Office XP Web Components</a></p>
+
+<p><a href="#InstallingOWC">在安装 Office 套件后安装独立的应用程序将在无意中删除 Office XP Web Components 的安装</a></p>
+
+<p><a href="#In-Place_Editing">就地编辑</a></p>
+
+<p><a href="#Opening_Projects_from_a_Microsoft_Projec">从 Microsoft Project 2000 或 2002 数据库中打开项目</a></p>
+
+<p><a href="#Upgrading_the_Microsoft_Project_2002_Glo">升级 Microsoft Project 2002 全局模板文件</a></p>
+<p><a href="#AAA">从 Microsoft Project 的早期英语版本升级到 Microsoft Project 2003</a> </p>
+<p><a href="#BBB">从 Project 2002 进行更新时提示选择早期版本的安装位置</a></p>
+<p><a href="#CCC">打开以其他语言创建的 MPX 文件</a></p>
+<p>
+	<a href="#CompareVersion">
+	关于企业模式进行比较版本的已知问题 (Project 
+	Professional)</a></p>
+	<p>　
+
+<h3>编程</h3>
+
+<p><a href="#Microsoft_Project_Developer_Center">Microsoft Project 开发人员中心</a></p>
+
+<p><a href="#Errors_in_Visual_Basic_for_Applications_">Visual Basic for Applications 帮助主题中的错误</a></p>
+
+<h3>帮助主题问题</h3>
+
+<p><a href="#Resource_Created_Field_">资源“创建时间”域</a></p>
+
+<p><a href="#Resource_Workgroup_Field">资源“工作组”域</a></p>
+
+<p><a href="#FileExit_Method"><span class=SpellE>FileExit</span> 方法</a></p>
+
+<p><a href="#OptionsSecurity_Method_"><span class=SpellE>OptionsSecurity</span> 方法</a></p>
+
+<p><a href="#EnterpriseResourceGet_Method_"><span class=SpellE>EnterpriseResourceGet</span> 方法</a></p>
+
+<p><a href="#EnterpriseSyncActuals_and_EnterpriseProj"><span class=SpellE>EnterpriseSyncActuals</span> 和 <span class=SpellE>EnterpriseProjectDelete</span> 方法</a></p>
+
+<h3>文件 Pjdb.htm 中的更改</h3>
+
+<p><a href="#MSP_CONVERSIONS_Table">MSP_CONVERSIONS 表</a></p>
+
+<p><a href="#MSP_ATTRIBUTE_STRINGS_Table">MSP_ATTRIBUTE_STRINGS 表</a></p>
+<p><a href="#MSP_RESOURCES_table">MSP_RESOURCES 表</a></p>
+
+<h3>文件 Pjoledb.htm 中的更改</h3>
+
+<p><a href="#OLE_DB_Provider_Registry_Keys">OLE-DB 提供程序注册表项</a></p>
+
+<div class=MsoNormal align=center style='text-align:center'>
+
+<hr size=2 width="100%" align=center>
+
+</div>
+
+<h2>使用 Microsoft Office Project 2003<o:p></o:p></h2>
+
+<h3><a name=InstallOWC10 id=InstallOWC10>安装 Office XP Web Components</a><u1:p></u1:p></h3>
+
+<p>Microsoft Office Project 2003 包含用于 Office 2003 Web Components (Owc11.msi) 和 Office XP Web Components 的升级版本 (Owc10.msi) 的 Windows 安装程序包文件 (.msi)。<span class=SpellE></span>这两个 .msi 文件都位于安装 CD 中，并且都包含在 Microsoft Office Project 2003 安装程序中（虽然它们在 Microsoft Office Project 2003 安装程序用户界面中不以选项形式向最终用户显示）。<span class=SpellE></span>默认情况下，将安装 Office 2003 Web Components；但是，只有用户计算机中存在 Office XP Web Components 的以前版本时，才会安装 Office XP Web Components 的升级版本。</p>
+
+<p>如果希望在没有 Office XP Web Components 以前版本的计算机上手动安装 Office XP Components 的升级版本，可直接从安装 CD 中运行 Owc10.msi。</p>
+
+<p>如果单位使用基于 Office XP Web Components 的解决方案，而且您进行的是向新客户端部署程序（即不是升级）并希望执行自定义安装，您可以通过在运行 Setup.exe 时从命令行上设置 OWC10EXISTS 属性，或在安装程序设置文件 (Setup.ini) 中设置 OWC10EXISTS 属性，来确保 Project 2003 安装过程包括安装 Office XP Web Components 的升级版本。</p>
+
+<p>示例：</p>
+
+<pre><code><span style='font-size:8.0pt'>OWC10EXISTS=1</span></code><o:p></o:p></pre>
+
+<h3><a name=InstallingOWC id=InstallingOWC>在安装 Office 套件后安装独立的应用程序将在无意中删除 Office XP Web Components 的安装</a></h3>
+
+<p>在已安装 Microsoft Office 2003 套件后安装独立的应用程序（例如 Microsoft Office Word 2003、Project、Publisher、Outlook 或 PowerPoint）将从计算机上删除所有 Microsoft Office XP Web Component 文件。任何基于 OWC10 的解决方案都不再有效。</p>
+
+<p>若要重新安装 OWC10 文件，必须重新安装 Office 2003 套件或修复其安装，或者通过单击 Microsoft Project“帮助”菜单上的“检测并修复”修复 Microsoft Office Project 2003。<b></b><b></b></p>
+
+<h3><a name="In-Place_Editing">就地编辑</a></h3>
+
+<p>如果在使用 Microsoft Project Professional 并连接到 Microsoft Project Server 时要从另一应用程序（如 Microsoft Internet Explorer）中打开项目，将有部分命令不能正常运行。例如，“自企业建立工作组”命令在这种情况下将不能运行。<b></b></p>
+
+<h3><a name="Opening_Projects_from_a_Microsoft_Projec">从 Microsoft Project 2000 或 2002 数据库中打开项目</a></h3>
+
+<p>从 Microsoft Project 2000 或 2002 数据库中打开项目时，项目可能会以只读方式打开。因为 Microsoft Office Project 2003 数据库架构在一些现有表中包括附加表和附加域，所以 Microsoft Office Project 2003 需要更新架构。如果没有“更改表”和“创建表”权限，将不能进行更新的更改，Microsoft Project 2003 将以只读方式打开项目。</p>
+
+<h3><a name="Upgrading_the_Microsoft_Project_2002_Glo">升级 Microsoft Project 2002 全局模板文件</a></h3>
+
+<p>如果已安装有 Microsoft Project 2002，通过 Microsoft Office Project 2003 安装程序将可以升级全局模板文件。升级全局模板文件时可能会看到以下情况：</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l3 level1 lfo1;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]>“项目向导”可能会显示属于 Microsoft Project 2002 的菜单项。例如可能会显示菜单项“后续步骤和相关活动”。<b></b>&nbsp;若要解决这一问题，请执行以下操作：</p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>在<b style='mso-bidi-font-weight:normal'>“工具”</b>菜单上，单击<b style='mso-bidi-font-weight:normal'>“选项”</b>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>在“选项”对话框中，单击“界面”选项卡。<b style='mso-bidi-font-weight:normal'></b><b style='mso-bidi-font-weight:normal'></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>清除“显示项目向导”复选框。<b style='mso-bidi-font-weight:normal'></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>单击“确定”。<b style='mso-bidi-font-weight:normal'></b>&nbsp;
+</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>在<b style='mso-bidi-font-weight:normal'>“工具”</b>菜单上，单击<b style='mso-bidi-font-weight:normal'>“选项”</b>。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>在“选项”对话框中，单击“界面”选项卡。<b style='mso-bidi-font-weight:normal'></b><b style='mso-bidi-font-weight:normal'></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>7.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>选中“显示项目向导”复选框。<b style='mso-bidi-font-weight:normal'></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l2 level1 lfo2;tab-stops:list .5in'><![if !supportLists]><span style='mso-list:Ignore'>8.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span>
+<![endif]>单击“确定”。<b style='mso-bidi-font-weight:normal'></b></p>
+
+</blockquote>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l5 level1 lfo3;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]>在升级全局模板文件后第一次退出 Microsoft Office Project 2003 时，将会看到以下消息：<br><br>“您修改了一份签署过的项目，而您没有签署这份项目的正确密码，所以签名将被放弃。”<br><br>后跟如下消息：<br><br>“数字签名有问题。&nbsp;不能签署 VBA 项目。将放弃该签名。”</p>
+<h3><a name="AAA">从 Microsoft Project 的早期英语版本升级到 Microsoft Project 2003</a></h3>
+<p>
+从英语版本的 Project 2002 升级到其他语言版本 Microsoft Project 2003。</p>
+<p>
+结果：用户界面和 Global.mpt 仍保持为英语版本。</p>
+<p>
+解决方案：删除英语版本的 Global.mpt</p>
+<p>
+注意：在 Windows 2000 中，Global.mpt 位于 c:\Documents and Settings\[用户名]\Application Data\Microsoft\MS Project\[LCID] 下。默认情况下，该文件夹为隐藏状态。若要显示隐藏文件，请在 Windows 资源管理器的“工具”菜单上，选择“文件夹选项”命令。在“查看”选项卡上，单击“显示所有文件和文件夹”，再单击“应用”。</p>
+<h3><a name="BBB">
+从 Project 2002 进行更新时提示选择早期版本的安装位置</a>
+</h3>
+<p>
+如果升级当前安装的 Project 2002，安装程序可能会找不到安装位置。如果发生这一情况，系统会提示您选择通过光盘或网络安装 Project 2002 的驱动器路径。</p>
+<p>
+请选择安装 Project 2002 的驱动器，再单击“确定”。安装程序随后就可以找到当前安装位置，继续升级安装。</p>
+<h3><a name="CCC">
+打开以其他语言创建的 MPX 文件</a></h3>
+<p>
+无法打开以其他语言（不是当前所用版本语言）创建的 MPX 文件。</p>
+<p>
+将显示如下错误消息：“发生导入错误。在第 24 行发现无效的 .MPX 注册表项。请验证 .MPX 文件的内容，检查是否存在与域所需信息类型不匹配的数据。无法打开该文件。”</p>
+<p>
+解决方案是在 Excel 中打开 MPX 文件。</p>
+<h3><a name="CompareVersion">
+关于企业模式进行比较版本的已知问题 (Project 
+Professional)</a></h3>
+<p>在企业模式进行版本比较时，可能会出现 Run time error 1101的错误信息，此时建议您将项目保存到本地，再进行比较。</p>
+
+<h2>编程</h2>
+
+<h3><a name="Microsoft_Project_Developer_Center">Microsoft Project 开发人员中心</a></h3>
+
+<p>在 Microsoft Project 开发人员中心可找到 Microsoft Project 2003 Visual Basic for Applications (VBA) 方法、属性和事件的其他代码示例，地址如下：</p>
+
+<p><a href="http://go.microsoft.com/fwlink/?linkid=4329">http://go.microsoft.com/fwlink/?linkid=4329
+</a></p>
+
+<h3>TimeScaleValues 集合和 .NET 编程</h3>
+
+<p>调用 TimeScaleValues 集合的 Value 属性时，可能会返回 COMException 错误。由于 .NET 应用程序中进行垃圾收集的方式和 Microsoft Project TimeScaleValues 集合中的一些限制的原因，您将需要在贯穿 TimeScaleValues 集合的所有循环内添加“System.GC.Collect()”。</p>
+
+<h3><a name="Errors_in_Visual_Basic_for_Applications_">Visual Basic for Applications 帮助主题中的错误</a></h3>
+
+<p>Project VBA 帮助中缺少以下六个主题：</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>AdministrativeProject 属性<br>适用对象：</b>Project 对象、Projects 集合对象<br>如果项目为管理项目（跟踪非工作时间），该值为 True。默认值为 False。<b>Boolean</b> 类型，可读写。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>EarnedValueBaseline 属性<br>适用对象：</b>Project 对象、Projects 集合对象<br>返回或设置任务盈余分析值的基准数字。可以是以下 PjBaselines 常量之一：PjBaseline、PjBaseline1 ...PjBaseline10。<b>Long</b> 类型，可读写。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>EnterpriseListSeparator 属性</b><br><b>请参阅：</b>ListSeparator 属性<br><b>适用对象：</b> Application 对象<br>返回或设置在 Global.mpt 文件中分隔列表项的字符。<b>String</b> 类型，可读写。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>EnterpriseProtectActuals 属性</b><br><b>请参阅：</b>ActualWorkProtected 属性、ActualOvtWorkProtected 属性<br><b>适用对象：</b>Application 对象<br>如果在 global.mpt 中保护实际值，该值为 True。默认值为 False。<b>Boolean</b> 类型，可读写。
+</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>GlobalOutlineCodes 属性</b><br><b>请参阅：</b>OutlineCodes 属性<br><b>适用对象：</b>Application 对象<br>返回一个表示 Global.mpt 文件中大纲代码的 OutlineCodes 集合。只读。</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l4 level1 lfo4;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>LevelProposedBookings 属性</b><br><b>请参阅：</b>BookingType 属性<br><b>适用对象：</b>Application 对象<br>若要完成对“已建议”预订类型的资源的调配，该值为 True。默认值为 False。<b>Boolean</b> 类型，可读写。</p>
+
+<p>VBA 帮助中 <b>FileSaveAs()</b> 方法语法和说明缺少参数 <b>ClearConfirmed</b>。</p>
+
+<blockquote style='margin-top:5.0pt;margin-bottom:5.0pt'>
+
+<p>方法语法应为：</p>
+
+<p><b>FileSaveAs</b>(Name, Format, Backup, ReadOnly, TaskInformation, Filtered, Table, UserID, DatabasePassWord, FormatID, Map, Password, WriteResPassword, ClearBaseline, ClearActuals, ClearResourceRates, ClearFixedCosts, <span class=SpellE>XMLName</span>, ClearConfirmed)</p>
+
+<p>说明应包括：</p>
+
+<p><span class=GramE><b>ClearConfirmed</b> Boolean 类型，可选。</span><span class=GramE>对于资源已接收分配的所有工作分配、任务和资源，如果保存模板时清除“已确认”域，该值为 True。</span>默认值为 False。</p>
+
+</blockquote>
+
+<p>VBA 帮助“目录”中的 <span class=SpellE><b>ResetTrackingMethod</b></span> 方法没有链接到主题页。若要访问该帮助主题，请在对象浏览器、代码窗格或即时窗格中选择 <span class=SpellE><b>ResetTrackingMethod</b></span>，再按 F1。<b></b></p>
+
+<p>在 VBA 帮助中“F1 帮助”对以下主题不可用，或者会链接到错误的主题。<b></b>若要查看帮助主题，请使用 Project 帮助“目录”，再展开“Microsoft Office Project Visual Basic 参考”文件夹。<b></b><b></b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>ActivePane</b></span><b> 属性</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>Add 方法</b>（对于 <span class=SpellE>CodeMask</span> 类）</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>AppendNotes</b></span><b> 属性</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>Checkin</b></span><b> 属性</b>（对于 Project 类）</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>Checkout 属性</b>（对于 Projects 类）</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>Duration1-10Estimated 属性</b>（<span class=SpellE>Duration<i>n</i>Estimated</span> 属性）</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>FileFormatID</b></span><b> 方法</b>（在对象浏览器中错误地显示为 <span class=SpellE>FileFormatID</span> 属性）</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>FontBold</b></span><b> 属性</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>Pattern 属性</b> </p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>ProjectResourceNew</b></span><b> 事件</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><span class=SpellE><b>ProjectTaskNew</b></span><b> 事件</b></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l0 level1 lfo5;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]><b>Windows2 属性</b></p>
+
+<h2>帮助主题问题</h2>
+
+<h3><a name="Resource_Created_Field_">资源“创建时间”域</a></h3>
+
+<p>资源“创建时间”域的帮助链接显示空白的帮助主题。该主题应为以下内容：<br><br><b>数据类型</b> 日期</p>
+
+<p><b>项类型</b> 计算</p>
+
+<p><b>说明</b> “创建时间”域包含资源添加到项目的日期和时间。</p>
+
+<p><b>计算方法</b> Microsoft Office Project 2003 将“项目信息”对话框的“当前日期”框中显示的当前日期指定给该域。</p>
+
+<p><b>最佳用途</b> 需要查看创建资源的时间时，可以向资源视图中添加“创建时间”域。如果有大量资源，而希望筛选特定时间范围内创建的资源，这样做非常有帮助。</p>
+
+<p><b>示例</b> 假设由于您希望对二月份之后创建的所有资源进行全局更改，需要查看这些资源。那么，可以使用“创建时间”域创建一个筛选器，以查看在二月份之后创建的所有资源。</p>
+
+<h3><a name="Resource_Workgroup_Field">资源“工作组”域</a></h3>
+
+<p>资源“工作组”域帮助主题中有一个使用项目符号的段落称：</p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;margin-bottom:8.4pt;
+margin-left:48.0pt;text-indent:-.25in;mso-list:l1 level1 lfo6;tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:宋体, Symbol; mso-fareast-font-family:宋体, Symbol;mso-bidi-font-family:宋体, Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'> </span></span></span>
+<![endif]>仅电子邮件 当前资源已设为通过公司的电子邮件系统来查看和更新工作分配状态。工作分配将以电子邮件附件的形式发送给资源，资源可通过电子邮件来查看和更新这些工作分配。</p>
+
+<p>Microsoft Office Project 2003 中已删除了电子邮件工作组选项。<span class=GramE>有关详细信息...</span>（需要链接到讨论如何重新启用该功能的网上文章）<span class=SpellE></span></p>
+
+<h3><a name="FileExit_Method"></a><span class=SpellE><span style='mso-bookmark: FileExit_Method'>FileExit</span></span><span style='mso-bookmark:FileExit_Method'> 方法</span></h3>
+
+<p><span class=SpellE>FileExit</span> 方法示例代码显示的信息有错。该代码示例显示如下：</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>Sub <span class=SpellE>SaveAndCloseActiveProject</span>()</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>&nbsp;&nbsp;&nbsp; <span class=SpellE>FileClose</span> <span class=SpellE>pjSave</span></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>End Sub</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>而该代码示例应显示为：</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>Sub <span class=SpellE>SaveAndCloseActiveProject</span>()</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>&nbsp;&nbsp;&nbsp; <span class=SpellE>FileExit</span> <span class=SpellE>pjSave</span></span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span style='font-family:宋体, monospace'>End Sub</span></p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<h3 style='margin:0in;margin-bottom:.0001pt'><a name="OptionsSecurity_Method_"></a><span class=SpellE><span style='mso-bookmark:OptionsSecurity_Method_'>OptionsSecurity</span></span><span style='mso-bookmark:OptionsSecurity_Method_'> 方法</span></h3>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>OptionsSecurity</span> 方法帮助主题 <span class=SpellE>RemoveProperties</span> 参数的说明内容称“如果 Microsoft Office Project 2003 在保存时从项目中删除‘作者’、‘经理’、‘公司’、‘上次保存者’和传送名单信息，该值为 Ture。”但是，该方法并不从项目中删除传送名单信息。</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<h3 style='margin:0in;margin-bottom:.0001pt'><a
+name="EnterpriseResourceGet_Method_"></a><span class=SpellE><span style='mso-bookmark:EnterpriseResourceGet_Method_'>EnterpriseResourceGet</span></span><span style='mso-bookmark:EnterpriseResourceGet_Method_'> 方法</span></h3>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>EnterpriseResourceGet</span> 方法的帮助主题应为以下内容：</p>
+
+<p><span class=GramE>将单个资源从企业添加到活动项目。</span> </p>
+
+<p><b>语法</b> </p>
+
+<p>expression .<span class=SpellE><b>EnterpriseResourceGet</b></span><b>(EUID, RUID)</b></p>
+
+<p>expression&nbsp;&nbsp;&nbsp;&nbsp; 必需。<span class=GramE>该表达式返回一个 <b>Application</b> 对象。</span></p>
+
+<p><span class=GramE><b>EUID</b> <b>Long</b> 类型，可选。</span>企业资源的唯一标识号；如果资源多于一个，该参数为必需。</p>
+
+<p><span class=GramE><b>RUID</b> <b>Long</b> 类型，可选。</span><span class=GramE>将分配给活动项目中资源的唯一标识号。</span>如果省略，将分配下一个有效的资源 UID。</p>
+
+<h3><a name="EnterpriseSyncActuals_and_EnterpriseProj"></a><span class=SpellE><span style='mso-bookmark:EnterpriseSyncActuals_and_EnterpriseProj'>EnterpriseSyncActuals</span></span><span style='mso-bookmark:EnterpriseSyncActuals_and_EnterpriseProj'> 和 <span class=SpellE>EnterpriseProjectDelete</span> 方法</span></h3>
+
+<p>这两个方法的“备注”部分应说明它们只适用于 Microsoft Office Project Professional 2003。</p>
+
+<h2>文件 Pjdb.htm 中的更改</h2>
+
+<h3><a name="MSP_CONVERSIONS_Table">MSP_CONVERSIONS 表</a></h3>
+
+<p>在 MSP_CONVERSIONS 表中，其中 STRING_TYPE = 106 或 107，CONV_VALUE 列表不正确。正确的列表如下表所示：<o:p></o:p></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ margin-left:24.0pt' id=table1>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>STRING_TYPE<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>CONV_VALUE<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>CONV_STRING<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>200<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>大纲代码和 WBS 掩码<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>201<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>只允许使用查阅表格中列出的大纲代码<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>202<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>新代码必须在掩码的各个级别上都有值<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>203<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>检查新 WBS 代码的唯一性<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>204<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>WBS 前缀<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>205<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>为新任务生成 WBS 代码<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>207<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义域公式<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>208<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>共享资源文件名称<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>209<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>大纲代码是否可自动规划<span class=SpellE></span><span class=SpellE></span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>210<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义属性值列表<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>211<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span class=SpellE><span style='font-size:9.5pt;font-family:宋体, Tahoma'>自定义属性</span></span><span style='font-size:9.5pt;font-family:宋体, Tahoma'>图形标记<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>212<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>大纲代码链接 <span class=SpellE>FieldID</span><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>213<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>需要自定义域标识号值<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>214<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>必须上卷自定义 <span class=SpellE>FieldID</span> 公式<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>215<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义 <span class=SpellE>FieldID</span> 的公式上卷类型<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>216<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>限制大纲代码为所选列表值<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>217<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>限制值列表为所选列表<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>218<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义属性值列表说明<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>219<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义属性值列表拼音说明<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>106<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>220<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>自定义属性值列表默认索引<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>&nbsp;<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>1<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配剩余工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>2<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配实际工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>3<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配实际加班工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:25'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>4<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配比较基准工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:26'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>5<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配比较基准成本<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:27'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>6<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>工作分配实际成本<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:28'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>7<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>资源比较基准工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:29'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>8<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>资源比较基准成本<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:30'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>9<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>任务比较基准工时<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:31'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>10<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>任务比较基准成本<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:32;mso-yfti-lastrow:yes'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>107<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>11<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>任务完成百分比<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>　</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'>在 MSP_CONVERSIONS 表中，其中 STRING_TYPE = 56、83、84 和 85，添加了新的 CONV_STRINGS。新的字符串如下表所示：<o:p></o:p></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 style='mso-cellspacing:1.5pt;
+ margin-left:24.0pt' id=table2>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>STRING_TYPE<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>CONV_VALUE<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>CONV_STRING<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>56<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>8<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>星期六/星期日<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>83<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>8<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>六/日<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>84<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>8<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>（六/日）<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td width=86 valign=top style='width:64.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>85<o:p></o:p></span></p>
+  </td>
+  <td width=94 valign=top style='width:70.5pt;border:inset 1.0pt;border-bottom:
+  solid #CCCCCC 1.0pt;mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:
+  solid #CCCCCC .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>8<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border:inset 1.0pt;border-bottom:solid #CCCCCC 1.0pt;
+  mso-border-alt:inset windowtext .75pt;mso-border-bottom-alt:solid #CCCCCC .75pt;
+  padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin:3.0pt'><span style='font-size:9.5pt;
+  font-family:宋体, Tahoma'>星期六/星期日<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p>在 MSP_CONVERSIONS 表中，其中 STRING_TYPE = 70，只列出了两个 <span class=SpellE>CONV_VALUE</span> 值。除了“1 = 开始时间”和“2 = 结束时间”之外，还需要添加“3 = 按比例”。</p>
+
+<h3><a name="MSP_ATTRIBUTE_STRINGS_Table">MSP_ATTRIBUTE_STRINGS 表</a></h3>
+
+<p>MSP_ATTRIBUTES_STRINGS 表 AS_VALUE 说明的说明内容称“公式同 Project 的‘公式’对话框中显示的一样”。但是，AS_VALUE 还包括自定义域别名、WBS 和自定义大纲代码掩码，以及图形标记条件等等。</p>
+<h3><a name="MSP_RESOURCES_table">MSP_RESOURCES 表</a></h3>
+<p>RES_MATERIAL_LABEL 域的说明称“为材料资源输入的测量单位，例如吨、盒或立方码；与材料资源的“工作分配单位”一起使用；只有在 RES_RTYPE 被设置为“材料”时才可用。”这一句的后部分应为“...只有在 RES_TYPE 被设置为“材料”时才可用。”</p>
+<p>RES_RTYPE 域的说明将已停用的普通资源和常规资源的值分别列为 100 和 101。这两个值应为：<br><br> 1000 已停用，普通资源<br> 1001 已停用，常规资源</p>
+
+<h2>文件 Pjoledb.htm 中的更改</h2>
+
+<h3><a name="OLE_DB_Provider_Registry_Keys">OLE-DB 提供程序注册表项</a></h3>
+
+<p>有许多注册表项控制 Microsoft Office Project 2003 OLE-DB 提供程序中的活动方式。在 Pjoldedb.htm 文件中介绍的这些注册表项的默认值不正确。文件中列出的这些值如下所示：</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeoutOnLoad</span> = 0</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeBeforeUnload</span> = 37</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeBeforeRefesh</span> = 5</p>
+
+<p>而这些值应为：</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeoutOnLoad</span> = 5</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeBeforeUnload</span> = 37</p>
+
+<p style='margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:24.0pt;
+margin-bottom:.0001pt'><span class=SpellE>TimeBeforeRefesh</span> = 0</p>
+
+</div>
+
+</body>
+
+</html>

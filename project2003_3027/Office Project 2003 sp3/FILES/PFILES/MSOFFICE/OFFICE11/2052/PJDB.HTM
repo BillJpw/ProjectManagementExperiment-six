@@ -1,0 +1,9180 @@
+﻿<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="assetid" CONTENT="HV01043478"><META NAME="lcid" CONTENT="2052"><title>Microsoft Office Project 2003 数据参考</title><style type="text/css">/* BODY = default paragraph font */ 
+	body		{bgcolor: #ffffff; font-family: 宋体, Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt; }
+	
+/* HYPERLINKS */ 
+	a:link		{color: #0000cc; }
+	a:active	{color: #0000cc; }
+	a:visited	{color: #0000cc; }	
+	.pop		{text-decoration: none; }
+
+/* LISTS */ 
+	ol		{font-size: 100%; margin-top: .5em; margin-bottom: 0em; margin-left: 4em;}
+	ul		{font-size: 100%; margin-top: .5em; margin-bottom: 0em;}
+	ol ul		{list-style: disc; margin-top: .5em;}
+	ul ul		{list-style: disc; margin-top: .5em;}
+	li		{margin-bottom: .7em; margin-left: -2em;}
+
+/* PREFORMATTING - CODE */ 
+	pre		{font-size: 100%; margin-top: 1.2em; margin-bottom: 1.5em;}
+	code	 	{font-family: "courier new", courier; font-size: 125%; }
+	
+/* TABLES */ 
+	table		{font-size: 100%; margin-top: 1em; margin-bottom: 0em;}
+	th		{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr		{vertical-align: top;}
+	td		{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+/* PARAGRAPH */
+	p		{margin-top: .6em; margin-bottom: .6em; }
+
+ 
+
+/* Heading styles---------------------------------------------------------------------------- */ 
+
+	h1		{font-size: 125%; margin-top: .4em; margin-bottom: .5em;}
+	h2		{font-size: 110%; margin-top: 2em; margin-bottom: .5em;}
+	h3		{font-size: 100%; margin-top: 1.2em; margin-bottom: .5em; font-weight: bold;}
+	h4		{font-size: 100%; margin-top: 1.2em; font-weight: bold;}
+	h5		{font-size: 100%; margin-top: 1.2em; font-weight: bold;}
+	.lproch		{font-weight: bold ;margin-top: 1.2em; }/* Heading 9,List Procedure Heading,lproch */ 
+
+/* Defined List styles ----------------------------------------------------------------------- */
+
+	dt		{font-weight: bold; }
+	dd		{margin-left: 2em; margin-bottom: .6em; }
+
+/* Paragraph styles--------------------------------------------------------------------------- */ 
+
+	.ac		{font-size: 90%; color: #7F7F7F;} 
+	.alpha		{font-size: 125%; font-weight: bold; }
+	.dt1		{text-indent: -2em; margin-left: 2em;}
+	.hang		{text-indent: -2em; margin-left: 2em;}
+	.ind		{margin-left: 2em;}
+/* MAYBE KEEP .LBR1 IN CASE WE CAN GET HANGING INDENT TO WORK IN IE5.0? */ 
+	.mt		{margin-top:  2em; font-weight: bold; }
+	.noborder	{border: none; }
+	.rtt		{text-align: right; font-size: 90%; }
+	.tableup	{margin-top: 0em; }
+/* overline */
+	.ov		{text-decoration: overline; }
+
+/* spacing styles */ 
+	.4		{line-height: 4pt;}
+	.6		{line-height: 6pt;}
+	
+/* styles we no longer need */ 		
+	.Highlight	{background-color: lightblue;}
+	.Normal 	{background-color: white;}
+	.fixp		{color: #00ff00;}	/* *fix this paragraph for incorrectly used styles / green */ 
+
+/* Language Reference styles --------------------------------------------------------------------------- */
+
+
+/* code comments */
+	.comment {color: darkgreen;
+		}
+
+/* Object model blue box */ 
+	.omblue { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #99FFFF;
+		border: 1px solid windowframe;
+		color: windowtext;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Object model blue dashed box */ 
+	.ombluedash { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #99FFFF;
+		border: 1px dashed windowframe;
+		color: windowtext;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Object model yellow box */ 
+	.omyellow { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #FFFF99;
+		border: 1px solid windowframe;
+		color: windowtext;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;		
+		}	
+
+/* Object model yellow dashed box */ 
+	.omyellowdash { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #FFFF99;
+		border: 1px dashed windowframe;
+		color: windowtext;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Navigation hyperlink list container */
+	.ofvbaispan { position: absolute;
+		padding: 0px 0px 0px 0px;
+		border: 1px solid windowframe;
+		color: windowtext;
+		display: none;
+		z-index: +1;
+		}
+
+/* Navigation area */
+	.ofvbanav { padding: 0px 0px 10px 0px;
+		}
+
+/* Active navigation area jumps */
+	.ofvbanavreuse { width: 75px;
+		color: #0000cc;
+		cursor: hand;
+		}
+
+/* Inactive navigation area jump */
+	.ofvbanavunused { width: 75px;
+		color: graytext;
+		}
+
+/* Hidden navigation area jump */
+	.ofvbanavhidden { width: 75px;
+		display: none;
+		}
+
+/* Navigation hyperlink list topic description toggle */
+	.ofvbashowdesc { color:#0000cc;
+		cursor:hand;
+		font-size:smaller;
+		text-decoration:underline;
+		}
+
+/* Navigation hyperlink list topic description sections */
+	.ofvbadesc { color: windowtext;
+		display: none;
+		}
+
+/* Example navigation area jumps */
+	.ofvbanavex { text-decoration: none;
+		}
+
+/* Syntax box */
+	.ofvbasyn { width: 100%;
+		padding: 0px 8px 0px 8px;
+		background-color: #CCCCCC;
+		}
+
+
+	.signature { width: 100%;
+		padding: 0px 8px 0px 8px;
+		background-color: #CCCCCC;
+		}
+
+
+
+
+
+.ofvbalink		{text-decoration: none; }
+.ofvbalink:hover	{text-decoration: underline; }
+
+
+
+/* Dropdown styles --------------------------------------------------------------------------- */
+
+.DropDown	{text-decoration: none; font-weight: normal; top: 0pt;} 
+.DropDown:hover	{text-decoration: underline; }
+
+			
+.HidePopUp 	{text-decoration: none; }
+.HidePopUp:hover{text-decoration: underline; }
+
+.Glossary	{text-decoration: none; }
+.glossary:hover	{text-decoration: underline; }
+				
+.Glossarydef	{color: #008C00; text-decoration: none;}
+
+.srcContent 	{ }
+
+.expfav		{font-size: 80%; text-align: Right; margin-top: -1em; margin-bottom: 0; }
+
+.expanded	{font-weight: normal; }	
+
+.collapsed	{display: none;}	
+			 	
+.def		{margin-top: 40pt;}	
+
+#theIFRAME	{position: absolute; display:none; }
+
+/* Language Specific Boilerplate Styles------------------------------------------------------- */
+	.BPhide 		{display: none }
+	.BPshow 		{  }
+	.BPHide4Bidi 	{  }
+	.BPHide4EA 		{  }
+	.BPHide4Thai 	{  }
+	.hide4ara 	{  }
+	.hide4arascript 	{  }
+	.hide4biditha	{  }
+	.hide4eabidi	{  }
+	.hide4easa	{  }
+	.hide4easabidi{  }
+	.hide4eng		{  }
+	.hide4enu		{  }
+	.hide4enucanfrndut{  }
+	.hide4heb		{  }
+	.hide4hindi	{  }
+	.hide4jamuiopt{  }
+	.hide4sa		{  }
+	.hide4sabidi	{  }
+	.somecontent	{  }</style><script language="JavaScript" src="../ExpColl.js"></script></head><body><h1>Microsoft Office Project 2003 数据参考</h1><META HTTP-EQUIV="assetid" CONTENT="HV01043478"><title>Microsoft Office Project 2003 数据参考</title><br><a href="#overview">总览</a><br>  <a href="#whatsNew">Project 2003 数据库的新增功能</a><br><br><a href="#aboutDatabase">关于 Project 数据库</a><br>  <a href="#supportedDatabases">支持的数据库</a><br>  <a href="#loadingOlderVersions">将旧版本的 Project 加载到数据库</a><br>  <a href="#upgradeFromOlder">从旧版本升级 Project 数据库</a><br><br><a href="#databasePermission">数据库权限及配置</a><br>  <a href="#requiredPermissions">所需权限</a><br>  <a href="#configuringTheDatabase">配置数据库</a><br>  <a href="#performanceTuning">性能调整</a><br>  <a href="#ensuringDataIntegrity">确保数据完整性</a><br><br><a href="#informationIsStored">信息在 Project 数据库中的存储方式</a><br>  <a href="#calendarData">日历数据</a><br>  <a href="#timephasedData">时间分段数据</a><br>  <a href="#notes">备注</a><br>  <a href="#customFieldValues">自定义域值</a><br>  <a href="#splitTasks">拆分任务</a><br>  <a href="#taskLinks">任务链接</a><br>  <a href="#estimatedDurationValues">估计工期值</a><br>  <a href="#baselines">比较基准</a><br><br><a href="#workingWithDBProjects">使用 Project 数据库中的项目</a><br>  <a href="#creatingDatabaseStructure">创建 Project 数据库结构</a><br>  <a href="#dsnRequirements">DSN 要求和限制</a><br>  <a href="#concurrentUsage">并发使用和项目锁定</a><br>  <a href="#append">将 XML 数据添加到现有项目中</a><br><br><a href="#addRows">添加和更改数据库中的行</a><br>
+
+  <a href="#setFlags">将所需标志设置为允许更新数据库中的项目数据</a><br>  <a href="#specifyTimes">在指定日期的同时指定时间</a><br>  <a href="#durationWorkRateCost">工期、工时、费率和成本值</a><br>  <a href="#useTextConversion">使用文本转换表检索字符串</a><br><br><a href="#creatingProjectScheduleData">创建 Project 日程数据</a><br>  <a href="#createNewProject">创建新的非企业项目</a><br>  <a href="#createInsertedProject">创建插入项目</a><br>  <a href="#createNewResource">创建新的非企业资源</a><br>  <a href="#createNewCalendar">创建新的非企业日历</a><br>  <a href="#specifyCalendar">指定日历的工作时间和例外日期</a><br>  <a href="#specifyResource">指定资源可用性</a><br>  <a href="#specifyResourceRates">指定资源费率</a><br>  <a href="#createNewTask">新建任务</a><br>  <a href="#createRecurringTask">创建周期性任务</a><br>  <a href="#createTaskDependency">创建任务相关性</a><br>  <a href="#createNewAssignment">新建工作分配</a><br>  <a href="#createActualWorkOrder">创建或修改工作分配实际工时顺序</a><br>  <a href="#createSplits">在排定工时中创建拆分</a><br>  <a href="#createRemainingWorkOrder">创建或修改工作分配剩余工时顺序</a><br>  <a href="#manageTimephasedData">管理时间分段数据</a><br>  <a href="#createPercentCompleteContour">创建或修改任务完成百分比分布</a><br>  <a href="#deleteContour">删除分布</a><br><br><a href="#customizeProjectData">自定义 Project 数据</a><br>  <a href="#specifyCustomText">指定自定义文本域</a><br>  <a href="#specifyCustomNumber">指定自定义数字（成本）域</a><br>  <a href="#specifyCustomDate">指定自定义日期、开始时间和完成时间域</a><br>  <a href="#specifyCustomDuration">指定自定义工期域</a><br>  <a href="#fieldAttributes">域属性</a><br>  <a href="#specifyWBSCodes">指定自定义 WBS 代码</a><br>  <a href="#specifyOutlineCodes">指定自定义大纲代码</a><br>  <a href="#specifyAliases">为自定义域指定自定义别名</a><br>  <a href="#specifyFormulae">为自定义域指定公式</a><br>  <a href="#readRTFNotes">读写 RTF 备注</a><br><br><a href="#manageOtherData">管理数据库中的其他数据</a><br>  <a href="#specifyEmailAddress">指定电子邮件地址</a><br>  <a href="#retrieveCrossProject">检索跨项目链接项目/任务引用</a><br>  <a href="#retrieveSharerFiles">检索共享资源文件名称</a><br>  <a href="#outlineSummaryTasks">用摘要任务和子任务构建大纲结构</a><br>  <a href="#editSummaryTask">编辑摘要任务工作分配的工时</a><br>  <a href="#retrieveWorkgroupMesasageStatus">检索工作组消息的状态</a><br>  <a href="#specifyHyperlinks">指定超链接</a><br><br><a href="#dbPCA">数据库处理顺序、规则和缩写</a><br>  <a href="#processingOrder">外部编辑数据的处理顺序</a><br>  <a href="#standardProcessingOrder">标准处理顺序</a><br>  <a href="#tableNaming">表命名规则</a><br>  <a href="#columnNaming">列命名规则</a><br>  <a href="#columnAbbreviations">列名称缩写</a><br><br><a href="#databaseTables">数据库表</a><br>  <a href="#infoOnly">仅供参考列</a><br>  <a href="#bold">加粗列名称</a><br>  <a href="#dataTypes">列的数据类型</a><br>  <a href="#MSP_ASSIGNMENT_BASELINES">MSP_ASSIGNMENT_BASELINES</a><br>  <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a><br>  <a href="#MSP_ASSN_ENTERPRISE">MSP_ASSN_ENTERPRISE</a><br>  <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a><br>  <a href="#MSP_AVAILABILITY">MSP_AVAILABILITY</a><br>  <a href="#MSP_CALENDAR_DATA">MSP_CALENDAR_DATA</a><br>  <a href="#MSP_CALENDARS">MSP_CALENDARS</a><br>  <a href="#MSP_CODE_FIELDS">MSP_CODE_FIELDS</a><br>  <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a><br>  <a href="#MSP_DATE_FIELDS">MSP_DATE_FIELDS</a><br>  <a href="#MSP_DURATION_FIELDS">MSP_DURATION_FIELDS</a><br>  <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a><br>  <a href="#MSP_FLAG_FIELDS">MSP_FLAG_FIELDS</a><br>  <a href="#MSP_LINKS">MSP_LINKS</a><br>  <a href="#MSP_MV_FIELDS">MSP_MV_FIELDS</a><br>  <a href="#MSP_NUMBER_FIELDS">MSP_NUMBER_FIELDS</a><br>  <a href="#MSP_OUTLINE_CODES">MSP_OUTLINE_CODES</a><br>  <a href="#MSP_PROJ_SECURITY">MSP_PROJ_SECURITY</a><br>  <a href="#MSP_PROJECTS">MSP_PROJECTS</a><br>  <a href="#MSP_RESGLOBAL_SECURITY">MSP_RESGLOBAL_SECURITY</a><br>  <a href="#MSP_RES_GLOBAL_BINARY">MSP_RES_GLOBAL_BINARY</a><br>  <a href="#MSP_RES_SECURITY">MSP_RES_SECURITY</a><br>  <a href="#MSP_RESOURCE_BASELINES">MSP_RESOURCE_BASELINES</a><br>  <a href="#MSP_RESOURCE_RATES">MSP_RESOURCE_RATES</a><br>  <a href="#MSP_RESOURCES">MSP_RESOURCES</a><br>  <a href="#MSP_STRING_TYPES">MSP_STRING_TYPES</a><br>  <a href="#MSP_TASK_BASELINES">MSP_TASK_BASELINES</a><br>  <a href="#MSP_TASKS">MSP_TASKS</a><br>  <a href="#MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a><br>  <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a><br>
+<h2>
+<a id="overview" name="overview">总览</a></h2>
+<p>本文档提供直接在 Microsoft Office Project 2003 数据库中创建和更新项目数据所需的必要信息，以保持数据的一致性和完整性。</p><p><b>注释</b>  本文档中的信息并不是都可以应用于（可能有所不同）Microsoft Office Project Server 2003 数据库中所存储的企业项目数据。建议只使用“项目数据服务 (PDS)”、Microsoft Office Project Professional
+ 
+2003 或 Microsoft Office Project Web Access 2003 与 Project Server 数据库中的企业项目数据进行交互。</p><p>直接在数据库中创建和维护项目数据具有以下优势：</p>
+<ul>
+<li>自动创建项目。该功能无需 Project 即可使用其他软件程序自动创建项目。</li>
+<li>自动记录新任务和实际数据。该功能的一个应用是自动将时间表数据应用到项目。</li>
+</ul>
+<p>各章节包含以下信息：</p>
+<ul>
+<li>使用数据库中的项目，包括创建和维护项目数据库，以及更新时备份现有单个任务、资源和工作分配行。 
+</li>
+<li>使用 Project 数据库结构，包括在 Project 数据库中存储数据的方式、访问要求和项目引用要求。</li>
+<li>添加和更改数据库中的行，包括将标志设置为允许更新，指定日期和时间值，指定工期、工时和费率值，检索 Project 字符串，新建项目、任务、任务链接、资源、工作分配和日历以及管理和自定义项目数据。</li>
+<li>数据库处理顺序、域和表的规则和缩写，以及表和列的定义。</li>
+<li>数据库表说明，包括列名称、数据类型和说明。</li>
+</ul>
+<p><b>注释</b>  本文档中描述的数据库表是由脚本 PROJTBLS.sql 创建的。可以在 Project Server 2003 CD-ROM 上的 \SUPPORT\DATABASE 文件夹中找到。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="whatsNew" name="whatsNew">Project 2003 数据库的新增功能</a></h3>
+<p>Project 数据库已扩展（1 个新表），并包括下列全面改进的功能：</p>
+<ul>
+<li>一个支持多值大纲代码的新表。</li>
+<li>支持时间表实际值和已调整的时间表实际值的新域。</li><li>支持资源预订类型的新域。</li>
+
+
+
+
+</ul>
+<p>Project 数据库中添加了下列新表：</p>
+<ul>
+<li>
+<a href="#MSP_MV_FIELDS">MSP_MV_FIELDS</a>
+</li>
+
+</ul>
+
+
+<a href="#top">页首</a>
+<h2>
+<a id="aboutDatabase" name="aboutDatabase">关于 Project 数据库</a></h2>
+<p>下列部分详细说明 Project 数据库所支持的数据库类型，以及如何在当前版本的 Project 中加载和更新早期的项目。</p>
+<h3>
+<a id="supportedDatabases" name="supportedDatabases">支持的数据库</a></h3>
+<p>只有 Project Professional 2003 可以连接到 Project Server 数据库；Project Professional 2003 和 Project Standard 2003 通过“开放式数据库连接 (ODBC)”支持以下数据库：</p>
+<ul>
+<li>Microsoft Access 2000、Access 2002 和 Access 2003。</li>
+<li>Microsoft SQL Server 2000 或更高版本。</li>
+<li>Microsoft Data Engine 2000 或更高版本。</li>
+<li>Oracle 8.0（或更高版本）。</li></ul>
+<p>如果在<b class="ui">“文件打开”</b>和<b class="ui">“文件保存”</b>对话框中直接选择“Project 数据库 (.mpd)”或“Microsoft Access 数据库 (.mdb)”作为文件类型，在向 Microsoft Access 2000、Access 2002 和 Access 2003 数据库中写入数据或从中读取数据时，Project 也可以自动建立 ODBC 连接。</p>
+<p><b>注释</b>  如果 Microsoft Access 中的链接表的数据保存在另一个应用程序或数据库管理系统中，而 Microsoft Access 只是提供连接，将不能保存或加载这些数据。若要访问这些数据，必须将其真正导入 Microsoft Access 或直接连接到数据源。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="loadingOlderVersions" name="loadingOlderVersions">将旧版本的 Project 加载到数据库</a></h3>
+<p>可以在 Project 2003 中打开以前用 Microsoft Project 98、Microsoft Project 2000 或 Microsoft Project 2002 保存到数据库中的项目。不过，如果您再次将此项目保存到数据库中，它将使用 Microsoft Project 2003 数据库结构进行保存。对于且只对于 Microsoft Project 98，当更新数据库格式时，将得到两个数据库格式完全不同的项目副本；原始项目数据不会受到影响。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="upgradeFromOlder" name="upgradeFromOlder">从旧版本升级 Project 数据库</a></h3>
+<p>可使用“数据库升级工具”COM 加载项将 Microsoft Access 或 SQL Server 数据库中的部分或全部项目从 Microsoft Project 98、Microsoft Project 2000 或 Microsoft Project 2002 数据库结构升级到 Project 2003 数据库结构。若要加载“数据库升级工具”，请在工具栏上单击右键，然后选择<b class="ui">“数据库升级工具”</b>。Microsoft Project 2000 或 Microsoft Project 2002 升级过程不需要“数据库升级工具”。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="databasePermission" name="databasePermission">数据库权限及配置</a></h2>
+<h3>
+<a id="requiredPermissions" name="requiredPermissions">所需权限</a></h3>
+<p>当 Project Standard 或 Project Professional（以脱机模式）连接到 ODBC 数据库时，它可对数据库执行多种类型的操作，每种操作都需要一组相应的对象权限：</p>
+<ul>
+<li>若要以只读方式打开数据库中的项目并进行查看，用户必须对 Project 数据库中的所有表拥有 SELECT 权限。此外，如果用户不是表的所有者，必须拥有每一个表的视图。在任何情况下都需要有记录了此用户的用户标识号和数据库的数据源名称 (DSN)。</li>
+<li>若要修改数据库中的已有项目、将新项目保存到数据库中已存在的表中或者从数据库中删除项目，用户必须对所有表拥有下列权限：INSERT、UPDATE 和 DELETE。</li>
+<li>若要将新项目保存到空数据库中，或者有选择地将数据导出到数据库中，用户必须拥有 CREATE TABLE 权限。</li>
+<li>除了有效的登录标识号之外，SQL Server 用户还必须拥有访问项目数据库的权限。</li>
+<li>用户的默认数据库既可以在 DSN 中设置，也可以在 SQL Server 中设置。 </li>
+</ul>
+<p>在同一个数据库中可以有多个单位的多个项目，而这些项目又彼此独立。这称为项目隔离。若要隔离项目，必须为每个项目所有者创建独立的表结构。由于 Project 使用它在数据库中找到的第一组表，所以每个数据库用户只能看见指定数据库中的一组项目表。任何安全方案都必须考虑这一点。</p>
+<ul>
+<li>如果项目经理的项目有两组用户，项目经理将需要两个数据库用户标识号，每个标识号拥有一组表。</li>
+<li>如果项目用户需要查看不属于他或她的表中的数据，必须使用视图或别名来访问这些项目表。如果项目用户需要查看属于两个不同所有者的表中的数据，必须拥有分别用于每组表的不同的用户标识号和视图。</li>
+<li>还有一种办法，即创建一组视图或别名来完成这两个所有者的表联合操作。为了避免混淆具有相同项目标识号的不同项目，项目标识号在所有各组表之间必须是唯一的。这可以通过在视图中递增每组表的项目标识号实现。以下示例显示如何在一个所有者的表中递增项目标识号：
+<pre>
+<code>Create view MSP_TEXT_FIELDS as
+Select    PROJ_ID,
+          TEXT_CATEGORY,
+          TEXT_REF_UID,
+          TEXT_FIELD_ID,
+          TEXT_VALUE
+From      user1.MSP_TEXT_FIELDS
+Union all
+Select    PROJ_ID + 1000,
+          TEXT_CATEGORY,
+          TEXT_REF_UID,
+          TEXT_FIELD_ID,
+          TEXT_VALUE
+From      user2.MSP_TEXT_FIELDS</code>
+</pre>
+</li>
+</ul>
+<p><b>注释</b></p>
+<ul>
+<li>Project 数据库结构中有 29 个表，必须为除 MSP_STRING_TYPES 和 MSP_CONVERSIONS 之外的每一个表创建一个类似的视图。不能更新通过联合视图访问的项目。</li>
+<li>Project 并不能授予用户权限。必须由数据库管理员或安全管理员授予用户所需的权限。</li>
+<li>由于要求对 Project 数据库中的所有表拥有 SELECT 权限，或者 SELECT、INSERT、UPDATE 和 DELETE 权限集，所以应当避免授予列级别权限。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="configuringTheDatabase" name="configuringTheDatabase">配置数据库</a></h3>
+<p>建立供 Project 使用的数据库有两种方法： </p>
+<ul>
+<li>最简单的方法是创建一个数据库，并使用 Project 创建表和索引。当没有性能和磁盘使用方面的问题时，该方法是最简单的。</li>
+<li>第二种建立数据库的方法是手动配置某个数据库以供 Project 使用。随 Project 提供的脚本文件包含用来创建 Project 数据库结构的数据定义语言 (DDL)。<p>可以修改这些脚本文件，以指定数据库文件和文件组 (SQL Server) 并配置其他数据库属性。例如，数据库管理员可以修改 DDL，以将表保存在一个磁盘上，而将索引保存在另一个磁盘上。一般来说，如果索引和数据表处在不同的物理磁盘上，可以改善性能，但是，为提高性能而选择不同的磁盘只作为可选项。</p>
+</li>
+</ul>
+<p>建议尽可能将事务日志文件和数据分别保存在不同的磁盘上；在 SQL Server 中执行脚本之前，必须进行下列操作之一：</p>
+<ul>
+<li>在文本编辑器中打开该文件，然后使用 Project 表所有者的名称替换 PROJTBLS.SQL 中字符串 <b class="bterm">&lt;dbo&gt;</b> 的 <b class="bterm">&lt;dbo.object_name&gt;</b> 部分中的所有内容。</li>
+<li>以这些表的所有者身份登录到数据库。</li>
+</ul>
+<p><b>注释</b>  填充 <a href="#MSP_STRING_TYPES">MSP_STRING_TYPES</a> 和 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表的 SQL Server 语句是用于英语转换值的。因此，需要对它们进行修改之后才能用于其他语言。</p>
+<p>若要直接在数据库中修改项目数据，Project 提供了四种存储过程用于备份任务、资源、工作分配和链接数据。有关详细信息，请参阅下面的<a href="#ensuringDataIntegrity">确保数据完整性</a>部分。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="performanceTuning" name="performanceTuning">性能调整</a></h3>
+<p>通常适用于调整 SQL Server 数据库性能的标准过程也同样适用于 Project 数据库。</p>
+<a href="#top">页首</a>
+
+<h3>
+<a id="ensuringDataIntegrity" name="ensuringDataIntegrity">确保数据完整性</a></h3>
+<p>由于 Project 需要向特定数据库结构中写入数据和从中读取数据，所以对数据库的某些更改可能会破坏数据库中的项目，并使 Project 无法打开或保存部分或全部项目。以下操作可能会破坏存储于数据库中的项目： </p>
+<ul>
+<li>更改保留数据列的值。</li>
+<li>重命名列或表。</li>
+<li>删除列或表。</li>
+<li>更改列的数据类型。</li>
+</ul>
+<p>Project 在从数据库（或任何其他外部格式）读取项目时将校验某些数据。下列情形可能导致 Project 显示警告、将数据更改为适当值或根本不读取数据： </p>
+<ul>
+<li>数据类型不兼容。</li>
+<li>值超出允许范围。</li>
+<li>值在项目中产生了不一致问题。</li>
+<li>值是某个关联数学关系的组成部分。
+</li>
+<li>值是由 Project 自动计算的。 
+</li>
+</ul>
+<p><b>注释</b>  如果更改的任何数据包含 Project 不能接受的错误，将恢复最初的数据。</p>
+<p>若要防止更改的任务、资源、工作分配和链接（任务相关性）数据中的错误导致 Project 数据库中的不一致问题，应当在 <a href="#MSP_TASKS">MSP_TASKS</a>、<a href="#MSP_RESOURCES">MSP_RESOURCES</a>、<a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 和 <a href="#MSP_LINKS">MSP_LINKS</a> 表的 XT_EDIT_REF_DATA 列中分别备份原始数据。Project 使用此数据帮助判断数据库中的哪些列已修改。如果这些修改没有引起上面所列的任何一种情况，将保留修改。</p>
+<p>添加新行时，必须将 EXT_EDIT_REF_DATA 的值设置为 1。更改现有行时，值 1 和下列表中所列出的列中的信息必须分别存储到相应表的 EXT_EDIT_REF_DATA 列中。必须按下列顺序列出所有值，以逗号分隔，并且，如果值为空，在分隔该值的逗号之间不应输入任何内容。</p>
+<table>
+<tr>
+<th>任务域</th>
+<th>资源域</th>
+<th>工作分配域</th>
+<th>链接域</th>
+</tr>
+<tr>
+<td>实际工时</td>
+<td>成本累算</td>
+<td>工作分配单位</td>
+<td>链接类型</td>
+</tr>
+<tr>
+<td>工时</td>
+<td>开始可用</td>
+<td>开始时间</td>
+<td>链接延隔时间</td>
+</tr>
+<tr>
+<td>剩余工时</td>
+<td>可用到</td>
+<td>完成时间</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>工期</td>
+<td>
+</td>
+<td>工作分配延迟</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>实际工期</td>
+<td>
+</td>
+<td>资源调配延迟</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>剩余工期</td>
+<td>
+</td>
+<td>实际开始时间</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>开始时间</td>
+<td>
+</td>
+<td>实际完成时间</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>完成时间</td>
+<td>
+</td>
+<td>实际工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>限制类型</td>
+<td>
+</td>
+<td>剩余工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>限制日期</td>
+<td>
+</td>
+<td>正常工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>实际开始时间</td>
+<td>
+</td>
+<td>工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>实际完成时间</td>
+<td>
+</td>
+<td>实际加班工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>停止</td>
+<td>
+</td>
+<td>剩余加班工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>重新开始</td>
+<td>
+</td>
+<td>加班工时</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>完成百分比</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>成本</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>固定成本</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>实际成本</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>资源调配延迟</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+
+<tr>
+<td>工时完成百分比</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>任务固定成本累算</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<p>为了能更轻松地在更新之前备份任务、资源、工作分配和链接数据，Project 提供了存储过程（对于 Microsoft Access 数据库中的项目而言是操作查询）来自动完成该过程。Project 将在创建数据库表时，在 SQL Server 中完成存储过程的创建工作。对于要执行存储过程的非所有者用户，必须授予他们 EXECUTE 权限。如果表是手动创建的，必须运行随 Project 提供的用于创建存储过程的脚本，以创建这些存储过程。</p>
+<p>在 Project 数据库表中放置触发器可能导致数据损坏或返回未知结果。请注意下列信息：</p>
+<ul>
+<li>INSERT 或 UPDATE 触发器所启动的任何过程均不会改变 @@identity 属性。</li>
+<li>INSERT 或 UPDATE 触发器所触发的程序不应执行在表中插入“标识”列的 INSERT 操作，否则该程序将生成由 Microsoft SQL Server 2000 创建的“标识”值。</li>
+</ul>
+<p>如果为 Project 数据库中所存储的数据使用逗号分隔符，当使用存储过程更新该数据时，逗号分隔符将保存到 EXT_EDIT_REF_DATA 域中。这将影响 Project 数据的完整性。若要使用逗号分隔符，请使用引号将包含逗号的所有数据引起来。以下脚本示例显示如何修改现有的资源、工作分配和任务存储过程，以便在将数据备份到 Project 数据库的 EXT_EDIT_REF_DATA 域中时能够正确地处理小数点和逗号之间的数据转换。</p><p>对于工作分配：</p><pre><code>Update    MSP_ASSIGNMENTS
+Set       EXT_EDIT_REF_DATA = '1,' &amp;
+          ASSN_UNITS &amp;  ',' &amp;
+          ASSN_START_DATE &amp; ',' &amp;
+          ASSN_FINISH_DATE &amp; ',' &amp;
+          ASSN_DELAY &amp; ',' &amp;
+          ASSN_LEVELING_DELAY &amp; ',' &amp;
+          ASSN_ACT_START &amp; ',' &amp;
+          ASSN_ACT_FINISH &amp; ',' &amp;
+          ASSN_ACT_WORK &amp; ',' &amp;
+          ASSN_REM_WORK &amp; ',' &amp;
+          ASSN_REG_WORK &amp; ',' &amp;
+          ASSN_WORK &amp; ',' &amp;
+          ASSN_ACT_OVT_WORK &amp; ',' &amp;
+          ASSN_REM_OVT_WORK &amp; ',' &amp;
+          ASSN_OVT_WORK
+Where     PROJ_ID=[PROJ ID] 
+And       ASSN_UID=[ASSN UID];</code></pre><p>对于资源：</p><pre><code>Update    MSP_RESOURCES
+Set       EXT_EDIT_REF_DATA = '1,' &amp;
+          RES_ACCRUE_AT &amp;  ',' &amp;
+          RES_AVAIL_FROM &amp; ',' &amp;
+          RES_AVAIL_TO
+Where     PROJ_ID=[PROJ ID] 
+And       RES_UID=[RES UID];
+</code></pre><p>对于任务：</p><pre><code>Update    MSP_TASKS
+Set       EXT_EDIT_REF_DATA = '1,' &amp;
+          TASK_ACT_WORK &amp; ',' &amp;
+          TASK_WORK &amp;  ',' &amp;
+          TASK_REM_WORK &amp; ',' &amp;
+          TASK_DUR &amp; ',' &amp;
+          TASK_ACT_DUR &amp; ',' &amp;
+          TASK_REM_DUR &amp; ',' &amp;
+          TASK_START_DATE &amp; ',' &amp;
+          TASK_FINISH_DATE &amp; ',' &amp;
+          TASK_CONSTRAINT_TYPE &amp; ',' &amp;
+          TASK_CONSTRAINT_DATE &amp; ',' &amp;
+          TASK_ACT_START &amp; ',' &amp;
+          TASK_ACT_FINISH &amp; ',' &amp;
+          TASK_STOP_DATE &amp; ',' &amp;
+          TASK_RESUME_DATE &amp; ',' &amp;
+          TASK_PCT_COMP &amp; ',' &amp;
+          TASK_COST &amp; ',' &amp;
+          TASK_FIXED_COST &amp; ',' &amp;
+          TASK_ACT_COST &amp; ',' &amp;
+          TASK_LEVELING_DELAY &amp; ',' &amp;
+          TASK_PCT_WORK_COMP &amp; ',' &amp;
+          TASK_FIXED_COST_ACCRUAL
+Where     PROJ_ID=[PROJ ID] 
+And       TASK_UID=[TASK UID];</code></pre><br><a href="#top">页首</a>
+<h2>
+<a id="informationIsStored" name="informationIsStored">信息在 Project 数据库中的存储方式</a></h2>
+<p>本部分简要说明不同类型的数据在数据库中的存储方式。</p>
+<h3>
+<a id="calendarData" name="calendarData">日历数据</a></h3>
+<p>Project 将日历信息保存到两个表中：</p>
+<ul>
+<li>
+<a href="#MSP_CALENDARS">MSP_CALENDARS</a> 表所包含的信息用于标识日历和将该日历作为基准日历的资源。</li>
+<li>
+<a href="#MSP_CALENDAR_DATA">MSP_CALENDAR_DATA</a> 表包含日历的工作时间、非工作时间和例外时间数据，这些数据应用于日历中指定的一天或几天。标准工作时间和非工作时间由日历定义，因为这是由日历和工作时间选项所限制的。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="timephasedData" name="timephasedData">时间分段数据</a></h3>
+<p>对时间分段数据的存储进行了优化：单行中最多可包含七个时间段（通常为天）的值，从而减少了所需创建的行数。每行都包含数据值所对应的开始日期和结束日期以及时间刻度单位。这里的数据值是对应于指定时间刻度单位的时间、成本或完成百分比值。例如，如果记录类型为成本而单位为周，每个数据值将包含“￥/周”。</p>
+<p>若要在 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表中以可读格式保存时间分段数据，请执行下列操作：</p>
+<table>
+<tr>
+<td><b class="bterm">1</b></td>
+<td>
+ 
+</td>
+<td>单击<b class="ui">“工具”</b>|<b class="ui">“选项”</b>。</td>
+</tr>
+<tr>
+<td><b class="bterm">2</b></td>
+<td>
+ 
+</td>
+<td>选择<b class="ui">“保存”</b>选项卡。</td>
+</tr>
+<tr>
+<td><b class="bterm">3</b></td>
+<td>
+ 
+</td>
+<td>选中<b class="ui">“将时间同步数据追加到数据库中”</b>，它对应于 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_OPT_EXPAND_TIMEPHASED 列。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="notes" name="notes">备注</a></h3>
+<p>Project 中简化了备注的存储。现在，备注存储在 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a>、<a href="#MSP_RESOURCES">MSP_RESOURCES</a>、<a href="#MSP_TASKS">MSP_TASKS</a> 和各个表的 RTF 列中。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="customFieldValues" name="customFieldValues">自定义域值</a></h3>
+<p>自定义域的值存储于下列表中：</p>
+<ul>
+<li>
+<a href="#MSP_DATE_FIELDS">MSP_DATE_FIELDS</a> 包含自定义开始日期和完成日期。</li>
+<li>
+<a href="#MSP_DURATION_FIELDS">MSP_DURATION_FIELDS</a> 包含自定义工期。</li>
+<li>
+<a href="#MSP_FLAG_FIELDS">MSP_FLAG_FIELDS</a> 包含自定义标志信息。</li>
+<li>
+<a href="#MSP_NUMBER_FIELDS">MSP_NUMBER_FIELDS</a> 包含自定义成本和数字值。</li>
+<li>
+<a href="#MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a> 包含自定义文本信息。</li>
+</ul>
+<p>这些表中的每一行表示一个确定的任务、资源或工作分配以及特定的自定义域（如 MSP_TEXT_FIELDS 中的 TEXT1），并包含指定任务、资源或工作分配中该域的值。</p>
+<p>自定义 WBS 代码掩码定义存储于 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 和 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 表中。每个任务的工作分解结构 (WBS) 代码存储于 <a href="#MSP_TASKS">MSP_TASKS</a> 表中。</p>
+<p>自定义大纲代码存储于 <a href="#MSP_OUTLINE_CODES">MSP_OUTLINE_CODES</a> 和 <a href="#MSP_CODE_FIELDS">MSP_CODE_FIELDS</a> 表中。与日期、工期、标志、数字和文本自定义域表一样，MSP_CODE_FIELDS 表也会引用特定的任务、资源或工作分配。引用的每个任务、资源或工作分配的大纲代码都从 MSP_OUTLINE_CODES 表中的行进行构造。这些大纲代码的定义存储于 MSP_ATTRIBUTE_STRINGS 和 MSP_FIELD_ATTRIBUTES 表中。</p><p>多值大纲代码存储在 <a href="#MSP_OUTLINE_CODES">MSP_MV_FIELDS</a> 表中。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="splitTasks" name="splitTasks">拆分任务</a></h3>
+<p>拆分任务的非工作时间存储于 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表中工时为零小时的行中。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="taskLinks" name="taskLinks">任务链接</a></h3>
+<p>任务链接（或相关性）存储于 <a href="#MSP_LINKS">MSP_LINKS</a> 表中。每行定义一个前置任务与后续任务之间的关联。每行只定义一个这样的关联。当任务有多个链接时，每个链接都需要一行来定义。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="estimatedDurationValues" name="estimatedDurationValues">估计工期值</a></h3>
+<p>估计工期只是将每个任务的工期以估计值的格式显示出来。如果工期的估计标志设为 1，该工期将显示为估计值。若要将自定义工期域显示为估计值，请将 DUR_FMT 列设为相应值（请参阅下面的<a href="#useTextConversion">使用文本转换表检索字符串</a>）。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="baselines" name="baselines">比较基准</a></h3>
+<p>比较基准数据存储于三个表中：<a href="#MSP_ASSIGNMENT_BASELINES">MSP_ASSIGNMENT_BASELINES</a>、<a href="#MSP_RESOURCE_BASELINES">MSP_RESOURCE_BASELINES</a> 和 <a href="#MSP_TASK_BASELINES">MSP_TASK_BASELINES</a>。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="workingWithDBProjects" name="workingWithDBProjects">使用 Project 数据库中的项目</a></h2>
+<p>使用 Project 数据库时，不能执行下列任何一种操作：</p>
+<ul>
+<li>删除由 Project 创建的任何表。</li>
+<li>删除由 Project 创建的表中的任何列。</li>
+<li>更改任何列的数据类型。</li>
+<li>以任何方式改变 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 RESERVED_BINARY_DATA 列。</li>
+</ul>
+<p>您可能已经注意到，Project 中的某些表在其各自的 UID 列中含有大的负数值的记录。这些记录一般显示在 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a>、<a href="#MSP_CALENDARS">MSP_CALENDARS</a>、MSP_PROJECTS、<a href="#MSP_RESOURCES">MSP_RESOURCES</a> 和 <a href="#MSP_TASKS">MSP_TASKS</a> 表的顶部；这些值为 -65536、-65535、-65534 和 -65533。这些记录在 Project 内部使用，不能编辑和删除。</p>
+<p>如果创建自己的表（请参阅下面的<a href="#creatingDatabaseStructure">创建 Project 数据库结构</a>部分），不能将任何列定义为必需或非空 (NOT NULL)。</p>
+<p><b>注释</b>  以下部分中，代码示例中所提供的代码值可能与数据库中的值不同。请确保按照数据库中的实际值检查代码示例中的所有值。 </p>
+<a href="#top">页首</a>
+<h3>
+<a id="creatingDatabaseStructure" name="creatingDatabaseStructure">创建 Project 数据库结构</a></h3>
+<p>如果您需要从头开始创建一个 Project 数据库，那么最容易的方法是使用 Project 保存一个空项目。创建了数据库之后，您可以在 Project 中将此项目从数据库中删除（请参阅下面的<a href="#deleteProject">删除数据库中的项目</a>）。</p>
+<p>如果不想使用 Project 简化过程，需要通过 ODBC 驱动程序创建空数据库，然后再创建相应的所有表。手动创建所有表的工作很繁杂，因为您要使用本文档作为参考，以保证对每个表都使用完全正确的表名称和列名称，并对每一列使用正确的数据类型。</p>
+<p>若要手动创建和配置供 Project 使用的数据库，请参阅下面的<a href="#configuringTheDatabase">配置数据库</a>部分。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="dsnRequirements" name="dsnRequirements">DSN 要求和限制</a></h3>
+
+<p>在用户身份验证过程中，自动将 Project Server 数据库连接信息从 Project Server 传递到 Project Professional。将 Project Professional 连接到 Project Server 不需要“数据源名称 (DSN)”。</p>
+
+
+
+
+<p>如果多个 Project Standard 用户（以及处于脱机模式的 Project Professional 用户）需要使用 ODBC 访问同一数据库中的项目，更改数据的各用户不需要使用相同的 DSN 连接到数据库。Project 使用以下格式将 DSN 和项目名称（或连接字符串）组合存储为项目定位标识符：&lt;DSN&gt;\ProjectName。但是，相互链接的项目（例如，使用跨项目链接）需要使用相同的 DSN。</p>
+<p>使用 Project Standard 或处于脱机模式的 Project Professional 用户的 DSN 限制：</p>
+<ul>
+
+<li>必须为所有项目链接（例如资源库、共享者文件、跨项目链接和插入的项目）使用相同的 DSN。</li><li>如果有多个用户修改数据库，这些用户不应通过在<b class="ui">“另存为”</b>对话框的<b class="ui">“保存类型”</b>列表中选择 .mpd 或 .mdb 文件类型来保存文件。应使用“文件保存”对话框中的“另存为 ODBC”按钮保存文件。</li>
+<li> Project 缓存登录密码和其他连接信息。单台机器上的多个用户标识号不能使用相同的 DSN 同时对数据库进行不同的登录。一旦建立了连接，即使在登录时输入了不同的登录名称和/或密码，也会再次使用该连接。若要用其他用户标识号登录，必须关闭所有用 DSN 打开的项目。如果同时存在多个连接，必须创建其他备选 DSN 才能使用每个用户标识号。</li>
+<li>任何时候都不应使用 DSN 连接 Project Server 数据库。这将导致数据库冲突，并导致数据放置到无法预料的位置。唯一允许连接到 Project Server 数据库的客户端应用程序为处于联机模式的 Project Professional。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="concurrentUsage" name="concurrentUsage">并发使用和项目锁定</a></h3>
+<p>如果通过 Project Standard 打开数据库中的项目，并且当前没有其他用户使用该项目，您对该项目将具有完全的读/写权限。在您结束对该项目的会话之前，其他用户将只能在 Project 中以只读方式打开该项目。 </p>
+<p>用于管理并发访问的读/写访问权限和其他一些属性全部由数据库 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 5 个列来维护。只有当用户使用 Project 读取或更新数据库时，这些管理并发访问的列的使用才生效。用户使用数据库查询程序或其他工具直接读取或更新数据库时，Project 不提供任何类型锁定。因此，用来读取或更新数据库中项目数据的任何程序或工具都应遵照与 Project 中相同的规则，以保证数据访问的一致性。下面将说明管理并发访问的列的使用。</p>
+<p>当通过 Project 用“读/写”访问权限打开项目时，Project 在 PROJ_READ_WRITE 和 PROJ_READ_ONLY 列中存储值 1。当完成会话并关闭数据库时，域值将重新设置为 0。当 Project 从数据库中进行加载或写入到数据库时，它也会将 PROJ_LOCKED 和 PROJ_READ_COUNT 列的值设置为 1。当这些域的值为 1 时，使用 Project 的任何用户都不可能（甚至以只读的方式）打开项目。</p>
+<p> Project 存储当前打开项目以在 PROJ_MACHINE_ID 列中进行读/写访问的机器名称。当为了更新数据库中的项目数据而将 PROJ_READ_WRITE 设置为 1 时，建议将列 PROJ_MACHINE_ID 设置为您计算机的名称，以便试图通过 Project 打开项目的任何用户都会得到正确的消息，此消息通知他们该项目当前由您打开进行读/写访问。否则，Project 无法识别打开项目进行读/写访问的用户。如果您准备允许再次对项目进行读/写访问，在将这些标志重新设置为 0 时，您应再次将 PROJ_MACHINE_ID 域设置为 NULL。</p>
+<p>在直接对数据库进行更新之前，应先检查所有这些标志是否都设置为 0，然后暂时将它们设置为 1，以防止其他用户通过 Project 打开项目。</p>
+<p>请复制、修改并执行下列 SQL 更新语句，以锁定要更新的项目：</p>
+<pre>
+<code>Update    MSP_PROJECTS
+Set       PROJ_READ_ONLY = '1',
+          PROJ_READ_WRITE = '1',
+          PROJ_READ_COUNT = '1',
+          PROJ_LOCKED = '1',
+          PROJ_MACHINE_ID = 'your computer or application name'
+Where     PROJ_ID = 1</code>
+</pre>
+<p>请复制、修改并执行下列 SQL 更新语句，以在完成更新之后解除对项目的锁定：</p>
+<pre>
+<code>Update    MSP_PROJECTS
+Set       PROJ_READ_ONLY = '0',
+          PROJ_READ_WRITE = '0',
+          PROJ_READ_COUNT = '0',
+          PROJ_LOCKED = '0',
+          PROJ_MACHINE_ID = null
+Where     PROJ_ID = 1</code>
+</pre>
+<p><b>注释</b>  如果某个用户拥有通过 Project 以读/写方式访问数据库中项目的权限，而另一个用户直接在此数据库中更改了此项目中的数据，那么这些更改不会在 Project 中反映给第一个用户。此外，如果第一个用户将项目数据存回数据库中，这些数据会覆盖第二个用户直接在数据库中所做的更改。</p>
+
+
+
+<a href="#top">页首</a>
+<h2>
+<a id="addRows" name="addRows">添加和更改数据库中的行</a></h2>
+<h3>
+<a id="setFlags" name="setFlags">将所需标志设置为允许更新数据库中的项目数据</a></h3>
+<p>当在 Project 之外对数据库中的项目数据进行编辑时，任何情况下，<a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_EXT_EDITED 列都必须设置为 1。</p>
+<p>编辑 <a href="#MSP_TASKS">MSP_TASKS</a>、<a href="#MSP_RESOURCES">MSP_RESOURCES</a>、<a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 和 <a href="#MSP_LINKS">MSP_LINKS</a> 表中的现有行时，必须将 EXT_EDIT_REF_DATA 列设置为 1，其后跟随以下表中所列出的列的值（所有值都以逗号分隔）。但在创建新行时，应将 EXT_EDIT_REF_DATA 列设置为 1。</p>
+<p><b>注释</b>  建议使用 Project 所包含的存储过程来更新含有所需值的列。有关详细信息，请参阅<a href="#ensuringDataIntegrity">确保数据完整性</a>。 </p>
+<table>
+<tr>
+<th>MSP_TASKS</th>
+<th>MSP_RESOURCES</th>
+<th>MSP_ASSIGNMENTS</th>
+
+<th>MSP_LINKS</th>
+</tr>
+<tr>
+<td>TASK_ACT_WORK</td>
+<td>RES_ACCRUE_AT</td>
+<td>ASSN_UNITS</td>
+<td>LINK_TYPE</td>
+</tr>
+<tr>
+<td>TASK_WORK</td>
+<td>RES_AVAIL_FROM *</td>
+<td>ASSN_START_DATE</td>
+<td>LINK_LAG</td>
+</tr>
+<tr>
+<td>TASK_REM_WORK</td>
+<td>RES_AVAIL_TO *</td>
+<td>ASSN_FINISH_DATE</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_DUR</td>
+<td>
+</td>
+<td>ASSN_DELAY</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_ACT_DUR</td>
+<td>
+</td>
+<td>ASSN_LEVELING_DELAY</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_REM_DUR</td>
+<td>
+</td>
+<td>ASSN_ACT_START</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_START_DATE</td>
+<td>
+</td>
+<td>ASSN_ACT_FINISH</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_FINISH_DATE</td>
+<td>
+</td>
+<td>ASSN_ACT_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_CONSTRAINT_TYPE</td>
+<td>
+</td>
+<td>ASSN_REM_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_CONSTRAINT_DATE</td>
+<td>
+</td>
+<td>ASSN_REG_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_ACT_START</td>
+<td>
+</td>
+<td>ASSN_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_ACT_FINISH</td>
+<td>
+</td>
+<td>ASSN_ACT_OVT_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_STOP_DATE</td>
+<td>
+</td>
+<td>ASSN_REM_OVT_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_RESUME_DATE</td>
+<td>
+</td>
+<td>ASSN_OVT_WORK</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_PCT_COMP</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_COST</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_FIXED_COST</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_ACT_COST</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_LEVELING_DELAY</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_PCT_WORK_COMP</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>TASK_FIXED_COST_ACCRUAL</td>
+<td>
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<p><b>注释</b>  即使备份了 RES_AVAIL_FROM 和 RES_AVAIL_TO 列，也不应对它们进行更新。这些域是针对特定资源从 <a href="#MSP_AVAILABILITY">MSP_AVAILABILITY</a> 表提取出来的，提取方法是：从 MSP_AVAILABILITY 表中该资源的 AVAIL_FROM 值中提取出最早日期值，并从 AVAIL_TO 中提取出最晚日期值。对资源可用性的更改应在 MSP_AVAILABILITY 表中进行。</p>
+<p>更新自定义域的数据时，必须在 MSP_PROJECTS 表中设置下列标志：</p>
+<table>
+<tr>
+<th>MSP_PROJECTS 中的标志</th>
+<th>表标志引用</th>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_DATE</td>
+<td>MSP_DATE_FIELDS</td>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_DUR</td>
+<td>MSP_DURATION_FIELDS</td>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_FLAG</td>
+<td>MSP_FLAG_FIELDS</td>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_NUM</td>
+<td>MSP_NUMBER_FIELDS</td>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_CODE</td>
+<td>MSP_CODE_FIELDS</td>
+</tr>
+<tr>
+<td>PROJ_EXT_EDITED_TEXT</td>
+<td>MSP_TEXT_FIELDS</td>
+</tr>
+</table>
+<p>更新 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 和 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 表时，MSP_FIELD_ATTRIBUTES 表的每个已修改的或新的行中，ATTRIB_EXT_EDITED 列必须设置为 1。更新 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表时，必须将 TD_EXT_EDITED 列设置为 1。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyTimes" name="specifyTimes">在指定日期的同时指定时间</a></h3>
+<p>当您直接在数据库中输入日期值时，应当同时包括时间。如果不指定时间，数据库的日期时间列将使用默认时间，而这可能导致无法预料的结果。数据库列的默认时间一般为午夜 12:00，这对于大多数日历来说通常是非工作时间。当 Project 遇到午夜 12:00，它会将这个时间调整为“下一个”最接近的工作时间（对于开始时间）或“上一个”最接近的工作时间（对于完成时间）。</p>
+<p>因此，如果您在指定日期时没有同时指定时间，可能导致下列情形：假定您将任务的开始日期设为星期一的日期，将完成日期设为星期五的日期，从而认为在数据库中创建了一项 5 个工作日的任务。但是数据库中的星期一时间实际为星期一的午夜 12:00，因此 Project 会将它调整为星期一的 8:00 A.M.（根据日历的默认开始时间）。不过对于星期五，默认时间是星期五的午夜 12:00.，因而会被调整到星期四的 5:00 P.M.（日历的默认完成时间）。这样一来，原本安排了 5 个工作日的任务在 Project 中读出后就变得只有 4 个工作日了。如果您总是在每个日期/时间列中明确指定时间，就可以避免出现上述问题。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="durationWorkRateCost" name="durationWorkRateCost">工期、工时、费率和成本值</a></h3>
+<p> Project 将所有的工期、工时、成本和费率域保存到数据库中两个不同的列内。第一列是工期值、工时值或费率值，第二列是相应的格式 (FMT) 列（如 TASK_DUR_FMT）。如果更改了数据库的 FMT 列中的值，它不会影响相应工期、工时、费率和成本列的值，Project 将这些值保存为绝对值。FMT 列只是指出 Project 将使用哪个单位标签显示该值。</p>
+<p>通过执行下列查询（将 TASK_UID 和 PROJ_ID 替换适当的值）可确定特定任务的任务工期格式：</p>
+<pre>
+<code>Select    TASK_UID, CONV_STRING, TASK_NAME 
+From      MSP_TASKS t, MSP_CONVERSIONS c, MSP_STRING_TYPES s
+Where     t.TASK_DUR_FMT = c.CONV_VALUE and
+          c.STRING_TYPE_ID = s.STRING_TYPE_ID and
+          s.STRING_TYPE = 'Display Units' and
+          t.TASK_UID = 4 and
+          t.PROJ_ID = 1</code>
+</pre>
+<p>因为工期、工时、费率和成本值可以用不同的单位显示，Project 在保存它们时采用一种标准的乘法：</p>
+<ul>
+<li>工期值保存为分钟 * 10。这样，八小时将保存为 4800（即 8X60X10）。 
+</li>
+<li>工时值保存为分钟 * 1000。八小时将保存为 480000（即 8X60X1000）。
+</li>
+<li>费率值保存为单位/小时。例如，每小时 15 元将保存为 15。
+</li>
+<li>成本域保存为单位 * 100。例如，七十元两角五分将保存为 7025。 
+</li>
+</ul>
+<p><b>注释</b>  对于时间分段数据单位，除了 y（或年）以外的所有格式都是有效的。年只能用于“成本费率”。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="useTextConversion" name="useTextConversion">使用文本转换表检索字符串</a></h3>
+<p>为了使不同语言版本的 Project 都能读取数据库中的项目，某些列的内容被转换成了数字常数。Project 向数据库中写入了两张包含以下列的转换信息的表：<a href="#MSP_STRING_TYPES">MSP_STRING_TYPES</a> 表包含枚举域类别和域名称之间的映射关系；<a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表包含数字常数和每个域可能的文本值之间的映射关系。下列域类别将被转换为数字常数：</p>
+<table>
+<tr>
+<th>域类别</th>
+<th>属于此类别的域</th>
+<th>来自表</th>
+</tr>
+<tr>
+<td>周内日期</td>
+<td>Weekday</td>
+<td>MSP_CALENDARS</td>
+</tr>
+<tr>
+<td>日程排定开始时间</td>
+<td>ScheduleFromProjectFinish</td>
+<td>MSP_PROJECTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ScheduleFromProjectStart</td>
+<td>MSP_PROJECTS</td>
+</tr>
+<tr>
+<td>成本累算</td>
+<td>AccrueAt</td>
+<td>MSP_PROJECTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FixedCostAccrual</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DefaultFixedCostAccrual</td>
+<td>MSP_LINKS</td>
+</tr>
+<tr>
+<td>链接类型</td>
+<td>LinkType</td>
+<td>MSP_PROJECTS</td>
+
+
+</tr>
+<tr>
+<td>显示单位</td>
+<td>LinkLagDisplayUnits</td>
+<td>MSP_LINKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DelayDisplayUnits</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DurationDisplayUnits</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineDurationDisplayUnits</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DelayDisplayUnits</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DurationDisplayUnits</td>
+<td>MSP_DURATION_FIELDS</td>
+</tr>
+<tr>
+<td>成本费率单位</td>
+<td>StandardRateDisplayUnits</td>
+<td>MSP_RESOURCES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>OvertimeRateDisplayUnits</td>
+<td>MSP_RESOURCES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>StandardRateDisplayUnits</td>
+<td>MSP_RESOURCE_RATES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>OvertimeRateDisplayUnits</td>
+<td>MSP_RESOURCE_RATES</td>
+</tr>
+<tr>
+<td>工时分布类型</td>
+<td>WorkContour</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>限制类型</td>
+<td>ConstraintType</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>任务类型</td>
+<td>Type</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DefaultTaskType</td>
+<td>MSP_PROJECTS</td>
+</tr>
+<tr>
+<td>日历工作日</td>
+<td>Working</td>
+<td>MSP_CALENDAR_DATA</td>
+</tr>
+<tr>
+<td>类别类型</td>
+<td>CategoryType</td>
+<td>MSP_DATE_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CategoryType</td>
+<td>MSP_DURATION_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CategoryType</td>
+<td>MSP_NUMBER_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CategoryType</td>
+<td>MSP_TEXT_FIELDS</td>
+</tr>
+<tr>
+<td>域标识号</td>
+<td>FieldID</td>
+<td>MSP_DATE_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FieldID</td>
+<td>MSP_DURATION_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FieldID</td>
+<td>MSP_NUMBER_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FieldID</td>
+<td>MSP_TEXT_FIELDS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FieldID</td>
+<td>MSP_FIELD_ATTRIBUTES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>FieldID</td>
+<td>MSP_FIELD_CODES</td>
+</tr>
+<tr>
+<td>工作组消息</td>
+<td>Workgroup</td>
+<td>MSP_RESOURCES</td>
+</tr>
+<tr>
+<td>货币符号位置</td>
+<td>CurrencyPosition</td>
+<td>MSP_PROJECTS</td>
+</tr>
+<tr>
+<td>域属性</td>
+<td>OutlineCodeName</td>
+<td>MSP_OUTLINE_CODES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>WBSMask</td>
+<td>MSP_FIELD_ATTRIBUTES</td>
+</tr>
+<tr>
+<td>时间分段分布类型</td>
+<td>RemainingWork</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ActualWork</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ActualOvertimeWork</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineWork</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineCost</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ActualCost</td>
+<td>MSP_ASSIGNMENTS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineWork</td>
+<td>MSP_RESOURCES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineCost</td>
+<td>MSP_RESOURCES</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineWork</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>BaselineCost</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PercentComplete</td>
+<td>MSP_TASKS</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>Splits</td>
+<td>MSP_TIMEPHASED_DATA</td>
+</tr>
+</table>
+<p>可将来自不同语言版本的 Project 中的项目存储到同一个数据库中。在第一次将新语言表示的项目保存到数据库时，Project 会向 MSP_STRING_TYPES 和 MSP_CONVERSIONS 表中添加与该语言对应的值。</p>
+<p><b>注释</b>  保存到数据库时，Project 计算机和数据库服务器的代码页必须相同。</p>
+<p>在选择将部分项目数据保存到数据库时，如果 MSP_STRING_TYPES 和 MSP_CONVERSIONS 表中没有转换字符串，Project 将创建转换字符串。</p>
+<p> 各种语言版本的 Project 数据库中的表名称和列名称都用英文表示。如果更改了数据库中某个表的名称，有可能破坏该数据库，从而导致 Project 不能读取该表乃至整个项目。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="creatingProjectScheduleData" name="creatingProjectScheduleData">创建项目日程数据</a></h2>
+<p><b>注释</b>  本部分中的信息并不是都可以应用于（可能有所不同）Project server 数据库中所存储的企业项目数据。建议只使用 PDS、Project Professional 或 Project Web Access 与 Project Server 数据库中的企业项目数据进行交互。</p><h3>
+<a id="createNewProject" name="createNewProject">创建新的非企业项目</a></h3>
+<p>若要在数据库中新建项目，必须向 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中添加新行，并在 <a href="#MSP_TASKS">MSP_TASKS</a> 表中创建项目摘要任务。请参阅下面的<a href="#createNewTask">新建任务</a>、<a href="#createNewResource">新建资源</a>和<a href="#createNewAssignment">新建工作分配</a>。然后，若要向项目中添加相关的任务、资源和工作分配，必须如下所述创建任务、资源和工作分配行。至少必须为下面指定的列输入值。 </p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_NAME</td>
+<td>在项目窗口标题栏中显示的项目名称。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_INFO_START_DATE</td>
+<td>项目的计划开始日期和时间。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以表示该项目是新项目。</td>
+</tr>
+<tr>
+<td>MSP_TASKS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_UID</td>
+<td>任务的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_ID</td>
+<td>任务列表中该任务的位置标识符。</td>
+</tr>
+</table>
+<p><b>注释</b></p>
+<ul>
+<li>对于数据库中的新建项目而言，所有 Boolean 类型的 Project 选项在默认情况下都设置为 0，而不是通常的 Project 默认值。为了确保打开项目之后，Project 能以所期望的方式工作，应将 MSP_PROJECTS 表中的所有选项值设为所期望的设置。</li>
+<li>若要创建从项目完成日期开始排定日程的项目，可将 MSP_PROJECTS 表中的 PROJ_INFO_FINISH_DATE 设置为项目的完成日期（而不是将 PROJ_INFO_START_DATE 设为开始日期），并将 PROJ_INFO_SCHED_FROM 设为 0。 </li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="createInsertedProject" name="createInsertedProject">创建插入项目</a></h3>
+<p>在数据库中创建一个插入项目的过程分为两步：即新建一个任务，然后指定自定义文本域的值。必须向 <a href="#MSP_TASKS">MSP_TASKS</a> 和 <a href="#MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a> 表中添加新的记录，至少要为这些记录指定下列域的值，并要设置 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中外部编辑的标志：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_TASKS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_UID</td>
+<td>包含任务的标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_ID</td>
+<td>任务列表中该任务的位置标识符。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该任务为新任务。</td>
+</tr>
+<tr>
+<td>MSP_TEXT_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_CATEGORY</td>
+<td>设置为 0，以指定一项任务。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_REF_UID</td>
+<td>引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE。</td>
+</tr>
+<tr>
+
+<td>
+</td>
+<td>TEXT_VALUE</td>
+<td>要插入项目的名称。例如： <pre><code>&lt;c:\test.mdb&gt;\my project</code></pre>
+</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED_TEXT</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p><b>注释</b>  从数据库中删除插入项目时，必须删除上面指定的表中与此插入项目有关的所有行。这样做是为了避免在数据库中留下孤立数据，在 Project 中打开数据库时，其中的孤立数据可能会产生无法预料的结果。</p>
+<p>例如，假设在一个数据库中存储了两个项目，现在要将其中一个项目变成另一个项目的插入项目。假定这两个项目存储于一个 .mpd 文件中，并用名为 Projects 的 DSN 来访问该文件，项目名称分别为 Master Project 和 Subproject。首先您必须在 Master Project 中创建一个包容插入项目的任务。这条记录将以如下形式出现在 MSP_TASKS 表中：</p>
+<table>
+<tr>
+<th>域</th>
+<th>值</th>
+</tr>
+<tr>
+<td>PROJ_ID</td>
+<td>1</td>
+</tr>
+<tr>
+<td>TASK_UID</td>
+<td>5</td>
+</tr>
+<tr>
+<td>TASK_ID</td>
+<td>5</td>
+</tr>
+<tr>
+<td>TASK_NAME</td>
+<td>My subproject</td>
+</tr>
+<tr>
+<td>EXT_EDIT_REF_DATA</td>
+<td>1</td>
+</tr>
+</table>
+<p>此处的 TASK_ID 和 TASK_UID 只是用于演示目的，并无实质意义。重要的是要记住它们在当前项目的所有标识号中必须是唯一的。插入此任务之后，您必须指定此插入项目文件的名称。例如，向 MSP_TEXT_FIELDS 表中添加以下行：</p>
+<table>
+<tr>
+<th>域</th>
+<th>值</th>
+</tr>
+<tr>
+<td>PROJ_ID</td>
+<td>1</td>
+</tr>
+<tr>
+<td>TEXT_CATEGORY</td>
+<td>0</td>
+</tr>
+<tr>
+<td>TEXT_REF_UID</td>
+<td>5</td>
+</tr>
+<tr>
+<td>TEXT_FIELD_ID</td>
+<td>188743706</td>
+</tr>
+<tr>
+<td>TEXT_VALUE</td>
+<td>4800</td>
+</tr>
+</table>
+<p>PROJ_ID 的值必须引用 MSP_PROJECTS 表中的有效标识号。本例中，由于我们要设置任务文本域，所以 TEXT_CATEGORY 为 0。TEXT_REF_UID 的值直接从 MSP_TASKS 表中的 TASK_UID 列获取。TEXT_FIELD_ID 的值取自 MSP_CONVERSIONS 表的 CONV_VALUE 列中 CONV_STRING 等于“任务子项目文件”的记录。TEXT_VALUE 域获取实际项目名。</p>
+<p>为了使 Project 能够读取此行，必须将 MSP_PROJECTS 表中的 PROJ_EXT_EDITED_TEXT 标志设为 1。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="createNewResource" name="createNewResource">创建新的非企业资源</a></h3>
+<p>若要在数据库中创建一项新资源，必须向 <a href="#MSP_RESOURCES">MSP_RESOURCES</a> 表中添加一个新行，并至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_RESOURCES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_UID</td>
+<td>资源的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_ID</td>
+<td>资源列表中该资源的位置标识符。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_NAME</td>
+<td>资源名称。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_TYPE</td>
+<td>资源类型，或者为“工时”(0)，或者为“材料”(1)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>以下 SQL 插入语句经修改可以用于插入新的工时资源。 </p>
+<pre>
+<code>Insert into MSP_RESOURCES (
+              PROJ_ID,
+              RES_UID,
+
+              RES_ID,
+              RES_NAME,
+              RES_TYPE,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              4,
+              4,
+              'John Smith',
+              0,
+              '1' )</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="createNewCalendar" name="createNewCalendar">创建新的非企业日历</a></h3>
+<p>可以为项目或非企业资源创建日历。还可以选择将基准日历应用于任务。项目基准日历隐含定义了其他基准日历和资源日历的工作时间。日历数据存储于 <a href="#MSP_CALENDARS">MSP_CALENDARS</a> 表中。日历工作时间和例外日期存储于 <a href="#MSP_CALENDAR_DATA">MSP_CALENDAR_DATA</a> 表中（有关详细信息，请参阅<a href="#specifyCalendar">指定日历的工作时间和例外日期</a>）。若要新建日历，必须创建一个新行，并且至少要输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_CALENDAR_DATA</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CAL_ UID</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CAL_BASE_UID</td>
+<td>引用其父基准日历的日历。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CAL_IS_BASE_CAL</td>
+<td>指示此日历是否为基准日历；如果是基准日历，其值为 -1。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CAL_NAME</td>
+<td>日历名称。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要创建新的基准日历，请复制、修改并执行下列 SQL 插入语句：</p>
+<pre>
+<code>Insert into MSP_CALENDARS (
+              PROJ_ID,
+
+              CAL_UID,
+              CAL_BASE_UID,
+              CAL_IS_BASE_CAL,
+              CAL_NAME )
+          values (
+              3,
+              4,
+              -1,
+              1,
+              'new base calendar' )
+</code>
+</pre>
+<p>若要创建新的资源日历，请复制、修改并执行下列 SQL 插入语句：</p>
+<pre>
+<code>Insert into MSP_CALENDARS (
+              PROJ_ID,
+              CAL_UID,
+              CAL_BASE_UID,
+              RES_UID,
+              CAL_IS_BASE_CAL )
+          values (
+              3,
+              5,
+              2,
+              4,
+              0 )</code>
+</pre>
+<p><b>注释</b></p>
+<ul>
+<li>删除指定给任务的日历可能会导致应用于该任务的实际工时发生移动。</li>
+<li>建议不要修改 CAL_UID 值。修改 CAL_UID 值可能会导致数据不一致。</li>
+<li>指定的日历名称超过 51 个字符可能会导致数据不一致。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyCalendar" name="specifyCalendar">指定日历的工作时间和例外日期</a></h3>
+<p>日历的标准工作时间和例外日期都存储于 <a href="#MSP_CALENDAR_DATA">MSP_CALENDAR_DATA</a> 表中。必须为每个工作日和非工作日插入一行。此外，必须为每个例外时间段插入一行。若要指定日历的工作日，必须插入一行，并且至少输入以下列的值：</p>
+<p><b>注释</b>  不能使用本示例为企业资源指定日历工作时间和例外日期。</p><table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_CALENDAR_DATA</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CD_UID</td>
+<td>日历的工作时间、非工作时间和例外日期数据的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CAL_ UID</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+
+<tr>
+<td>
+</td>
+<td>CD_DAY_OR_EXCEPTION</td>
+<td>指示日历是否具有已定义的工作日（1-7 分别将工作日定义为星期日到星期六），或者它是否为例外日期 (0)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CD_WORKING</td>
+<td>指示所选日期为工作日 (1) 还是非工作日 (0)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CD_FROM_TIME1</td>
+<td>包含工作日的起始日期和时间。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CD_TO_TIME1</td>
+<td>包含工作日的结束日期和时间。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p><b>注释</b>  如果日历为例外日期（由 CD_DAY_OR_EXCEPTION 判断），将使用 CD_FROM_DATE 和 CD_TO_DATE，而不用 CD_FROM_TIME 和 CD_TO_TIME。
+</p>
+<p>若要指定一个日历的工作日和例外日期，请为每个工作日复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_CALENDAR_DATA (
+              PROJ_ID,
+              CD_UID,
+              CAL_UID,
+              CD_DAY_OR_EXCEPTION,
+              CD_WORKING,
+              CD_FROM_TIME1,
+              CD_TO_TIME1,
+              CD_FROM_TIME2,
+              CD_TO_TIME2 )
+          values (
+              3,
+              1,
+              3,
+              2, -- Monday
+              1, -- Working
+              '7/15/2003 8:00:00 AM',
+              '7/15/2003 12:00:00 PM',
+              '7/15/2003 1:00:00 PM',
+              '7/15/2003 5:00:00 PM' )
+</code>
+</pre>
+<p><b>注释</b>  如果 CD_WORKING 设置为 0，不用为 CD_FROM_TIMEn 或 CD_TO_TIMEn 指定值。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyResource" name="specifyResource">指定资源可用性</a></h3>
+<p>若要指定资源的可用性，必须为每个可用时间段向 <a href="#MSP_AVAILABILITY">MSP_AVAILABILITY</a> 表中添加一行，并且输入以下列的值：</p>
+<p><b>注释</b>  不能使用本示例指定企业资源的资源可用性。</p><table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_AVAILABILITY</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AVAIL_UID</td>
+<td>资源可用性的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_UID</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AVAIL_FROM</td>
+<td>资源对所定义时间段可用的日期；忽略日期的时间部分。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AVAIL_TO</td>
+<td>对于所定义的时间段，资源不再可用的日期。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AVAIL_UNITS</td>
+<td>显示的小数部分表示可用时间段的百分比，此时的资源在所定义的时间段内可进行工作。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要指定在从 2003 年 7 月 15 日到 2003 年 7 月 20 日的时间段中资源有 50% 可供使用，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_AVAILABILITY (
+              PROJ_ID,
+              AVAIL_UID,
+              RES_UID,
+              AVAIL_FROM,
+              AVAIL_TO,
+              AVAIL_UNITS )
+          values (
+              3,
+              1,
+              5,
+              '7/15/2003',
+              '7/21/2003',
+              0.5 )</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyResourceRates" name="specifyResourceRates">指定资源费率</a></h3>
+<p>若要为某个资源指定单一费率，必须向 <a href="#MSP_RESOURCE_RATES">MSP_RESOURCE_RATES</a> 表添加一行，并且至少输入以下列的值：</p>
+<p><b>注释</b>  不能使用本示例指定企业资源的资源费率。</p><table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_RESOURCE_RATES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RR_UID</td>
+<td>资源费率的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_UID</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RR_RATE_TABLE</td>
+<td>指定工作分配中对资源使用何种成本费率表；0-4 分别代表成本费率表 A-E。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RR_STD_RATE 或 RR_OVT_RATE 或 RR_PER_USE_COST
+</td>
+<td>必须在这三列中的一列中设置值。费率以每小时多少元表示，每次使用成本表示为元 * 100。如果指定标准或加班费率，可选择将其格式指定为 RR_STD_RATE_FMT 或 RR_OVT_RATE_FMT。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要定义具有生效（起始）日期的费率，必须在 MSP_RESOURCE_RATES 表中插入两行：一行用于没有生效日期的第一个费率，一行用于有生效日期的费率。若要在成本费率表 B 中为资源指定一定日期范围内的每小时标准成本费率和加班成本费率，请复制、修改并运行以下插入语句：</p>
+<pre>
+<code>-- insert the first rate (from date not required)
+Insert into MSP_RESOURCE_RATES (
+              PROJ_ID,
+              RR_UID,
+              RES_UID,
+              RR_RATE_TABLE,
+              RR_TO_DATE,
+              RR_STD_RATE,
+              RR_STD_RATE_FMT,
+              RR_OVT_RATE,
+              RR_OVT_RATE_FMT )
+          values (
+              3,
+              1,
+              5, 
+              1, -- table B
+              '2003-03-15', -- rate end date
+              24.00, -- $24/h standard rate
+              2, -- standard rate format = h = hours
+              36.00, -- $36/h overtime rate
+              2 ) -- overtime rate format = h = hours
+-- insert the second rate
+Insert into MSP_RESOURCE_RATES (
+              PROJ_ID,
+              RR_UID,
+              RES_UID,
+              RR_RATE_TABLE,
+              RR_FROM_DATE,
+              RR_TO_DATE,
+              RR_STD_RATE,
+              RR_STD_RATE_FMT,
+              RR_OVT_RATE,
+              RR_OVT_RATE_FMT )
+          values (
+              3,
+              2,
+              5, 
+              1, -- table B
+              '2003-03-15', -- rate start date
+              '2003-04-15', -- rate end date
+              24.00, -- $24/h standard rate
+              2, -- standard rate format = h = hours
+              36.00, -- $36/h overtime rate
+              2 ) -- overtime rate format = h = hours
+</code>
+</pre>
+<p>若要在表 C 中为资源指定每次使用成本，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_RESOURCE_RATES (
+              PROJ_ID,
+              RR_UID,
+              RES_UID,
+              RR_RATE_TABLE,
+              RR_PER_USE_COST )
+          values (
+              3,
+              3,
+              5, 
+              2, -- table C
+              5000 ) --'- $50.00 per use cost</code>
+</pre>
+<p>若要从指定的资源费率表（A、B、C 等）中删除所有的资源费率，必须删除该资源在该表中现有的所有记录，并创建一项成本为零的记录。 </p>
+<a href="#top">页首</a>
+<h3>
+<a id="createNewTask" name="createNewTask">新建任务</a></h3>
+<p>若要在数据库中创建一项新任务，必须向 <a href="#MSP_TASKS">MSP_TASKS</a> 表中添加一个新行，并至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_TASKS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_UID</td>
+<td>任务的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_ID</td>
+<td>任务列表中该任务的位置标识符。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_NAME</td>
+<td>任务名称；子任务无需名称。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该任务为新任务。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>例如，假设您当前的项目具有 22 项任务，它们的 TASK_UID 和 TASK_ID 都为 1 到 22。如果希望创建一个新的、为期一天的名称为“研究竞争对手”的任务，并且希望该任务是此项目中的第八项任务，应将下列行添加到 MSP_TASKS 表中：</p>
+<table>
+<tr>
+<th>域</th>
+<th>值</th>
+</tr>
+<tr>
+<td>PROJ_ID</td>
+<td>3</td>
+</tr>
+<tr>
+<td>TASK_UID</td>
+<td>23</td>
+</tr>
+<tr>
+<td>TASK_ID</td>
+<td>8</td>
+</tr>
+<tr>
+<td>TASK_NAME</td>
+<td>研究竞争对手</td>
+</tr>
+<tr>
+<td>TASK_DUR</td>
+<td>4800</td>
+</tr>
+<tr>
+<td>EXT_EDIT_REF_DATA</td>
+<td>1</td>
+</tr>
+</table>
+<p>从 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中获取正确的 PROJ_ID。对于 TASK_UID，请使用 23，因为它是下一个可用的数字。将 TASK_ID 设置为 8，以使该任务成为列表中的第八项任务。这需要使后面每个记录的 TASK_ID 移动一个单位，以留出空间（因为 TASK_ID 必须是唯一的）。可执行下列 SQL 更新语句对 TASK_ID 进行重新编号：</p>
+<pre>
+<code>Update    MSP_TASKS 
+Set       TASK_ID = TASK_ID + 1 
+Where     TASK_ID between 8 and 22 and
+          PROJ_ID = 3</code>
+</pre>
+<p>请记住要将 PROJ_ID 的值更改为要重新对其任务进行编号的项目。在对已有任务进行重新编号之后，可执行下列 SQL 插入语句来创建新任务：</p>
+<pre>
+<code>Insert into MSP_TASKS (
+              PROJ_ID,
+              TASK_UID,
+              TASK_ID,
+              TASK_NAME,
+
+              TASK_DUR,
+              TASK_OUTLINE_LEVEL,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              23,
+              8,
+              'my task',
+              4800,
+              1,
+              '1' )</code>
+</pre>
+<p><b>注释</b></p>
+<ul>
+<li>当从文件、表或电子表格中导入任务数据时，将以下面的<a href="#processingOrder">外部编辑数据的处理顺序</a>部分中指定的顺序处理数据。</li>
+<li>如果新任务的任务标识号间具有间隔（如 10、20 等），Project 将重新按顺序指定任务标识号。不能在数据库中的任务标识号间创建间隔。</li>
+<li>在数据库中创建的所有未指定大纲级别的新任务都将插入到 0 级中。如果任务插入在大纲级别较低的两个已有任务之间，那么第二个任务（以及所有后续子任务）都将成为该插入任务的子任务。这可能会改变这些后续任务的大纲级别。</li>
+<li>若要将工期指定为估计值，必须将 TASK_DUR_FMT 列设置为估计显示值。有关设置工期显示值的详细信息，请参阅上面的<a href="#durationWorkRateCost">工期、工时、费率和成本值</a>。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="createRecurringTask" name="createRecurringTask">创建周期性任务</a></h3>
+<p>虽然可以在数据库中创建周期性任务，但最好还是在 Project 中进行创建。这是因为如果直接在数据库中创建周期性任务，Project 中的<b class="ui">“周期性任务信息”</b>对话框不会反映周期性任务的实际设置。在数据库中创建的周期性任务总是默认显示为从当前日期开始在每个星期一重复发生、工期为一天的任务。若要创建周期性任务，必须为摘要任务和周期性子任务的每个实例分别添加一行，并且至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_TASKS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_UID</td>
+<td>任务的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_ID</td>
+<td>任务列表中该任务的位置标识符。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_NAME</td>
+<td>任务名称；子任务无需名称。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_OUTLINE_LEVEL</td>
+<td>指定任务的大纲级别；周期性子任务的级别必须比周期性摘要任务低一个级别。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_IS_RECURRING</td>
+<td>设置为 1，以指定任务是一系列周期性任务中的一部分。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_IS_RECURRING_SUMMARY</td>
+<td>设置为 1，以指定任务是周期性摘要任务。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_IS_ROLLED_UP</td>
+<td>设置为 1，以指定摘要任务条形图显示总成型栏，或指定子任务栏上的信息上卷到摘要任务条形图。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_CONSTRAINT_TYPE
+</td>
+<td>在排定任务日程时应用的限制类型；对子任务来说这是必需的。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该任务为新任务。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要创建一个带有两个周期性子任务的周期性任务，请复制、修改并执行下列三条插入语句：</p>
+<pre>
+<code>-- insert the summary recurring task
+Insert into MSP_TASKS (
+              PROJ_ID,
+              TASK_UID,
+              TASK_ID,
+              TASK_NAME,
+              TASK_OUTLINE_LEVEL,
+              TASK_IS_RECURRING,
+              TASK_IS_RECURRING_SUMMARY,
+              TASK_IS_ROLLED_UP,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              9,
+              9,
+              'my recurring summary task',
+              2, -- outline level
+              1, -- is recurring
+              1, -- is recurring summary
+              1, -- is rolled up
+              '1' ) </code>
+</pre>
+<pre>
+<code>-- insert the first recurring subtask
+Insert into MSP_TASKS (
+              PROJ_ID,
+              TASK_UID,
+              TASK_ID,
+              TASK_OUTLINE_LEVEL,
+              TASK_IS_RECURRING,
+              TASK_IS_RECURRING_SUMMARY,
+              TASK_IS_ROLLED_UP,
+              TASK_CONSTRAINT_TYPE,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              10,
+              10,
+              3, -- outline level
+              1, -- is recurring
+              0, -- is recurring summary
+              1, -- is rolled up
+              4, -- constraint type = 4 = 'Start no earlier than'
+              '1' )</code>
+</pre>
+<pre>
+<code>-- insert the second recurring subtask
+Insert into MSP_TASKS (
+              PROJ_ID,
+              TASK_UID,
+              TASK_ID,
+              TASK_OUTLINE_LEVEL,
+              TASK_IS_RECURRING,
+              TASK_IS_RECURRING_SUMMARY,
+              TASK_IS_ROLLED_UP,
+              TASK_CONSTRAINT_TYPE,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              11,
+              11,
+              3, -- outline level
+              1, -- is recurring
+              0, -- is recurring summary
+              1, -- is rolled up
+              4, -- constraint type = 4 = 'Start no earlier than'
+              '1' )</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="createTaskDependency" name="createTaskDependency">创建任务相关性</a></h3>
+<p>若要在数据库中创建新的任务链接相关性，必须向 <a href="#MSP_LINKS">MSP_LINKS</a> 表添加一个新行，并至少输入以下列的值（这样将创建一个简单的无延隔时间的“完成-开始”型链接）：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_LINKS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>LINK_UID</td>
+<td>链接的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>LINK_PRED_UID</td>
+<td>前置任务的唯一标识号；引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>LINK_SUCC_UID</td>
+<td>后续任务的唯一标识号；引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该链接为新链接。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<pre>
+<code>Insert into MSP_LINKS (
+              PROJ_ID,
+              LINK_UID,
+              LINK_PRED_UID,
+              LINK_SUCC_UID,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              1,
+              1,
+              2,
+              0 ) </code>
+</pre>
+<p>若要指定有别于默认类型的链接类型，请将 LINK_TYPE 列设置为所需的链接类型。可以从 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表的 CONV_VALUE 列中 STRING_TYPE_ID 为 3（代表链接类型）的行中获取链接类型的有效值。有效的链接类型包括：0（完成-完成）、1（完成-开始）、2（开始-完成）和 4（开始-开始）。</p>
+<p>若要在创建链接时指定延隔时间，必须指定以下列：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_LINKS</td>
+<td>LINK_LAG</td>
+<td>指定延隔时间，按工期值（分钟 * 10）指定。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>LINK_LAG_FMT</td>
+<td>指定在 LINK_LAG 中所指定的延隔时间量的格式。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该链接为新链接。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="createNewAssignment" name="createNewAssignment">新建工作分配</a></h3>
+<p>若要在数据库中创建新的工作分配，必须向 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表添加一个新行，并至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_ASSIGNMENTS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ASSN_UID</td>
+<td>工作分配的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TASK_UID</td>
+<td>引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>RES_UID</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ASSN_UNITS</td>
+<td>资源分配给任务的单位百分数，表示为 100% 的百分数（假设资源的 MaxUnits 值为 100%）</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ASSN_WORK</td>
+<td>计划由任务中某个资源完成的总工时量；如果未指定，将为默认值 0。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>EXT_EDIT_REF_DATA</td>
+<td>必须设置为 1，以指定该工作分配是新工作分配。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要创建工作分配，请复制、修改并执行下列插入语句： </p>
+<pre>
+<code>Insert into MSP_ASSIGNMENTS (
+              PROJ_ID,
+              ASSN_UID,
+              RES_UID,
+              TASK_UID,
+              ASSN_UNITS,
+              ASSN_WORK,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              11,
+              6,
+              14,
+              0.5, -- 50% of resource 6's available time
+              480000, -- eight hours of work
+              '1' ) </code>
+</pre>
+<p>若要为数据库中现有的尚未分配的任务新建工作分配，必须从 MSP_ASSIGNMENTS 表中删除引用该任务 TASK_UID 的占位工作分配。若要删除占位工作分配，请复制、修改并执行以下删除语句。</p>
+<pre>
+<code>Delete from MSP_ASSIGNMENTS
+Where TASK_UID = 17
+And RES_UID = -65535 -- unassigned resource ID </code>
+</pre>
+<p><b>注释</b></p>
+<ul>
+<li>必须在 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表而不是 MSP_ASSIGNMENTS 表中指定工作分配的实际成本，以便 Project 进行处理。</li>
+<li>将材料资源分配给任务时，将忽略任务工期，此时，工期由工作分配中输入的工时决定。</li>
+</ul>
+<a href="#top">页首</a>
+<h2>
+<a id="manageTimephasedData" name="manageTimephasedData">管理时间分段数据</a></h2>
+<p>时间分段数据存储于 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表中。数据的存储方式与其在“任务分配状况”视图和“资源使用状况”视图中显示的方式大体相同。该表中的每一行指定： </p>
+<p><b>注释</b>  Project Server 通过存储于 Project Server 数据库中的视图表来维护时间分段数据。可以在 Project Web Access 用户界面中轻松访问视图表。</p><ul>
+<li>数据类型，即工作分配、任务或资源的工时、完成百分比或成本值。</li>
+<li>对某个工作分配、任务或资源记录的引用。</li>
+<li>日期范围。</li>
+<li>指定日期范围内每个时间段的指定数据类型的一个或多个值。</li>
+<li>每个值列对应的时间单位（如工作日或周）。 </li>
+</ul>
+<p>所得数据的类型将被设为 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表（其中字符串类型等于“时间分段分布类型”）中 CONV_VALUE 列的适当的值。可记录的数据类型包括：</p>
+<ul>
+<li>工作分配剩余工时</li>
+<li>工作分配实际工时</li>
+<li>工作分配实际加班工时</li>
+<li>工作分配比较基准工时</li>
+<li>工作分配比较基准成本</li>
+<li>工作分配实际成本</li>
+<li>资源比较基准工时</li>
+<li>资源比较基准成本</li>
+<li>任务比较基准工时</li>
+<li>任务比较基准成本</li>
+<li>任务完成百分比</li>
+</ul>
+<p><b>注释</b>  工作分配已完成工时不保存在数据库中。工作分配已完成工时是按工作分配实际工时除以工作分配工期来计算的。 </p>
+<p>若要记录某个工作分配或任务的时间分段剩余工时、实际工时或成本，必须向 MSP_TIMEPHASED_DATA 表添加一个或多个新行，并且至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>域</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_TIMEPHASED_DATA</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_UID</td>
+<td>时间分段数据记录的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_CATEGORY</td>
+<td>设置为 0，以指定一项任务。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_REF_UID</td>
+<td>显示应用时间分段数据的行的相应 TASK_UID、RES_UID 或 ASSN_UID 值。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_START</td>
+<td>将应用工时、完成百分比或成本值的第一个时间段的开始时间。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_FINISH</td>
+<td>将应用工时、完成百分比或成本值的第一个时间段的结束时间。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_UNITS</td>
+<td>应用 TD_VALUE1 - TD_VALUE7 中所指定值的时间单位。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_VALUE1 - TD_VALUE7</td>
+<td>在 TD_START 列和 TD_FINISH 列中指定的日期范围内，按 TD_UNITS 列所指定的单位，第一到第七时间段的工时、完成百分比或成本的值；只应用位于指定的开始日期和完成日期之间的值。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TD_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>下表显示 MSP_TIMEPHASED_DATA 表中存储的数据是如何与任务分配状况视图中某个工作分配的实际工时数据相关联的：</p>
+<table>
+<tr>
+<th>项目域</th>
+<th>分配状况视图值</th>
+<th>数据库列</th>
+<th>MSP_TIMEPHASED_DATA 值</th>
+</tr>
+<tr>
+<td>项目标识号</td>
+<td>n/a</td>
+<td>PROJ_ID</td>
+<td>3</td>
+</tr>
+<tr>
+<td>时间分段记录 UID</td>
+<td>n/a</td>
+<td>TD_UID</td>
+<td>4</td>
+</tr>
+<tr>
+<td>详细信息</td>
+<td>实际工时</td>
+<td>TD_FIELD_ID</td>
+<td>2</td>
+</tr>
+<tr>
+<td>类别</td>
+<td>n/a</td>
+<td>TD_CATEGORY</td>
+<td>3</td>
+</tr>
+<tr>
+<td>工作分配 UID</td>
+<td>n/a</td>
+<td>TD_REF_UID</td>
+<td>16</td>
+</tr>
+<tr>
+<td>时间段</td>
+<td>时间刻度</td>
+<td>TD_START</td>
+<td>7/15/2003 8:00:00 AM</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+</td>
+<td>TD_FINISH</td>
+<td>7/26/2003 8:00:00 AM</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>次要时间刻度</td>
+<td>TD_UNITS</td>
+<td>3</td>
+</tr>
+<tr>
+<td>实际工时</td>
+<td>8h</td>
+<td>TD_VALUE1</td>
+<td>480000</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>4h</td>
+<td>TD_VALUE2</td>
+<td>240000</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>0h</td>
+<td>TD_VALUE3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>4h</td>
+<td>TD_VALUE4</td>
+<td>240000</td>
+
+</tr>
+
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="createActualWorkOrder" name="createActualWorkOrder">创建或修改工作分配实际工时顺序</a></h3>
+<p>若要为工作分配指定实际工时，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TIMEPHASED_DATA (
+              PROJ_ID,
+              TD_UID,
+              TD_FIELD_ID,
+              TD_CATEGORY,
+              TD_REF_UID,
+              TD_START,
+              TD_FINISH,
+              TD_UNITS,
+              TD_VALUE1,
+              TD_VALUE2,
+              TD_VALUE3,
+              TD_VALUE4,
+              TD_EXT_EDITED )
+          values (
+              3,
+              108,
+              2, -- assignment actual work
+              3, -- category = assignment
+              2, -- assignment UID
+              '7/15/2003 8:00:00 AM', -- start of the first time period
+              '8/26/2003 8:00:00 AM', -- end of the last time period
+              2, -- each value column represents a day,
+              480000, -- day one value = 8h = (480 minutes * 1000)
+              240000, -- day two value = 4h = (240 minutes * 1000)
+              0, -- day three value = 0h = (zero minutes * 1000)
+              240000, -- day three value = 4h = (240 minutes * 1000)
+              1 ) -- externally edited flag
+</code>
+</pre>
+<p><b>注释</b>  TD_FINISH 的值在 Project 中将显示为 2003 年 7 月 25 日，因为 2003 年 8 月 26 日 08:00 被认为是开始于 8 月 25 日的工作日的结束时间。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="createSplits" name="createSplits">在排定工时中创建拆分</a></h3>
+<p>在排定的工时中创建拆分与指定实际工时很相似。其区别在于： </p>
+<ul>
+<li>“工作分配剩余工时”的 TD_FIELD_ID 设置为 1。</li>
+<li>TD_CATEGORY 设置为 0，以指定一项任务。</li>
+<li>未排定工时的每个指定时间段的 TD_VALUEn 设置为 0。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="createRemainingWorkOrder" name="createRemainingWorkOrder">创建或修改工作分配剩余工时顺序</a></h3>
+<p>指定剩余工时与指定实际工时很相似。其区别在于： </p>
+<ul>
+<li>“工作分配剩余工时”的 TD_FIELD_ID 设置为 1。</li>
+<li>TD_CATEGORY 设置为 3，以指定一个工作分配。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="createCostContour" name="createCostContour">创建或修改成本分布</a></h3>
+<p>若要为八天以上的工作分配指定成本分布，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TIMEPHASED_DATA (
+              PROJ_ID,
+              TD_UID,
+              TD_FIELD_ID,
+              TD_CATEGORY,
+              TD_REF_UID,
+              TD_START,
+              TD_FINISH,
+              TD_UNITS,
+              TD_VALUE1,
+              TD_EXT_EDITED )
+          values (
+              3,
+              109,
+              6, -- assignment actual cost
+              3, -- category = assignment
+              3, -- assignment UID
+              '7/15/2003 8:00:00 AM', -- start of the first time period
+              '8/26/2003 8:00:00 AM', -- end of the last time period
+              3, -- each value column represents a week,
+              10032, -- week one value = $100.32 cost * 100,
+              1 )</code>
+</pre>
+<p>本示例为一个为期七天的工作分配创建了一条成本为 ￥100.32 的记录。若要为第八天创建一条记录，请复制和修改下列插入语句： </p>
+<pre>
+<code>Insert into MSP_TIMEPHASED_DATA (
+              PROJ_ID,
+              TD_UID,
+              TD_FIELD_ID,
+              TD_CATEGORY,
+              TD_REF_UID,
+              TD_START,
+              TD_FINISH,
+              TD_UNITS,
+              TD_VALUE1,
+              TD_EXT_EDITED )
+          values (
+              3,
+              110,
+              6, -- assignment actual cost
+              3, -- category = assignment
+              3, -- assignment UID
+              '7/15/2003 8:00:00 AM', -- start of the first time period
+              '8/26/20031 8:00:00 AM', -- end of the last time period
+              2, -- days,
+              1650, -- day one value = $16.50 cost * 100,
+              1 )</code>
+</pre>
+<p>结合这两组插入语句即可创建指定时间段为八天的成本分布。 </p>
+<p><b>注释</b>   如果 MSP_PROJECTS 表中的 PROJ_OPT_CALC_ACT_COSTS 列设置为 1，Project 将忽略所插入的成本数据。</p>
+<p>若要清除该标志，请复制、修改并执行下列更新语句：</p>
+<pre>
+<code>Update    MSP_PROJECTS 
+Set       PROJ_OPT_CALC_ACT_COSTS = 0 
+Where     PROJ_ID = 3 </code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="createPercentCompleteContour" name="createPercentCompleteContour">创建或修改任务完成百分比分布</a></h3>
+<p>若要为任务指定完成百分比分布，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TIMEPHASED_DATA (
+              PROJ_ID,
+              TD_UID,
+              TD_FIELD_ID,
+              TD_CATEGORY,
+              TD_REF_UID,
+              TD_START,
+              TD_FINISH,
+              TD_UNITS,
+              TD_VALUE1,
+              TD_VALUE2,
+              TD_VALUE3,
+              TD_EXT_EDITED )
+          values (
+              3,
+              111,
+              11, -- task percent complete
+              0, -- category = task
+              3, -- TASK_UID
+              '7/15/2003 8:00:00 AM', -- start of the first time period
+              '8/26/2003 8:00:00 AM', -- end of the last time period
+              2, -- days,
+              72, -- day one value = 72 percent * 100,
+              0, -- day two value of zero percent * 100,
+
+              28, -- day three value = 28 percent * 100,
+              1 )</code>
+</pre>
+<p>本示例创建一条如下记录：在开始于 2003 年 7 月 15 日上午 8:00:00 的当天完成任务的 72%，第二天完成 0%，2003 年 8 月 25 日完成 28%。 </p>
+<a href="#top">页首</a>
+<h3>
+<a id="deleteContour" name="deleteContour">删除分布</a></h3>
+<p>若要删除 <a href="#MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a> 表中的分布，请更新该分布的所有行，将所有的 TD_VALUE 列设置为 0，并将 TD_EXT_EDITED 设置为 1。在更新单独一行时，如果同一分布中在更新行前后存在用于其他时间段的一行或多行，将更新行中所有 TD_VALUE 列的值设置为 0 不会导致删除该行，相反，将会拆分该分布并保留该行。 </p>
+<p><b>注释</b>   保存项目后，Project 才会真正删除 MSP_TIMEPHASED_DATA 表中的更新行。 </p>
+<a href="#top">页首</a>
+<h2>
+<a id="customizeProjectData" name="customizeProjectData">自定义 Project 数据</a></h2>
+<p>自定义标志域存储于数据库的 6 个特殊表中，每个表对应于一种自定义域类型。若要指定一个自定义域的值，必须向相应的自定义域表中添加一个新行，并在 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中设置相应的标志。可使用相同的步骤来指定项目摘要任务的自定义域值，但必须使用值为 0 的特殊 TASK_UID。</p><p><b>注释</b>  本部分中的信息并不是都可以应用于（可能有所不同）Project Server 数据库中所存储的企业项目数据。建议只使用 PDS、Project 或 Project Web Access 与 Project Server 数据库中的企业项目数据进行交互。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyCustomText" name="specifyCustomText">指定自定义文本域</a></h3>
+<p>若要指定自定义文本域，必须在下列数据库域中输入值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_TEXT_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_CATEGORY</td>
+<td>指定自定义文本类别为“任务”(0)、“资源”(1) 还是“工作分配”(3)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_REF_UID</td>
+<td>由 TEXT_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE；对于插入项目，总是使用 188743706。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>TEXT_VALUE</td>
+<td>自定义文本域的值。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED_TEXT</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyCustomNumber" name="specifyCustomNumber">指定自定义数字（成本）域</a></h3>
+<p>若要指定自定义数字域，必须在下列数据库列中输入值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_NUMBER_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>NUM_CATEGORY</td>
+<td>指定自定义数字类别为“任务”(0)、“资源”(1) 还是“工作分配”(3)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>NUM_REF_UID</td>
+<td>由 NUM_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>NUM_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>NUM_VALUE</td>
+<td>自定义数字域的值。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED_NUM</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyCustomDate" name="specifyCustomDate">指定自定义日期、开始时间和完成时间域</a></h3>
+<p>若要指定自定义日期域，必须在以下数据库列中输入值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_DATE_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DATE_CATEGORY</td>
+<td>指定自定义日期类别为“任务”(0)、“资源”(1) 还是“工作分配”(3)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DATE_REF_UID</td>
+<td>由 DATE_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DATE_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DATE_VALUE</td>
+<td>自定义日期域的值。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED_DATE</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyCustomDuration" name="specifyCustomDuration">指定自定义工期域</a></h3>
+<p>若要指定自定义工期域，必须在以下数据库列中输入值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_DURATION_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DUR_CATEGORY</td>
+<td>指出自定义工期类别为“任务”(0)、“资源”(1) 还是“工作分配”(3)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DUR_REF_UID</td>
+<td>由 DUR_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DUR_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DUR_VALUE</td>
+<td>自定义日期域的值。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>DUR_FMT</td>
+<td>指定在 Project 中显示工期时所使用的单位。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>PROJ_EXT_EDITED_DUR</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="fieldAttributes" name="fieldAttributes">域属性</a></h3>
+<p>尽管 Project 的大多数域除实际数据外并无其他属性，但还是有一些域不仅包含数据值，而且包含与该域有关的项目级元数据，元数据会影响到列中的所有值。例如，WBS 域存储每个任务的实际 WBS 代码，但是还有一个可为每个项目定义的代码掩码。与此相似，Project 中的所有自定义域都可以具有特定的属性，如公式或用户定义的名称（别名），而且这种元数据对于整个列只存储一次，并与存储于各行中的实际数据分开存放。</p>
+<p>元数据始终存储于数据库中的 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 和 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 表中。MSP_FIELD_ATTRIBUTES 表中包含域的标识号、属性的数字值（可通过 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表将数字值还原为字符串），以及实际的属性值或指向该值的指针。对于数字和 Boolean 类型设置，取值将直接存储于 MSP_FIELD_ATTRIBUTES 表中，而字符串类型的取值将存储于 MSP_ATTRIBUTE_STRINGS 表中，并将字符串的索引存储于 MSP_FIELD_ATTRIBUTES 表中。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyWBSCodes" name="specifyWBSCodes">指定自定义 WBS 代码</a></h3>
+<p>自定义 WBS 代码在两个表中定义。代码掩码存储于 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 表中。任务的实际 WBS 代码值存储于 <a href="#MSP_TASKS">MSP_TASKS</a> 表中（TASK_WBS 和 TASK_WBS_RIGHTMOST_LEVEL 列中）。若要定义自定义 WBS 代码，您必须输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_ATTRIBUTE_STRINGS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>引用用于标识 WBS 字符串的 MSP_ATTRIBUTE_STRINGS 表中的行。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_VALUE</td>
+<td>公式同 Project 的<b class="ui">“公式”</b>对话框中显示的一样。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要创建需要产生 WBS 代码 A.b.01 的自定义 WBS 掩码，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_ATTRIBUTE_STRINGS (
+              PROJ_ID,
+              AS_ID,
+              AS_VALUE )
+          values (
+              3,
+              1,
+              '1,1,.,2,1,.,0,0,.' )</code>
+</pre>
+<p>在本示例中，AS_VALUE 列中的值指定了三级 WBS 代码：</p>
+<table>
+<tr>
+<th>WBS 代码说明
+</th>
+<th>WBS 代码</th>
+<th>WBS 代码的最大长度</th>
+<th>WBS 代码分隔符</th>
+</tr>
+<tr>
+<td>1,1,.</td>
+<td>大写字母（有序）</td>
+<td>1</td>
+<td>.（句点）</td>
+</tr>
+<tr>
+<td>2,1,.</td>
+<td>小写字母（有序）</td>
+<td>1</td>
+<td>.（句点）</td>
+</tr>
+<tr>
+<td>0,0,.</td>
+<td>数字（有序）</td>
+<td>任意</td>
+<td>.（句点）</td>
+</tr>
+</table>
+<p>也可指定产生 WBS 代码 proj1-A.b.01 的 WBS 代码前缀，例如 proj1。若要指定 WBS 代码前缀掩码，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_ATTRIBUTE_STRINGS (
+              PROJ_ID,
+              AS_ID,
+              AS_VALUE )
+          values (
+              3,
+              2,
+              'proj1-' )</code>
+</pre>
+<p>为了在任务中使用上面指定的 WBS 前缀和代码，必须在 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 表中添加两行。一行用作 WBS 前缀，另一行用作代码掩码。必须提供以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_FIELD_ATTRIBUTES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_ID</td>
+<td>引用 MSP_CONVERSIONS 表 STRING_TYPE_ID 列中的有效“域属性”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_VALUE</td>
+<td>显示属性值；值 -1 表示该值存储于 MSP_ATTRIBUTE_STRINGS 表中。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>如果 ATTRIB_VALUE 设置为 -1，将引用 MSP_ATTRIBUTE_STRINGS 表中的行。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要创建这些行，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              ATTRIB_VALUE,
+              AS_ID,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743696, -- TASK_WBS field ID
+              200, -- for 'Outline code and WBS mask'
+              -1, -- the value is specified in MSP_ATTRIBUTE_STRINGS
+              1, -- the ID of the WBS code definition
+              1 ) -- must set for Project to process
+
+Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              ATTRIB_VALUE,
+              AS_ID,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743696, -- TASK_WBS field ID
+              204, -- for 'WBS Prefix'
+              -1, -- indicates that the value is in MSP_ATTRIBUTE_STRINGS
+              2, -- the ID of the WBS code definition
+              1 ) -- must set for Project to process</code>
+</pre>
+<p>插入这两行之后，可以为任务指定自定义 WBS 代码。为任务指定的 WBS 代码必须符合指定的掩码。若要为现有任务指定 WBS 代码，请复制、修改并执行以下更新语句：</p>
+<pre>
+<code>Update    MSP_TASKS 
+Set       TASK_WBS = 'A.b.03',
+          TASK_WBS_RIGHTMOST_LEVEL = '03' 
+Where     PROJ_ID = 3
+And       TASK_UID = 11</code>
+</pre>
+<p>创建或修改数据库中的项目时，可以指定在用 Project 创建的新任务中，Project 是否要求 WBS 代码具有唯一性，并自动生成 WBS 代码。为了指定 Project 是否要求任务中的新 WBS 代码具有唯一性，必须在 MSP_FIELD_ATTRIBUTES 表中插入行。若要创建该行，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              ATTRIB_VALUE,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743696, -- TASK_WBS field ID
+              203, -- for 'Verify uniqueness of new WBS codes'
+              1, -- sets the flag to True
+              1 ) -- must set for Project to process</code>
+</pre>
+<p>最后，若要指定 Project 是否为新任务生成 WBS 代码，请复制、修改并执行下列插入语句：
+
+</p>
+<pre>
+<code>Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              ATTRIB_VALUE,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743696, -- TASK_WBS field ID
+              205, -- for 'Generate WBS code for new tasks'
+              1, -- sets the flag to True
+              1 ) -- must set for Project to process</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyOutlineCodes" name="specifyOutlineCodes">指定自定义大纲代码</a></h3>
+<p>自定义大纲代码是描述、组织和汇集任务信息的强大而灵活的工具。直接在数据库中定义自定义大纲代码时一定要小心。自定义大纲代码在下列五个表中定义： </p>
+<ul>
+<li>
+<a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 包含大纲代码掩码和指定大纲代码域的别名（可选）。指定自定义大纲代码掩码的操作与指定自定义 WBS 代码掩码几乎相同。请参阅上面的<a href="#specifyWBSCodes">指定自定义 WBS 代码</a>部分，以获取有关创建自定义 WBS 掩码的信息。同样，参阅下面的<a href="#specifyAliases">为自定义域指定别名</a>部分也可以获取有关为自定义大纲代码域创建别名的信息。
+</li>
+<li>
+<a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 将大纲代码掩码与其大纲代码域（例如“大纲代码1”）相关联。该表包含来自 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表 CONV_VALUE 列中的“仅允许查阅表格中列出的大纲代码”和“仅允许带有所有级别的值的新大纲代码”标志的值。此外，还将大纲代码与其别名（如果有的话）相关联。将自定义大纲代码掩码与特定的自定义大纲代码关联的操作几乎与将自定义 WBS 掩码与任务 WBS 域关联相同。只是“域标识号”（可以在 MSP_CONVERSIONS 表中检索到）不同。请参阅上面的<a href="#specifyWBSCodes">指定自定义 WBS 代码</a>部分，以获取有关将代码掩码与自定义域相关联并设置自定义标志的信息。同样，参阅下面的<a href="#specifyAliases">为自定义域指定别名</a>部分也可以获取有关将自定义大纲掩码与自定义大纲域相关联的信息。确保在创建或更改属性字符串值或代码掩码与自定义域之间的关联时，将列 ATTRIB_EXT_EDITED 设置为 1。 </li>
+<li>
+<a href="#MSP_OUTLINE_CODES">MSP_OUTLINE_CODES</a> 定义各级大纲代码值。每一行包含一个代码值和一个对其父代码的引用。
+</li>
+<li>
+<a href="#MSP_CODE_FIELDS">MSP_CODE_FIELDS</a> 将定义的代码与应用它们的任务和资源相关联。与自定义 WBS 代码不同的是，自定义大纲代码并不存储于 <a href="#MSP_TASKS">MSP_TASKS</a> 表中。它们在表 MSP_OUTLINE_CODES 中定义，并与指定的任务和/或资源的某个自定义大纲代码域相关联。</li>
+<li>
+<a href="#MSP_CODE_FIELDS">MSP_MV_FIELDS</a> 将定义的多值大纲代码与应用它们的任务和资源相关联。</li></ul>
+<p>若要创建自定义大纲代码，必须至少输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_OUTLINE_CODES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CODE_UID</td>
+<td>引用自定义大纲代码，在项目中必须是唯一的。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>OC_PARENT</td>
+<td>引用 MSP_OUTLINE_CODES 表中的有效标识号；对于没有父代码的最高级代码应将其设置为 0。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>OC_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>OC_NAME</td>
+<td>显示自定义大纲代码的名称。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>定义自定义大纲代码掩码之后，即可定义大纲代码本身。若要指定组成大纲代码 A.x 的两个级别的代码，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_OUTLINE_CODES (
+              PROJ_ID,
+              CODE_UID,
+              OC_PARENT,
+              OC_FIELD_ID,
+              OC_NAME )
+          values (
+              3,
+              1,
+              0, -- highest level code, no parent
+              188744096, -- Task Outline Code1
+              'A' ) -- the level 1 code
+
+Insert into MSP_OUTLINE_CODES (
+              PROJ_ID,
+              CODE_UID,
+              OC_PARENT,
+              OC_FIELD_ID,
+              OC_NAME )
+          values (
+              3,
+              2,
+              1, -- parent code UID = 1
+              188744096, -- Task Outline Code1
+              'x' ) -- the level 1 code</code>
+</pre>
+<p>若要将代码与特定的自定义大纲代码域和特定的任务或资源相关联，必须输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_CODE_FIELDS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CODE_CATEGORY</td>
+<td>指定自定义大纲代码是任务 (0) 还是资源 (1)。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CODE_REF_UID</td>
+<td>由 CODE_CATEGORY 判定，引用其各自表中的有效 TASK_UID 或 RES_UID。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CODE_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>CODE_UID</td>
+<td>引用自定义大纲代码，在项目中必须是唯一的。</td>
+</tr>
+</table>
+<p>若要将自定义大纲代码与任务相关联，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_CODE_FIELDS (
+              PROJ_ID,
+              CODE_CATEGORY,
+              CODE_REF_UID,
+              CODE_FIELD_ID,
+              CODE_UID )
+          values (
+              3, -- project ID
+              0, -- task category
+              2, -- task UID
+              188744096, -- Task Outline Code1
+              2 ) -- code UID for the code "x"</code>
+</pre>
+<p>插入该行的结果：用于“任务 2”的自定义任务 OutlineCode1 的值为 A.x。</p>
+<p><b>注释</b>  从 MSP_OUTLINE_CODES 表中删除自定义大纲代码时，应同时删除所有子代码，以避免产生孤立代码。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyAliases" name="specifyAliases">为自定义域指定别名</a></h3>
+<p>自定义域的别名存储于 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 和 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 表中。与自定义 WBS 代码一样，别名也是在 MSP_ATTRIBUTE_STRINGS 表中指定的。必须提供以下域的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_ATTRIBUTE_STRINGS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>标识属性字符串，其中包含自定义公式。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_VALUE</td>
+<td>公式同 Project 的<b class="ui">“公式”</b>对话框中显示的一样。</td>
+</tr>
+</table>
+<p>将别名与 MSP_FIELD_ATTRIBUTES 表中的特定自定义域相关联。必须提供以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_FIELD_ATTRIBUTES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_ID</td>
+<td>引用 MSP_CONVERSIONS 表 STRING_TYPE_ID 列中的有效“域属性”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_VALUE</td>
+<td>显示属性值；值 -1 表示该值存储于 MSP_ATTRIBUTE_STRINGS 表中。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>如果 ATTRIB_VALUE 设置为 -1，将引用 MSP_ATTRIBUTE_STRINGS 表中的行。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要为自定义域指定别名，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_ATTRIBUTE_STRINGS (
+              PROJ_ID,
+              AS_ID,
+              AS_VALUE )
+          values (
+              3,
+              5,
+              'my text column' )
+
+Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              ATTRIB_VALUE,
+              AS_ID,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743731, -- refers to custom field 'Task Text1'
+              206, -- for 'Field Alias'
+              -1, -- indicates that the value is in MSP_ATTRIBUTE_STRINGS
+              5, -- the ID of the value in MSP_ATTRIBUTE_STRINGS
+              1 ) -- must set for Project to process</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyFormulae" name="specifyFormulae">为自定义域指定公式</a></h3>
+<p>与自定义 WBS 前缀和掩码一样，自定义公式也是在 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 和 <a href="#MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a> 表中指定的。若要定义自定义公式，必须输入以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_ATTRIBUTE_STRINGS</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>属性字符串的唯一标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_VALUE</td>
+<td>公式同 Project 的“公式”对话框中显示的一样。</td>
+</tr>
+</table>
+<p>例如，若要创建一个自定义公式，以执行计算 (2*[工期])/60，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_ATTRIBUTE_STRINGS (
+              PROJ_ID,
+              AS_ID,
+              AS_VALUE )
+          values (
+              3,
+              5,
+              '(2*[Duration])/60' )</code>
+</pre>
+<p>为了将自定义公式映射到自定义域，必须提供 MSP_FIELD_ATTRIBUTES 表中以下列的值：</p>
+<table>
+<tr>
+<th>表</th>
+<th>列</th>
+<th>备注</th>
+</tr>
+<tr>
+<td>MSP_FIELD_ATTRIBUTES</td>
+<td>PROJ_ID</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_FIELD_ID</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_ID</td>
+<td>引用 MSP_CONVERSIONS 表 STRING_TYPE_ID 列中的有效“域属性”。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>AS_ID</td>
+<td>如果 ATTRIB_VALUE 设置为 -1，将引用 MSP_ATTRIBUTE_STRINGS 表中的行。</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>ATTRIB_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_EXT_EDITED</td>
+<td>必须设置为 1，以便 Project 处理。</td>
+</tr>
+</table>
+<p>若要在自定义公式和“数字1”自定义域之间建立映射，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_FIELD_ATTRIBUTES (
+              PROJ_ID,
+              ATTRIB_FIELD_ID,
+              ATTRIB_ID,
+              AS_ID,
+              ATTRIB_EXT_EDITED )
+          values (
+              3,
+              188743767, -- Number1 custom field
+              207, -- for 'Custom Field Formula'
+              5, -- the ID of the custom formula definition
+              1 ) -- must set for Project to process</code>
+</pre>
+<p>若要在数据库中查询“数字3”自定义域现有的公式，请复制，编辑并执行下列选择语句：
+
+</p>
+<pre>
+<code>Select    PROJ_NAME,
+          (select CONV_STRING
+             from MSP_CONVERSIONS
+            where CONV_VALUE = fa.ATTRIB_FIELD_ID
+              and STRING_TYPE_ID = 105) as ATTRIB_FIELD -- field name
+          (select CONV_STRING
+             from MSP_CONVERSIONS
+            where CONV_VALUE = fa.ATTRIB_ID
+              and STRING_TYPE_ID = 106) as ATTRIB -- field attribute name
+          AS_VALUE
+From      MSP_FIELD_ATTRIBUTES fa,
+          MSP_ATTRIBUTE_STRINGS s,
+          MSP_PROJECTS p
+Where     fa.AS_ID = s.AS_ID
+And       fa.PROJ_ID = s.PROJ_ID
+And       fa.PROJ_ID = p.PROJ_ID
+And       fa.ATTRIB_FIELD_ID = 188743769 -- field = Number3
+And       p.PROJ_ID = 3  </code>
+</pre>
+<p>若要删除公式，请更新 MSP_ATTRIBUTE_STRINGS 表，将定义该公式的行中的 AS_VALUE 值设为 Null。记住将 MSP_FIELD_ATTRIBUTES 表中相关行的 ATTRIB_EXT_EDITED 设置为 1，以便 Project 处理。在 Project 中保存项目之后，将删除该行。 </p>
+<a href="#top">页首</a>
+<h3>
+<a id="readRTFNotes" name="readRTFNotes">读写 RTF 备注</a></h3>
+<p>若要从 <a href="#MSP_TASKS">MSP_TASKS</a>、<a href="#MSP_RESOURCES">MSP_RESOURCES</a> 或 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表的 RTF 备注列中检索数据，请复制、修改并执行以下 VB 脚本：</p>
+<pre>
+<code>Sub getRtf()
+    'This macro extracts RTF data from MSP_TASKS.TASK_RTF_NOTES.  This data can then be written
+    'to a file that can be opened with Microsoft Word or displayed in a richedit control.
+    
+    Dim cn As New ADODB.Connection
+    Dim rs As New ADODB.Recordset
+    Dim sql As String, rtf As String, cnString
+
+    'Open the MSP_TASKS table to look for TASK_RTF_NOTES
+    cnString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\temp\MyProject.mpd"
+    sql = "select PROJ_ID, TASK_UID, TASK_RTF_NOTES " &amp; _
+          "from MSP_TASKS " &amp; _
+          "where TASK_RTF_NOTES is not null" 'can specify a specific PROJ_ID and TASK_UID instead
+    cn.Open cnString
+    rs.Open sql, cn
+    
+    'Enumerate across the recordset looking for notes
+    With rs
+        Do While Not .EOF
+            rtf = StrConv(.Fields("TASK_RTF_NOTES"), vbUnicode) ' Put binary column data into text string
+            Debug.Print rtf
+            .MoveNext
+        Loop
+        .Close
+    End With
+End Sub</code>
+</pre>
+<p><b>注释</b>  确保为所有对 MSP_TASKS、TASK_RTF_NOTES 和 TASK_UID 的引用检查上面所列的代码。根据从其中获取 RTF 数据的表的不同，需要将 TASKS 修改为 RES 或 ASSN。</p>
+<p>若要向 MSP_TASKS、MSP_RESOURCES 或 MSP_ASSIGNMENTS 表的 RTF 备注列中写入数据，请复制、修改并执行以下 VB 脚本：
+
+</p>
+<pre>
+<code>Sub writeRtf()
+    'This macro writes RTF data to MSP_TASKS.TASK_RTF_NOTES.
+
+    Dim cn As New ADODB.Connection
+    Dim cmd As New ADODB.Command
+    Dim param As New ADODB.Parameter
+    Dim sql As String, rtf As String, cnString As String
+
+    cnString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=c:\temp\MyProject.mpd"
+    sql = "update MSP_TASKS set TASK_RTF_NOTES = ? where PROJ_ID = 1 and TASK_UID = 1"
+    rtf = "{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Arial;}}" &amp; vbNewLine &amp; _
+          "\viewkind4\uc1\pard\f0\fs20 What's in a name? That which we call a rose...     \par" &amp; vbNewLine &amp; _
+          "}" &amp; vbNewLine &amp; vbLf &amp; Chr(0)   'be sure to specify valid RTF text here including "vbLf &amp; Chr(0)
+
+    cn.Open cnString
+
+    param.Direction = adParamInput
+    param.Type = adVarBinary
+    param.Size = 8000
+    param.Value = StrConv(rtf, vbFromUnicode)
+
+    cmd.ActiveConnection = cn
+    cmd.CommandText = sql
+    cmd.Parameters.Append param
+    cmd.Execute
+End Sub</code>
+</pre>
+<p><b>注释</b>  确保为所有对 MSP_TASKS、TASK_RTF_NOTES 和 TASK_UID 的所有引用检查上面所列出的代码。根据从其中获取 RTF 数据的表的不同，需要将 TASKS 修改为 RES 或 ASSN。</p>
+<p>若要运行以上脚本，必须在用于编辑 VBA 的“Microsoft Visual Basic 编辑器”中引用了 Microsoft ActiveX 数据对象 (ADO) 2.1（或更高版本）库。请确保将 MSP_TASKS 表中的 TASK_HAS_NOTES 列，以及 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_EXT_EDITED 列设置为 1，以便 Project 处理。这也同样适用于更改 MSP_RESOURCES 和 MSP_ASSIGNMENTS 表中的 RTF 备注的情形。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="manageOtherData" name="manageOtherData">管理数据库中的其他数据</a></h2>
+<p>下面列出了存储于 <a href="#MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a> 表中的其他任务和资源信息：</p>
+<table>
+<tr>
+<th>任务域</th>
+<th>资源域</th>
+</tr>
+<tr>
+<td>任务联系人</td>
+<td>资源代码</td>
+</tr>
+<tr>
+<td>跨项目链接（项目名称、任务标识号）</td>
+<td>电子邮件地址</td>
+</tr>
+<tr>
+<td>备注（非 RTF 文本）</td>
+<td>备注（非 RTF 文本）</td>
+</tr>
+<tr>
+<td>任务子项目文件</td>
+<td>资源组</td>
+</tr>
+<tr>
+<td>WBS 最大值</td>
+<td>资源的 Windows 用户帐户</td>
+</tr>
+<tr>
+<td>任务超链接</td>
+<td>资源超链接</td>
+</tr>
+<tr>
+<td>任务超链接地址</td>
+<td>资源超链接地址</td>
+</tr>
+<tr>
+<td>任务超链接子地址</td>
+<td>资源超链接子地址</td>
+</tr>
+</table>
+<p>若要指定上面某个域的值，必须指定类别（任务或资源）、所指定类别的引用 UID、域类型（如“任务联系人”）和值。域类型的值存储于 <a href="#MSP_CONVERSIONS">MSP_CONVERSIONS</a> 表中字符串类型为 105 的行中或存储于“域标识号”中。 </p>
+<p>为了使 Project 能够处理存储于 MSP_TEXT_FIELDS 表中的其他任务、资源和工作分配数据，必须将 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_EXT_EDITED 和 PROJ_EXT_EDITED_TEXT 列设置为 1。 </p>
+<p><b>注释</b>   为了便于操作，Project 将文本从 TASK_RTF_NOTES、RES_RTF_NOTES 和 ASSN_RTF_NOTES 提取到 MSP_TEXT_FIELDS 中。这些备注文本只用于提供信息，而不能进行更新。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyEmailAddress" name="specifyEmailAddress">指定电子邮件地址</a></h3>
+<p>若要指定资源的电子邮件地址，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TEXT_FIELDS (
+              PROJ_ID,
+              TEXT_CATEGORY,
+              TEXT_REF_UID,
+              TEXT_FIELD_ID,
+              TEXT_VALUE )
+          values (
+              3,
+              1, -- the category is 'Resource'
+              6, -- the UID of the resource
+              205520931, -- the 'Resource Email Address' field
+              'somebody@microsoft.com' ) -- resource's e-mail address</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="retrieveCrossProject" name="retrieveCrossProject">检索跨项目链接项目/任务引用</a></h3>
+<p>跨项目链接允许一个项目中的任务依赖于另一个项目中的任务。跨项目链接将同时记录在两个相关任务所在的两个项目中。只能用 Project 创建、修改或删除跨项目链接。在数据库中创建、修改或删除跨项目链接会导致项目损坏。这包括常规任务和影子任务（其他项目中的前置任务或后续任务的复本）、链接和 <a href="#MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a> 中的链接引用。</p>
+<p>若要检索指定任务的跨项目链接项目/任务引用，请复制、修改并执行下列选择语句：</p>
+<pre>
+<code>Select    PROJ_NAME,
+          TASK_NAME,
+          CONV_STRING,
+          TEXT_VALUE
+From      MSP_PROJECTS p,
+          MSP_TASKS t,
+          MSP_CONVERSIONS c,
+          MSP_LINKS l,
+          MSP_TEXT_FIELDS x
+where     p.PROJ_ID = 2    -- set the project ID
+and       t.TASK_UID = 1   -- set the task UID
+and       p.PROJ_ID = t.PROJ_ID
+and       p.PROJ_ID = l.PROJ_ID
+and       p.PROJ_ID = x.PROJ_ID
+and       l.LINK_UID = x.TEXT_REF_UID
+and       X.TEXT_CATEGORY = 4 -- Dependencies
+and       (
+             (    t.TASK_ID = l.LINK_PRED_UID
+              and c.CONV_VALUE = x.TEXT_FIELD_ID
+              and c.STRING_TYPE_ID = 105 -- Field ID
+             )
+           or
+             (    t.TASK_ID = l.LINK_SUCC_UID
+              and c.CONV_VALUE = x.TEXT_FIELD_ID
+
+
+              and c.STRING_TYPE_ID = 105 -- Field ID
+             )
+          )</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="retrieveSharerFiles" name="retrieveSharerFiles">检索共享资源文件名称</a></h3>
+<p>为方便起见，在数据库中写入了资源库项目共享者文件的名称。该数据在数据库中是只读的，不能进行修改。若要获取存储于数据库中的资源库的共享者文件列表，请执行下列选择语句：</p>
+<pre>
+<code>Select   AS_VALUE
+From     MSP_ATTRIBUTE_STRINGS S inner join
+         MSP_FIELD_ATTRIBUTES A on
+         S.AS_ID = A.AS_ID
+Where    A.ATTRIB_ID = 208 -- conversion string 'Sharer File Names'
+Order by S.AS_POSITION</code>
+</pre>
+<a href="#top">页首</a>
+<h3>
+<a id="outlineSummaryTasks" name="outlineSummaryTasks">用摘要任务和子任务构建大纲结构</a></h3>
+<p>大纲由摘要任务以及其下的子任务组成，分三步创建： </p>
+<table>
+<tr>
+<td><b class="bterm">1</b></td>
+<td>
+ 
+</td>
+<td>对于要在其下插入子任务的任务，递增该任务下所有任务的任务标识号。
+</td>
+</tr>
+<tr>
+<td><b class="bterm">2</b></td>
+<td>
+ 
+</td>
+<td>插入子任务，并为其指定一个大于摘要任务的任务标识号的任务标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">3</b></td>
+<td>
+ 
+</td>
+<td>将摘要任务标记为摘要。</td>
+</tr>
+</table>
+<p>例如，若要递增任务 12（该任务将成为摘要任务）后面所有任务的任务标识号，请复制、修改并执行下列更新语句：</p>
+<pre>
+<code>Update    MSP_TASKS 
+Set       TASK_ID = TASK_ID + 1 
+Where     TASK_ID &gt; 12</code>
+</pre>
+<p>在任务标识号列表中腾出空位之后，即可插入子任务（有关创建和插入新任务的内容，请参阅上面的<a href="#createNewTask">新建任务</a>部分）。插入子任务时，必须将其大纲级别设为摘要任务的大纲级别加 1。若要插入子任务 13，请复制，编辑并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TASKS (
+              PROJ_ID,
+              TASK_UID,
+              TASK_ID,
+              TASK_NAME,
+              TASK_OUTLINE_LEVEL,
+              EXT_EDIT_REF_DATA )
+          values (
+              3,
+              24, -- new, unique task UID
+              13, -- the ID of the new task
+              'your subtask name', -- the name of the task
+              3, -- outline level of task 12 + 1
+              '1' ) -- set to 1 so Project will process</code>
+</pre>
+<p>如果任务 12 以前不是摘要任务，现在则必须标记为摘要任务。若要将任务指定为摘要任务，请复制、编辑并执行下列更新语句：</p>
+<pre>
+<code>Update    MSP_TASKS 
+Set       TASK_IS_SUMMARY = 1 
+Where     TASK_UID = 12</code>
+</pre>
+<p>为了使 Project 能够处理更改，请确保将 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 中的 PROJ_EXT_EDITED 列更新为 1。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="editSummaryTask" name="editSummaryTask">编辑摘要任务工作分配的工时</a></h3>
+<p>如果资源分配给了摘要任务，而您希望编辑该工作分配的工时，那么必须指定 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表中 ASSN_UNITS 和 ASSN_WORK 列的值。若要将现有摘要任务工作分配的工时更改为两个工作日，单位是 50%，请复制、修改并执行下列更新语句：</p>
+<pre>
+<code>Update    MSP_ASSIGNMENTS 
+Set       ASSN_WORK = 96000,
+          ASSN_UNITS = .50 
+Where     TASK_UID &gt; 12</code>
+</pre>
+<p>请确保在更新该行前，先备份任务数据。有关备份现有任务数据的详细信息，请参阅<a href="#ensuringDataIntegrity">确保数据库中项目数据的完整性</a>部分。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="retrieveWorkgroupMesasageStatus" name="retrieveWorkgroupMesasageStatus">检索工作组消息的状态</a></h3>
+<p>任务和资源工作组消息的状态域（“需要更新”、“已确认”、“正在等待回应”和“正在等待工作组状态信息”）没有直接保存在数据库中。如果希望获取发送给工作组的消息的状态信息，必须从工作分配域中提取这些信息。通过查看与特定任务或资源相关联的所有工作分配记录，可以确定此任务或资源的值。</p>
+<p>例如，若要确定任务是否已确认，必须检查 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表中与此任务相关的所有工作分配的 ASSN_IS_CONFIRMED 列。如果每个工作分配的 ASSN_IS_CONFIRMED 列都为 1，那么此任务已确认。若要确定任务是否已确认，请复制、修改并执行下列选择语句：</p>
+<pre>
+<code>Select    count(*) 
+From      MSP_ASSIGNMENTS 
+Where     TASK_UID = 12
+And       ASSN_IS_CONFIRMED = 0</code>
+</pre>
+<p>如果查询返回一个大于 0 的数字，表示该任务尚未确认。</p>
+<p>若要确定是否有必要更新任务，您必须检查 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表中与此任务相关的所有工作分配的 ASSN_UPDATE_NEEDED 列。如果这些工作分配中一个或多个的 ASSN_UPDATED_NEEDED 列为 1，表示需要更新该任务。若要确定任务是否需要更新，请复制、修改并执行下列选择语句：</p>
+<pre>
+<code>Select    count(*) 
+From      MSP_ASSIGNMENTS 
+Where     TASK_UID = 12
+And       ASSN_UPDATE_NEEDED = 1</code>
+</pre>
+<p>如果查询返回一个大于 0 的数字，表示有必要更新该任务。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="specifyHyperlinks" name="specifyHyperlinks">指定超链接</a></h3>
+<p>若要指定任务超链接地址，请复制、修改并执行下列插入语句：</p>
+<pre>
+<code>Insert into MSP_TEXT_FIELDS (
+              PROJ_ID,
+              TEXT_CATEGORY,
+              TEXT_REF_UID,
+              TEXT_FIELD_ID,
+              TEXT_VALUE )
+          values (
+              3,
+              0, -- task category
+              13, -- the UID of the task
+              188743898, -- 'Task Hyperlink Address'
+              'http://myserver/default.htm' ) -- task hyperlink address</code>
+</pre>
+<p>为了便于 Project 处理，必须将与更新项目相应的 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_EXT_EDITED 和 PROJ_EXT_EDITED_TEXT 列设置为 1。</p>
+<p><b>注释</b>  除了任务和资源之外，还可为工作分配指定超链接、超链接地址和超链接子地址。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="dbPCA" name="dbPCA">数据库处理顺序、规则和缩写</a></h2>
+<h3>
+<a id="processingOrder" name="processingOrder">外部编辑数据的处理顺序</a></h3>
+<p>Project 的处理顺序控制着数据的应用顺序。例如，请看下面的<a href="#standardProcessingOrder">标准处理顺序</a>，“实际工时”值总是在“剩余工时”值之前处理，但这并不是说“实际工时”值总是覆盖“剩余工时”值。</p>
+<p>下面的任务和工作分配域处理顺序列表只包含相互关联的域（当然，并不是每个列表中的所有域都与其他所有域相关联）。列表中的顺序决定了数据的处理顺序，这就像是按这种顺序在用户界面 (UI) 上键入这些数据一样。如果没有这种顺序，在外部更改多个域时可能会导致无法预测结果。另一方面，如果通过在外部更改所有相互关联的域的值消除了数据的不一致，那么是否有这种处理顺序就无关紧要了。</p>
+<p>虽然在用户界面上可以按任何顺序将数据输入到任何可编辑域中，但由于处理顺序列表是固化在程序中的，所以在用户界面上可行的输入顺序有可能不能用于数据的读取。最好确定要在外部更改哪些数据，然后在界面上按照处理顺序列表来测试这些更改，以检查结果是否是所期望的。不要试图按照在用户界面上输入数据的顺序来导入数据。换言之，对于每一个有可能进行的外部更改，都可以在界面上测试其结果，但反过来，您能在界面上进行的更改并不都能用外部更改再现。</p>
+<p>当 Project 重新打开标记为外部编辑的完整项目时，它首先将该项目恢复到编辑前的状态，然后按处理顺序应用外部编辑的结果。在执行导入操作时，Project 并没有原始值，所以它会先创建默认任务，然后再按处理顺序应用更新值。</p>
+<p><b>注释</b></p>
+<ul>
+<li>在对项目数据进行完全导入以创建新的项目时，将会应用标准处理顺序。在通过导入的方式来将项目数据合并或追加到现有项目中时，在各列中均不包含 Null（即零长度）值的情况下，Project 通常遵循标准处理顺序。在进行“导入-合并”或“导入-追加”时，如果与日程相关的列中存在 Null 值，可能会导致在处理导入数据时采用不同于标准处理顺序的其他顺序。建议在将合并和追加导入映射投入使用之前对它们进行测试，以确保它们能提供所期望的结果。如果它们没有提供所期望的结果，请尝试创建多个包含较少列的映射，然后按顺序执行。</li>
+<li>在加载任何其他数据之前，会首先加载并应用项目选项（例如“工具”和“选项”设置）。因此，如果在外部修改了任何选项，在应用此项目所有加载的日程数据时，都将受到修改后的设置的影响。在创建新项目时，需要明确指定所有选项。</li>
+<li>时间分段数据总是具有最高的优先级，它们将覆盖任何与之冲突的域更改。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="standardProcessingOrder" name="standardProcessingOrder">标准处理顺序</a></h3>
+<p>任务域的标准处理顺序如下所示：</p>
+<ul>
+<li>实际工期</li>
+<li>剩余工期</li>
+<li>工期</li>
+<li>资源调配延迟</li>
+<li>开始时间</li>
+<li>完成时间</li>
+<li>限制类型</li>
+<li>限制日期</li>
+<li>实际开始时间</li>
+<li>实际完成时间</li>
+<li>停止</li>
+<li>重新开始</li>
+<li>完成百分比</li>
+<li>实际工时</li>
+<li>剩余工时</li>
+<li>工时</li>
+<li>工时完成百分比</li>
+<li>固定成本</li>
+<li>实际成本</li>
+</ul>
+<p>工作分配域的标准处理顺序如下所示：</p>
+<ul>
+<li>单位</li>
+<li>工作分配延迟</li>
+<li>资源调配延迟</li>
+<li>开始时间</li>
+<li>完成时间</li>
+<li>实际开始时间</li>
+<li>实际完成时间</li>
+<li>实际加班工时</li>
+<li>实际工时</li>
+<li>剩余工时</li>
+<li>正常工时</li>
+<li>剩余加班工时</li>
+<li>加班工时</li>
+<li>工时</li>
+
+</ul>
+<h2>
+<a id="databaseObjectNaming" name="databaseObjectNaming">数据库对象命名规则</a></h2>
+<h3>
+<a id="tableNaming" name="tableNaming">表命名规则</a></h3>
+<p>以下规则应用于表名称：</p>
+<ul>
+<li>表名称全部大写。</li>
+<li>所有的表名称均以“MSP_”前缀开头，以表明这是 Project 表。</li>
+<li>用下划线分隔各个单词。</li>
+</ul>
+<a href="#top">页首</a>
+<h3>
+<a id="columnNaming" name="columnNaming">列命名规则</a></h3>
+<p>以下规则应用于列名称：</p>
+<ul>
+<li>列名称全部大写。</li>
+<li>单词通常用下划线分隔。</li>
+<li>列名通常使用所在表的唯一标识作为前缀：</li>
+</ul>
+<table>
+<tr>
+<th>表名称</th>
+<th>列前缀</th>
+</tr>
+<tr>
+<td>MSP_ASSIGNMENTS</td>
+<td>ASSN_</td>
+</tr>
+<tr>
+<td>MSP_ASSIGNMENT_BASELINES</td>
+<td>AB_</td>
+</tr>
+<tr>
+<td>MSP_ATTRIBUTE_STRINGS</td>
+<td>AS_</td>
+</tr>
+<tr>
+<td>MSP_AVAILABILITY</td>
+<td>AVAIL_</td>
+</tr>
+<tr>
+<td>MSP_CALENDARS</td>
+<td>CAL_</td>
+</tr>
+<tr>
+<td>MSP_CALENDAR_DATA</td>
+<td>CD_</td>
+</tr>
+<tr>
+<td>MSP_CODE_FIELDS</td>
+<td>CODE_</td>
+</tr>
+<tr>
+<td>MSP_CONVERSIONS</td>
+<td>CONV_</td>
+</tr>
+<tr>
+<td>MSP_DATE_FIELDS</td>
+<td>DATE_</td>
+</tr>
+<tr>
+<td>MSP_DURATION_FIELDS</td>
+<td>DUR_</td>
+</tr>
+<tr>
+<td>MSP_FIELD_ATTRIBUTES</td>
+<td>ATTRIB_</td>
+</tr>
+<tr>
+<td>MSP_FLAG_FIELDS</td>
+<td>FLAG_</td>
+</tr>
+<tr>
+<td>MSP_LINKS</td>
+<td>LINK_</td>
+</tr>
+<tr>
+<td>MSP_MV_FIELDS</td>
+<td>MV_</td>
+</tr>
+<tr>
+<td>MSP_NUMBER_FIELDS</td>
+<td>NUM_</td>
+</tr>
+<tr>
+<td>MSP_OUTLINE_CODES</td>
+<td>OC_</td>
+</tr>
+<tr>
+<td>MSP_PROJECTS</td>
+<td>PROJ_</td>
+</tr>
+<tr>
+<td>MSP_RESOURCE_BASELINES</td>
+<td>RB_</td>
+</tr>
+<tr>
+<td>MSP_RESOURCE_RATES</td>
+<td>RR_</td>
+</tr>
+<tr>
+<td>MSP_RESOURCES</td>
+<td>RES_</td>
+</tr>
+<tr>
+<td>MSP_STRING_TYPES</td>
+<td>STRING_</td>
+</tr>
+<tr>
+<td>MSP_TASK_BASELINES</td>
+<td>TB_</td>
+</tr>
+<tr>
+<td>MSP_TASKS</td>
+<td>TASK_</td>
+</tr>
+<tr>
+<td>MSP_TEXT_FIELDS</td>
+<td>TEXT_</td>
+</tr>
+<tr>
+<td>MSP_TIMEPHASED_DATA</td>
+
+
+<td>TD_</td>
+
+</tr>
+
+<tr>
+<td>MSP_VERS_VERSIONS</td>
+<td>VERS_</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h3>
+<a id="MSP_PROJECTSqualifiers" name="MSP_PROJECTSqualifiers">MSP_PROJECTS 表的列识别符</a></h3>
+<p><a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表包含项目选项和信息。存放这些信息的列的名称中包含一个识别符，该识别符用来指定该列中的数据应在何处设置。下面列出了这些识别符及其含义：</p>
+<table>
+<tr>
+<th>识别符</th>
+<th>说明</th>
+</tr>
+<tr>
+<td>OPT_</td>
+<td>在“工具”菜单上的“选项”对话框中设置的选项</td>
+</tr>
+<tr>
+<td>PROP_</td>
+<td>在“文件”菜单上的“属性”对话框中设置的属性</td>
+</tr>
+<tr>
+<td>INFO_</td>
+<td>在“项目”菜单上的“项目信息”对话框中设置的项目信息</td>
+</tr>
+<tr>
+<td>EXT_</td>
+<td>用于标记外部编辑数据框的标记</td>
+</tr>
+</table>
+<h3>
+<a id="columnAbbreviations" name="columnAbbreviations">列名称缩写</a></h3>
+<p>为了保持组成列名称的单词短小而一致，在命名列时使用了下列缩写：</p>
+<table>
+<tr>
+<th>缩写</th>
+<th>单词</th>
+</tr>
+<tr>
+<td>ACT</td>
+<td>实际</td>
+</tr>
+<tr>
+<td>AVAIL</td>
+<td>可用</td>
+</tr>
+<tr>
+<td>BASE</td>
+<td>比较基准</td>
+</tr>
+<tr>
+<td>CAL</td>
+<td>日历</td>
+</tr>
+<tr>
+<td>COMP</td>
+<td>完成</td>
+</tr>
+<tr>
+<td>DEF</td>
+<td>默认</td>
+</tr>
+<tr>
+<td>DUR</td>
+<td>工期</td>
+</tr>
+<tr>
+<td>EST</td>
+<td>估计</td>
+</tr>
+<tr>
+<td>EXT</td>
+<td>外部</td>
+</tr>
+<tr>
+<td>FMT</td>
+<td>格式</td>
+</tr>
+<tr>
+<td>LANG</td>
+<td>语言</td>
+</tr>
+<tr>
+<td>MAX</td>
+<td>最大值</td>
+</tr>
+<tr>
+<td>NUM</td>
+<td>数字</td>
+</tr>
+<tr>
+<td>OVT</td>
+<td>加班</td>
+</tr>
+<tr>
+<td>PCT</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>PRED</td>
+<td>前置任务</td>
+</tr>
+<tr>
+<td>PROJ</td>
+<td>项目</td>
+</tr>
+<tr>
+<td>REF</td>
+<td>参考</td>
+</tr>
+<tr>
+<td>REG</td>
+<td>常规</td>
+</tr>
+<tr>
+<td>REM</td>
+<td>剩余</td>
+</tr>
+<tr>
+<td>RES</td>
+<td>资源</td>
+</tr>
+<tr>
+<td>SCHED</td>
+<td>日程</td>
+</tr>
+<tr>
+<td>STD</td>
+<td>常用</td>
+</tr>
+<tr>
+<td>SUCC</td>
+<td>后续任务</td>
+</tr>
+<tr>
+<td>UID</td>
+<td>唯一标识号</td>
+</tr>
+<tr>
+<td>VAR</td>
+<td>差异</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="databaseTables" name="databaseTables">数据库表</a></h2>
+<h3>
+<a id="infoOnly" name="infoOnly">仅供参考列</a></h3>
+<p>有些域包含的数据是 Project 在向数据库导出数据时写入的，而在将项目数据导入到 Project 中时不会读取这些数据。这些数据通常是由于 Project 中的计算或设置而产生的。如果直接在数据库中编辑这些数据，当将数据导入到 Project 中时，不会反映出这些更改。这些域在表说明中将被标记为 <b class="bterm">I</b>。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="bold" name="bold">加粗列名称</a></h3>
+<p>表说明中的域名称以加粗形式指示列（域）在多个表中共用。</p>
+<a href="#top">页首</a>
+<h3>
+<a id="dataTypes" name="dataTypes">列的数据类型</a></h3>
+<p>Project 数据库结构中使用了下列数据类型：</p>
+<table>
+<tr>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td>bit</td>
+<td>在支持 Boolean 类型的数据库中为布尔值，否则为整数值。</td>
+</tr>
+<tr>
+<td>char(n)</td>
+<td>字符型；(n) 指定最多所允许的字符数。</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>包括时间的日期。</td>
+</tr>
+<tr>
+<td>decimal</td>
+<td>小数。</td>
+</tr>
+<tr>
+<td>image</td>
+<td>大于 255 字节的二进制数据。</td>
+</tr>
+<tr>
+<td>integer</td>
+<td>整数。</td>
+</tr>
+<tr>
+<td>smallint</td>
+<td>SQL Server 系统数据类型，包括 -2^31 (-2,147,483,647) 到 2^31-1 (2,147,483,647) 之间的所有数字。存储大小为 2 个字节。</td>
+</tr>
+<tr>
+<td>tinyint</td>
+<td>SQL Server 系统数据类型，包括 0 到 255 之间的所有数字。存储大小为 1 个字节。</td>
+</tr>
+<tr>
+<td>text</td>
+<td>可用的最长文本域；在 SQL Server 中为 8000 字节，在 Microsoft Access 中为 64k。</td>
+</tr>
+<tr>
+<td>varchar(n)</td>
+<td>如果没有特别指明，为变长字符文本；(n) 指定所允许最大字符数。</td>
+</tr>
+</table>
+<p>当 Project 需要存储时间值而无需存储日期值时，时间值将作为日期存储。从数据库中读取此项目时，将忽略这些域中的日期部分。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_ASSIGNMENT_BASELINES" name="MSP_ASSIGNMENT_BASELINES">MSP_ASSIGNMENT_BASELINES</a></h2>
+<p>该表包含自定义工作分配比较基准数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ASSN_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_ASSIGNMENTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_REF_ENT_PROJ_ID</td>
+<td>integer</td>
+<td>如果工作分配比较基准数据为摘要工作分配的一部分，将引用 MSP_PROJECTS 表中的有效 PROJ_ID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_NUM</td>
+<td>smallint</td>
+<td>自定义比较基准的编号，1-10。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_START</td>
+<td>datetime</td>
+<td>保存比较基准时，工作分配的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_FINISH</td>
+<td>datetime</td>
+<td>工作分配的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_WORK</td>
+<td>decimal</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_COST</td>
+<td>decimal</td>
+<td>资源在任务中要完成工时的计划总成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AB_BASE_COST_PER_USE</td>
+<td>decimal</td>
+<td>自定义比较基准的每次使用成本，1-10。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_ASSIGNMENTS" name="MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a></h2>
+<p>该表包含工作分配数据。除了已分配资源的任务之外，Project 还将为尚未分配资源的任务（空工作分配）写入行。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer </td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ENTSUMPROJID</td>
+<td>integer </td>
+<td>包含具有摘要工作分配的项目的标识号。
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_FINISH</td>
+<td>datetime</td>
+<td>工作分配实际完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_START</td>
+<td>datetime</td>
+<td>工作分配实际开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACWP</td>
+<td>decimal</td>
+<td>到项目的状态日期或当前日期为止，资源在一项任务中已完成工时的成本；也称作“已完成工时的实际成本”。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_BCWP</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，工作分配按时间分段的工时完成百分比乘以工作分配按时间分段的比较基准成本的累计值；也称作“盈余分析”。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_BCWS</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，按时间分段的比较基准累计成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RES_TYPE</td>
+<td>bit</td>
+<td>资源类型：
+<table>
+<tr>
+<td>0</td>
+<td>材料；钢材、混凝土或土料等耗材供应</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时（默认值）；人员和设备</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_IS_OVERALLOCATED		</td>
+<td>bit</td>
+<td>指示在特定任务中是否为资源分配了超负荷的工作量。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_WORK_CONTOUR		</td>
+<td>smallint</td>
+<td>表示某工作分配中如何在工期内分配工时：
+<table>
+<tr>
+<td>0</td>
+<td>常规分布（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>前轻后重</td>
+</tr>
+<tr>
+<td>2</td>
+<td>前重后轻</td>
+</tr>
+<tr>
+<td>3</td>
+<td>双峰分布</td>
+</tr>
+<tr>
+<td>4</td>
+<td>先峰分布</td>
+</tr>
+<tr>
+<td>5</td>
+<td>后峰分布</td>
+</tr>
+<tr>
+<td>6</td>
+<td>钟型分布</td>
+</tr>
+<tr>
+<td>7</td>
+<td>中央加重钟型</td>
+</tr>
+<tr>
+<td>8</td>
+<td>分布</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_START_VAR		</td>
+<td>integer</td>
+<td>工作分配的比较基准开始日期与其当前计划开始日期之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_FINISH_VAR		</td>
+<td>integer</td>
+<td>工作分配的比较基准完成日期与其计划完成日期之间的差异。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_UPDATE_NEEDED		</td>
+<td>bit</td>
+<td>指定在更改开始日期、完成日期或对资源进行重新分配后，是否需要向接受任务的资源发送“工作组更新”消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>EXT_EDIT_REF_DATA		</td>
+<td>text</td>
+<td>设置该值指定一个新行或在更改数据库中的项目信息时备份现有数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ASSN_UID</b>
+</td>
+<td>integer</td>
+<td>工作分配的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_HAS_LINKED_FIELDS		</td>
+<td>bit</td>
+<td>指示是否存在与此工作分配链接的 OLE。
+				
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_IS_CONFIRMED		</td>
+<td>bit</td>
+<td>指示任务所分配的资源在响应“工作组分配”消息时，是接受还是拒绝了任务分配。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RESPONSE_PENDING		</td>
+<td>bit</td>
+<td>指示在向接受任务的资源发送“工作组分配”消息后，是否接收到答复。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_HAS_NOTES		</td>
+<td>bit</td>
+<td>指示工作分配是否具有 RTF 备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_TEAM_STATUS_PENDING		</td>
+<td>bit</td>
+<td>指示在向任务所分配的资源发送“工作组状态”消息后，是否接收到状态消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TASK_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_START_DATE		</td>
+<td>datetime</td>
+<td>分配的资源计划开始执行任务的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_FINISH_DATE		</td>
+<td>datetime</td>
+<td>所分配的资源计划完成任务工时的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_DELAY		</td>
+<td>integer</td>
+<td>在任务开始日期后，资源开始进行一项工作分配前要等待的时间量。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_DELAY_FMT		</td>
+<td>smallint</td>
+<td>指定延迟格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_LEVELING_DELAY		</td>
+<td>integer</td>
+<td>作为资源调配的结果，工作分配比计划开始日期延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_COST_RATE_TABLE		</td>
+<td>smallint</td>
+<td>指定对工作分配中的资源使用哪个成本费率表：
+<table>
+<tr>
+<td>0</td>
+<td>A（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_START		</td>
+<td>datetime</td>
+<td>保存比较基准时，工作分配的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_FINISH		</td>
+<td>datetime</td>
+<td>工作分配的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_MATERIAL_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示材料费率时所使用的单位。有关费率格式的信息，请参阅 MSP_STRING_TYPES 中的“成本费率数据单位”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_UNITS</td>
+<td>decimal</td>
+<td>资源分配给任务的单位数，表示为 100% 的百分数（假设资源的 MaxUnits 值为 100%）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_WORK		</td>
+
+<td>decimal</td>
+<td>资源在任务中计划完成的总工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中已完成的工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REG_WORK		</td>
+<td>decimal</td>
+<td>计划由任务所分配的资源完成的非加班工时总量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REM_WORK		</td>
+<td>decimal</td>
+<td>任务所分配的资源完成工作分配所需的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_COST</td>
+<td>decimal</td>
+<td>工作分配的总规划（或计划）成本，等于资源在任务中已完成工时的成本，加上工作分配剩余工时的计划成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_COST		</td>
+<td>decimal</td>
+<td>资源在任务中已完成工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_REM_COST		</td>
+<td>decimal</td>
+<td>特定任务中的所有资源完成全部剩余计划工时所需的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_COST		</td>
+<td>decimal</td>
+<td>资源在任务中完成工时所需的计划总成本。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_COST_PER_USE		</td>
+<td>decimal</td>
+<td>比较基准每次使用成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中要完成的加班工时量；按资源的加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在所分配的任务中已完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REM_OVT_WORK		</td>
+<td>decimal</td>
+<td>工作分配的剩余加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_OVT_COST		</td>
+<td>decimal</td>
+<td>资源在任务中已完成加班工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_REM_OVT_COST		</td>
+<td>decimal</td>
+<td>工作分配的剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RTF_NOTES		</td>
+<td>image</td>
+<td>包含工作分配的备注。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BOOKING_TYPE		</td>
+<td>smallint</td>
+<td>指定工作分配的预订类型：<table>
+<tr>
+<td>0</td>
+<td>已提交</td>
+</tr>
+<tr>
+<td>2</td>
+<td>已建议</td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际工时。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_OVT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_CREATION_DATE		</td>
+<td>datetime</td>
+<td>工作分配创建的日期。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_ASSN_ENTERPRISE" name="MSP_ASSN_ENTERPRISE">MSP_ASSN_ENTERPRISE</a></h2>
+<p>该表和 <a href="#MSP_ASSIGNMENTS">MSP_ASSIGNMENTS</a> 表在功能和整体作用上相似，只是该表中的工作分配为项目摘要工作分配，并且引用“资源”全局项目；而 MSP_ASSIGNMENTS 表中包含的所有工作分配没有引用“资源”全局项目（例如，非摘要工作分配）。</p><p><b>注释</b>  该表只是在将企业项目保存到 Project Server 数据库时才由 Project 使用。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer </td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ENTSUMPROJID</td>
+<td>integer </td>
+<td>包含具有摘要工作分配的项目的标识号。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_FINISH</td>
+<td>datetime</td>
+<td>工作分配实际完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_START</td>
+<td>datetime</td>
+<td>工作分配实际开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACWP</td>
+<td>decimal</td>
+<td>到项目的状态日期或当前日期为止，资源在一项任务中已完成工时的成本；也称作“已完成工时的实际成本”。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_BCWP</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，工作分配按时间分段的工时完成百分比乘以工作分配按时间分段的比较基准成本的累计值；也称作“盈余分析”。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_BCWS</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，按时间分段的比较基准累计成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RES_TYPE</td>
+<td>bit</td>
+<td>资源类型：
+<table>
+<tr>
+<td>0</td>
+<td>材料；钢材、混凝土或土料等耗材供应</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时（默认值）；人员和设备</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_IS_OVERALLOCATED		</td>
+<td>bit</td>
+<td>指示在特定任务中是否为资源分配了超负荷的工作量。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_WORK_CONTOUR		</td>
+<td>smallint</td>
+<td>表示某工作分配中如何在工期内分配工时：
+<table>
+<tr>
+<td>0</td>
+<td>常规分布（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>前轻后重</td>
+</tr>
+<tr>
+<td>2</td>
+<td>前重后轻</td>
+</tr>
+<tr>
+<td>3</td>
+<td>双峰分布</td>
+</tr>
+<tr>
+<td>4</td>
+<td>先峰分布</td>
+</tr>
+<tr>
+<td>5</td>
+<td>后峰分布</td>
+</tr>
+<tr>
+<td>6</td>
+<td>钟型分布</td>
+</tr>
+<tr>
+<td>7</td>
+<td>中央加重钟型</td>
+</tr>
+<tr>
+<td>8</td>
+<td>分布</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_START_VAR		</td>
+<td>integer</td>
+<td>工作分配的比较基准开始日期与其当前计划开始日期之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_FINISH_VAR		</td>
+<td>integer</td>
+<td>工作分配的比较基准完成日期与其计划完成日期之间的差异。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_UPDATE_NEEDED		</td>
+<td>bit</td>
+<td>指定在更改开始日期、完成日期或对资源进行重新分配后，是否需要向接受任务的资源发送“工作组更新”消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>EXT_EDIT_REF_DATA		</td>
+<td>text</td>
+<td>设置该值指定一个新行或在更改数据库中的项目信息时备份现有数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ASSN_UID</b>
+</td>
+<td>integer</td>
+<td>工作分配的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_HAS_LINKED_FIELDS		</td>
+<td>bit</td>
+<td>指示是否存在与此工作分配链接的 OLE。
+				
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_IS_CONFIRMED		</td>
+<td>bit</td>
+<td>指示任务所分配的资源在响应“工作组分配”消息时，是接受还是拒绝了任务分配。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RESPONSE_PENDING		</td>
+<td>bit</td>
+<td>指示在向接受任务的资源发送“工作组分配”消息后，是否接收到答复。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_HAS_NOTES		</td>
+<td>bit</td>
+<td>指示工作分配是否具有 RTF 备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_TEAM_STATUS_PENDING		</td>
+<td>bit</td>
+<td>指示在向任务所分配的资源发送“工作组状态”消息后，是否接收到状态消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TASK_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_START_DATE		</td>
+<td>datetime</td>
+<td>分配的资源计划开始执行任务的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_FINISH_DATE		</td>
+<td>datetime</td>
+<td>所分配的资源计划完成任务工时的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_DELAY		</td>
+<td>integer</td>
+<td>在任务开始日期后，资源开始进行一项工作分配前要等待的时间量。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_DELAY_FMT		</td>
+<td>smallint</td>
+<td>指定延迟格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_LEVELING_DELAY		</td>
+<td>integer</td>
+<td>作为资源调配的结果，工作分配比计划开始日期延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_COST_RATE_TABLE		</td>
+<td>smallint</td>
+<td>指定对工作分配中的资源使用哪个成本费率表：
+<table>
+<tr>
+<td>0</td>
+<td>A（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_START		</td>
+<td>datetime</td>
+<td>保存比较基准时，工作分配的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_FINISH		</td>
+<td>datetime</td>
+<td>工作分配的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_MATERIAL_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示材料费率时所使用的单位。有关费率格式的信息，请参阅 MSP_STRING_TYPES 中的“成本费率数据单位”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_UNITS</td>
+<td>decimal</td>
+<td>资源分配给任务的单位数，表示为 100% 的百分数（假设资源的 MaxUnits 值为 100%）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中计划完成的总工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中已完成的工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REG_WORK		</td>
+<td>decimal</td>
+<td>计划由任务所分配的资源完成的非加班工时总量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REM_WORK		</td>
+<td>decimal</td>
+<td>任务所分配的资源完成工作分配所需的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_COST</td>
+<td>decimal</td>
+<td>工作分配的总规划（或计划）成本，等于资源在任务中已完成工时的成本，加上工作分配剩余工时的计划成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_COST		</td>
+<td>decimal</td>
+<td>资源在任务中已完成工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_REM_COST		</td>
+<td>decimal</td>
+<td>特定任务中的所有资源完成全部剩余计划工时所需的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_COST		</td>
+<td>decimal</td>
+<td>资源在任务中完成工时所需的计划总成本。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BASE_COST_PER_USE		</td>
+<td>decimal</td>
+<td>比较基准每次使用成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在任务中要完成的加班工时量；按资源的加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在所分配的任务中已完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_REM_OVT_WORK		</td>
+<td>decimal</td>
+<td>工作分配的剩余加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_ACT_OVT_COST		</td>
+<td>decimal</td>
+<td>资源在任务中已完成加班工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>ASSN_REM_OVT_COST		</td>
+<td>decimal</td>
+<td>工作分配的剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_RTF_NOTES		</td>
+<td>image</td>
+<td>包含工作分配的备注。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_BOOKING_TYPE		</td>
+<td>smallint</td>
+<td>指定工作分配的预订类型：<table>
+<tr>
+<td>0</td>
+<td>已提交</td>
+</tr>
+<tr>
+<td>2</td>
+<td>已建议</td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际工时。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_ACT_OVT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_CREATION_DATE		</td>
+<td>datetime</td>
+<td>工作分配 UID 创建的日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_PROJ_VERSION_ID		</td>
+<td>integer</td>
+<td>将摘要记录工作分配行映射回该摘要记录工作分配所属项目的版本 ID。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ASSN_DEFAULT_VERSION_PROJ_ID		</td>
+<td>integer</td>
+<td>将摘要记录工作分配行映射回该项目默认版本的项目 ID。如果默认项目版本存在问题，该行将为摘要记录工作分配所引用项目的项目 ID。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_ATTRIBUTE_STRINGS" name="MSP_ATTRIBUTE_STRINGS">MSP_ATTRIBUTE_STRINGS</a></h2>
+<p>该表存储在 <a href="#MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a> 中所定义的自定义 WBS 代码定义、别名和公式。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">AS_ID</b>
+</td>
+<td>integer</td>
+<td>属性字符串的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AS_POSITION		</td>
+<td>integer</td>
+<td>指定资源库共享者在共享者项目列表中的位置。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AS_VALUE		</td>
+<td>varchar(255)</td>
+<td>公式同 Project 的“公式”对话框中显示的一样。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_AVAILABILITY" name="MSP_AVAILABILITY">MSP_AVAILABILITY</a></h2>
+<p>该表包含关于资源可用性的数据，并跟踪项目中任何特定资源的时间和可用性。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AVAIL_UID		</td>
+<td>integer</td>
+<td>资源可用性的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AVAIL_FROM		</td>
+<td>datetime</td>
+<td>资源可以按照当前时间段指定的单位进行工作的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AVAIL_TO</td>
+<td>datetime</td>
+<td>资源可按照为当前时间段指定的单位进行工作的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AVAIL_UNITS		</td>
+<td>decimal</td>
+<td>资源分配给任务的单位数，表示为 100% 的百分数（假设资源的 MaxUnits 值为 100%）。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_CALENDAR_DATA" name="MSP_CALENDAR_DATA">MSP_CALENDAR_DATA</a></h2>
+<p>该表包含日历的工作日、非工作日和例外日期数据。</p>
+<p><b>注释</b>  在该表中创建或编辑工作日记录时应注意不要将倒班时间重叠。如果倒班时间发生了重叠，整个工作日将被标记为非工作日。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_UID</td>
+<td>integer</td>
+<td>日历的工作日、非工作日和例外日期数据的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CAL_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		CD_DAY_OR_EXCEPTION</td>
+<td>smallint</td>
+<td>指示日历是否有定义的工作日，或者日历是否为例外日期：
+<table>
+<tr>
+<td>0</td>
+<td>例外日期</td>
+</tr>
+<tr>
+<td>1</td>
+<td>星期天</td>
+</tr>
+<tr>
+<td>2</td>
+<td>星期一</td>
+</tr>
+<tr>
+<td>3</td>
+<td>星期二</td>
+</tr>
+<tr>
+<td>4</td>
+<td>星期三</td>
+</tr>
+<tr>
+<td>5</td>
+<td>星期四</td>
+</tr>
+<tr>
+<td>6</td>
+<td>星期五</td>
+</tr>
+<tr>
+<td>7</td>
+<td>星期六</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_WORKING		</td>
+<td>smallint</td>
+<td>指示所选日期是工作日还是非工作日。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_FROM_DATE		</td>
+<td>datetime</td>
+<td>例外日期的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_TO_DATE		</td>
+<td>datetime</td>
+<td>例外日期的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_FROM_TIME1 - 5</td>
+<td>datetime</td>
+<td>工作日的开始日期和时间（最多支持每天 5 个时间段）；如果 CD_DAY_OR_EXCEPTION 设置为 0（例外日期），将不使用该列。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CD_TO_TIME1 - 5</td>
+<td>datetime</td>
+<td>工作日的结束日期和时间（最多支持每天 5 个时间段）；如果 CD_DAY_OR_EXCEPTION 设置为 0（例外日期），将不使用该列。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_CALENDARS" name="MSP_CALENDARS">MSP_CALENDARS</a></h2>
+<p>该表存储基本日历数据。日历用于定义标准工作时间和非工作时间。项目必须具有一个基准日历。任务和资源可以有其自己的非基准日历，但任何非基准日历必须基于基准日历。Project 将使用唯一标识号 1、2、-65536、-65535、-65534 和 -65533 将 6 个行写入该表中。这些行仅供 Project 内部使用，且不能进行编辑或删除。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CAL_UID</b>
+</td>
+<td>integer</td>
+<td>日历的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		CAL_BASE_UID</td>
+<td>integer</td>
+<td>日历引用其父基准日历；对所有资源日历都是必需的。如果该日历为基准日历，其值为 -1。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CAL_IS_BASE_CAL		</td>
+<td>bit</td>
+<td>指示此日历是否为基准日历；资源日历不能为基准日历。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CAL_NAME		</td>
+<td>varchar(255)</td>
+<td>日历名称；如果该日历为资源日历，名称将为空，如果日历为基准日历，需要输入名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		CAL_ENTUID</td>
+<td>integer</td>
+<td>日历的企业级标识号。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_CODE_FIELDS" name="MSP_CODE_FIELDS">MSP_CODE_FIELDS</a></h2>
+<p>该表将自定义大纲代码域链接到 <a href="#MSP_TASKS">MSP_TASKS</a> 和 <a href="#MSP_RESOURCES">MSP_RESOURCES</a> 表的相应行中。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CODE_CATEGORY		</td>
+<td>integer</td>
+<td>指定自定义大纲代码是任务还是资源。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CODE_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 CODE_CATEGORY 判定，引用其各自表中的有效 TASK_UID 或 RES_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CODE_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CODE_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_OUTLINE_CODES 表中的有效标识号。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_CONVERSIONS" name="MSP_CONVERSIONS">MSP_CONVERSIONS</a></h2>
+<p>该表包含所有 Project 字符串，并将 Project 数据库链接到 Project OLE DB 提供程序中可用的 Task、Resource 和 Assignment 表。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>STRING_TYPE_ID		</td>
+<td>integer</td>
+<td>引用 MSP_STRING_TYPES 表中的有效 STRING_TYPE_ID。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td><b class="bterm">CONV_VALUE</b>
+</td>
+<td>integer</td>
+<td>OLE 数据库域中所显示的值；取决于 STRING_TYPE_ID 中选择的值：
+<table>
+<tr>
+<td>=3</td>
+<td>0 = FF（完成-完成）<br>1 = FS（完成-开始）<br>2 = SF（开始-完成）<br>3 = SS（开始-开始）</td>
+</tr>
+<tr>
+<td>=14</td>
+<td>0 = 常规分布<br>1 = 前轻后重<br>2 = 前重后轻<br>3 = 双峰分布<br>4 = 先峰分布<br>5 = 后峰分布<br>6 = 钟型分布<br>7 = 中央加重钟型<br>8 = 分布</td>
+</tr>
+<tr>
+<td>=29</td>
+<td>0 = 固定单位<br>1 = 固定工期<br>2 = 固定工时</td>
+</tr>
+<tr>
+<td>=56</td>
+<td>0 = 例外日期<br>1 = 星期日<br>2 = 星期一<br>3 = 星期二<br>4 = 星期三<br>5 = 星期四<br>6 = 星期五<br>7 = 星期六</td>
+</tr>
+<tr>
+<td>=57</td>
+<td>3 = 分钟工时<br>4 = 分钟<br>5 = 工时<br>6 = 小时<br>7 = 工作日<br>8 = 天<br>9 = 周工时<br>10 = 周<br>11 = 月工时<br>12 = 月<br>19 = 百分比工时<br>20 = 百分比<br>21 = ' '<br>35 = 分钟工时?<br>36 = 分钟?<br>37 = 工时?<br>38 = 小时?<br>39 = 工作日?<br>40 = 天?<br>41 = 周工时?<br>42 = 周?<br>43 = 月工时?<br>44 = 月?<br>51 = 百分比工时?<br>52 = 百分比?<br>53 = ' '</td>
+</tr>
+<tr>
+<td>=68</td>
+<td>0 = 越早越好<br>1 = 越晚越好<br>2 = 必须开始于<br>3 = 必须完成于<br>4 = 不得早于...开始<br>5 = 不得晚于...开始<br>6 = 不得早于...完成<br>7 = 不得晚于...完成</td>
+</tr>
+<tr>
+<td>=70</td>
+<td>1 = 开始<br>2 = 结束</td>
+</tr>
+<tr>
+<td>=78</td>
+<td>1 = 分钟工时<br>2 = 工时<br>3 = 工作日<br>4 = 周工时<br>5 = 月工时<br>7 = 年工时</td>
+</tr>
+<tr>
+<td>=81</td>
+<td>0 = 默认<br>1 = 无<br>2 = 仅电子邮件<br>3 = Project Server</td>
+</tr>
+<tr>
+<td>=83</td>
+<td>1 = 日<br>2 = 一<br>3 = 二<br>4 = 三<br>5 = 四<br>6 = 五<br>7 = 六</td>
+</tr>
+<tr>
+<td>=84</td>
+<td>1 =（日）<br>2 =（一）<br>3 =（二）<br>4 =（三）<br>5 =（四）<br>6 =（五）<br>7 =（六）</td>
+</tr>
+<tr>
+<td>=85</td>
+<td>1 = 星期日<br>2 = 星期一<br>3 = 星期二<br>4 = 星期三<br>5 = 星期四<br>6 = 星期五<br>7 = 星期六<br>
+
+</td>
+</tr>
+<tr>
+<td>=100</td>
+<td>0 = 任务<br>1 = 资源<br>2 = 日历<br>3 = 工作分配<br>4 = 相关性</td>
+</tr>
+<tr>
+<td>=101</td>
+<td>0 = 从项目完成之日起排定日程<br>1 = 从项目开始之日起排定日程</td>
+</tr>
+<tr>
+<td>=102</td>
+<td>0 = 非工作日<br>1 = 工作日<br>2 = 默认</td>
+</tr>
+<tr>
+<td>=103</td>
+<td>0 = 前<br>1 = 后<br>2 = 前加空格<br>3 = 后加空格</td>
+</tr>
+<tr>
+<td>=104</td>
+<td>0 = 默认<br>1 = 无<br>2 = 仅电子邮件<br>3 = Project Server</td>
+</tr>
+<tr>
+<td>=105</td>
+<td>变量。与“工作分配”、“资源”和“任务”有关。</td>
+</tr>
+<tr>
+<td>=106</td>
+<td>1 = 大纲代码和 WBS 掩码<br>2 = 只允许使用查阅表格中列出的大纲代码<br>3 = 新代码必须在掩码的各个级别上都有值<br>4 = 检查新 WBS 代码的唯一性<br>5 = WBS 前缀<br>6 = 为新任务生成 WBS 代码<br>7 = 域别名<br>8 = 自定义域公式<br>9 = 共享资源文件名称</td>
+</tr>
+<tr>
+<td>=107</td>
+<td>200 = 工作分配剩余工时<br>201 = 工作分配实际工时<br>202 = 工作分配实际加班工时<br>203 = 工作分配比较基准工时<br>204 = 工作分配比较基准成本<br>205 = 工作分配实际成本<br>206 = 资源比较基准工时<br>207 = 资源比较基准成本<br>208 = 任务比较基准工时<br>209 = 任务比较基准成本<br>210 = 任务完成百分比</td>
+</tr>
+<tr>
+<td>=108</td>
+<td>0 = 分钟工时<br>1 = 工时<br>2 = 工作日<br>3 = 周工时<br>5 = 月工时<br>8 = 年工时</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>CONV_LANG_ID		</td>
+<td>integer</td>
+<td>转换文本显示语言的标识号，例如：2052 = 简体中文，数据库的默认语言。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>CONV_STRING		</td>
+<td>varchar(200)</td>
+<td>域的文本值。例如，如果 STRING_TYPE_ID = 68、CONV_VALUE = 0，并且 CONV_LANG_ID = 2052，该域的内容应该为“越早越好”。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_DATE_FIELDS" name="MSP_DATE_FIELDS">MSP_DATE_FIELDS</a></h2>
+<p>该表包含自定义日期数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		DATE_CATEGORY</td>
+<td>integer</td>
+<td>指定自定义日期类别是“任务”、“资源”还是“工作分配”：
+<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">DATE_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 DATE_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">DATE_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>DATE_VALUE		</td>
+<td>datetime</td>
+<td>自定义日期域的值。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_DURATION_FIELDS" name="MSP_DURATION_FIELDS">MSP_DURATION_FIELDS</a></h2>
+<p>该表包含自定义工期数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>DUR_CATEGORY		</td>
+<td>integer</td>
+<td>指定自定义工期类别是“任务”、“资源”还是“工作分配”：
+<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>工作分配</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">DUR_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 DUR_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">DUR_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>DUR_VALUE		</td>
+<td>integer</td>
+<td>自定义工期域的值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>DUR_FMT		</td>
+<td>smallint</td>
+<td>指定在 Project 中显示工期时所使用的单位：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_FIELD_ATTRIBUTES" name="MSP_FIELD_ATTRIBUTES">MSP_FIELD_ATTRIBUTES</a></h2>
+<p>该表包含与域属性（如自定义 WBS、自定义域名称别名和自定义域公式等）有关的数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ATTRIB_FIELD_ID		</td>
+<td>integer</td>
+<td>引用公式影响的列；有关“域标识号”的信息，请参阅 MSP_STRING_TYPES 和 MSP_CONVERSIONS。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ATTRIB_ID		</td>
+<td>integer</td>
+<td>引用域属性的类型；有关“域属性”的信息，请参阅 MSP_STRING_TYPES 和 MSP_CONVERSIONS。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ATTRIB_VALUE		</td>
+<td>integer</td>
+<td>属性值；值 -1 表示该值存储在 MSP_ATTRIBUTE_STRINGS 表中。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">AS_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_ATTRIBUTE_STRINGS 表中的有效标识号；如果 ATTRIB_VALUE 设置为 -1（指定该值为属性值）以外的其他值，将忽略该标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ATTRIB_EXT_EDITED	</td>
+<td>bit</td>
+<td>指示记录是否经过外部编辑。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_FLAG_FIELDS" name="MSP_FLAG_FIELDS">MSP_FLAG_FIELDS</a></h2>
+<p>该表包含有关自定义标志的信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>FLAG_CATEGORY		</td>
+<td>integer</td>
+<td>指定自定义标志类别是“任务”、“资源”还是“工作分配”：
+<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">FLAG_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 FLAG_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">FLAG_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>FLAG_VALUE		</td>
+<td>bit</td>
+<td>自定义标志域的值。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_LINKS" name="MSP_LINKS">MSP_LINKS</a></h2>
+<p>该表存储跨项目链接，该链接允许项目链接到企业中的任何其他项目。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>EXT_EDIT_REF_DATA		</td>
+<td>text</td>
+<td>设置该值指定一个新行或在更改数据库中的项目信息时备份现有数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>LINK_UID		</td>
+<td>integer</td>
+<td>链接的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>LINK_IS_CROSS_PROJ		</td>
+<td>bit</td>
+<td>指定链接是否为跨项目链接（存储于 MSP_TASKS 表中）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>LINK_PRED_UID		</td>
+<td>integer</td>
+<td>前置任务的唯一标识号；在项目中必须唯一，并且必须引用 MSP_TASKS 表中相同 PROJ_ID 的有效行。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>LINK_SUCC_UID		</td>
+<td>integer</td>
+<td>后续任务的唯一标识号；在项目中必须唯一，并且必须引用 MSP_TASKS 表中相同 PROJ_ID 的有效行。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>LINK_TYPE		</td>
+<td>smallint</td>
+<td>指定链接类型：
+<table>
+<tr>
+<td>0</td>
+<td>FF（完成-完成）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>FS（完成-开始）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SF（开始-完成）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SS（开始-开始）</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+
+<td>LINK_LAG_FMT		</td>
+<td>smallint</td>
+
+<td>指示 LINK_LAG 中所指定的延隔时间量的格式。
+<table>
+<tr>
+<td>3</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>6</td>
+<td>小时</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日（默认值）</td>
+</tr>
+<tr>
+<td>8</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>10</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>12</td>
+<td>月</td>
+</tr>
+<tr>
+<td>19</td>
+<td>百分比工时</td>
+</tr>
+<tr>
+<td>20</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>35</td>
+<td>分钟工时?</td>
+</tr>
+<tr>
+<td>36</td>
+<td>分钟?</td>
+</tr>
+<tr>
+<td>37</td>
+<td>工时?</td>
+</tr>
+<tr>
+<td>38</td>
+<td>小时?</td>
+</tr>
+<tr>
+<td>39</td>
+<td>工作日?</td>
+</tr>
+<tr>
+<td>40</td>
+<td>天?</td>
+</tr>
+<tr>
+<td>41</td>
+<td>周工时?</td>
+</tr>
+<tr>
+<td>42</td>
+<td>周?</td>
+</tr>
+<tr>
+<td>43</td>
+<td>月工时?</td>
+</tr>
+<tr>
+<td>44</td>
+<td>月?</td>
+</tr>
+<tr>
+<td>51</td>
+<td>百分比工时?</td>
+</tr>
+<tr>
+<td>52</td>
+<td>百分比?</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>LINK_LAG		</td>
+<td>integer</td>
+<td>指定延隔时间量，按工期值（分钟 * 10）来指定。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_MV_FIELDS" name="MSP_MV_FIELDS">MSP_MV_FIELDS</a></h2>
+<p>该表包含资源多值代码信息。</p><p><b>注释</b>  该表只是在将企业项目保存到 Project Server 数据库时才由 Project 使用。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RESERVED_DATA</b>
+</td>
+<td>char(1)</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CODE_MV_UID</td>
+<td>integer</td>
+<td>多值自定义代码的唯一 ID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CODE_CATEGORY</td>
+<td>integer</td>
+<td>指定自定义多值大纲代码类别为“资源”：
+<table>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CODE_REF_UID</b></td>
+<td>integer</td>
+<td>由 NUM_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CODE_FIELD_ID</b></td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CODE_UID</td>
+<td>integer</td>
+<td>引用 MSP_CODE_FIELDS 表中的有效标识号。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_NUMBER_FIELDS" name="MSP_NUMBER_FIELDS">MSP_NUMBER_FIELDS</a></h2>
+<p>该表包含自定义数字数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>NUM_CATEGORY		</td>
+<td>integer</td>
+<td>指定自定义数字类别是“任务”、“资源”还是“工作分配”：
+<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">NUM_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 NUM_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">NUM_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表的 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>NUM_VALUE</td>
+<td>decimal</td>
+<td>自定义数字域的值。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_OUTLINE_CODES" name="MSP_OUTLINE_CODES">MSP_OUTLINE_CODES</a></h2>
+<p>该表包含与项目相关联的自定义大纲代码定义的有关数据。每个自定义大纲代码在项目中必须唯一，但在使用企业代码的情况下，也可以在几个项目间共用。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CODE_UID</td>
+<td>integer</td>
+<td>自定义大纲代码的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_PARENT</td>
+<td>integer</td>
+<td>引用 MSP_OUTLINE_CODES 表中的有效标识号；对于没有父代码的最高级代码应将其设置为 0。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_FIELD_ID</td>
+<td>integer</td>
+<td>任务或资源自定义大纲代码的标识号，企业必需。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_NAME</td>
+<td>text</td>
+<td>自定义大纲代码的名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_DESCRIPTION</td>
+<td>text</td>
+<td>包含对所定义代码的说明。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_CACHED_FULL_NAME		</td>
+<td>text</td>
+<td>完整大纲代码值，包括以上所有级别；签入企业全局设置时在发布过程中生成该值。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OC_CACHED_IS_VALID		</td>
+<td>bit</td>
+
+<td>指定大纲代码是否有效；只有有效的大纲代码才可用于 Project 和 Project Web Access 用户。
+
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_PROJ_SECURITY" name="MSP_PROJ_SECURITY">MSP_PROJ_SECURITY</a></h2>
+<p>该表加强 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的安全性，并由“项目数据服务 (PDS)”进行维护，“项目数据服务 (PDS)”加强该表上的只读和读/写权限。只有从 Project 客户端上进行读取或写入操作时，该表才具有数据，因此该表通常显示为空。</p>
+<p><b>注释</b>   无法通过 Project 直接访问该表，且不能进行修改。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_SPID		</td>
+<td>varchar(255)</td>
+<td>SQL 进程标识号 (SPID)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_SPIDDATESTAMP</td>
+<td>datetime</td>
+<td>此安全行中使用的活动 SPID 的创建日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_READCOUNT</td>
+<td>integer</td>
+<td>表示当前特定用户对此特定项目进行授权读取访问的数目：
+<table>
+<tr>
+<td>0</td>
+<td>无用户（默认）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>一个用户；PDS 加强在特定时间对某个项目的单个 READWRITE 访问 </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_WRITECOUNT</td>
+<td>integer</td>
+<td>表示当前特定用户对此特定项目进行授权写入访问的数目：该值不得大于 1。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_PROJECTS" name="MSP_PROJECTS">MSP_PROJECTS</a></h2>
+<p>该表存储项目的有关信息，包括项目级别设置。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>项目的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_NAME		</td>
+<td>varchar(255)</td>
+<td>项目名称（显示于项目窗口标题栏中），并且在该表中必须唯一；以及数据源名称，不能超过 255 个字符。
+<p><b>注释</b>  企业版本不包括数据源名称；PROJ_PROJECT.PROJ_VERSION 确保该名称的唯一性</p>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_AUTHOR</td>
+<td>varchar(255)</td>
+<td>项目作者的名字；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CALC_ACT_COSTS		</td>
+<td>bit</td>
+<td>指定 Project 是否应自动计算实际成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_CATEGORY		</td>
+<td>varchar(255)</td>
+<td>项目所属类别；用于将类似的项目组合在一起。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_COMPANY		</td>
+<td>varchar(255)</td>
+<td>创建该项目的公司名称；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CRITICAL_SLACK_LIMIT		</td>
+<td>integer</td>
+<td>Project 将任务标记为关键任务之前，该任务可以超过结束日期的天数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CURRENCY_DIGITS</td>
+<td>smallint</td>
+<td>在 Project 中显示货币值时，显示的小数位数：
+<table>
+<tr>
+<td>0</td>
+<td>没有小数位；￥0</td>
+</tr>
+
+<tr>
+<td>1</td>
+<td>小数点后有一位数；￥0.0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小数点后有两位数（默认）；￥0.00</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CURRENCY_POSITION</td>
+<td>smallint</td>
+<td>指定与货币值相关的货币符号的位置：
+<table>
+<tr>
+<td>0</td>
+<td>在前，无空格（默认）；￥0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>在后，无空格；0￥</td>
+</tr>
+<tr>
+<td>2</td>
+<td>在前，加空格；￥ 0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>在后，加空格；0 ￥</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CURRENCY_SYMBOL</td>
+<td>varchar(20)</td>
+<td>用于表示项目中所用货币类型的货币符号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_NEW_ARE_EFFORT_DRIVEN</td>
+<td>bit</td>
+<td>指定新任务是否为投入比导向任务。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_INFO_CURRENT_DATE		</td>
+<td>datetime</td>
+<td>项目的当前日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_FINISH_TIME</td>
+<td>datetime</td>
+<td>所有新任务的默认完成时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_FIX_COST_ACCRUAL</td>
+<td>smallint</td>
+<td>指定是否累算固定成本。
+					
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_MINUTES_PER_DAY</td>
+<td>integer</td>
+<td>默认每天分钟数。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_MINUTES_PER_WEEK</td>
+<td>integer</td>
+<td>默认每周分钟数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_OVT_RATE</td>
+<td>decimal</td>
+<td>新资源的默认加班费率；请参阅 MSP_RESOURCES.RES_DEF_OVT_RATE。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_STD_RATE</td>
+<td>decimal</td>
+<td>新资源的默认费率；请参阅 MSP_RESOURCES.RES_DEF_STD_RATE。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_START_TIME</td>
+<td>datetime</td>
+<td>所有新任务的默认开始时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DEF_TASK_TYPE</td>
+<td>smallint</td>
+<td>项目中所有任务的默认类型：
+<table>
+<tr>
+<td>0</td>
+<td>固定单位（默认）；无论任务的工时量或工期如何变化，“工作分配单位”的数量都保持不变</td>
+</tr>
+<tr>
+<td>1</td>
+<td>固定工期：无论分配的资源数量（工作分配单位）或工时量如何变化，任务工期都保持不变</td>
+</tr>
+<tr>
+<td>2</td>
+<td>固定工时：无论工期或接受任务的资源数量（工作分配单位）如何变化，工时量都保持不变</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DUR_ENTRY_FMT</td>
+<td>smallint</td>
+<td>项目中所有工期的默认格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_INFO_FINISH_DATE</td>
+<td>datetime</td>
+<td>项目的计划完成日期和时间。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_HONOR_CONSTRAINTS</td>
+<td>bit</td>
+<td>指定 Project 是否根据任务的限制日期来排定任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_KEYWORDS</td>
+<td>varchar(255)</td>
+<td>列出与项目相关联的关键字；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_LAST_SAVED</td>
+<td>datetime</td>
+<td>项目最后一次保存的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_MANAGER</td>
+<td>varchar(255)</td>
+<td>项目经理；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_MULT_CRITICAL_PATHS</td>
+<td>bit</td>
+<td>指定 Project 是否为项目中的每个独立网络任务计算并显示关键路径。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_CREATION_DATE</td>
+<td>datetime</td>
+<td>任务的创建日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_POOL_ATTACHED_TO</td>
+<td>varchar(255)</td>
+<td>与该项目文件共享资源的项目文件名称；如果 PROJ_IS_RES_POOL 设置为 1，该名称为必需。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_INFO_CAL_NAME</td>
+<td>varchar(255)</td>
+<td>与项目相关联的日历的名称。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_IS_RES_POOL</td>
+<td>bit</td>
+<td>指定项目是否为其自己的资源库，或指定是否与其他项目共享项目中的资源；请参阅 PROJ_POOL_ATTACHED_TO。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_INFO_SCHED_FROM</td>
+<td>smallint</td>
+<td>指定是从“项目开始日期”（默认）还是从“项目完成日期”排定项目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_SPLIT_IN_PROGRESS</td>
+<td>bit</td>
+<td>指定是否可以拆分正在进行的任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_SPREAD_ACT_COSTS</td>
+<td>bit</td>
+<td>指定实际成本是否一直分布到状态日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_SPREAD_PCT_COMP</td>
+<td>bit</td>
+<td>指定完成百分比是否一直分布到状态日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_INFO_START_DATE</td>
+<td>datetime</td>
+<td>项目的计划开始日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_INFO_STATUS_DATE</td>
+<td>datetime</td>
+<td>项目的状态日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_SUBJECT</td>
+<td>varchar(255)</td>
+<td>项目的主题；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROP_TITLE</td>
+<td>varchar(255)</td>
+<td>项目的标题；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_TASK_UPDATES_RES</td>
+<td>bit</td>
+<td>指定 Project 是否按您在日程中输入的任务完成百分比信息来自动计算实际和剩余工时及成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_WORK_ENTRY_FMT</td>
+<td>smallint</td>
+<td>项目中所有工期的默认格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_CALC_SUB_AS_SUMMARY</td>
+<td>bit</td>
+<td>指定 Project 是否按摘要任务来计算子任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_WEEK_START_DAY</td>
+<td>smallint</td>
+<td>工作周在星期几开始：
+<table>
+<tr>
+<td>0</td>
+<td>星期日（默认）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>星期一</td>
+</tr>
+<tr>
+<td>2</td>
+<td>星期二</td>
+</tr>
+<tr>
+<td>3</td>
+<td>星期三</td>
+</tr>
+<tr>
+<td>4</td>
+<td>星期四</td>
+</tr>
+<tr>
+<td>5</td>
+<td>星期五</td>
+</tr>
+<tr>
+<td>6</td>
+<td>星期六</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_FY_START_MONTH</td>
+<td>smallint</td>
+<td>财政年度开始的月份：
+<table>
+<tr>
+<td>1</td>
+<td>1 月（默认）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 月</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3 月</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4 月</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 月</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6 月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7 月</td>
+
+</tr>
+<tr>
+<td>8</td>
+<td>8 月</td>
+</tr>
+
+<tr>
+
+<td>9</td>
+<td>9 月</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10 月</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11 月</td>
+</tr>
+<tr>
+<td>12</td>
+<td>12 月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_FY_USE_START_YEAR</td>
+<td>bit</td>
+<td>指定是否使用财政年度开始年度编号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_DAYS_PER_MONTH</td>
+<td>smallint</td>
+<td>每月工作日的默认数值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_NEW_TASK_EST</td>
+<td>bit</td>
+<td>指定新任务是否有预计工期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_OPT_SHOW_EST_DUR</td>
+<td>bit</td>
+<td>指定 Project 是否在带有估计工期的任务后显示 ？。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_OPT_EXPAND_TIMEPHASED</td>
+<td>bit</td>
+<td>指定 Project 在保存到数据库时是否以可读或二进制格式保存时间分段数据；请参阅 MSP_TIMEPHASED_DATA。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_DATE</td>
+<td>bit</td>
+<td>指定自定义日期域是否经过外部编辑。
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_DUR</td>
+<td>bit</td>
+<td>指定自定义工期域是否经过外部编辑。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_NUM</td>
+<td>bit</td>
+<td>指定自定义数字域是否经过外部编辑。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_FLAG</td>
+<td>bit</td>
+<td>指定自定义标志域是否经过外部编辑。
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_CODE</td>
+<td>bit</td>
+<td>指定自定义大纲代码域是否经过外部编辑。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED_TEXT</td>
+<td>bit</td>
+<td>指定自定义文本域是否经过外部编辑。
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_EXT_EDITED</td>
+<td>bit</td>
+<td>指定项目是否经过外部编辑。
+					</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_DATA_SOURCE</td>
+<td>varchar(128)</td>
+<td>项目的数据源名称；Project 用它来检查并发使用情况。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_READ_ONLY</td>
+<td>varchar(10)</td>
+<td>指定项目是否为只读。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_READ_WRITE</td>
+<td>varchar(4)</td>
+<td>指定项目是否是为写入而打开。 </td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_READ_COUNT</td>
+<td>varchar(10)</td>
+<td>指定以只读方式打开一个或多个表的用户的数目。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>PROJ_LOCKED</td>
+<td>varchar(4)</td>
+<td>指定用户是否可以向表中写入数据。
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_MACHINE_ID</td>
+<td>varchar(100)</td>
+<td>打开项目的用户所使用计算机的标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RESERVED_BINARY_DATA</td>
+<td>Image</td>
+<td>保留，由 Project 使用；请不要更改该域中的值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		PROJ_TYPE</td>
+<td>integer</td>
+<td>项目类型：
+					
+<table>
+<tr>
+<td>0</td>
+<td>项目（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>模板</td>
+</tr>
+<tr>
+<td>2</td>
+<td>企业全局模板</td>
+</tr>
+<tr>
+<td>3</td>
+<td>企业资源库</td>
+</tr>
+<tr>
+<td>100</td>
+<td>创建的常规项目</td>
+</tr>
+<tr>
+<td>101</td>
+<td>创建的项目模板</td>
+</tr>
+<tr>
+<td>102</td>
+<td>创建的企业全局设置</td>
+</tr>
+<tr>
+<td>1002</td>
+<td>停用的企业模板</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_CHECKEDOUT</td>
+<td>integer</td>
+<td>指定项目是否已签出。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_CHECKOUTBY</td>
+<td>text(255)</td>
+<td>值为最后签出项目的用户的“用户标识号”。当重新签入该项目时，该值不会被清除，相反当重新签入项目时，PROJ_CHECKEDOUT 将返回到 0。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_CHECKOUTDATE</td>
+<td>datetime</td>
+<td>最后一次签出项目时的时间戳。当重新签入项目时，该值不会被清除，相反在重新签入项目时 PROJ_CHECKEDOUT 将返回到 0。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_PROJECT</td>
+<td>varchar(200)</td>
+<td>不带版本后缀存储唯一的项目名（允许索引重复）；可以有很多具有相同的项目值的项目版本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_VERSION</td>
+<td>varchar(50)</td>
+<td>版本名称，例如：“已发布”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_CREATION_DATE_EX</td>
+<td>datetime</td>
+<td>项目创建的日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_ACTUALS_SYNC</td>
+<td>tinyint</td>
+<td>指定项目的实际值是否已与项目的保护实际值同步：
+<table>
+<tr>
+<td>0</td>
+<td>实际值未同步。</td>
+</tr>
+<tr>
+<td>1</td>
+<td>实际值已同步。</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_ADMINPROJECT</td>
+<td>tinyint</td>
+<td>指定项目是否为管理项目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PROJ_ENT_LIST_SEPARATOR</td>
+<td>varchar(2)</td>
+<td>企业多值大纲代码所使用的列表分隔符，例如逗号 (,)。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_RES_GLOBAL_BINARY" name="MSP_RES_GLOBAL_BINARY">MSP_RES_GLOBAL_BINARY</a></h2>
+<p>该表存储与全局企业资源库有关的二进制数据，只可用于 Project 和 Project Server。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>GLB_CATEGORY		</td>
+<td>integer</td>
+<td>指定全局二进制信息是与“任务”、“资源”还是与“工作分配”相关联：
+<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">GLB_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 GLB_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">GLB_REF_ENT_PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_ASSIGNMENTS 表中的有效 ASSN_ENTSUMPROJID。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>GLB_BINARY_DATA		</td>
+<td>Image</td>
+<td>此列将 MSP_PROJECTS 表中 RESERVED_BINARY_DATA 列的内容的一部分保存为二进制数据。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_RES_GLOBAL_BINARY" name="MSP_RES_GLOBAL_BINARY">MSP_RES_SECURITY</a></h2>
+<p>该表加强 MSP_RESOURCES 表中的安全性，并由“项目数据服务 (PDS)”进行维护，“项目数据服务 (PDS)”加强该表上的只读和读/写权限。只有从 Project 中进行读取或写入操作时，该表才具有数据，因此该表通常显示为空。</p><p><b>注释</b>  无法通过 Project 直接访问该表，且不能进行修改。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ERUID
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_SPID</td>
+<td>varchar(255)</td>
+<td>SQL 进程标识号 (SPID)。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_SPIDDATESTAMP
+</td>
+<td>datetime</td>
+<td>此安全行中使用的活动 SPID 的创建日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_READCOUNT
+</td>
+<td>tinyint</td>
+<td>表示当前特定用户对此特定资源进行授权读取访问的数目：<table>
+<tr>
+<td>0</td>
+<td>无用户（默认）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>一个用户；PDS 加强在特定时间的单个 READWRITE 访问</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_WRITECOUNT</td>
+<td>tinyiny</td>
+<td>表示为更新资源数据当前从特定用户对此特定资源进行授权写入访问的数目。该值不得大于 1。</td>
+</tr>
+</table><a href="#top">页首</a>
+<h2>
+<a id="MSP_RESGLOBAL_SECURITY" name="MSP_RESGLOBAL_SECURITY">MSP_RESGLOBAL_SECURITY</a></h2>
+<p>在 Microsoft Project Professional 2002 中处理 Project Server 2003 数据时，该表用于同步资源和日历。</p>
+
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_RES_UID</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SEC_CAL_UID</td>
+<td>integer</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_RESOURCE_BASELINES" name="MSP_RESOURCE_BASELINES">MSP_RESOURCE_BASELINES</a></h2>
+<p>该表包含自定义资源比较基准数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RB_BASE_NUM</td>
+<td>smallint</td>
+<td>自定义比较基准的编号，1-10。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RB_BASE_WORK</td>
+<td>decimal</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RB_BASE_COST</td>
+<td>decimal</td>
+<td>资源在任务中完成工时所需的计划总成本。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_RESOURCE_RATES" name="MSP_RESOURCE_RATES">MSP_RESOURCE_RATES</a></h2>
+<p>该表包含资源费率数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_UID		</td>
+<td>integer</td>
+<td>资源费率的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_RESOURCES 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_RATE_TABLE		</td>
+<td>smallint</td>
+<td>指定对工作分配中的资源使用哪个成本费率表：
+<table>
+<tr>
+<td>0</td>
+<td>A（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_FROM_DATE		</td>
+<td>datetime</td>
+<td>资源费率生效的第一个日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_TO_DATE		</td>
+<td>datetime</td>
+<td>资源费率生效的最后日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_STD_RATE		</td>
+<td>decimal</td>
+<td>标准费率，与所选成本费率表中输入的相同。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_STD_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示标准费率时所使用的单位：
+<table>
+<tr>
+<td>1</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>天</td>
+</tr>
+<tr>
+<td>4</td>
+<td>周</td>
+</tr>
+<tr>
+<td>5</td>
+<td>月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>年</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_OVT_RATE		</td>
+<td>decimal</td>
+<td>加班费率，与所选成本费率表中输入的相同。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_OVT_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示加班费率时所使用的单位：
+<table>
+<tr>
+<td>1</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>天</td>
+</tr>
+<tr>
+<td>4</td>
+<td>周</td>
+</tr>
+<tr>
+<td>5</td>
+<td>月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>年</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RR_PER_USE_COST		</td>
+<td>decimal</td>
+<td>在所选成本费率表中输入的每次使用成本；例如，￥ * 100。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_RESOURCES" name="MSP_RESOURCES">MSP_RESOURCES</a></h2>
+<p>该表存储组成项目的资源的有关信息。</p><p> Project 将向该表中写入四行，它们的唯一标识号分别为 0（任务 0 所需的 Null 资源）、-65536、-65535 和 -65534。这些行仅供 Project 内部使用，且不能进行编辑或删除。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_ACWP</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，资源的所有工作分配中“已完成工时的实际成本”(ACWP) 值的总和。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_BCWP</td>
+<td>decimal</td>
+<td>对于所有分配任务，资源 BCWP 值的总成型摘要，计算到状态日期或当前日期；也称作“已完成工时的预算成本”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_BCWS</td>
+<td>decimal</td>
+<td>对于所有分配的任务，资源 BCWS 值的总成型摘要；也称作“计划工时的预算成本”</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_NUM_OBJECTS		</td>
+<td>integer</td>
+<td>与资源相关联的对象数目，不包括备注中的对象。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>EXT_EDIT_REF_DATA		</td>
+<td>text</td>
+<td>设置该值指定一个新行或在更改数据库中的项目信息时备份现有数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_UID</b>
+</td>
+<td>integer</td>
+<td>资源的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ID</td>
+<td>integer</td>
+<td>资源列表中资源的位置标识符；确定资源在 Project 中的显示顺序。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_HAS_LINKED_FIELDS		</td>
+<td>bit</td>
+<td>指示是否存在与此资源链接的 OLE，链接可能来自活动项目的任何位置、其他 Project 文件或其他程序。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_IS_OVERALLOCATED		</td>
+<td>bit</td>
+<td>指示在所有分配任务中是否为资源分配了超负荷的工作量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_TYPE		</td>
+<td>bit</td>
+<td>资源类型（工时或材料）：
+<table>
+<tr>
+<td>0</td>
+<td>材料；钢材、混凝土或土料等耗材供应</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时（默认值）；人员和设备</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_HAS_NOTES		</td>
+<td>bit</td>
+<td>指定资源是否具有 RTF 格式的备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_CAN_LEVEL		</td>
+<td>bit</td>
+<td>指定是否可以对资源进行资源调配。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_STD_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示标准费率时所使用的单位。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_OVT_RATE_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示加班费率时所使用的单位。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACCRUE_AT		</td>
+<td>smallint</td>
+<td>指示资源标准成本和加班成本支付或累加到任务成本的方式和时间：
+<table>
+<tr>
+<td>1</td>
+<td>开始；按照 ActualStart 域中输入的日期，在任务开始的同时，成本的累算也开始进行。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>结束；直到剩余工时为零时才累算成本。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>按比例（默认）；按照计划工时和报告的实际工时累算成本。</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_WORKGROUP_MESSAGING		</td>
+<td>smallint</td>
+<td>与项目工作组进行通讯使用的消息传递方法：
+<table>
+<tr>
+<td>0</td>
+<td>默认</td>
+</tr>
+<tr>
+<td>1</td>
+<td>无</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Project Server</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">RES_CAL_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_AVAIL_FROM		</td>
+<td>datetime</td>
+<td>资源可以按照当前时间段指定的单位进行工作的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_AVAIL_TO		</td>
+<td>datetime</td>
+<td>资源可以按照当前时间段指定的单位进行工作的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_STD_RATE		</td>
+<td>decimal</td>
+<td>资源完成的正常、非加班工时的支付费率。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_OVT_RATE		</td>
+<td>decimal</td>
+<td>资源完成的加班工时的费率。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_MAX_UNITS		</td>
+<td>decimal</td>
+<td>最大百分比或最大单位数，表示在当前时间段可用于完成任何任务的资源的最大量。可以超过 100%。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_WORK		</td>
+<td>decimal</td>
+<td>资源在所有分配的任务中计划完成的总工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_WORK		</td>
+<td>decimal</td>
+<td>资源在分配的所有工作中已完成的实际工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_BASE_WORK		</td>
+<td>decimal</td>
+<td>资源在分配的所有工作中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在分配的所有任务中要完成的加班工时量，按照该资源的加班费率支付新酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_COST_PER_USE		</td>
+<td>decimal</td>
+<td>每次使用资源时都进行累算的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_REM_WORK		</td>
+<td>decimal</td>
+<td>为完成所有分配任务，资源仍需要的时间量（或人-小时）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_REG_WORK		</td>
+<td>decimal</td>
+<td>资源在分配的所有工作中计划完成的非加班工时总量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_OVT_WORK		</td>
+<td>decimal</td>
+<td>资源在分配的所有工作中已完成的实际加班工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>		RES_REM_OVT_WORK</td>
+<td>decimal</td>
+<td>为完成所有任务，资源所需的剩余加班工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RES_PEAK		</td>
+<td>decimal</td>
+<td>在任何时间，对于分配给资源的所有任务，分配资源的单位的最大百分比（或数值）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配任务中完成的工时所对应的成本总和。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配任务中的计划总成本，它基于资源在所有分配任务中已完成工时的成本，加上所有剩余工时的计划成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_BASE_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配任务中的计划总成本；也称作“预算完成成本 (BAC)”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_REM_COST		</td>
+<td>decimal</td>
+<td>在完成分配给资源的剩余工时期间，将花费的剩余计划费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_OVT_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配任务中的总加班成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_OVT_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配任务中已完成加班工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_REM_OVT_COST		</td>
+<td>decimal</td>
+<td>资源在所有分配的任务中，完成剩余计划加班工时期间所花费的资源剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_NAME		</td>
+<td>varchar(255)</td>
+<td>资源名称；无论资源是否为活动的，资源名称在企业中都必须是唯一的。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_INITIALS		</td>
+<td>varchar(255)</td>
+<td>资源名称的缩写。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_PHONETICS		</td>
+<td>text</td>
+<td>包含资源名称的“平假名”或“片假名”拼音信息；只用于 Project 日语版本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_MATERIAL_LABEL		</td>
+<td>text</td>
+<td>为材料资源输入的测量单位，例如吨、盒或立方码；与材料资源的“工作分配单位”一起使用；只有在 RES_RTYPE 被设置为“材料”时才可用。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_RTF_NOTES		</td>
+<td>Image</td>
+<td>资源的备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_RTYPE</td>
+<td>smallint</td>
+<td>指定资源是普通资源还是常规资源，以及是否停用普通资源或常规资源：
+<table>
+<tr>
+<td>0</td>
+<td>普通资源</td>
+</tr>
+<tr>
+<td>1</td>
+<td>常规资源</td>
+</tr>
+<tr>
+<td>100</td>
+<td>已停用，普通资源</td>
+</tr>
+<tr>
+<td>101</td>
+<td>已停用，常规资源</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_CHECKEDOUT</td>
+<td>integer</td>
+<td>指定是否签出资源。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_CHECKOUTBY</td>
+<td>varchar(255)</td>
+<td>值为最后签出资源的用户的“用户标识号”。当重新签入资源时，该值不会被清除，相反在重新签入资源时，RES_CHECKEDOUT 将返回到 0。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_CHECKOUTDATE</td>
+<td>datetime</td>
+<td>最后一次签出资源时的时间戳。当重新签入资源时，该值不会被清除，相反在重新签入资源时 RES_CHECKEDOUT 将返回到 0。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ENTERPRISE_TIMESTAMP</td>
+<td>datetime</td>
+<td>签入或签出企业资源的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_EUID		</td>
+<td>integer</td>
+<td>将 RES_UID 映射到“资源全局设置”企业库。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_BOOKING_TYPE		</td>
+<td>smallint</td>
+<td>指定资源的预订类型：<table>
+<tr>
+<td>0</td>
+<td>已提交</td>
+</tr>
+<tr>
+<td>2</td>
+<td>已建议</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_AD_GUID		</td>
+<td>uniqueidentifier</td>
+<td>用于从 Active Directory 映射 Project Server 资源的 AD GUID。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_ACT_OVT_WORK_PROT		</td>
+<td>decimal</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RES_CREATION_DATE		</td>
+<td>datetime</td>
+<td>资源 UID 创建的日期。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_STRING_TYPES" name="MSP_STRING_TYPES">MSP_STRING_TYPES</a></h2>
+<p>该表存储字符串类别，并将 Project 数据库链接到 Project OLE 提供程序。所有 Project 字符串都属于一个类别。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+
+<td>STRING_TYPE_ID		</td>
+
+<td>integer</td>
+<td>显示表示枚举域类别的数字；下表右列中显示该域的 STRING_TYPE 文本表示法：
+<table>
+<tr>
+<td>3</td>
+<td>链接类型</td>
+</tr>
+<tr>
+<td>14</td>
+<td>工时分布类型</td>
+</tr>
+<tr>
+<td>29</td>
+<td>任务类型</td>
+</tr>
+<tr>
+<td>56</td>
+<td>周内日期</td>
+</tr>
+<tr>
+<td>57</td>
+<td>显示单位</td>
+</tr>
+<tr>
+<td>68</td>
+<td>限制类型</td>
+</tr>
+<tr>
+<td>70</td>
+<td>成本累算</td>
+</tr>
+<tr>
+<td>78</td>
+<td>成本费率数据单位</td>
+</tr>
+<tr>
+<td>81</td>
+<td>工作组用户类型</td>
+</tr>
+<tr>
+<td>83</td>
+<td>周内日期</td>
+</tr>
+<tr>
+<td>84</td>
+<td>周内日期</td>
+</tr>
+<tr>
+<td>85</td>
+<td>周内日期</td>
+</tr>
+<tr>
+<td>100</td>
+<td>类别类型</td>
+</tr>
+<tr>
+<td>101</td>
+<td>日程排定开始时间</td>
+</tr>
+<tr>
+<td>102</td>
+<td>日历工作日</td>
+</tr>
+<tr>
+<td>103</td>
+<td>货币符号位置</td>
+</tr>
+<tr>
+<td>104</td>
+<td>工作组消息</td>
+</tr>
+<tr>
+<td>105</td>
+<td>域标识号</td>
+</tr>
+<tr>
+<td>106</td>
+<td>域属性</td>
+</tr>
+<tr>
+<td>107</td>
+<td>时间分段分布类型</td>
+</tr>
+<tr>
+<td>108</td>
+<td>时间分段数据单位</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>STRING_LANG_ID		</td>
+<td>integer</td>
+<td>显示转换文本所使用语言的标识号，例如：2052 = 简体中文，它是数据库的默认语言。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>STRING_TYPE		</td>
+<td>varchar(200)</td>
+<td>域值的文本表示，由 STRING_TYPE_ID 的值判定；请参阅用于对 STRING_TYPE_ID 的每个值进行 STRING_TYPE 文本表示的 STRING_TYPE_ID 中的右列。例如：如果 STRING_TYPE_ID = 103，该域中的内容将为“货币”符号位置。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_TASK_BASELINES" name="MSP_TASK_BASELINES">MSP_TASK_BASELINES</a></h2>
+<p>该表包含自定义任务比较基准数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TASK_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_TASKS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_NUM</td>
+<td>smallint</td>
+<td>自定义比较基准的编号，1-10。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_DUR</td>
+<td>integer</td>
+<td>计划完成任务的原始时间范围。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_DUR_FMT</td>
+<td>smallint</td>
+<td>任务比较基准工期的默认格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_START</td>
+<td>datetime</td>
+<td>保存比较基准时任务的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_FINISH</td>
+<td>datetime</td>
+<td>保存比较基准时任务的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_WORK</td>
+<td>decimal</td>
+<td>接受任务的所有资源要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TB_BASE_COST</td>
+<td>decimal</td>
+<td>任务的计划总成本；也称作“预算完成成本 (BAC)”。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_TASKS" name="MSP_TASKS">MSP_TASKS</a></h2>
+<p>该表存储组成项目的任务的有关信息。Project 将向该表中写入四行，它们的唯一标识号分别为 0、-65536、-65535 和 -65534。这些行仅供 Project 内部使用，且不能进行编辑或删除。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_ACWP</td>
+<td>decimal</td>
+<td>到项目状态日期或当前日期为止，任务中已完成工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_BCWP</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，任务按时间分段的完成百分比乘以任务按时间分段的比较基准成本的累计值；也称作“盈余分析”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_BCWS</td>
+<td>decimal</td>
+<td>到状态日期或当前日期为止，按时间分段的比较基准累计成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_DUR_VAR</td>
+<td>integer</td>
+<td>任务的比较基准工期与任务总工期（当前估计）的差异。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_FINISH_VAR</td>
+<td>integer</td>
+<td>表示任务的比较基准完成日期与其当前完成日期之间差异的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_OUTLINE_NUM</td>
+<td>varchar(255)</td>
+<td>表示大纲中任务的确切位置。例如，7.2 表示任务为排位第七的高级摘要任务下的第二个子任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_START_VAR</td>
+<td>integer</td>
+<td>任务的比较基准开始日期与其当前计划开始日期之间的差异。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_IS_OVERALLOCATED</td>
+<td>bit</td>
+<td>指示对任务所分配的资源是否分配了超负荷的工作量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_OVT_WORK</td>
+<td>decimal</td>
+<td>接受任务的所有资源计划完成的加班工时量，按加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_VAC</td>
+<td>decimal</td>
+<td>任务的比较基准成本与总成本之间的差异；也称作“完成差异 (VAC)”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_REG_WORK</td>
+<td>decimal</td>
+<td>排定由接受任务的所有资源完成的非加班工时总量。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_NUM_OBJECTS</td>
+<td>integer</td>
+<td>附加到任务的对象数目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_TOTAL_SLACK</td>
+<td>integer</td>
+<td>任务在不延迟项目完成日期的情况下可延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>EXT_EDIT_REF_DATA		</td>
+<td>text</td>
+<td>设置该值指定一个新行或在更改数据库中的项目信息时备份现有数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TASK_UID</b>
+</td>
+<td>integer</td>
+<td>任务的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ID		</td>
+<td>integer</td>
+<td>任务列表中该任务的位置标识符。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_HAS_LINKED_FIELDS		</td>
+<td>bit</td>
+<td>指示是否存在与此任务链接的 OLE，链接可能来自活动项目的任何位置、其他 Project 文件或其他程序。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+
+<td>TASK_IS_MILESTONE		</td>
+<td>bit</td>
+<td>指定任务是否为里程碑。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_CRITICAL		</td>
+<td>bit</td>
+<td>指定任务在日程中是否有延迟的余地，或者任务是否位于关键路径上。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_SUMMARY		</td>
+<td>bit</td>
+<td>指定任务是否为摘要任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_SUBPROJ		</td>
+<td>bit</td>
+<td>指定任务是否为插入的项目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_MARKED		</td>
+<td>bit</td>
+<td>指定是否为某种进一步的操作或识别而对任务作了标记。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IGNORES_RES_CAL		</td>
+<td>bit</td>
+<td>指定任务的日程安排是否考虑了任务所分配资源的日历。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_ROLLED_UP		</td>
+<td>bit</td>
+<td>指定摘要任务条形图是否显示总成型栏或子任务甘特条形图上的信息是否上卷到摘要任务条形图；必须将其设置为 1，以使子任务上卷到摘要任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_FROM_FINISH_SUBPROJ		</td>
+<td>bit</td>
+<td>指定项目是否标记为“从完成之日起排定日程 (SF)”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BAR_IS_HIDDEN		</td>
+<td>bit</td>
+<td>指定是否隐藏任务的“甘特条形图”和“日历条形图”。
+					
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_RECURRING		</td>
+<td>bit</td>
+<td>指定任务是否为重复任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_RECURRING_SUMMARY		</td>
+<td>bit</td>
+<td>指示周期性任务是否为摘要任务。</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_IS_EXTERNAL		</td>
+<td>bit</td>
+<td>指定该任务是链接自其他项目还是来源于当前项目。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_EFFORT_DRIVEN		</td>
+<td>bit</td>
+<td>指定任务的日程排定是否为投入比导向。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_COLLAPSED		</td>
+<td>bit</td>
+<td>指定在 Project 中显示摘要任务时是否折叠摘要任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_HAS_NOTES		</td>
+<td>bit</td>
+<td>指定任务是否具有 RTF 备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_IS_READONLY_SUBPROJ		</td>
+<td>bit</td>
+<td>指定此任务的子项目是否为只读项目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LEVELING_CAN_SPLIT		</td>
+<td>bit</td>
+<td>指定资源的调配功能是否可对任务的剩余工时进行拆分。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LEVELING_ADJUSTS_ASSN		</td>
+<td>bit</td>
+<td>指定为解决资源过度分配问题，调配功能是否可以延迟并拆分各个工作分配（而不是整个任务）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_DUR_IS_EST		</td>
+<td>bit</td>
+<td>指定比较基准工期是否为估计值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_EARLY_FINISH		</td>
+<td>datetime</td>
+<td>根据前置任务和后续任务的最早完成日期、其他限制和任何资源调配延迟而得出的任务可能完成的最早日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LATE_START		</td>
+<td>datetime</td>
+<td>在不延迟项目完成时间的情况下，任务可以开始的最迟日期，该日期由开始日期、前置任务和后续任务的最晚开始日期和最晚完成日期，以及其他限制所决定。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_STOP_DATE		</td>
+<td>datetime</td>
+<td>表示任务实际结束的日期。
+				</td>
+
+
+</tr>
+
+<tr>
+<td><b class="bterm">I</b></td>
+
+<td>TASK_RESUME_DATE		</td>
+<td>datetime</td>
+<td>在为“完成百分比”域输入新值后，任务剩余部分计划重新开始的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_FREE_SLACK		</td>
+<td>integer</td>
+<td>在不延迟任何后续任务的情况下，任务可以延迟的时间量；如果任务没有后续任务，可用时差就是在不延迟整个项目的情况下，任务可以延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_OUTLINE_LEVEL		</td>
+<td>smallint</td>
+<td>该数字指定任务在项目大纲层次结构中的级别。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_DUR		</td>
+<td>integer</td>
+<td>任务活动工作时间的总范围。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_DUR_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示任务工期时所使用的单位。
+					
+<table>
+<tr>
+<td>3</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>6</td>
+<td>小时</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日（默认值）</td>
+</tr>
+<tr>
+<td>8</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>10</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>12</td>
+<td>月</td>
+</tr>
+<tr>
+<td>19</td>
+<td>百分比工时</td>
+</tr>
+<tr>
+<td>20</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>35</td>
+<td>分钟工时?</td>
+</tr>
+<tr>
+<td>36</td>
+<td>分钟?</td>
+</tr>
+<tr>
+<td>37</td>
+<td>工时?</td>
+</tr>
+<tr>
+<td>38</td>
+<td>小时?</td>
+</tr>
+<tr>
+<td>39</td>
+<td>工作日?</td>
+</tr>
+<tr>
+<td>40</td>
+<td>天?</td>
+</tr>
+<tr>
+<td>41</td>
+<td>周工时?</td>
+</tr>
+<tr>
+<td>42</td>
+<td>周?</td>
+</tr>
+<tr>
+<td>43</td>
+<td>月工时?</td>
+</tr>
+<tr>
+<td>44</td>
+<td>月?</td>
+</tr>
+<tr>
+<td>51</td>
+<td>百分比工时?</td>
+</tr>
+<tr>
+<td>52</td>
+<td>百分比?</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+
+<td><b class="bterm"></b></td>
+
+<td>TASK_ACT_DUR		</td>
+<td>integer</td>
+<td>迄今为止任务实际工作时间的范围，该值基于计划工期和当前剩余工时或完成百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_REM_DUR		</td>
+<td>integer</td>
+<td>完成任务的未完成部分所需要时间量。剩余工期可以通过两种方式进行计算（基于“完成百分比”或“实际工期”）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_DUR		</td>
+<td>integer</td>
+<td>计划完成任务的原始时间范围。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_DUR_FMT		</td>
+<td>smallint</td>
+<td>在 Project 中显示任务的比较基准工期时所使用的单位。
+					
+<table>
+<tr>
+<td>3</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>6</td>
+<td>小时</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日（默认值）</td>
+</tr>
+<tr>
+<td>8</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>10</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>12</td>
+<td>月</td>
+</tr>
+<tr>
+<td>19</td>
+<td>百分比工时</td>
+</tr>
+<tr>
+<td>20</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>35</td>
+<td>分钟工时?</td>
+</tr>
+<tr>
+<td>36</td>
+<td>分钟?</td>
+</tr>
+<tr>
+<td>37</td>
+<td>工时?</td>
+</tr>
+<tr>
+<td>38</td>
+<td>小时?</td>
+</tr>
+<tr>
+<td>39</td>
+<td>工作日?</td>
+</tr>
+<tr>
+<td>40</td>
+<td>天?</td>
+</tr>
+<tr>
+<td>41</td>
+<td>周工时?</td>
+</tr>
+<tr>
+<td>42</td>
+<td>周?</td>
+</tr>
+<tr>
+<td>43</td>
+<td>月工时?</td>
+</tr>
+<tr>
+<td>44</td>
+<td>月?</td>
+</tr>
+<tr>
+<td>51</td>
+<td>百分比工时?</td>
+</tr>
+<tr>
+<td>52</td>
+<td>百分比?</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_CONSTRAINT_TYPE		</td>
+<td>smallint</td>
+<td>计划任务的限制：
+<table>
+<tr>
+<td>0</td>
+<td>越早越好</td>
+</tr>
+<tr>
+<td>1</td>
+<td>越晚越好</td>
+</tr>
+<tr>
+<td>2</td>
+<td>必须开始于；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+<tr>
+<td>3</td>
+<td>必须完成于；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+<tr>
+<td>4</td>
+<td>不得早于...开始；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+<tr>
+<td>5</td>
+<td>不得晚于...开始；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+<tr>
+<td>6</td>
+<td>不得早于...完成；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+<tr>
+<td>7</td>
+<td>不得晚于...完成；需要 TASK_CONSTRAINT_DATE</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LEVELING_DELAY</td>
+<td>integer</td>
+<td>作为资源调配的结果，任务比其早先开始日期延迟的时间量。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LEVELING_DELAY_FMT</td>
+<td>smallint</td>
+<td>在 Project 中显示资源调配延迟时所使用的单位。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_START_DATE</td>
+<td>datetime</td>
+<td>任务计划开始的日期和时间；如果该任务有前置任务，将自动计算该值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_FINISH_DATE</td>
+<td>datetime</td>
+<td>任务计划完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_START</td>
+<td>datetime</td>
+<td>任务实际开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_FINISH</td>
+<td>datetime</td>
+<td>任务实际完成的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_START</td>
+<td>datetime</td>
+<td>保存比较基准时任务的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_FINISH</td>
+<td>datetime</td>
+<td>保存比较基准时任务的计划完成日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_CONSTRAINT_DATE</td>
+<td>datetime</td>
+<td>指定限制开始日期或完成日期（ 如 TASK_CONSTRAINT_TYPE 中所定义）。除非 TASK_CONSTRAINT_TYPE 设置为“越晚越好”或“越早越好”，否则该值为必需。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PRIORITY</td>
+<td>smallint</td>
+<td>指定分配给任务的重要性级别；数字越大，优先级越高：
+<table>
+<tr>
+<td>0</td>
+<td>最低优先级；总是调配任务</td>
+</tr>
+<tr>
+<td>500</td>
+<td>默认值</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>最高优先级；从不调配任务</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PCT_COMP</td>
+<td>smallint</td>
+<td>任务的当前状态，表示为已完成任务工期的百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PCT_WORK_COMP</td>
+<td>smallint</td>
+<td>任务的当前状态，表示为任务已完成工时的百分比。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_TYPE</td>
+<td>smallint</td>
+<td>指定编辑工时、工作分配单位或工期对其他两个域的计算的影响：
+<table>
+<tr>
+<td>0</td>
+<td>固定单位（默认）；无论任务的工时量或工期如何变化，“工作分配单位”的数量都保持不变</td>
+</tr>
+<tr>
+<td>1</td>
+<td>固定工期：无论分配的资源数量（工作分配单位）或工时量如何变化，任务工期都保持不变</td>
+</tr>
+<tr>
+<td>2</td>
+<td>固定工时：无论工期或接受任务的资源数量（工作分配单位）如何变化，工时量都保持不变</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_FIXED_COST_ACCRUAL</td>
+<td>smallint</td>
+<td>指定如何将固定成本支付、累加到任务的成本中：
+<table>
+<tr>
+<td>1</td>
+<td>开始；按照 ActualStart 域中输入的日期，在任务开始的同时，成本的累算也开始进行。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>结束；直到剩余工时为零时才累算成本。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>按比例（默认）；按照计划工时和报告的实际工时累算成本。</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_CREATION_DATE</td>
+<td>datetime</td>
+<td>任务添加到项目的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PRELEVELED_START</td>
+<td>datetime</td>
+<td>在资源调配完成前的任务开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PRELEVELED_FINISH</td>
+<td>datetime</td>
+<td>在资源调配完成前的任务完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_EARLY_START</td>
+<td>datetime</td>
+<td>根据前置任务和后续任务的最早开始日期以及其他限制而得出的任务可能开始的最早日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_LATE_FINISH</td>
+<td>datetime</td>
+<td>在不延迟项目完成时间的情况下，任务可以完成的最迟日期，该日期由任务的最晚开始日期、前置任务和后续任务的最晚开始日期和最晚完成日期，以及其他限制决定。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TASK_CAL_UID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CALENDARS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_DEADLINE</td>
+<td>datetime</td>
+<td>输入作为任务期限的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_WORK</td>
+<td>decimal</td>
+<td>任务中排定由所有分配资源完成的总工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_WORK</td>
+<td>decimal</td>
+<td>接受任务的所有资源要完成的原计划工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_WORK</td>
+<td>decimal</td>
+
+<td>接受任务的资源已经完成的工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_REM_WORK</td>
+<td>decimal</td>
+<td>所有分配的资源完成任务仍然需要的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_COST</td>
+<td>decimal</td>
+<td>任务的总规划（或计划）成本，等于接受任务的所有资源已完成工时的成本，加上该工作分配的剩余工时的计划成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_FIXED_COST</td>
+<td>decimal</td>
+<td>与资源成本无关的任务费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_COST</td>
+<td>decimal</td>
+<td>所有资源在任务中已完成工时的成本，以及任何其他经记录的与该任务相关的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">I</b></td>
+<td>TASK_REM_COST</td>
+<td>decimal</td>
+<td>在接受任务的所有资源完成剩余的计划工时期间，将花费的任务剩余计划费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_BASE_COST</td>
+<td>decimal</td>
+<td>任务的总计划成本，也称作“预算完成成本 (BAC)”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_OVT_WORK</td>
+<td>decimal</td>
+<td>接受任务的所有资源已经完成的实际加班工时量。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_REM_OVT_WORK</td>
+<td>decimal</td>
+<td>所有分配资源完成任务所计划的剩余加班量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_OVT_COST</td>
+<td>decimal</td>
+<td>任务的实际加班成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_OVT_COST</td>
+<td>decimal</td>
+<td>任务中所有分配的资源已完成加班工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_REM_OVT_COST</td>
+<td>decimal</td>
+<td>任务的剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_WBS</td>
+<td>text</td>
+<td>用于表示在项目的分层结构中任务位置的唯一代码 (WBS)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_NAME</td>
+<td>varchar(255)</td>
+<td>任务名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_WBS_RIGHTMOST_LEVEL</td>
+<td>text</td>
+<td>任务的最右边的级别。例如，如果任务级别为 A.01.03，最右边的级别将为 03。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_RTF_NOTES</td>
+<td>Image</td>
+<td>包含 RTF 备注。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_PHY_PCT_COMP</td>
+<td>smallint</td>
+<td>任务实际完成的总体百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_EAC</td>
+<td>decimal</td>
+<td>基于已花费成本的任务的总规划（或计划）成本，加上剩余工时的计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_EVMETHOD</td>
+<td>smallint</td>
+<td>指定 TASK_PCT_COMP 或 TASK_PHY_PCT_COMP 是否用于计算已完成工时的预算成本 (TASK_BCWP)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_WORK_PROT</td>
+<td>decimal</td>
+<td>受保护的实际工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TASK_ACT_OVT_WORK_PROT</td>
+<td>decimal</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_TEXT_FIELDS" name="MSP_TEXT_FIELDS">MSP_TEXT_FIELDS</a></h2>
+<p>该表包含自定义文本信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TEXT_CATEGORY		</td>
+<td>integer</td>
+<td>指定自定义文本类别是“任务”、“资源”还是“工作分配”；对于插入项目，必须设置为 0：
+<table>
+<tr>
+<td>0</td>
+<td>任务 </td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源 </td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配 </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TEXT_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 TEXT_CATEGORY 判定，引用其各自表中的有效 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TEXT_FIELD_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_CONVERSIONS 表中的有效 CONV_VALUE；对于插入项目，总是使用 188743706。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TEXT_VALUE		</td>
+<td>varchar(255)</td>
+<td>自定义文本域的值。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="MSP_TIMEPHASED_DATA" name="MSP_TIMEPHASED_DATA">MSP_TIMEPHASED_DATA</a></h2>
+<p>该表以可读格式存储时间分段数据，条件是 <a href="#MSP_PROJECTS">MSP_PROJECTS</a> 表中的 PROJ_OPT_EXPAND_TIMEPHASED 列设置为 1，或者用户通过 Project 在“工具”菜单上单击“选项”，单击“保存”选项卡，然后选中“将时间同步数据追加到数据库中”复选框。该表中的各行说明数据类型（工时、完成百分比或成本）、日期范围、时间单位、指定数据的值，并指出时间分段数据是否引用了工作分配、任务或资源。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>RESERVED_DATA		</td>
+<td>char</td>
+<td>临时存储特定数据库行的唯一信息；不应修改此域的内容。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">PROJ_ID</b>
+</td>
+<td>integer</td>
+<td>引用 MSP_PROJECTS 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_UID</td>
+<td>integer</td>
+<td>时间分段数据记录的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TD_FIELD_ID</b>
+</td>
+<td>smallint</td>
+<td>引用 MSP_CONVERSIONS 表 CONV_VALUE 列中的有效“域标识号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_CATEGORY		</td>
+<td>smallint</td>
+<td>指定时间分段数据是“任务”、“资源”还是“工作分配”：
+<table>
+<tr>
+<td>0</td>
+<td>任务 </td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源 </td>
+</tr>
+<tr>
+<td>3</td>
+<td>工作分配 </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TD_REF_UID</b>
+</td>
+<td>integer</td>
+<td>由 TD_CATEGORY 判定，引用其各自表中的有效的 TASK_UID、RES_UID 或 ASSN_UID。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_START		</td>
+<td>datetime</td>
+<td>将应用工时、完成百分比或成本值的第一个时间段的开始时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_FINISH		</td>
+<td>datetime</td>
+<td>将应用工时、完成百分比或成本值的第一个时间段的结束时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_UNITS		</td>
+<td>smallint</td>
+<td>指定在 TD_VALUE1 - TD_VALUE7 中所指定值应用的时间单位。
+<table>
+<tr>
+<td>0</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>2</td>
+<td>工作日（默认值）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>5</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>8</td>
+<td>年工时</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_VALUE1 - TD_VALUE7</td>
+<td>decimal</td>
+<td>在 TD_START 和 TD_FINISH 列中指定的日期范围内，按 TD_UNITS 列所指定的单位，第一到第七时间段的工时、完成百分比或成本的值。只有位于指定的开始日期和完成日期之间的值才可应用。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TD_EXT_EDITED		</td>
+<td>bit</td>
+<td>指示记录是否经过外部编辑。</td>
+</tr>
+</table>
+
+    
+    
+    
+
+    
+
+  </body></html>

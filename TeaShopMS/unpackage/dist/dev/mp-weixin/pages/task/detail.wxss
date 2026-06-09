@@ -1,0 +1,193 @@
+.task-detail-container.data-v-0417eeb2 {
+  padding-bottom: 200rpx;
+}
+.header-card.data-v-0417eeb2 {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+  padding: 40rpx 30rpx;
+}
+.task-header.data-v-0417eeb2 {
+  display: flex;
+  gap: 12rpx;
+  margin-bottom: 20rpx;
+}
+.priority-badge.data-v-0417eeb2 {
+  font-size: 22rpx;
+  padding: 6rpx 14rpx;
+  border-radius: 50rpx;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.status-badge.data-v-0417eeb2 {
+  font-size: 22rpx;
+  padding: 6rpx 14rpx;
+  border-radius: 50rpx;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.task-title.data-v-0417eeb2 {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20rpx;
+  line-height: 1.4;
+}
+.task-meta.data-v-0417eeb2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 26rpx;
+}
+.section.data-v-0417eeb2 {
+  background: #fff;
+  margin: 24rpx 30rpx;
+  border-radius: 20rpx;
+  padding: 30rpx;
+}
+.section-header.data-v-0417eeb2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.section-title.data-v-0417eeb2 {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+.count.data-v-0417eeb2 {
+  font-size: 24rpx;
+  color: #FF6B6B;
+  background: #FFE5E5;
+  padding: 4rpx 14rpx;
+  border-radius: 50rpx;
+}
+.section-content.data-v-0417eeb2 {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 1.8;
+}
+.status-grid.data-v-0417eeb2 {
+  display: flex;
+  gap: 16rpx;
+}
+.status-item.data-v-0417eeb2 {
+  flex: 1;
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  padding: 24rpx 16rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rpx;
+  transition: all 0.3s;
+}
+.status-item.active.data-v-0417eeb2 {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+}
+.status-icon.data-v-0417eeb2 {
+  font-size: 40rpx;
+}
+.status-label.data-v-0417eeb2 {
+  font-size: 24rpx;
+  color: #666;
+}
+.status-item.active .status-label.data-v-0417eeb2 {
+  color: #fff;
+}
+.comment-list.data-v-0417eeb2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+}
+.comment-item.data-v-0417eeb2 {
+  display: flex;
+  gap: 16rpx;
+}
+.comment-avatar.data-v-0417eeb2 {
+  width: 64rpx;
+  height: 64rpx;
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+.comment-content.data-v-0417eeb2 {
+  flex: 1;
+  background: #f5f5f5;
+  border-radius: 16rpx;
+  padding: 20rpx;
+}
+.comment-header.data-v-0417eeb2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rpx;
+}
+.comment-name.data-v-0417eeb2 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333;
+}
+.comment-time.data-v-0417eeb2 {
+  font-size: 22rpx;
+  color: #999;
+}
+.comment-text.data-v-0417eeb2 {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.comment-input-section.data-v-0417eeb2 {
+  position: fixed;
+  bottom: 100rpx;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  display: flex;
+  gap: 16rpx;
+  box-shadow: 0 -2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.comment-input.data-v-0417eeb2 {
+  flex: 1;
+  height: 72rpx;
+  background: #f5f5f5;
+  border-radius: 50rpx;
+  padding: 0 24rpx;
+  font-size: 26rpx;
+}
+.send-btn.data-v-0417eeb2 {
+  width: 140rpx;
+  height: 72rpx;
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50rpx;
+  font-size: 26rpx;
+}
+.action-bar.data-v-0417eeb2 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20rpx 30rpx;
+  display: flex;
+  box-shadow: 0 -2rpx 12rpx rgba(0, 0, 0, 0.05);
+}
+.action-btn.data-v-0417eeb2 {
+  flex: 1;
+  height: 88rpx;
+  border-radius: 50rpx;
+  font-size: 30rpx;
+  border: none;
+}
+.edit-btn.data-v-0417eeb2 {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+  color: #fff;
+}

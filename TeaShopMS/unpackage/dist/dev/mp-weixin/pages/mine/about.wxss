@@ -1,0 +1,127 @@
+.about-container.data-v-2c1eab8a {
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+.header.data-v-2c1eab8a {
+  background: #fff;
+  padding: 30rpx;
+  border-bottom: 2rpx solid #f0f0f0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-left.data-v-2c1eab8a {
+  display: flex;
+  align-items: center;
+}
+.back-icon.data-v-2c1eab8a {
+  font-size: 40rpx;
+  color: #333;
+  margin-right: 20rpx;
+}
+.header-title.data-v-2c1eab8a {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+}
+.app-info.data-v-2c1eab8a {
+  background: #fff;
+  padding: 60rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.app-logo.data-v-2c1eab8a {
+  font-size: 120rpx;
+  margin-bottom: 24rpx;
+}
+.app-name.data-v-2c1eab8a {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12rpx;
+}
+.app-version.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #999;
+}
+.section.data-v-2c1eab8a {
+  background: #fff;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+}
+.section-title.data-v-2c1eab8a {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24rpx;
+}
+.content-text.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+}
+.feature-item.data-v-2c1eab8a {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24rpx;
+}
+.feature-item.data-v-2c1eab8a:last-child {
+  margin-bottom: 0;
+}
+.feature-icon.data-v-2c1eab8a {
+  font-size: 36rpx;
+  margin-right: 16rpx;
+  margin-top: 4rpx;
+}
+.feature-text.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #666;
+  line-height: 1.6;
+  flex: 1;
+}
+.team-member.data-v-2c1eab8a {
+  margin-bottom: 24rpx;
+}
+.team-member.data-v-2c1eab8a:last-child {
+  margin-bottom: 0;
+}
+.member-name.data-v-2c1eab8a {
+  display: block;
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8rpx;
+}
+.member-role.data-v-2c1eab8a {
+  display: block;
+  font-size: 24rpx;
+  color: #666;
+}
+.legal-item.data-v-2c1eab8a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.legal-item.data-v-2c1eab8a:last-child {
+  margin-bottom: 0;
+}
+.legal-label.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #333;
+}
+.legal-value.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #FF6B6B;
+}
+.footer.data-v-2c1eab8a {
+  padding: 40rpx 30rpx;
+  text-align: center;
+}
+.footer-text.data-v-2c1eab8a {
+  font-size: 26rpx;
+  color: #999;
+}

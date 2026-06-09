@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+	<topic>
+		<label>“Microsoft 窗体”对象模型一览</label>
+		<url>mk:@MSITStore:fm20.chm::/html/f3ovwobjmodel.htm</url>
+	</topic>
+	<book>
+		<label>“Microsoft 窗体”设计参考</label>
+		<book>
+			<label>“Microsoft 窗体”工具箱</label>
+			<topic>
+				<label>什么是“工具箱”？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatistoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>显示或隐藏“工具箱”</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplayorhidetoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>改变“工具箱”的大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangesizeoftoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>向“工具箱”添加控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howaddcontroltotoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>向“工具箱”添加定制控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howaddcustomizedcontroltotoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>在窗体中添加控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conaddcontroltoform.htm</url>
+			</topic>
+			<topic>
+				<label>从“工具箱”删除项目</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdeleteitemfromtoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>自定义“工具箱”中的图标</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcustomizetoolboxicon.htm</url>
+			</topic>
+			<topic>
+				<label>在“工具箱”中定制工具提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcustomizetooltipintoolbox.htm</url>
+			</topic>
+			<topic>
+				<label>为“工具箱”页面设置工具提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsettooltipfortoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>改变“工具箱”页面的名称</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangenameoftoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>改变“工具箱”页面的顺序</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangeorderoftoolboxpages.htm</url>
+			</topic>
+			<topic>
+				<label>创建新的“工具箱”页面</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreatenewtoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>删除“工具箱”中的页面</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdeletetoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>导入或导出“工具箱”页面</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howimportorexporttoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>将项目移到另一个“工具箱”页面</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howmoveitemtoanothertoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>创建从右向左扩展的窗体和对话框</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conCreatingFormsAndDialogBoxes.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>控件提示和工具提示</label>
+			<topic>
+				<label>什么是控件提示？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatiscontroltip.htm</url>
+			</topic>
+			<topic>
+				<label>为控件指定控件提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncontroltiptocontrol.htm</url>
+			</topic>
+			<topic>
+				<label>为页或标签指定控件提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncontroltiptopageortab.htm</url>
+			</topic>
+			<topic>
+				<label>什么是工具提示？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatistooltip.htm</url>
+			</topic>
+			<topic>
+				<label>显示或隐藏工具提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howshowhidetooltips.htm</url>
+			</topic>
+			<topic>
+				<label>为“工具箱”页面设置工具提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsettooltipfortoolboxpage.htm</url>
+			</topic>
+			<topic>
+				<label>在“工具箱”中定制工具提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcustomizetooltipintoolbox.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>快捷菜单</label>
+			<topic>
+				<label>什么是快捷菜单？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatisshortcutmenu.htm</url>
+			</topic>
+			<topic>
+				<label>显示多页或页面的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplayshortcutmenuformultipageorpage.htm</url>
+			</topic>
+			<topic>
+				<label>显示 TabStrip 或标签的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplayshortcutmenufortabstriportab.htm</url>
+			</topic>
+			<topic>
+				<label>显示组的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplaygroupsshortcutmenu.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft 窗体中的撤消和恢复操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conundoredoinmicrosoftforms.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>图片和题注 </label>
+			<topic>
+				<label>为控件指定位图</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassignbitmaptocontrol.htm</url>
+			</topic>
+			<topic>
+				<label>在控件中对齐图片的方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystoalignpictureoncontrol.htm</url>
+			</topic>
+			<topic>
+				<label>删除控件的位图</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdeletebitmapfromcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>可对图像控件执行的操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conthingspictureonimage.htm</url>
+			</topic>
+			<topic>
+				<label>有关设置主控件的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonsettingdominantcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft 窗体的透明效果</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contransparencyinmsforms.htm</url>
+			</topic>
+			<topic>
+				<label>建立一个透明控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreatetransparentcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>什么是题注？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatiscaption.htm</url>
+			</topic>
+			<topic>
+				<label>指定题注</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncaption.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>多页和 TabStrip 控件</label>
+			<topic>
+				<label>什么是多页？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatismultipage.htm</url>
+			</topic>
+			<topic>
+				<label>什么是 TabStrip？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwhatistabstrip.htm</url>
+			</topic>
+			<topic>
+				<label>应该使用多页还是 TabStrip？</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conshouldiusemultipageortabstrip.htm</url>
+			</topic>
+			<topic>
+				<label>显示多页或页面的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplayshortcutmenuformultipageorpage.htm</url>
+			</topic>
+			<topic>
+				<label>显示 TabStrip 或标签的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplayshortcutmenufortabstriportab.htm</url>
+			</topic>
+			<topic>
+				<label>为 Page 或 Tab 指定加速键</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassignacceleratorkeyforpageortab.htm</url>
+			</topic>
+			<topic>
+				<label>为页或标签指定控件提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncontroltiptopageortab.htm</url>
+			</topic>
+			<topic>
+				<label>改变多页或 TabStrip 中页面的顺序</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangeorderofpagesinmultipageortabstrip.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>列表框、文本框和组合框</label>
+			<topic>
+				<label>有关使用文本框的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonusingtextboxes.htm</url>
+			</topic>
+			<topic>
+				<label>列表框的样式</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conlistboxstyles.htm</url>
+			</topic>
+			<topic>
+				<label>创建标准列表框</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreatestandardlistbox.htm</url>
+			</topic>
+			<topic>
+				<label>创建带有选项按钮或复选框的列表框</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreatelistboxwithoptionbuttonsorcheckboxes.htm</url>
+			</topic>
+			<topic>
+				<label>在列表框或组合框中放置数据的方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystoputdatainlist.htm</url>
+			</topic>
+			<topic>
+				<label>可对多列列表框或组合框执行的操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conthingsyoucandowithlist.htm</url>
+			</topic>
+			<topic>
+				<label>使用 List 或 Column 属性将条目添至列表</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howadditemstolistusinglistorcolumnproperty.htm</url>
+			</topic>
+			<topic>
+				<label>与列表条目匹配的方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystomatchentriesinlist.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>“Microsoft 窗体”中的对齐、排列和调整大小操作</label>
+			<topic>
+				<label>在窗体中添加控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conaddcontroltoform.htm</url>
+			</topic>
+			<topic>
+				<label>使用 Z-顺序布置控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howlayercontrols.htm</url>
+			</topic>
+			<topic>
+				<label>激活控件和选择控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conactivecontrolsselectedcontrols.htm</url>
+			</topic>
+			<topic>
+				<label>改变窗体的大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangesizeofform.htm</url>
+			</topic>
+			<topic>
+				<label>改变窗体的位置</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howchangelocationofform.htm</url>
+			</topic>
+			<topic>
+				<label>显示或隐藏网格</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howshowhidegrid.htm</url>
+			</topic>
+			<topic>
+				<label>选择网格尺寸</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howselectgridsize.htm</url>
+			</topic>
+			<topic>
+				<label>按网格调整大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsizetogrid.htm</url>
+			</topic>
+			<topic>
+				<label>按内容调整大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsizetofit.htm</url>
+			</topic>
+			<topic>
+				<label>改变组内全部控件的大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsizeallcontrolsingroup.htm</url>
+			</topic>
+			<topic>
+				<label>使控件的尺寸相同</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howmakecontrolssamesize.htm</url>
+			</topic>
+			<topic>
+				<label>有关选择多个控件的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonselectingmultiplecontrols.htm</url>
+			</topic>
+			<topic>
+				<label>有关设置主控件的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonsettingdominantcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>对齐控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howaligncontrols.htm</url>
+			</topic>
+			<topic>
+				<label>对齐控件中的文本</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howaligntextincontrol.htm</url>
+			</topic>
+			<topic>
+				<label>使控件在窗体内居中</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcenterinform.htm</url>
+			</topic>
+			<topic>
+				<label>调整控件之间的水平和垂直间隔</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howadjusthorizontalspacing.htm</url>
+			</topic>
+			<topic>
+				<label>排列按钮</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howArrangeButtons.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft 窗体中的撤消和恢复操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conundoredoinmicrosoftforms.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>“Microsoft 窗体”中的控件组</label>
+			<topic>
+				<label>激活控件和选择控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conActiveControlsSelectedControls.htm</url>
+			</topic>
+			<topic>
+				<label>有关选择多个控件的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonselectingmultiplecontrols.htm</url>
+			</topic>
+			<topic>
+				<label>有关设置主控件的提示</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3contipsonsettingdominantcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>建立选项组的方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystocreateoptiongroup.htm</url>
+			</topic>
+			<topic>
+				<label>使用 GroupName 属性建立选项组</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreateoptiongroupusinggroupname.htm</url>
+			</topic>
+			<topic>
+				<label>可对控件群组执行的操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conthingscontrolgroups.htm</url>
+			</topic>
+			<topic>
+				<label>建立控件组</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howcreatecontrolgroup.htm</url>
+			</topic>
+			<topic>
+				<label>改变组内全部控件的大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsizeallcontrolsingroup.htm</url>
+			</topic>
+			<topic>
+				<label>解散控件组</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howbreakupcontrolgroup.htm</url>
+			</topic>
+			<topic>
+				<label>显示组的快捷菜单</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howdisplaygroupsshortcutmenu.htm</url>
+			</topic>
+			<topic>
+				<label>选择群组内的控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howselectcontrolwithingroup.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>自定义帮助文件</label>
+			<topic>
+				<label>自定义帮助文件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3concustomhelpfiles.htm</url>
+			</topic>
+			<topic>
+				<label>为控件指定一个定制的帮助主题</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncustomhelptopictocontrol.htm</url>
+			</topic>
+		</book>
+	</book>
+	<book>
+		<label>“Microsoft 窗体”开发者提示</label>
+		<book>
+			<label>有关开发应用程序的提示</label>
+			<topic>
+				<label>Microsoft 窗体的对象模型</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conobjectmodelmsforms.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft 窗体的 ByVal 引用</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conbyvalreferencesinmicrosoftforms.htm</url>
+			</topic>
+			<topic>
+				<label>DataObject 和“剪贴板”的区别</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3condifferencebetweendataobjectandclipboard.htm</url>
+			</topic>
+			<topic>
+				<label>改变控件外观的方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystochangeappearanceofcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>使用 Z-顺序布置控件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howlayercontrols.htm</url>
+			</topic>
+			<topic>
+				<label>Microsoft 窗体中的撤消和恢复操作</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conundoredoinmicrosoftforms.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>能在应用程序中使用的实用功能</label>
+			<topic>
+				<label>保护敏感信息的几种方法</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3conwaystoprotectsensitiveinformation.htm</url>
+			</topic>
+			<topic>
+				<label>使控件按照数据自动调整大小</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howmakecontrolthatautomaticallyadjusts.htm</url>
+			</topic>
+			<topic>
+				<label>自定义帮助文件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3concustomhelpfiles.htm</url>
+			</topic>
+			<topic>
+				<label>为控件指定一个定制的帮助主题</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassigncustomhelptopictocontrol.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>对应用程序中的导航加以控制</label>
+			<topic>
+				<label>指定加速键</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howassignacceleratorkey.htm</url>
+			</topic>
+			<topic>
+				<label>使用“选项卡顺序”对话框中设置 Tab 键顺序</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsettaborderusingdialogbox.htm</url>
+			</topic>
+			<topic>
+				<label>使用 TabIndex 属性设置 Tab 键的顺序</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3howsettaborderusingtabindexproperty.htm</url>
+			</topic>
+		</book>
+	</book>
+	<book>
+		<label>“Microsoft 窗体”对象模型参考</label>
+		<book>
+			<label>事件</label>
+			<topic>
+				<label>AddControl 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtaddcontrol.htm</url>
+			</topic>
+			<topic>
+				<label>AfterUpdate 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtafterupdate.htm</url>
+			</topic>
+			<topic>
+				<label>BeforeDragOver 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtbeforedragover.htm</url>
+			</topic>
+			<topic>
+				<label>BeforeDropOrPaste 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtbeforedroporpaste.htm</url>
+			</topic>
+			<topic>
+				<label>BeforeUpdate 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtbeforeupdate.htm</url>
+			</topic>
+			<topic>
+				<label>Change 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtchange.htm</url>
+			</topic>
+			<topic>
+				<label>Click 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtclick.htm</url>
+			</topic>
+			<topic>
+				<label>DblClick 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtdblclick.htm</url>
+			</topic>
+			<topic>
+				<label>DropButtonClick 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtdropbuttonclick.htm</url>
+			</topic>
+			<topic>
+				<label>Enter、Exit 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtenter.htm</url>
+			</topic>
+			<topic>
+				<label>Error 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evterror.htm</url>
+			</topic>
+			<topic>
+				<label>KeyDown 和 KeyUp 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtkeydown.htm</url>
+			</topic>
+			<topic>
+				<label>KeyPress 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtkeypress.htm</url>
+			</topic>
+			<topic>
+				<label>Layout 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtlayout.htm</url>
+			</topic>
+			<topic>
+				<label>MouseDown 和 MouseUp 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtmousedown.htm</url>
+			</topic>
+			<topic>
+				<label>MouseMove 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtmousemove.htm</url>
+			</topic>
+			<topic>
+				<label>RemoveControl 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtremovecontrol.htm</url>
+			</topic>
+			<topic>
+				<label>Scroll 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtscroll.htm</url>
+			</topic>
+			<topic>
+				<label>SpinDown 和 SpinUp 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtspindown.htm</url>
+			</topic>
+			<topic>
+				<label>Zoom 事件</label>
+				<url>mk:@MSITStore:fm20.chm::/html/f3evtzoom.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>方法</label>
+			<book>
+				<label>A - O</label>
+				<topic>
+					<label>Add 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthadd.htm</url>
+				</topic>
+				<topic>
+					<label>AddItem 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthadditem.htm</url>
+				</topic>
+				<topic>
+					<label>Clear 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthclear.htm</url>
+				</topic>
+				<topic>
+					<label>Copy 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthcopy.htm</url>
+				</topic>
+				<topic>
+					<label>Cut 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthcut.htm</url>
+				</topic>
+				<topic>
+					<label>DropDown 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthdropdown.htm</url>
+				</topic>
+				<topic>
+					<label>GetFormat 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthgetformat.htm</url>
+				</topic>
+				<topic>
+					<label>GetFromClipboard 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthgetfromclipboard.htm</url>
+				</topic>
+				<topic>
+					<label>GetText 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthgettext.htm</url>
+				</topic>
+				<topic>
+					<label>Item 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthitem.htm</url>
+				</topic>
+				<topic>
+					<label>Move 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthmove.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>P - Z</label>
+				<topic>
+					<label>Paste 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthpaste.htm</url>
+				</topic>
+				<topic>
+					<label>PutInClipboard 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthputinclipboard.htm</url>
+				</topic>
+				<topic>
+					<label>RedoAction 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthredoaction.htm</url>
+				</topic>
+				<topic>
+					<label>Remove 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthremove.htm</url>
+				</topic>
+				<topic>
+					<label>RemoveItem 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthremoveitem.htm</url>
+				</topic>
+				<topic>
+					<label>Repaint 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthrepaint.htm</url>
+				</topic>
+				<topic>
+					<label>Scroll 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthscroll.htm</url>
+				</topic>
+				<topic>
+					<label>SetDefaultTabOrder 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthsetdefaulttaborder.htm</url>
+				</topic>
+				<topic>
+					<label>SetFocus 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthsetfocus.htm</url>
+				</topic>
+				<topic>
+					<label>SetText 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthsettext.htm</url>
+				</topic>
+				<topic>
+					<label>StartDrag 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthstartdrag.htm</url>
+				</topic>
+				<topic>
+					<label>UndoAction 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthundoaction.htm</url>
+				</topic>
+				<topic>
+					<label>ZOrder 方法</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3mthzorder.htm</url>
+				</topic>
+			</book>
+		</book>
+		<book>
+			<label>对象、集合和控件</label>
+			<book>
+				<label>A - N</label>
+				<topic>
+					<label>复选框控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objcheckbox.htm</url>
+				</topic>
+				<topic>
+					<label>组合框控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objcombobox.htm</url>
+				</topic>
+				<topic>
+					<label>命令按钮控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objcommandbutton.htm</url>
+				</topic>
+				<topic>
+					<label>Controls 集合</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objcontrols.htm</url>
+				</topic>
+				<topic>
+					<label>DataObject 对象</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objdataobject.htm</url>
+				</topic>
+				<topic>
+					<label>框架控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objframe.htm</url>
+				</topic>
+				<topic>
+					<label>Font 对象</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objfont.htm</url>
+				</topic>
+				<topic>
+					<label>图像控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objimage.htm</url>
+				</topic>
+				<topic>
+					<label>标签控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objlabel.htm</url>
+				</topic>
+				<topic>
+					<label>列表框控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objlistbox.htm</url>
+				</topic>
+				<topic>
+					<label>多页控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objmultipage.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>O - Z</label>
+				<topic>
+					<label>选项按钮控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objoptionbutton.htm</url>
+				</topic>
+				<topic>
+					<label>Page 对象</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objpage.htm</url>
+				</topic>
+				<topic>
+					<label>Pages 集合</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objpagecoll.htm</url>
+				</topic>
+				<topic>
+					<label>滚动条控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objscrollbar.htm</url>
+				</topic>
+				<topic>
+					<label>数值调节钮控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objspinbutton.htm</url>
+				</topic>
+				<topic>
+					<label>Tab 对象</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objtab.htm</url>
+				</topic>
+				<topic>
+					<label>Tabs 集合</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objtabcoll.htm</url>
+				</topic>
+				<topic>
+					<label>TabStrip 控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objtabstrip.htm</url>
+				</topic>
+				<topic>
+					<label>文本框控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objtextbox.htm</url>
+				</topic>
+				<topic>
+					<label>切换按钮控件</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objtogglebutton.htm</url>
+				</topic>
+				<topic>
+					<label>UserForm 窗口</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3objform.htm</url>
+				</topic>
+			</book>
+		</book>
+		<book>
+			<label>属性</label>
+			<book>
+				<label>A - B</label>
+				<topic>
+					<label>Accelerator 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proaccelerator.htm</url>
+				</topic>
+				<topic>
+					<label>ActiveControl 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proactivecontrol.htm</url>
+				</topic>
+				<topic>
+					<label>Alignment 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proalignment.htm</url>
+				</topic>
+				<topic>
+					<label>AutoSize 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proautosize.htm</url>
+				</topic>
+				<topic>
+					<label>AutoTab 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proautotab.htm</url>
+				</topic>
+				<topic>
+					<label>AutoWordSelect 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proautowordselect.htm</url>
+				</topic>
+				<topic>
+					<label>BackColor 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probackcolor.htm</url>
+				</topic>
+				<topic>
+					<label>BackStyle 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probackstyle.htm</url>
+				</topic>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>BorderColor 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probordercolor.htm</url>
+				</topic>
+				<topic>
+					<label>BorderStyle 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proborderstyle.htm</url>
+				</topic>
+				<topic>
+					<label>BoundColumn 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proboundcolumn.htm</url>
+				</topic>
+				<topic>
+					<label>BoundValue 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proboundvalue.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>C</label>
+				<topic>
+					<label>Cancel 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procancel.htm</url>
+				</topic>
+				<topic>
+					<label>CanPaste 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procanpaste.htm</url>
+				</topic>
+				<topic>
+					<label>CanRedo 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procanredo.htm</url>
+				</topic>
+				<topic>
+					<label>CanUndo 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procanundo.htm</url>
+				</topic>
+				<topic>
+					<label>Caption 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procaption.htm</url>
+				</topic>
+				<topic>
+					<label>ClientHeight、ClientLeft、ClientTop、ClientWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proclientheight.htm</url>
+				</topic>
+				<topic>
+					<label>Column 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procolumn.htm</url>
+				</topic>
+				<topic>
+					<label>ColumnCount 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procolumncount.htm</url>
+				</topic>
+				<topic>
+					<label>ColumnHeads 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procolumnheads.htm</url>
+				</topic>
+				<topic>
+					<label>ColumnWidths 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procolumnwidths.htm</url>
+				</topic>
+				<topic>
+					<label>ControlSource 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procontrolsource.htm</url>
+				</topic>
+				<topic>
+					<label>ControlTipText 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procontroltiptext.htm</url>
+				</topic>
+				<topic>
+					<label>Count 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procount.htm</url>
+				</topic>
+				<topic>
+					<label>CurLine 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procurline.htm</url>
+				</topic>
+				<topic>
+					<label>CurTargetX 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procurtargetx.htm</url>
+				</topic>
+				<topic>
+					<label>CurX 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procurx.htm</url>
+				</topic>
+				<topic>
+					<label>Cycle 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3procycle.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>D - G</label>
+				<topic>
+					<label>Default 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prodefault.htm</url>
+				</topic>
+				<topic>
+					<label>Delay 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prodelay.htm</url>
+				</topic>
+				<topic>
+					<label>DragBehavior 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prodragbehavior.htm</url>
+				</topic>
+				<topic>
+					<label>DrawBuffer 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prodrawbuffer.htm</url>
+				</topic>
+				<topic>
+					<label>DropButtonStyle 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prodropbuttonstyle.htm</url>
+				</topic>
+				<topic>
+					<label>Enabled 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proenabled.htm</url>
+				</topic>
+				<topic>
+					<label>EnterFieldBehavior 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proenterfieldbehavior.htm</url>
+				</topic>
+				<topic>
+					<label>EnterKeyBehavior 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proenterkeybehavior.htm</url>
+				</topic>
+				<topic>
+					<label>ForeColor 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proforecolor.htm</url>
+				</topic>
+				<topic>
+					<label>GroupName 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3progroupname.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>H - K</label>
+				<topic>
+					<label>Height、Width 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proheight.htm</url>
+				</topic>
+				<topic>
+					<label>HelpContextID 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prohelpcontextid.htm</url>
+				</topic>
+				<topic>
+					<label>HideSelection 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prohideselection.htm</url>
+				</topic>
+				<topic>
+					<label>IMEMode 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proimemode.htm</url>
+				</topic>
+				<topic>
+					<label>Index 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proindex.htm</url>
+				</topic>
+				<topic>
+					<label>InsideHeight、InsideWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proinsideheight.htm</url>
+				</topic>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>IntegralHeight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prointegralheight.htm</url>
+				</topic>
+				<topic>
+					<label>KeepScrollBarsVisible 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prokeepscrollbarsvisible.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>L</label>
+				<topic>
+					<label>LargeChange 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolargechange.htm</url>
+				</topic>
+				<topic>
+					<label>LayoutEffect 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolayouteffect.htm</url>
+				</topic>
+				<topic>
+					<label>LeftTop、属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proleft.htm</url>
+				</topic>
+				<topic>
+					<label>LineCount 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolinecount.htm</url>
+				</topic>
+				<topic>
+					<label>List 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolist.htm</url>
+				</topic>
+				<topic>
+					<label>ListCount 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolistcount.htm</url>
+				</topic>
+				<topic>
+					<label>ListIndex 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolistindex.htm</url>
+				</topic>
+				<topic>
+					<label>ListRows 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolistrows.htm</url>
+				</topic>
+				<topic>
+					<label>ListStyle 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proliststyle.htm</url>
+				</topic>
+				<topic>
+					<label>ListWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolistwidth.htm</url>
+				</topic>
+				<topic>
+					<label>Locked 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prolocked.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>M</label>
+				<topic>
+					<label>MatchEntry 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promatchentry.htm</url>
+				</topic>
+				<topic>
+					<label>MatchFound 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promatchfound.htm</url>
+				</topic>
+				<topic>
+					<label>MatchRequired 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promatchrequired.htm</url>
+				</topic>
+				<topic>
+					<label>Max、Min 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promax.htm</url>
+				</topic>
+				<topic>
+					<label>MaxLength 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promaxlength.htm</url>
+				</topic>
+				<topic>
+					<label>MouseIcon 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promouseicon.htm</url>
+				</topic>
+				<topic>
+					<label>MousePointer 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promousepointer.htm</url>
+				</topic>
+				<topic>
+					<label>MultiLine 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promultiline.htm</url>
+				</topic>
+				<topic>
+					<label>MultiRow 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promultirow.htm</url>
+				</topic>
+				<topic>
+					<label>MultiSelect 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3promultiselect.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>N - R</label>
+				<topic>
+					<label>Name 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proname.htm</url>
+				</topic>
+				<topic>
+					<label>Object 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proobject.htm</url>
+				</topic>
+				<topic>
+					<label>OldHeight、OldWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prooldheight.htm</url>
+				</topic>
+				<topic>
+					<label>OldLeft、OldTop 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prooldleft.htm</url>
+				</topic>
+				<topic>
+					<label>Orientation 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proorientation.htm</url>
+				</topic>
+				<topic>
+					<label>Parent 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proparent.htm</url>
+				</topic>
+				<topic>
+					<label>PasswordChar 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propasswordchar.htm</url>
+				</topic>
+				<topic>
+					<label>Picture 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propicture.htm</url>
+				</topic>
+				<topic>
+					<label>PictureAlignment 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propicturealignment.htm</url>
+				</topic>
+				<topic>
+					<label>PicturePosition 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propictureposition.htm</url>
+				</topic>
+				<topic>
+					<label>PictureSizeMode 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propicturesizemode.htm</url>
+				</topic>
+				<topic>
+					<label>PictureTiling 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3propicturetiling.htm</url>
+				</topic>
+				<topic>
+					<label>ProportionalThumb 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proproportionalthumb.htm</url>
+				</topic>
+				<topic>
+					<label>RightToLeft 属性（Microsoft 窗体）</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proRightToLeft.htm</url>
+				</topic>
+				<topic>
+					<label>RowSource 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prorowsource.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>S</label>
+				<topic>
+					<label>ScrollBars 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proscrollbars.htm</url>
+				</topic>
+				<topic>
+					<label>ScrollHeight、ScrollWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proscrollheight.htm</url>
+				</topic>
+				<topic>
+					<label>ScrollLeft、ScrollTop 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proscrollleft.htm</url>
+				</topic>
+				<topic>
+					<label>Selected 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proselected.htm</url>
+				</topic>
+				<topic>
+					<label>SelectedItem 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proselecteditem.htm</url>
+				</topic>
+				<topic>
+					<label>SelectionMargin 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proselectionmargin.htm</url>
+				</topic>
+				<topic>
+					<label>SelLength 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prosellength.htm</url>
+				</topic>
+				<topic>
+					<label>SelStart 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proselstart.htm</url>
+				</topic>
+				<topic>
+					<label>SelText 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proseltext.htm</url>
+				</topic>
+				<topic>
+					<label>ShowDropButtonWhen 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proshowdropbuttonwhen.htm</url>
+				</topic>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>SmallChange 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prosmallchange.htm</url>
+				</topic>
+				<topic>
+					<label>SpecialEffect 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prospecialeffect.htm</url>
+				</topic>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>Style 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prostyle.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>T</label>
+				<topic>
+					<label>TabFixedHeight 和 TabFixedWidth 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protabfixedheight.htm</url>
+				</topic>
+				<topic>
+					<label>TabIndex 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protabindex.htm</url>
+				</topic>
+				<topic>
+					<label>TabKeyBehavior 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protabkeybehavior.htm</url>
+				</topic>
+				<topic>
+					<label>TabOrientation 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protaborientation.htm</url>
+				</topic>
+				<topic>
+					<label>TabStop 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protabstop.htm</url>
+				</topic>
+				<topic>
+					<label>Tag 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protag.htm</url>
+				</topic>
+				<topic>
+					<label>TakeFocusOnClick 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protakefocusonclick.htm</url>
+				</topic>
+				<topic>
+					<label>Text 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protext.htm</url>
+				</topic>
+				<topic>
+					<label>TextAlign 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protextalign.htm</url>
+				</topic>
+				<topic>
+					<label>TextColumn 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protextcolumn.htm</url>
+				</topic>
+				<topic>
+					<label>TextLength 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protextlength.htm</url>
+				</topic>
+				<topic>
+					<label>LeftTop、属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proleft.htm</url>
+				</topic>
+				<topic>
+					<label>TopIndex 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protopindex.htm</url>
+				</topic>
+				<topic>
+					<label>TransitionEffect 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protransitioneffect.htm</url>
+				</topic>
+				<topic>
+					<label>TransitionPeriod 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protransitionperiod.htm</url>
+				</topic>
+				<topic>
+					<label>TripleState 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3protriplestate.htm</url>
+				</topic>
+			</book>
+			<book>
+				<label>U - Z</label>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>Value 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3provalue.htm</url>
+				</topic>
+				<topic>
+					<label>VerticalScrollbarSide 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proverticalscrollbarside.htm</url>
+				</topic>
+				<topic>
+					<label>Visible 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3provisible.htm</url>
+				</topic>
+				<topic>
+					<label>Height、Width 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3proheight.htm</url>
+				</topic>
+				<topic>
+					<label>WordWrap 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prowordwrap.htm</url>
+				</topic>
+				<topic>
+					<label>Bold、Italic、Size、StrikeThrough、Underline、Weight 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3probold.htm</url>
+				</topic>
+				<topic>
+					<label>Zoom 属性</label>
+					<url>mk:@MSITStore:fm20.chm::/html/f3prozoom.htm</url>
+				</topic>
+			</book>
+		</book>
+	</book>
+</toc>

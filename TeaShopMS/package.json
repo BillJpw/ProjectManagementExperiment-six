@@ -1,0 +1,30 @@
+{
+  "name": "tea-shop-project-management",
+  "version": "1.0.0",
+  "description": "奶茶门店小型团队项目管理系统小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm run dev:mp-weixin",
+    "dev:mp-weixin": "cross-env NODE_ENV=development UNI_PLATFORM=mp-weixin vue-cli-service uni-build --watch",
+    "build:mp-weixin": "cross-env NODE_ENV=production UNI_PLATFORM=mp-weixin vue-cli-service uni-build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "^3.0.0",
+    "@dcloudio/uni-components": "^3.0.0",
+    "@dcloudio/uni-mp-weixin": "^3.0.0",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.0.0",
+    "@dcloudio/uni-cli-shared": "^3.0.0",
+    "@dcloudio/vue-cli-plugin-uni": "^3.0.0",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "^3.0.0",
+    "@dcloudio/webpack-uni-mp-loader": "^3.0.0",
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "cross-env": "^7.0.3",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.0"
+  }
+}

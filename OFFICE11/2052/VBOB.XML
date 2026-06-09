@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+	<book>
+		<label>集合</label>
+		<topic>
+			<label>AddIns 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbcolAddinsCollection.htm</url>
+		</topic>
+		<topic>
+			<label>CodePane 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjcodepanes.htm</url>
+		</topic>
+		<topic>
+			<label>CommandBars 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjcommandbars.htm</url>
+		</topic>
+		<topic>
+			<label>LinkedWindows 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjlinkedwindows.htm</url>
+		</topic>
+		<topic>
+			<label>Properties 集合（VBA 外接对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjproperties.htm</url>
+		</topic>
+		<topic>
+			<label>References 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjreferences.htm</url>
+		</topic>
+		<topic>
+			<label>VBComponents 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjvbcomponents.htm</url>
+		</topic>
+		<topic>
+			<label>VBProjects 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjvbprojects.htm</url>
+		</topic>
+		<topic>
+			<label>Windows 集合</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjwindows.htm</url>
+		</topic>
+	</book>
+	<book>
+		<label>事件</label>
+		<topic>
+			<label>Click 事件（VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaevtclick.htm</url>
+		</topic>
+		<topic>
+			<label>ItemAdded 事件（VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaevtitemadded.htm</url>
+		</topic>
+		<topic>
+			<label>ItemRemoved 事件（VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaevtitemremoved.htm</url>
+		</topic>
+	</book>
+	<book>
+		<label>方法</label>
+		<topic>
+			<label>Add 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddinadd.htm</url>
+		</topic>
+		<topic>
+			<label>AddCustom 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbmthAddCustomMethod.htm</url>
+		</topic>
+		<topic>
+			<label>AddFromFile 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddfromfile.htm</url>
+		</topic>
+		<topic>
+			<label>AddFromGuid 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddfromguid.htm</url>
+		</topic>
+		<topic>
+			<label>AddFromString 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddfromstring.htm</url>
+		</topic>
+		<topic>
+			<label>Close 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthclose.htm</url>
+		</topic>
+		<topic>
+			<label>CreateEventProc 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthcreateeventproc.htm</url>
+		</topic>
+		<topic>
+			<label>CreateToolWindow 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbmthCreateToolWindowMethod.htm</url>
+		</topic>
+		<topic>
+			<label>DeleteLines 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthdeletelines.htm</url>
+		</topic>
+		<topic>
+			<label>DesignerWindow 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthDesignerWindow.htm</url>
+		</topic>
+		<topic>
+			<label>Export 方法 （VBA外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthexport.htm</url>
+		</topic>
+		<topic>
+			<label>Find 方法 （VBA外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthfind.htm</url>
+		</topic>
+		<topic>
+			<label>GetSelection 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthgetselection.htm</url>
+		</topic>
+		<topic>
+			<label>Import 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthimport.htm</url>
+		</topic>
+		<topic>
+			<label>InsertLines 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthinsertlines.htm</url>
+		</topic>
+		<topic>
+			<label>InsertFile 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthInsertFileMethod.htm</url>
+		</topic>
+		<topic>
+			<label>Item 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddinitem.htm</url>
+		</topic>
+		<topic>
+			<label>MakeCompiledFile 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbfctMakeCompiledFileMethod.htm</url>
+		</topic>
+		<topic>
+			<label>ProcBodyLine 属性</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaproprocbodyline.htm</url>
+		</topic>
+		<topic>
+			<label>ProcCountLines 属性</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaproproccountlines.htm</url>
+		</topic>
+		<topic>
+			<label>ProcOfLine 属性</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaproprocofline.htm</url>
+		</topic>
+		<topic>
+			<label>ProcStartLine 属性</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaproprocstartline.htm</url>
+		</topic>
+		<topic>
+			<label>Remove 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthaddinremove.htm</url>
+		</topic>
+		<topic>
+			<label>ReplaceLine 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthreplaceline.htm</url>
+		</topic>
+		<topic>
+			<label>SaveAs 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbmthSaveAsMethod.htm</url>
+		</topic>
+		<topic>
+			<label>SetFocus 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthsetfocus.htm</url>
+		</topic>
+		<topic>
+			<label>SetSelection 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthsetselection.htm</url>
+		</topic>
+		<topic>
+			<label>Show 方法 （VBA 外接程序对象模型）</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vamthAddinShow.htm</url>
+		</topic>
+		<topic>
+			<label>Update 方法</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbmthAddinsUpdateMethod.htm</url>
+		</topic>
+	</book>
+	<book>
+		<label>对象</label>
+		<topic>
+			<label>AddIn 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vbobjAddInObject.htm</url>
+		</topic>
+		<topic>
+			<label>CodeModule 对象 (VBA 外接程序对象模式)</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjcodemodule.htm</url>
+		</topic>
+		<topic>
+			<label>CodePane 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjcodepane.htm</url>
+		</topic>
+		<topic>
+			<label>CommandBarEvents 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjcommandbarevents.htm</url>
+		</topic>
+		<topic>
+			<label>Events 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjevents.htm</url>
+		</topic>
+		<topic>
+			<label>Property 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjproperty.htm</url>
+		</topic>
+		<topic>
+			<label>Reference 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjreference.htm</url>
+		</topic>
+		<topic>
+			<label>ReferencesEvents 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjreferencesevents.htm</url>
+		</topic>
+		<topic>
+			<label>VBComponent 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjvbcomponent.htm</url>
+		</topic>
+		<topic>
+			<label>VBE 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjvbe.htm</url>
+		</topic>
+		<topic>
+			<label>VBProject 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjvbproject.htm</url>
+		</topic>
+		<topic>
+			<label>Window 对象</label>
+			<url>mk:@MSITStore:vbob6.chm::/html/vaobjwindow.htm</url>
+		</topic>
+	</book>
+	<book>
+		<label>属性</label>
+		<book>
+			<label>A-L</label>
+			<topic>
+				<label>ActiveCodePane 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproactivecodepane.htm</url>
+			</topic>
+			<topic>
+				<label>ActiveVBProject 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproactivevbproject.htm</url>
+			</topic>
+			<topic>
+				<label>ActiveWindow 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproactivewindow.htm</url>
+			</topic>
+			<topic>
+				<label>AddIns 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproAddInsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>BuildFileName 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproBuildFileNameProperty.htm</url>
+			</topic>
+			<topic>
+				<label>BuiltIn 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprobuiltin.htm</url>
+			</topic>
+			<topic>
+				<label>Caption 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocaption.htm</url>
+			</topic>
+			<topic>
+				<label>CodeModule 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocodemodule.htm</url>
+			</topic>
+			<topic>
+				<label>CodePane 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocodepane.htm</url>
+			</topic>
+			<topic>
+				<label>CodePanes 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocodepanes.htm</url>
+			</topic>
+			<topic>
+				<label>CodePaneView 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocodepaneview.htm</url>
+			</topic>
+			<topic>
+				<label>Collection 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocollection.htm</url>
+			</topic>
+			<topic>
+				<label>CommandBars 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproCommandBars.htm</url>
+			</topic>
+			<topic>
+				<label>CommandBarEvents 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocommandbarevents.htm</url>
+			</topic>
+			<topic>
+				<label>Connect 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproConnectProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Count 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproaddincount.htm</url>
+			</topic>
+			<topic>
+				<label>CountOfDeclarationLines 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocountofdeclarationlines.htm</url>
+			</topic>
+			<topic>
+				<label>CountOfLines 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocountoflines.htm</url>
+			</topic>
+			<topic>
+				<label>CountOfVisibleLines 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprocountofvisiblelines.htm</url>
+			</topic>
+			<topic>
+				<label>Description 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproaddindescription.htm</url>
+			</topic>
+			<topic>
+				<label>Designer 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprodesigner.htm</url>
+			</topic>
+			<topic>
+				<label>DesignerID 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprodesignerIDProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Events 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproEventsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>FileName 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproFileNameProperty.htm</url>
+			</topic>
+			<topic>
+				<label>FullPath 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprofullpath.htm</url>
+			</topic>
+			<topic>
+				<label>GUID 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproguid.htm</url>
+			</topic>
+			<topic>
+				<label>HasOpenDesigner 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprohasopendesigner.htm</url>
+			</topic>
+			<topic>
+				<label>Height 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproheight.htm</url>
+			</topic>
+			<topic>
+				<label>HelpContextID 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproaddinhelpcontextid.htm</url>
+			</topic>
+			<topic>
+				<label>HelpFile 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproaddinhelpfile.htm</url>
+			</topic>
+			<topic>
+				<label>IndexedValue 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproindexedvalue.htm</url>
+			</topic>
+			<topic>
+				<label>IsBroken 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproisbroken.htm</url>
+			</topic>
+			<topic>
+				<label>Left 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproleft.htm</url>
+			</topic>
+			<topic>
+				<label>Lines 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprolines.htm</url>
+			</topic>
+			<topic>
+				<label>LinkedWindows 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproLinkedWindowsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>LinkedWindowFrame属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprolinkedwindowframe.htm</url>
+			</topic>
+		</book>
+		<book>
+			<label>M-Z</label>
+			<topic>
+				<label>MainWindow 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vapromainwindow.htm</url>
+			</topic>
+			<topic>
+				<label>Major 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vapromajor.htm</url>
+			</topic>
+			<topic>
+				<label>Minor 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprominor.htm</url>
+			</topic>
+			<topic>
+				<label>Mode 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vapromode.htm</url>
+			</topic>
+			<topic>
+				<label>Name 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproname.htm</url>
+			</topic>
+			<topic>
+				<label>NumIndices 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vapronumindices.htm</url>
+			</topic>
+			<topic>
+				<label>Object 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproobject.htm</url>
+			</topic>
+			<topic>
+				<label>Parent 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproparent.htm</url>
+			</topic>
+			<topic>
+				<label>ProcBodyLine 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproProcBodyLine.htm</url>
+			</topic>
+			<topic>
+				<label>ProcCountLines 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproProcCountLines.htm</url>
+			</topic>
+			<topic>
+				<label>ProcOfLine 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproProcOfLine.htm</url>
+			</topic>
+			<topic>
+				<label>ProcStartLine 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproProcStartLine.htm</url>
+			</topic>
+			<topic>
+				<label>ProgID 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproProgIdProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Properties 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproPropertiesProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Protection 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproprotection.htm</url>
+			</topic>
+			<topic>
+				<label>References 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproReferencesProperty.htm</url>
+			</topic>
+			<topic>
+				<label>ReferencesEvents 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproreferencesevents.htm</url>
+			</topic>
+			<topic>
+				<label>Saved 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprosaved.htm</url>
+			</topic>
+			<topic>
+				<label>SelectedVBComponent 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproselectedvbcomponent.htm</url>
+			</topic>
+			<topic>
+				<label>Top 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprotop.htm</url>
+			</topic>
+			<topic>
+				<label>TopLine 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprotopline.htm</url>
+			</topic>
+			<topic>
+				<label>Type 属性（VBA 外接程序对象模型）</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprotype.htm</url>
+			</topic>
+			<topic>
+				<label>Value 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprovalue.htm</url>
+			</topic>
+			<topic>
+				<label>VBComponents 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproVBComponentsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>VBE 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprovbe.htm</url>
+			</topic>
+			<topic>
+				<label>VBProjects 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproVBProjectsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>Version 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaproversion.htm</url>
+			</topic>
+			<topic>
+				<label>Visible 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprovisible.htm</url>
+			</topic>
+			<topic>
+				<label>Width 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprowidth.htm</url>
+			</topic>
+			<topic>
+				<label>Window 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprowindow.htm</url>
+			</topic>
+			<topic>
+				<label>Windows 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vbproWindowsProperty.htm</url>
+			</topic>
+			<topic>
+				<label>WindowState 属性</label>
+				<url>mk:@MSITStore:vbob6.chm::/html/vaprowindowstate.htm</url>
+			</topic>
+		</book>
+	</book>
+</toc>

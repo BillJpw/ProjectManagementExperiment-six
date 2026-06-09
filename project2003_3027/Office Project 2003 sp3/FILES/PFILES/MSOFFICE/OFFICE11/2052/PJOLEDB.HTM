@@ -1,0 +1,6174 @@
+﻿<html dir="ltr"><head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="assetid" CONTENT="HV01033180"><META NAME="lcid" CONTENT="2052"><title>Microsoft Office Project 2003 OLE DB 提供程序参考</title><style type="text/css">/* BODY = default paragraph font */ 
+	body		{bgcolor: #ffffff; font-family: 宋体, Tahoma, Arial, Helvetica, sans-serif; font-size: 9pt; }
+	
+/* HYPERLINKS */ 
+	a:link		{color: #0000cc; }
+	a:active	{color: #0000cc; }
+	a:visited	{color: #0000cc; }	
+	.pop		{text-decoration: none; }
+
+/* LISTS */ 
+	ol		{font-size: 100%; margin-top: .5em; margin-bottom: 0em; margin-left: 4em;}
+	ul		{font-size: 100%; margin-top: .5em; margin-bottom: 0em;}
+	ol ul		{list-style: disc; margin-top: .5em;}
+	ul ul		{list-style: disc; margin-top: .5em;}
+	li		{margin-bottom: .7em; margin-left: -2em;}
+
+/* PREFORMATTING - CODE */ 
+	pre		{font-size: 100%; margin-top: 1.2em; margin-bottom: 1.5em;}
+	code	 	{font-family: "courier new", courier; font-size: 125%; }
+	
+/* TABLES */ 
+	table		{font-size: 100%; margin-top: 1em; margin-bottom: 0em;}
+	th		{text-align: left; background: #CCCCCC; margin: .25em; vertical-align: bottom;}
+	tr		{vertical-align: top;}
+	td		{margin: .25em; vertical-align: top; border-bottom: 1px solid #CCCCCC; }
+
+/* PARAGRAPH */
+	p		{margin-top: .6em; margin-bottom: .6em; }
+
+ 
+
+/* Heading styles---------------------------------------------------------------------------- */ 
+
+	h1		{font-size: 125%; margin-top: .4em; margin-bottom: .5em;}
+	h2		{font-size: 110%; margin-top: 2em; margin-bottom: .5em;}
+	h3		{font-size: 100%; margin-top: 1.2em; margin-bottom: .5em; font-weight: bold;}
+	h4		{font-size: 100%; margin-top: 1.2em; font-weight: bold;}
+	h5		{font-size: 100%; margin-top: 1.2em; font-weight: bold;}
+	.lproch		{font-weight: bold ;margin-top: 1.2em; }/* Heading 9,List Procedure Heading,lproch */ 
+
+/* Defined List styles ----------------------------------------------------------------------- */
+
+	dt		{font-weight: bold; }
+	dd		{margin-left: 2em; margin-bottom: .6em; }
+
+/* Paragraph styles--------------------------------------------------------------------------- */ 
+
+	.ac		{font-size: 90%; color: #7F7F7F;} 
+	.alpha		{font-size: 125%; font-weight: bold; }
+	.dt1		{text-indent: -2em; margin-left: 2em;}
+	.hang		{text-indent: -2em; margin-left: 2em;}
+	.ind		{margin-left: 2em;}
+/* MAYBE KEEP .LBR1 IN CASE WE CAN GET HANGING INDENT TO WORK IN IE5.0? */ 
+	.mt		{margin-top:  2em; font-weight: bold; }
+	.noborder	{border: none; }
+	.rtt		{text-align: right; font-size: 90%; }
+	.tableup	{margin-top: 0em; }
+/* overline */
+	.ov		{text-decoration: overline; }
+
+/* spacing styles */ 
+	.4		{line-height: 4pt;}
+	.6		{line-height: 6pt;}
+	
+/* styles we no longer need */ 		
+	.Highlight	{background-color: lightblue;}
+	.Normal 	{background-color: white;}
+	.fixp		{color: #00ff00;}	/* *fix this paragraph for incorrectly used styles / green */ 
+
+/* Language Reference styles --------------------------------------------------------------------------- */
+
+
+/* code comments */
+	.comment {color: darkgreen;
+		}
+
+/* Object model blue box */ 
+	.omblue { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #99FFFF;
+		border: 1px solid windowframe;
+		color: windowtext;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Object model blue dashed box */ 
+	.ombluedash { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #99FFFF;
+		border: 1px dashed windowframe;
+		color: windowtext;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Object model yellow box */ 
+	.omyellow { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #FFFF99;
+		border: 1px solid windowframe;
+		color: windowtext;
+		font-weight: bold;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;		
+		}	
+
+/* Object model yellow dashed box */ 
+	.omyellowdash { height: 16px;
+		width: 180px;
+		padding: 2px 2px 2px 2px;
+		background-color: #FFFF99;
+		border: 1px dashed windowframe;
+		color: windowtext;
+		text-decoration: none;
+		cursor: hand;
+		line-height: 9px;
+		}
+
+/* Navigation hyperlink list container */
+	.ofvbaispan { position: absolute;
+		padding: 0px 0px 0px 0px;
+		border: 1px solid windowframe;
+		color: windowtext;
+		display: none;
+		z-index: +1;
+		}
+
+/* Navigation area */
+	.ofvbanav { padding: 0px 0px 10px 0px;
+		}
+
+/* Active navigation area jumps */
+	.ofvbanavreuse { width: 75px;
+		color: #0000cc;
+		cursor: hand;
+		}
+
+/* Inactive navigation area jump */
+	.ofvbanavunused { width: 75px;
+		color: graytext;
+		}
+
+/* Hidden navigation area jump */
+	.ofvbanavhidden { width: 75px;
+		display: none;
+		}
+
+/* Navigation hyperlink list topic description toggle */
+	.ofvbashowdesc { color:#0000cc;
+		cursor:hand;
+		font-size:smaller;
+		text-decoration:underline;
+		}
+
+/* Navigation hyperlink list topic description sections */
+	.ofvbadesc { color: windowtext;
+		display: none;
+		}
+
+/* Example navigation area jumps */
+	.ofvbanavex { text-decoration: none;
+		}
+
+/* Syntax box */
+	.ofvbasyn { width: 100%;
+		padding: 0px 8px 0px 8px;
+		background-color: #CCCCCC;
+		}
+
+
+	.signature { width: 100%;
+		padding: 0px 8px 0px 8px;
+		background-color: #CCCCCC;
+		}
+
+
+
+
+
+.ofvbalink		{text-decoration: none; }
+.ofvbalink:hover	{text-decoration: underline; }
+
+
+
+/* Dropdown styles --------------------------------------------------------------------------- */
+
+.DropDown	{text-decoration: none; font-weight: normal; top: 0pt;} 
+.DropDown:hover	{text-decoration: underline; }
+
+			
+.HidePopUp 	{text-decoration: none; }
+.HidePopUp:hover{text-decoration: underline; }
+
+.Glossary	{text-decoration: none; }
+.glossary:hover	{text-decoration: underline; }
+				
+.Glossarydef	{color: #008C00; text-decoration: none;}
+
+.srcContent 	{ }
+
+.expfav		{font-size: 80%; text-align: Right; margin-top: -1em; margin-bottom: 0; }
+
+.expanded	{font-weight: normal; }	
+
+.collapsed	{display: none;}	
+			 	
+.def		{margin-top: 40pt;}	
+
+#theIFRAME	{position: absolute; display:none; }
+
+/* Language Specific Boilerplate Styles------------------------------------------------------- */
+	.BPhide 		{display: none }
+	.BPshow 		{  }
+	.BPHide4Bidi 	{  }
+	.BPHide4EA 		{  }
+	.BPHide4Thai 	{  }
+	.hide4ara 	{  }
+	.hide4arascript 	{  }
+	.hide4biditha	{  }
+	.hide4eabidi	{  }
+	.hide4easa	{  }
+	.hide4easabidi{  }
+	.hide4eng		{  }
+	.hide4enu		{  }
+	.hide4enucanfrndut{  }
+	.hide4heb		{  }
+	.hide4hindi	{  }
+	.hide4jamuiopt{  }
+	.hide4sa		{  }
+	.hide4sabidi	{  }
+	.somecontent	{  }</style><script language="JavaScript" src="../ExpColl.js"></script></head><body><h1>Microsoft Office Project 2003 OLE DB 提供程序参考</h1><META HTTP-EQUIV="assetid" CONTENT="HV01033180"><title>Microsoft Office Project 2003 OLE DB 提供程序参考</title>
+    <br><a href="#overview">总览</a><br>
+    
+
+      <a href="#newOLE">Project OLE DB 提供程序的重要功能</a><br>  <a href="#specifics">特征</a><br>  <a href="#limitations">限制</a><br><br><a href="#sampleADO">使用 Microsoft ActiveX 数据对象 (ADO) 的示例代码</a><br>
+    
+
+      <a href="#computer">使用 ADO 访问自己计算机中 Project OLE DB 提供程序</a><br><br><a href="#tables">Project OLE DB 提供程序表</a><br>  <a href="#Assignments">Assignments（工作分配）</a><br>  <a href="#AssignmentTimephased">Assignment Timephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的工作分配）</a><br>  <a href="#Availability">Availability（可用性）</a><br>  <a href="#BaselineTaskSplits">BaselineTaskSplits（比较基准任务拆分）</a><br>  <a href="#CalendarData">CalendarData（日历数据信息）</a><br>  <a href="#CalendarExceptions">CalendarExceptions（日历例外时间）</a><br>  <a href="#Calendars">Calendars（日历）</a><br>  <a href="#CostRates">CostRates（成本费率）</a><br>  <a href="#GraphicalIndicators">CustomFieldGraphicalIndicators（自定义域图形标记）</a><br>  <a href="#CustomFields">CustomFields（自定义域）</a><br>  <a href="#ValueList">CustomFieldValueList（自定义域值列表）</a><br>  <a href="#CodeFields">CustomOutlineCodeFields（自定义大纲代码域）</a><br>  <a href="#CodeLookupTables">OutlineCode（大纲代码）</a><br>  <a href="#Predecessors">Predecessors（前置任务）</a><br>  <a href="#Project">Project（项目）</a><br>  <a href="#Resources">Resources（资源）</a><br>  <a href="#ResourceTimephased">Resource Timephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的资源）</a><br>  <a href="#Successors">Successors（后续任务）</a><br>  <a href="#Tasks">Tasks（任务）</a><br>  <a href="#TaskSplits">TaskSplits（任务拆分）</a><br>  <a href="#TaskTimephased">Task Timephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的任务）</a><br>  <a href="#WBS">WBS（工作分解结构）</a><br>
+<h2>
+<a id="overview" name="overview">总览</a></h2>
+<p>本文档提供必要的信息，说明如何使用 Project OLE DB 提供程序访问 Microsoft Office Project 2003 数据。除说明 Project OLE DB 提供程序表结构外，本文档还详细说明了 Project OLE DB 提供程序的其他信息，并给出了 Microsoft ActiveX 数据对象 (ADO) 代码示例。 </p>
+<a href="#top">页首</a>
+<h2>
+<a id="newOLE" name="newOLE">Project OLE DB 提供程序的重要功能</a></h2>
+<p>Project OLE DB 提供程序包括以下重要功能：</p>
+<ul>
+
+<li>在 Project OLE DB 提供程序中添加友好域名称（例如：TaskConstraintDate）。友好域名称允许对数据库进行本地化，并用英语之外的其他语言创建自定义报表。此外，用户还可以使用其本地化语言查看域标签。<p><b>注释</b>  当 Project 以企业模式运行时，只能以英语显示域标签。</p>
+</li>
+<li>添加 15 个新表以支持时间分段数据，工作分配、资源和任务各 5 个，并按分钟、小时、天、周和月进行划分。
+<p><b>注释</b>   数据库为所有时间分段表的名称使用统一格式：<i>table</i>TimephasedBy<i>time</i>（例如：AssignmentTimephasedByMinute）。</p>
+</li>
+<li>Project OLE DB 提供程序的企业和非企业模式。在表说明左侧的列中使用“E”标记企业域。企业域只可以用于 Microsoft Office Project Professional
+ 
+2003。</li>
+<li>对 Office Web Components 的附加支持。</li>
+</ul>
+
+
+
+
+<a href="#top">页首</a>
+<h2>
+<a id="specifics" name="specifics">特征</a></h2>
+<p>以下为 Project OLE DB 提供程序的一些独特特征，应该加以注意以免出现意外结果：</p>
+<ul>
+<li>有四种数据类型：文本、数字、布尔值和日期[如界面所示（例如，1999 年 12 月 27 日上午 10:30）]。</li>
+<li>“工期”域的返回值为分钟 * 10（例如，8 小时为 4800），“工时”域的返回值为分钟 * 1000（例如，8 小时为 480000）。</li>
+<li>界面上显示为 NA 的日期返回值为 0。</li>
+<li>对于界面上显示为 #ERROR 的自定义域中的公式，其返回值为该域的默认值。</li>
+<li>对于尚未设置值的自定义域，将返回其默认值。</li>
+<li>对于尚未设置标记的自定义域标记域，将返回“-1”。</li>
+<li>材料资源的工时值将按界面中定义的单位返回，而不是分钟 * 1000。</li>
+<li>使用不带 WHERE 的 SELECT 语句时，返回空的资源行和任务行。使用带有 WHERE 的 SELECT 语句时，不返回这些空行（即使这些行可能满足条件）。</li>
+</ul>
+<p>另外，提供程序支持三个注册表项，这些注册表项确定在特定的超时条件发生前所需的秒数。这些注册表项可以在注册表的 <b class="bterm">HKEY_LOCAL_MACHINE\Software\Microsoft\Office\11.0\MS Project\OLE DB Provider</b> 子项下找到：</p>
+<table>
+<tr>
+<th>注册表项</th>
+<th>默认值</th>
+<th>说明</th>
+</tr>
+<tr>
+<td>
+<b class="bterm">TimeoutOnLoad</b>
+</td>
+<td>0</td>
+<td>确定在返回项目不可用的错误消息之前，提供程序试图加载项目的时间。（将注册表项设为 0，可以防止发生超时。）</td>
+</tr>
+<tr>
+<td>
+<b class="bterm">TimeBeforeUnload</b>
+</td>
+<td>37</td>
+<td>确定在加载其他项目之后，原有项目保持打开的时间长度。在加载新项目之前，无论该注册表项的设置如何，当前项目都将保留在内存中。</td>
+</tr>
+<tr>
+<td>
+<b class="bterm">TimeBeforeRefresh</b>
+</td>
+<td>5</td>
+<td>确定检查当前项目是否有更新信息的频率。</td>
+</tr>
+</table>
+
+<p><b>注释</b>  在编辑注册表之前，应了解在发生问题时如何恢复注册表。注册表编辑不当可能会导致严重问题，可能需要重新安装操作系统。</p>
+<a href="#top">页首</a>
+<h2>
+<a id="limitations" name="limitations">限制</a></h2>
+<p>当前 Project OLE DB 提供程序的使用有下列限制：</p>
+<ul>
+<li>不支持读/写访问。</li>
+<li>不支持多表查询；必须对要访问的每个表使用不同的查询。</li>
+<li>支持只进指针访问 Project OLE DB 提供程序。只进记录集不支持 <b class="bterm">MovePrevious</b>、<b class="bterm">MoveFirst</b> 或 <b class="bterm">MoveLast</b> 等方法。此外，只进记录集也不支持 <b class="bterm">RecordCount</b> 属性的使用。</li>
+<li>不支持联接。但是，通过在关键字、域或行集合间创建以前不存在的关系，图形结构的记录集可以提供相似的功能。还可以按表格格式创建具有层次结构的记录集。有关详细信息，请参阅“ActiveX Data Objects 帮助”中的“Microsoft Data Shaping Service for OLE DB”。</li>
+<li>不支持下列运算符：ANY、LIKE 和 IS NOT。</li>
+<li>不支持下列聚合函数：Sum、Avg、Min、Max、Count 和 StDev。</li>
+<li>Project OLE DB 提供程序有一个计时机制，可以通知您何时上载文件，不过只有在发生加载事件时才进行通知。如果 <b class="bterm">TimeBeforeUnload</b> 值设置为 1，提供程序将只在试图打开其他文件时才检查是否有旧文件，并将该文件设置为读锁定。若要避免该问题，请在完成当前项目时创建一个虚拟文件，强制提供程序加载不存在的文件。这样就会上载刚刚处理的文件，并将虚拟文件设置为读锁定。</li>
+</ul>
+<a href="#top">页首</a>
+
+<h2>
+<a id="sampleADO" name="sampleADO">使用 Microsoft ActiveX 数据对象的示例代码</a></h2>
+<p>Microsoft ActiveX 数据对象 (ADO) 通过一系列的对象、事件、方法和属性提供对 Project OLE DB 提供程序的简单访问。可能用到 ADO 操作的场合包括：访问自己计算机中的提供程序和访问 Project Server 中的提供程序。</p>
+<h3>
+<a id="computer" name="computer">使用 ADO 访问自己计算机中 Project OLE DB 提供程序</a></h3>
+<p>本示例将访问本地计算机中的 Project 文件，并显示该项目的某些工作分配信息。</p>
+<p><b>注释</b>  若要编译本示例，必须在项目中添加对 Microsoft ActiveX 数据对象 2.1 库或更高版本的引用。有关详细信息，请参阅“Microsoft Visual Basic 帮助中的“设置对类型库的引用”主题。</p>
+<pre>
+<code>Sub Connect()
+    Dim conData As New ADODB.Connection
+    Dim rstAssigns As New ADODB.Recordset
+    Dim intCount As Integer
+    Dim strSelect As String
+    Dim strResults As String
+    
+    conData.ConnectionString = "Provider=Microsoft.Project.OLEDB.11.0;PROJECT NAME=" &amp; FILE_NAME
+' To connect to a Microsoft SQL Server file, you must also supply User ID and Password arguments
+'    conData.ConnectionString = "Provider=Microsoft.Project.OLEDB.11.0;User ID=jsmith;Password=MyPass5;  &amp; _
+          PROJECT NAME=" &amp; FILE_NAME
+    
+    conData.ConnectionTimeout = 30
+    conData.Open
+
+    strSelect = "SELECT ResourceUniqueID, AssignmentResourceID, AssignmentResourceName, TaskUniqueID,  &amp; _
+          AssignmentTaskID," " AssignmentTaskName FROM Assignments WHERE TaskUniqueID &gt; 0 ORDER BY  &amp; _
+          AssignmentTaskID ASC"
+    rstAssigns.Open strSelect, conData
+
+    Do While Not rstAssigns.EOF
+        For intCount = 0 To rstAssigns.Fields.Count - 1
+            If (Not IsNull(rstAssigns.Fields(intCount).Value)) Then
+                strResults = strResults &amp; "'" &amp; rstAssigns.Fields(intCount).Name &amp; "'" &amp; Space(40 -  &amp; _
+                    Len(rstAssigns.Fields(intCount).Name)) &amp; vbTab &amp; CStr(rstAssigns.Fields(intCount).Value) &amp; vbCrLf
+            End If
+            
+            If (IsNull(rstAssigns.Fields(intCount).Value)) Then
+                strResults = strResults &amp; "'" &amp; rstAssigns.Fields(intCount).Name &amp; "'" &amp; Space(40 -  &amp; _
+                    Len(rstAssigns.Fields(intCount).Name)) &amp; vbTab &amp; CStr("") &amp; vbCrLf
+            End If
+                   
+        Next
+        strResults = strResults &amp; vbCrLf
+        rstAssigns.MoveNext
+    Loop
+    
+    conData.Close
+    
+    Open "C:\My Documents\Results.txt" For Output As #1
+    Print #1, strResults
+    Close #1
+        
+    Shell "Notepad C:\My Documents\Results.txt", vbMaximizedFocus
+
+End Sub</code>
+</pre>
+<a href="#top">页首</a>
+<h2>
+<a id="tables" name="tables">Project OLE DB 提供程序表</a></h2>
+<p>以下列表显示 Project OLE DB 提供程序中的所有表。表中的列（域）、数据类型、说明和值（相应位置）详述如下。</p>
+<ul>
+<li>
+<a href="#Assignments">Assignments（工作分配）</a>
+</li>
+<li>
+<a href="#AssignmentTimephased">AssignmentTimephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的工作分配）</a></li>
+<li>
+<a href="#Availability">Availability（可用性）</a>
+</li>
+<li>
+<a href="#BaselineTaskSplits">BaselineTaskSplits（比较基准任务拆分）</a>
+</li>
+<li>
+<a href="#CalendarData">CalendarData（日历数据信息）</a>
+</li>
+<li>
+<a href="#CalendarExceptions">CalendarExceptions（日历例外时间）</a>
+</li>
+<li>
+<a href="#Calendars">Calendars（日历）</a>
+</li>
+<li>
+<a href="#CostRates">CostRates（成本费率）</a>
+</li>
+<li>
+<a href="#GraphicalIndicators">CustomFieldGraphicalIndicators（自定义域图形标记）</a>
+</li>
+<li>
+<a href="#CustomFields">CustomFields（自定义域）</a>
+</li>
+<li>
+<a href="#ValueList">CustomFieldValueList（自定义域值列表）</a>
+</li>
+<li>
+<a href="#CodeFields">CustomOutlineCodeFields（自定义大纲代码域）</a>
+</li>
+<li>
+<a href="#CodeLookupTables">CustomOutlineCodeLookupTables（自定义大纲代码查阅表）</a>
+</li>
+<li>
+<a href="#Predecessors">Predecessors（前置任务）</a>
+</li>
+<li>
+<a href="#Project">Project（项目）</a>
+</li>
+<li>
+<a href="#Resources">Resources（资源）</a>
+</li>
+<li>
+<a href="#ResourceTimephased">ResourceTimephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的资源）</a></li>
+<li>
+<a href="#Successors">Successors（后续任务）</a>
+</li>
+<li>
+<a href="#Tasks">Tasks（任务）</a>
+</li>
+<li>
+<a href="#TaskSplits">TaskSplits（任务拆分）</a>
+</li>
+<li>
+<a href="#TaskTimephased">TaskTimephased by Minute, Hour, Day, Week, and Month（按分钟、小时、天、周和月时间分段的任务）</a></li>
+<li>
+<a href="#WBS">WBS（工作分解结构）</a>
+</li>
+</ul>
+<p><b>注释</b>  在表说明中标记为粗体的域名表示该域在多个表中共用。</p>
+<p><b>注释</b>  只有 Project Professional 2003 中可用的企业自定义域，才会在表说明中以左侧列中的标记“E”进行标识。</p>
+<a href="#top">页首</a>
+<h3>
+标记符号</h3>
+<p>在 Project 中可用的标记符号如下所示：</p>
+<table>
+<tr>
+<th>值</th>
+<th>标记符号</th>
+</tr>
+<tr>
+<td>0</td>
+<td>无</td>
+</tr>
+<tr>
+<td>1</td>
+<td>球，酸橙色</td>
+</tr>
+<tr>
+<td>2</td>
+<td>球，黄色</td>
+</tr>
+<tr>
+<td>3</td>
+<td>球，红色</td>
+</tr>
+<tr>
+<td>4</td>
+<td>球，黑色</td>
+</tr>
+<tr>
+<td>5</td>
+<td>球，白色</td>
+</tr>
+<tr>
+<td>6</td>
+<td>球，浅绿色</td>
+</tr>
+<tr>
+<td>7</td>
+<td>球，绿色</td>
+</tr>
+<tr>
+<td>8</td>
+<td>球，蓝色</td>
+</tr>
+<tr>
+<td>9</td>
+<td>球，紫红色</td>
+</tr>
+<tr>
+<td>10</td>
+<td>球，紫色</td>
+</tr>
+<tr>
+<td>11</td>
+<td>球，栗色</td>
+</tr>
+<tr>
+<td>12</td>
+<td>球，银色</td>
+</tr>
+<tr>
+<td>13</td>
+<td>球，灰色</td>
+</tr>
+<tr>
+<td>14</td>
+<td>标志，酸橙色</td>
+</tr>
+<tr>
+<td>15</td>
+<td>标志，黄色</td>
+</tr>
+<tr>
+<td>16</td>
+<td>标志，红色</td>
+</tr>
+<tr>
+<td>17</td>
+<td>标志，白色</td>
+</tr>
+<tr>
+<td>18</td>
+<td>标志，浅绿色</td>
+</tr>
+<tr>
+<td>19</td>
+<td>标志，蓝色</td>
+</tr>
+<tr>
+<td>20</td>
+<td>标志，紫红色</td>
+</tr>
+<tr>
+<td>21</td>
+<td>标志，灰色</td>
+</tr>
+<tr>
+<td>22</td>
+<td>方形，酸橙色</td>
+</tr>
+<tr>
+<td>23</td>
+<td>方形，黄色</td>
+</tr>
+<tr>
+<td>24</td>
+<td>方形，红色</td>
+</tr>
+<tr>
+<td>25</td>
+<td>方形，黑色</td>
+</tr>
+<tr>
+<td>26</td>
+<td>方形，白色</td>
+</tr>
+<tr>
+<td>27</td>
+<td>加号，酸橙色</td>
+</tr>
+<tr>
+<td>28</td>
+<td>加号，黄色</td>
+</tr>
+<tr>
+<td>29</td>
+<td>加号，红色</td>
+</tr>
+<tr>
+<td>30</td>
+<td>加号，黑色</td>
+</tr>
+<tr>
+<td>31</td>
+<td>加号，白色</td>
+</tr>
+<tr>
+<td>32</td>
+<td>减号，酸橙色</td>
+</tr>
+<tr>
+<td>33</td>
+<td>减号，黄色</td>
+</tr>
+<tr>
+<td>34</td>
+<td>减号，红色</td>
+</tr>
+<tr>
+<td>35</td>
+<td>减号，黑色</td>
+</tr>
+<tr>
+<td>36</td>
+<td>减号，白色</td>
+</tr>
+<tr>
+<td>37</td>
+<td>菱形，酸橙色</td>
+</tr>
+<tr>
+<td>38</td>
+<td>菱形，黄色</td>
+</tr>
+<tr>
+<td>39</td>
+<td>菱形，红色</td>
+</tr>
+<tr>
+<td>40</td>
+<td>箭头，左</td>
+</tr>
+<tr>
+<td>41</td>
+<td>箭头，右</td>
+</tr>
+<tr>
+<td>42</td>
+<td>箭头，双向</td>
+</tr>
+<tr>
+<td>43</td>
+<td>箭头，上</td>
+</tr>
+<tr>
+<td>44</td>
+<td>箭头，下</td>
+</tr>
+<tr>
+<td>45</td>
+<td>圆形，纯色填充</td>
+</tr>
+<tr>
+<td>46</td>
+<td>圆形，底部填充</td>
+</tr>
+<tr>
+<td>47</td>
+<td>圆形，左侧填充</td>
+</tr>
+<tr>
+<td>48</td>
+<td>圆形，上部填充</td>
+</tr>
+<tr>
+<td>49</td>
+<td>圆形，右侧填充</td>
+</tr>
+<tr>
+<td>50</td>
+<td>圆形，外部填充</td>
+</tr>
+<tr>
+<td>51</td>
+<td>圆形，无填充色（空）</td>
+</tr>
+<tr>
+<td>52</td>
+<td>灯泡，关</td>
+</tr>
+<tr>
+<td>53</td>
+<td>灯泡，开</td>
+</tr>
+<tr>
+<td>54</td>
+<td>选中标记</td>
+</tr>
+<tr>
+<td>55</td>
+<td>删除标记</td>
+</tr>
+<tr>
+<td>56</td>
+<td>问号</td>
+</tr>
+<tr>
+<td>57</td>
+<td>时钟</td>
+</tr>
+<tr>
+<td>58</td>
+<td>图钉</td>
+</tr>
+<tr>
+<td>59</td>
+<td>笑脸，黄色</td>
+</tr>
+<tr>
+<td>60</td>
+<td>笑脸，酸橙色</td>
+</tr>
+<tr>
+<td>61</td>
+<td>无表情的脸，黄色</td>
+</tr>
+<tr>
+<td>62</td>
+<td>无表情的脸，浅绿色</td>
+</tr>
+<tr>
+<td>63</td>
+<td>苦脸，黄色</td>
+</tr>
+<tr>
+<td>64</td>
+<td>苦脸，红色</td>
+</tr>
+<tr>
+<td>65</td>
+<td>虚线</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Assignments" name="Assignments">Assignments</a></h2>
+<p>该表包含工作分配数据，并将工作分配链接到与其关联的任务和资源。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Projects</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效企业标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">AssignmentUniqueID</b>
+</td>
+<td>数字</td>
+<td>工作分配的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentPercentWorkComplete</td>
+<td>数字</td>
+<td>工作分配的当前状态，表示为工作分配工时的完成百分比。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualCost</td>
+<td>数字</td>
+<td>资源在任务中已完成工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualFinish</td>
+<td>日期</td>
+<td>工作分配实际完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualOvertimeCost</td>
+<td>数字</td>
+<td>资源在任务中已完成加班工时的成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualOvertimeWork</td>
+<td>数字</td>
+<td>资源在所分配的任务中已完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualOvertimeWorkProtected</td>
+<td>数字</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualStart</td>
+<td>日期</td>
+<td>工作分配实际开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualWork</td>
+<td>数字</td>
+<td>资源在任务中已完成的工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentActualWorkProtected</td>
+<td>数字</td>
+<td>受保护的实际工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentACWP</td>
+<td>数字</td>
+<td>到项目的状态日期或当前日期为止，资源在任务中已完成工时的成本，也称作已完成工时的实际成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaselineCost</td>
+<td>数字</td>
+<td>资源在任务中完成工时所需的计划总成本。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaseline1Cost-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaselineFinish</td>
+<td>日期</td>
+<td>保存比较基准时，工作分配的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaseline1Finish-10</td>
+<td>数字</td>
+<td>自定义比较基准完成日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaselineStart</td>
+<td>日期</td>
+<td>保存比较基准时，工作分配的计划开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaseline1Start-10</td>
+<td>数字</td>
+<td>自定义比较基准开始日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaselineWork</td>
+<td>数字</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBaseline1Work-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBCWP</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配按时间分段的工时完成百分比乘以工作分配按时间分段的比较基准成本的累计值。也称作已完成工时的预算成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBCWS</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止的累计时间分段比较基准成本；也称作计划工时的预算成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentBooking Type</td>
+<td>数字</td>
+<td>指定工作分配的预订类型：<table>
+<tr>
+<td>0</td>
+<td>已提交</td>
+</tr>
+<tr>
+<td>2</td>
+<td>已建议</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentConfirmed</td>
+<td>布尔值</td>
+<td>指示在答复向资源通知工作分配的消息时，接受任务的资源是接受还是拒绝任务分配。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentCost</td>
+<td>数字</td>
+<td>工作分配的总规划（或计划）成本，等于资源在任务中已完成工时的成本，加上工作分配剩余工时的计划成本。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentCost1-10</td>
+<td>数字</td>
+<td>自定义成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostRateTable</td>
+<td>数字</td>
+<td>指定对工作分配中的资源使用哪个成本费率表：
+<table>
+<tr>
+<td>0</td>
+<td>A（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentCostVariance</td>
+<td>数字</td>
+<td>工作分配的比较基准成本与总成本之间的差异。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentCV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配达到当前完成程度应花费的成本与实际花费的成本之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentDate1-10</td>
+<td>日期</td>
+<td>自定义日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentDelay</td>
+<td>数字</td>
+<td>在任务开始日期后，资源开始进行一项工作分配前要等待的时间量。 </td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentDuration1-10</td>
+<td>数字</td>
+<td>在项目中单独输入和存储的自定义工作分配工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseCost1-10</td>
+<td>数字</td>
+<td>企业自定义工作分配成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseDate1-30</td>
+<td>数字</td>
+<td>企业自定义日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseDuration1-10</td>
+<td>数字</td>
+<td>企业自定义工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseFlag1-20</td>
+<td>数字</td>
+<td>企业自定义标志信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseNumber1-40</td>
+<td>数字</td>
+<td>企业自定义数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseOutlineCode1-30ID</td>
+<td>数字</td>
+<td>企业自定义大纲代码信息。企业大纲代码 20 到企业大纲代码 29 与 AssignmentEnterpriseRMV 大纲代码相对应。企业大纲代码 30 用于“资源细分结构 (RBS)”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentEnterpriseRMV20-29ID</td>
+<td>数字</td>
+<td>企业资源多值大纲代码信息。AssignmentEnterpriseRMV 大纲代码 20 到 AssignmentEnterpriseRMV 大纲代码 29 与 AssignmentEnterpriseOutlineCode 大纲代码相对应。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentEnterpriseText1-40</td>
+<td>数字</td>
+<td>企业自定义文本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentFinish</td>
+<td>日期</td>
+<td>所分配的资源计划完成任务工时的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentFinish1-10</td>
+<td>日期</td>
+<td>自定义完成日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentFinishVariance</td>
+<td>数字</td>
+<td>工作分配的比较基准完成日期与其计划完成日期之间的差异。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentFixedMaterial</td>
+<td>布尔值</td>
+<td>指定所分配材料资源的使用量是否为一个固定的数量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentFlag1-20</td>
+<td>布尔值</td>
+<td>指定是否为某种进一步的操作或识别而对工作分配作了标记。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHasFixedRateUnits</td>
+<td>布尔值</td>
+<td>指定工作分配是否具有固定的费率单位。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHyperlink</td>
+<td>文本</td>
+<td>与工作分配相关联的超链接的标题或说明文字。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHyperlinkAddress</td>
+<td>文本</td>
+<td>与工作分配相关联的超链接的地址。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHyperlinkHref</td>
+<td>文本</td>
+<td>与工作分配相关联的超链接地址域和超链接子地址域的组合（或连接）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHyperlinkScreenTip</td>
+<td>文本</td>
+<td>屏幕提示中包含的与超链接相关联的文本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentHyperlinkSubAddress</td>
+<td>文本</td>
+<td>与工作分配相关联的超链接中的指定文档位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentLevelingDelay</td>
+<td>数字</td>
+<td>作为资源调配的结果，工作分配比计划开始日期延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentLinkedFields</td>
+<td>布尔值</td>
+<td>指示是否存在与此工作分配链接的 OLE。
+				
+					</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentMilestone</td>
+<td>布尔值</td>
+<td>指定该工作分配任务是否为里程碑。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentNotes</td>
+<td>文本</td>
+<td>包含工作分配的备注。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentNumber1-20</td>
+<td>数字</td>
+<td>自定义数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentOverallocated</td>
+<td>布尔值</td>
+<td>指示在特定任务中是否为资源分配了超负荷的工作量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentOtherType</td>
+<td>数字</td>
+<td>指定工作分配的类型：
+<table>
+<tr>
+<td>0</td>
+<td>常规</td>
+</tr>
+<tr>
+<td>1</td>
+<td>仅任务工时</td>
+</tr>
+<tr>
+<td>2</td>
+<td>固定成本</td>
+</tr>
+<tr>
+<td>3</td>
+<td>固定成本和仅任务工时</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentOvertimeCost</td>
+<td>数字</td>
+<td>资源工作分配的总加班成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentOvertimeWork</td>
+<td>数字</td>
+<td>资源在任务中要完成的加班工时量，按资源的加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentPeakUnits</td>
+<td>数字</td>
+<td>资源在给定时间段内分配给任务的最大单位百分比。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRegularWork</td>
+<td>数字</td>
+<td>计划由接受任务的资源完成的非加班工时总量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRemainingCost</td>
+<td>数字</td>
+<td>特定任务中的所有资源完成全部剩余计划工时所需的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRemainingOvertimeCost</td>
+<td>数字</td>
+<td>工作分配的剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRemainingOvertimeWork</td>
+<td>数字</td>
+<td>工作分配的剩余加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRemainingWork</td>
+<td>数字</td>
+<td>接受任务的资源完成工作分配所需的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentRemainingWorkContour</td>
+<td>数字</td>
+<td>指定工作分配的剩余工时在工作分配工期内的分布方式：
+<table>
+<tr>
+<td>0</td>
+<td>常规分布（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>前轻后重</td>
+</tr>
+<tr>
+<td>2</td>
+<td>前重后轻</td>
+</tr>
+<tr>
+<td>3</td>
+<td>双峰分布</td>
+</tr>
+<tr>
+<td>4</td>
+<td>先峰分布</td>
+</tr>
+<tr>
+<td>5</td>
+<td>后峰分布</td>
+</tr>
+<tr>
+<td>6</td>
+<td>钟型分布</td>
+</tr>
+<tr>
+<td>7</td>
+<td>中央加重钟型</td>
+</tr>
+<tr>
+<td>8</td>
+<td>分布</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentResourceID</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentResourceName</td>
+<td>文本</td>
+<td>与工作分配相关联的资源的名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentResourceType</td>
+<td>数字</td>
+<td>资源类型：
+<table>
+<tr>
+<td>0</td>
+<td>材料；钢材、混凝土或土料等耗材供应</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时（默认值）；人员和设备</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>AssignmentResourceRequestType</td>
+<td>数字</td>
+<td>请求类型：
+<table>
+<tr>
+<td>0</td>
+<td>无（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>请求</td>
+</tr>
+<tr>
+<td>2</td>
+<td>要求</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentResponsePending</td>
+<td>布尔值</td>
+<td>指示在向接受任务的资源发送消息（通知资源工作分配情况）后，是否接收到答复。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentStart</td>
+<td>日期</td>
+<td>分配的资源计划开始执行任务的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentStart1-10</td>
+<td>日期</td>
+<td>自定义开始日期信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentStartVariance</td>
+<td>数字</td>
+<td>工作分配的比较基准开始日期与其当前计划开始日期之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentSummary</td>
+<td>数字</td>
+<td>指定工作分配是否为摘要任务的一部分。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentSV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配的当前进度与比较基准计划之间的成本差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTaskID</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTaskName</td>
+<td>文本</td>
+<td>与工作分配相关联的任务的名称。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTaskSummaryName</td>
+<td>文本</td>
+<td>与工作分配相关联的任务的摘要任务名称。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTeamStatusPending</td>
+<td>布尔值</td>
+<td>指示在向接受任务的资源发送请求进度信息的消息后，是否接收到状态消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentText1-30</td>
+<td>文本</td>
+<td>自定义文本信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentUnits</td>
+<td>数字</td>
+<td>资源分配给任务的单位数，表示为 100% 的百分数（假设资源的“最大单位”值为 100%）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentUpdateNeeded</td>
+<td>数字</td>
+<td>指定在更改开始日期、完成日期或对资源进行重新分配后，是否需要向接受任务的资源发送消息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentVAC</td>
+<td>数字</td>
+<td>某项任务中工作分配的比较基准成本与总成本之间的完成差异 (VAC)。
+					
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentWork</td>
+<td>数字</td>
+<td>资源在任务中计划完成的总工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentWorkContour</td>
+<td>数字</td>
+<td>表示某工作分配中如何在工期内分配工时：
+<table>
+<tr>
+<td>0</td>
+<td>常规分布（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>前轻后重</td>
+</tr>
+<tr>
+<td>2</td>
+<td>前重后轻</td>
+</tr>
+<tr>
+<td>3</td>
+<td>双峰分布</td>
+</tr>
+<tr>
+<td>4</td>
+<td>先峰分布</td>
+</tr>
+<tr>
+<td>5</td>
+<td>后峰分布</td>
+</tr>
+<tr>
+<td>6</td>
+<td>钟型分布</td>
+</tr>
+<tr>
+<td>7</td>
+<td>中央加重钟型</td>
+</tr>
+<tr>
+<td>8</td>
+<td>分布</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentWorkVariance</td>
+<td>数字</td>
+<td>工作分配的比较基准工时与当前计划工时之间的差异。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="AssignmentTimephased" name="AssignmentTimephased">Assignment Timephased by Minute, Hour, Day, Week, and Month</a></h2>
+<p>Project OLE DB 提供程序支持按时间分段的数据。共有五个工作分配时间分段表，分钟、小时、天、周和月各一。对于所有按时间分段的表名称，数据库使用统一的格式：<i>table</i>TimephasedBy<i>time</i>，例如，AssignmentTimephasedByMinute。这些表从最早开始时间到最晚完成时间按分钟、小时、天、周或月返回所有工作分配的时间分段数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">AssignmentUniqueID</b>
+</td>
+<td>数字</td>
+<td>工作分配的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeStart</td>
+<td>日期</td>
+<td>分配的资源计划开始执行任务的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeFinish</td>
+<td>日期</td>
+<td>所分配的资源计划完成任务工时的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeActualCost</td>
+<td>数字</td>
+<td>显示资源在任务中已完成工时的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeActualOvertimeWork</td>
+<td>数字</td>
+<td>资源在所分配的任务中已完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeActualWork</td>
+<td>数字</td>
+<td>资源在任务中已完成的工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeACWP</td>
+<td>数字</td>
+<td>到项目的状态日期或当前日期为止，资源在任务中已完成工时的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBaselineCost</td>
+<td>数字</td>
+<td>指定资源在任务中要完成工时的总计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBaseline1Cost-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBaselineWork</td>
+<td>数字</td>
+<td>资源在任务中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBaseline1Work-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBCWP</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配按时间分段的工时完成百分比乘以工作分配按时间分段的比较基准成本的累计值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeBCWS</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配的累计按时间分段比较基准成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeCost</td>
+<td>数字</td>
+<td>资源工作分配的总规划（计划）成本，等于资源在任务中已完成工时的成本，加上工作分配剩余工时的计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeCumulativeCost</td>
+<td>数字</td>
+<td>到当前为止，资源工作分配按时间分段累计的计划成本，等于资源在任务中已完成工时的成本，加上工作分配剩余工时的计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeCumulativeWork</td>
+<td>数字</td>
+<td>资源在任务中计划完成的总工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeCV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配达到当前完成程度应花费的成本与实际花费的成本之间的差异。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeOvertimeWork</td>
+<td>数字</td>
+<td>资源在任务中要完成的加班工时量；按资源的加班费率支付薪酬。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimePeakUnits</td>
+<td>数字</td>
+<td>资源在给定时间段内分配给任务的最大单位百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimePercentAllocation</td>
+<td>数字</td>
+<td>表示分配到特定工作分配的资源量的百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeRegularWork</td>
+<td>数字</td>
+<td>计划由接受任务的资源完成的非加班工时总量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeSV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，工作分配的当前进度与比较基准计划之间的成本差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AssignmentTimeWork</td>
+<td>数字</td>
+<td>资源在任务中计划完成的总工时量。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Availability" name="Availability">Availability</a></h2>
+<p>该表通常与 <a href="#Resources">Resources</a> 表一起使用，以获取资源可用性信息。</p>
+<table>
+
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效企业标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AvailabilityAvailableFrom</td>
+<td>日期</td>
+<td>资源可以按照当前时间段指定的单位进行工作的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AvailabilityAvailableTo</td>
+<td>日期</td>
+<td>资源可以按照当前时间段指定的单位进行工作的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>AvailabilityAvailableUnits</td>
+<td>数字</td>
+<td>资源分配给任务的单位数，表示为 100 % 的百分数（假设资源的“最大单位”值为 100%）。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="BaselineTaskSplits" name="BaselineTaskSplits">BaselineTaskSplits</a></h2>
+<p>该表存储特定任务的比较基准拆分信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>BaselineField</td>
+<td>数字</td>
+<td>计算比较基准任务拆分的开始时间或结束时间的域。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>BaselineSplitFinish</td>
+<td>日期</td>
+<td>比较基准任务拆分结束的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>BaselineSplitStart</td>
+<td>日期</td>
+<td>比较基准任务拆分开始的日期。
+				
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CalendarData" name="CalendarData">CalendarData</a></h2>
+<p>CalendarData 与现有 <a href="#Calendars">Calendars</a> 表和新的 <a href="#CalendarExceptions">CalendarExceptions</a> 表一起存储 Project OLE DB 提供程序中的所有日历信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CalendarUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Calendars 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarWeekday</td>
+<td>数字</td>
+<td>为日历指定所定义的工作日：
+<table>
+<tr>
+<td>0</td>
+<td>例外日期</td>
+</tr>
+<tr>
+<td>1</td>
+<td>星期天</td>
+</tr>
+<tr>
+<td>2</td>
+<td>星期一</td>
+</tr>
+<tr>
+<td>3</td>
+<td>星期二</td>
+</tr>
+<tr>
+<td>4</td>
+<td>星期三</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>星期四</td>
+</tr>
+<tr>
+<td>6</td>
+<td>星期五</td>
+</tr>
+<tr>
+<td>7</td>
+<td>星期六</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarWorking</td>
+<td>布尔值</td>
+<td>指示所选日期是工作日还是非工作日。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarFromDate</td>
+<td>日期</td>
+<td>例外日期的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarToDate</td>
+<td>日期</td>
+<td>例外日期的结束日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarFromTime1-5</td>
+<td>数字</td>
+<td>第一、第二、第三、第四或第五班次的开始时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarToTime1-5</td>
+<td>数字</td>
+<td>第一、第二、第三、第四或第五班次的结束时间。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CalendarExceptions" name="CalendarExceptions">CalendarExceptions</a></h2>
+<p>该表与现有 <a href="#Calendars">Calendars</a> 表和 <a href="#CalendarData">CalendarData</a> 表一起存储 Project OLE DB 提供程序中的所有日历信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CalendarUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Calendars 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarExceptionFromDate</td>
+<td>日期</td>
+<td>日历例外日期的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarExceptionToDate</td>
+<td>日期</td>
+<td>日历例外日期的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarExceptionWorking</td>
+<td>布尔值</td>
+<td>指定包含在日历例外日期范围内的日期是工作日还是非工作日。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarExceptionFromTime1-3</td>
+<td>数字</td>
+<td>第一、第二或第三个时间段的开始时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarExceptionToTime1-3</td>
+<td>数字</td>
+<td>第一、第二或第三个时间段的结束时间。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Calendars" name="Calendars">Calendars</a></h2>
+<p>使用日历来定义标准工作时间和非工作时间。项目必须具有一个基准日历。任务和资源可以使用自己的日历，但是所有的任务日历和资源日历必须基于基准日历。该表存储基本日历数据。 </p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">CalendarUniqueID</b>
+</td>
+<td>数字</td>
+<td>日历的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效企业标识号。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarName</td>
+
+<td>文本</td>
+<td>日历名称；如果该日历为资源日历，该值为空。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarIsBaseCalendar</td>
+<td>布尔值</td>
+<td>指示此日历是否为基准日历；资源日历不能为基准日历。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CalendarBaseCalendarUniqueID</td>
+<td>数字</td>
+<td>日历引用其父基准日历（对所有资源日历都是必需的）。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CostRates" name="CostRates">CostRates</a></h2>
+<p>该表通常与 <a href="#Resources">Resources</a> 表一起使用，以显示资源的成本费率表。该表也可以与 <a href="#Assignments">Assignments</a> 表联用，以获取由工作分配所使用的成本费率表的信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效企业标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostRateTable</td>
+<td>数字</td>
+<td>指定对工作分配中的资源使用哪个成本费率表：
+<table>
+<tr>
+<td>0</td>
+<td>A（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C</td>
+</tr>
+<tr>
+<td>3</td>
+<td>D</td>
+</tr>
+<tr>
+<td>4</td>
+<td>E</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostFromDate</td>
+<td>日期</td>
+<td>资源费率的生效日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostToDate</td>
+<td>日期</td>
+<td>资源费率的失效日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostStandardRate</td>
+<td>数字</td>
+<td>标准费率，与所选成本费率表中输入的相同。<table>
+<tr>
+<td>1</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>天</td>
+</tr>
+<tr>
+<td>4</td>
+<td>周</td>
+</tr>
+<tr>
+<td>5</td>
+<td>月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>年</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostOvertimeRate</td>
+<td>数字</td>
+<td>加班费率，与所选成本费率表中输入的相同。<table>
+<tr>
+<td>1</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>天</td>
+</tr>
+<tr>
+<td>4</td>
+<td>周</td>
+</tr>
+<tr>
+<td>5</td>
+<td>月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>年</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CostPerUseCost</td>
+<td>数字</td>
+<td>每次使用成本，与所选成本费率表中输入的相同。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="GraphicalIndicators" name="GraphicalIndicators">CustomFieldGraphicalIndicators</a></h2>
+<p>该表通常与 <a href="#CustomFields">CustomFields</a> 表一起使用，以获取自定义域的设置，这些自定义域包含与域相关联的图形标记。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldCategory</td>
+<td>数字</td>
+<td>指定自定义域是任务自定义域还是资源自定义域。<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldName</td>
+<td>数字</td>
+<td>默认域标识号，与用户界面中显示的相同，例如：Cost1。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>IndicatorCriteria</td>
+<td>数字</td>
+<td>指定应用条件的任务或资源类型：<table>
+<tr>
+<td>0</td>
+<td>非摘要行</td>
+</tr>
+<tr>
+<td>1</td>
+<td>摘要行</td>
+</tr>
+<tr>
+<td>2</td>
+<td>项目摘要</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>IndicatorCriteriaIndex</td>
+<td>数字</td>
+<td>为单个域指定多个条件时的条件索引。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>IndicatorCriteriaTest</td>
+<td>文本</td>
+<td>以文本表示的条件；用于确定是否显示图形标记，例如：“等于”。
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>IndicatorCriteriaValue</td>
+<td>数字</td>
+<td>条件的测试值，例如：“￥99”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>IndicatorCriteriaGraphic</td>
+<td>数字</td>
+<td>要显示的图形标记的索引。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CustomFields" name="CustomFields">CustomFields</a></h2>
+<p>该表用于获取自定义域的所有设置。若要编辑这些域，必须签出企业全局模板。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldCategory</td>
+<td>数字</td>
+<td>指定自定义域是任务自定义域还是资源自定义域。<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldName</td>
+<td>数字</td>
+<td>默认域标识号，与用户界面中显示的相同，例如：Cost1。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldAlias</td>
+<td>文本</td>
+<td>为重命名自定义域所分配的名称，例如：ExpectedCost(Cost1)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldAttribute</td>
+<td>数字</td>
+<td>指定自定义域是否有与之关联的值列表、公式或为无（默认值）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldValueListOrder</td>
+<td>数字</td>
+<td>定义在自定义域列表的值下拉列表中项目的显示顺序：
+<table>
+<tr>
+<td>0</td>
+<td>按行号（默认）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>按升序</td>
+</tr>
+<tr>
+<td>2</td>
+<td>按降序</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldSummaryCalculation</td>
+<td>数字</td>
+<td>指定使用总成型值的任务和组的摘要行是由公式计算还是由用户直接编辑：
+<table>
+<tr>
+<td>0</td>
+<td>无（默认值）；允许直接输入数据和编辑任务摘要值</td>
+</tr>
+<tr>
+<td>1</td>
+<td>总成型（请参阅 CustomFieldSummaryRollup）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>使用公式（请参阅 CustomFieldFormula）</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldSummaryRollup</td>
+<td>数字</td>
+<td>如果在 CustomFieldSummaryCalculation 中选择了“总成型”，将定义总成型类型：
+<table>
+<tr>
+<td>0</td>
+<td>最大值（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>最小值</td>
+</tr>
+<tr>
+<td>3</td>
+<td>总和</td>
+</tr>
+<tr>
+<td>4</td>
+<td>平均值</td>
+</tr>
+<tr>
+<td>5</td>
+<td>第一子层的平均值</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldFormula</td>
+<td>数字</td>
+<td>如果在 CustomFieldSummaryCalculation 中选择“使用公式”，将为自定义域的公式。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldGraphicalIndicator</td>
+<td>布尔值</td>
+<td>指定数据是否已替换为图形标记。如果数据已替换为图形标记，请参阅 CustomFieldGraphicalIndicators 表，以获取详细信息。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="ValueList" name="ValueList">CustomFieldValueList</a></h2>
+<p>该表用于为具有值列表的自定义域获取查阅表值。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldCategory</td>
+<td>数字</td>
+<td>指定自定义域是任务自定义域还是资源自定义域。<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldName</td>
+<td>数字</td>
+<td>默认域标识号，与用户界面中显示的相同，例如：Cost1。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ValueListIndex</td>
+<td>数字</td>
+<td>指定与其他自定义域值的列表项相关联的自定义域值的列表项的位置。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ValueListValue</td>
+<td>文本</td>
+<td>自定义域列表的值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ValueListDescription</td>
+<td>文本</td>
+<td>自定义域列表的说明。
+
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CodeFields" name="CodeFields">CustomOutlineCodeFields</a></h2>
+<p>该表包含每个自定义大纲代码查阅表的掩码。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldCategory</td>
+<td>数字</td>
+<td>指定自定义域是任务自定义域还是资源自定义域。<table>
+<tr>
+<td>0</td>
+<td>任务</td>
+</tr>
+<tr>
+<td>1</td>
+<td>资源</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>CustomFieldName</td>
+<td>文本</td>
+<td>默认域标识号，与用户界面中显示的相同，例如：Cost1。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineLevel</td>
+<td>数字</td>
+<td>指定对应于代码掩码的大纲级别；在输入代码掩码的每个其他级别时可自动递增。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineSequence</td>
+<td>数字</td>
+<td>定义代码掩码的字符类型：
+<table>
+<tr>
+<td>0</td>
+<td>数字（有序）；显示该级别的数字型自定义大纲代码（默认值） </td>
+</tr>
+<tr>
+<td>1</td>
+<td>大写字母（有序）；显示为按字母排序的大写自定义大纲代码（例如：项目中的前三个摘要任务 A、B 和 C）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小写字母（有序）；显示为按字母排序的小写自定义大纲代码（例如：项目中的前三个摘要任务 a、b 和 c）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>字符（无序）；显示数字和大写或小写字母的任意组合（例如：项目中前三个摘要任务 Arch1、Const1 或 Insp1）。在键入或输入该代码的字符串之前，Project 在自定义大纲域中显示星号 (*)</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineLength</td>
+<td>数字</td>
+<td>定义在第一级代码字符串中所允许的最大字符数（包括空格和分隔符）：
+<table>
+<tr>
+<td>0</td>
+<td> 任意字符（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1 个字符</td>
+</tr>
+<tr>
+<td>2 ... 255</td>
+<td>2 个字符到 255 个字符 </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineSeparator</td>
+<td>文本</td>
+<td>定义用于分隔自定义大纲代码级别的字符。在 Project 的<b class="ui">“大纲代码定义”</b>对话框中显示了以下字符；但是，任何符号均可用作自定义大纲代码的分隔符：
+<table>
+<tr>
+<td> .</td>
+<td>句点（默认值）</td>
+</tr>
+<tr>
+<td>+</td>
+<td>加号</td>
+</tr>
+<tr>
+<td>/</td>
+<td>正斜杠</td>
+</tr>
+<tr>
+<td>-</td>
+<td>减号</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="CodeLookupTables" name="CodeLookupTables">OutlineCodes</a></h2>
+<p>该表用于获取自定义大纲代码域查阅表值的列表。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCode</td>
+<td>数字</td>
+<td>大纲代码的域标识号。例如：188744096。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCodeLookupIndex</td>
+<td>数字</td>
+<td>指定与其他大纲代码相关联的大纲代码的位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCodeLookupLevel</td>
+<td>数字</td>
+<td>大纲代码的级别。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCodeLookupParent</td>
+<td>数字</td>
+<td>引用大纲代码树结构中的父代码。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCodeLookupValue</td>
+<td>文本</td>
+<td>自定义大纲代码的值。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>OutlineCodeLookupDescription</td>
+<td>文本</td>
+<td>自定义大纲代码的说明。
+				
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Predecessors" name="Predecessors">Predecessors</a></h2>
+<p>该表通常与 <a href="#Tasks">Tasks</a> 表一起使用，以显示有关前置任务的详细信息。 </p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PredecessorTaskUniqueID</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PredecessorLag</td>
+<td>数字</td>
+<td>前置任务的前置重叠时间（负数）或延隔时间（正数），例如：-3d 或 +4d。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PredecessorPath</td>
+<td>文本</td>
+<td>前置任务的路径（即使后续任务包含在其他项目中），例如：C:\My Documents\Bldg E Construction.mpp\3FF。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PredecessorType</td>
+<td>数字</td>
+<td>前置任务的类型：
+<table>
+<tr>
+<td>0</td>
+<td>FF（完成-完成）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>FS（完成-开始）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SF（开始-完成）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SS（开始-开始）</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>PredecessorLagType</td>
+<td>文本</td>
+<td>指示 PredecessorLag 中指定的延隔时间量的格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>6</td>
+<td>小时</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日</td>
+</tr>
+<tr>
+<td>8</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>10</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>12</td>
+<td>月</td>
+</tr>
+<tr>
+<td>19</td>
+<td>百分比工时</td>
+</tr>
+<tr>
+<td>20</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>35</td>
+<td>分钟工时?</td>
+</tr>
+<tr>
+<td>36</td>
+<td>分钟?</td>
+</tr>
+<tr>
+<td>37</td>
+<td>工时?</td>
+</tr>
+<tr>
+<td>38</td>
+<td>小时?</td>
+</tr>
+<tr>
+<td>39</td>
+<td>工作日?</td>
+</tr>
+<tr>
+<td>40</td>
+<td>天?</td>
+</tr>
+<tr>
+<td>41</td>
+<td>周工时?</td>
+</tr>
+<tr>
+<td>42</td>
+<td>周?</td>
+</tr>
+<tr>
+<td>43</td>
+<td>月工时?</td>
+</tr>
+<tr>
+<td>44</td>
+<td>月?</td>
+</tr>
+<tr>
+<td>51</td>
+<td>百分比工时?</td>
+</tr>
+<tr>
+<td>52</td>
+<td>百分比?</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Project" name="Project">Project</a></h2>
+<p>该表提供访问“项目信息”（“项目”菜单）、“选项”（“工具”菜单）和“属性”（“文件”菜单）对话框中的项目级设置。对于 Project 摘要任务域，可以使用 TaskID 列为 0 的值访问 <a href="#Tasks">Tasks</a> 表。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>项目的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectActualsInSync</td>
+<td>布尔值</td>
+<td>指定项目的实际值是否已与项目的保护实际值同步：
+<table>
+<tr>
+<td>0</td>
+<td>实际值未同步。</td>
+</tr>
+<tr>
+<td>1</td>
+<td>实际值已同步。</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectAuthor</td>
+<td>文本</td>
+<td>项目作者的姓名；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCalendarName</td>
+<td>文本</td>
+<td>与项目相关联的日历名称。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCategory</td>
+<td>文本</td>
+<td>项目所属类别；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCompany</td>
+<td>文本</td>
+<td>创建该项目的公司名称；用于将类似的项目组合在一起。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCreationDate</td>
+<td>日期</td>
+<td>项目创建的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCriticalSlackLimit</td>
+<td>数字</td>
+<td>Project 将任务标记为关键任务之前，该任务可以超过结束日期的天数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCurrencyDigits</td>
+<td>数字</td>
+<td>Project 中显示货币数值时，显示的小数位数：
+<table>
+<tr>
+<td>0</td>
+<td>没有小数位：￥0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>小数点后有一位数：￥0.0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小数点后有两位数（默认值）：￥0.00</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCurrencyPosition</td>
+<td>数字 </td>
+<td>指定与货币值相关的货币符号的位置：
+<table>
+<tr>
+<td>0</td>
+<td>在前，无空格（默认）：￥0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>在后，无空格：0￥</td>
+</tr>
+<tr>
+<td>2</td>
+<td>在前，有空格：￥ 0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>在后，有空格：0 ￥</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCurrencySymbol</td>
+<td>文本</td>
+<td> 用于表示项目中所用货币类型的货币符号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectCurrentDate</td>
+<td>日期</td>
+<td>项目的当前日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDaysPerMonth</td>
+<td>数字</td>
+<td>每月工作日的默认数值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultFinishTime</td>
+<td>数字</td>
+<td>所有新任务的默认完成时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultFixedCostAccrual</td>
+<td>布尔值</td>
+<td>指定是否累算固定成本。
+					
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultOvertimeRate</td>
+<td>文本</td>
+<td>新资源的默认加班费率。请参阅 ResourceOvertimeRate。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultStandardRate</td>
+<td>文本</td>
+<td>新资源的默认费率。请参阅 ResourceStandardRate.</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultStartTime</td>
+<td>数字</td>
+<td>所有新任务的默认开始时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDefaultTaskType</td>
+<td>数字</td>
+<td>项目中所有任务的默认类型：
+<table>
+<tr>
+<td>0</td>
+<td>固定单位（默认）；无论任务的工时量或工期如何变化，“工作分配单位”的数量都保持不变</td>
+</tr>
+<tr>
+<td>1</td>
+<td>固定工期：无论分配的资源数量（工作分配单位）或工时量如何变化，任务工期都保持不变</td>
+</tr>
+<tr>
+<td>2</td>
+<td>固定工时：无论工期或接受任务的资源数量（工作分配单位）如何变化，工时量都保持不变</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectDurationFormat</td>
+<td>数字</td>
+<td>项目中所有工期的默认格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectEditableActualCosts</td>
+<td>布尔值</td>
+<td>指定 Project 是否应自动计算实际成本。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseCost1-10</td>
+<td>数字</td>
+<td>企业自定义项目成本信息。 </td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseCost1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseDate1-30</td>
+<td>数字</td>
+<td>企业自定义日期信息。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseDate1Indicator-30</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseDuration1- 10</td>
+<td>数字</td>
+<td>企业自定义工期信息。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseDuration1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseFlag1-20</td>
+<td>数字</td>
+<td>企业自定义标志信息。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseFlag1Indicator-20</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseName</td>
+<td>文本</td>
+<td>Project Server 数据库中的项目名称。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseNumber1-40</td>
+<td>数字</td>
+<td>企业自定义数字信息。 </td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseNumber1Indicator-40</td>
+<td>数字</td>
+<td>企业自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseOutlineCode1-30ID</td>
+<td>数字</td>
+<td>企业自定义大纲代码信息。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseOutlineCode1Indicator-30</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseText1-40</td>
+<td>数字</td>
+<td>企业自定义文本信息。 
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseText1Indicator-40</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ProjectEnterpriseVersion</td>
+<td>数字</td>
+<td>Project Server 数据库中项目的项目版本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectExpandTimephased</td>
+<td>布尔值</td>
+<td>指定将项目保存到数据库时，Project 是否以可读格式或二进制格式保存时间分段数据。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectFinishDate</td>
+<td>日期</td>
+<td>项目的计划完成日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectFYStart</td>
+<td>数字</td>
+<td>财政年度开始的月份：
+<table>
+<tr>
+<td>1</td>
+<td>1 月（默认）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 月</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3 月</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4 月</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5 月</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6 月</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7 月</td>
+
+</tr>
+<tr>
+<td>8</td>
+<td>8 月</td>
+</tr>
+
+<tr>
+
+<td>9</td>
+<td>9 月</td>
+</tr>
+<tr>
+<td>10</td>
+<td>10 月</td>
+</tr>
+<tr>
+<td>11</td>
+<td>11 月</td>
+</tr>
+<tr>
+<td>12</td>
+<td>12 月</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectHonorConstraints</td>
+<td>布尔值</td>
+<td>指定 Project 是否根据限制日期而不是任何任务相关性排定任务日程。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectInsertedProjectsLikeSummary</td>
+<td>布尔值</td>
+<td>指定插入的项目是否作为摘要任务而不是作为具体项目来计算日程。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectIsAdminProject</td>
+<td>布尔值</td>
+<td>指定项目是否为管理项目。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectIsResourcePool</td>
+<td>布尔值</td>
+<td>指定项目是否只使用自己的资源，或指定是与其他项目共享其资源还是共享资源库中的资源；请参阅 ProjectPoolAttachedTo。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectKeywords</td>
+<td>文本</td>
+<td>列出与项目相关联的关键字；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectLastSaved</td>
+<td>日期</td>
+<td>项目最后一次保存的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectManager</td>
+<td>文本</td>
+<td>项目管理器；用于将使用相同管理器的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectMinsPerDay</td>
+<td>数字</td>
+<td>默认每天分钟数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectMinsPerWeek</td>
+<td>数字</td>
+<td>默认每周分钟数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectMultipleCriticalPaths</td>
+<td>布尔值</td>
+<td>指定 Project 是否为项目中关键任务的每个独立网络计算并显示关键路径。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectNewTasksEffortDriven</td>
+<td>布尔值</td>
+<td>指定新任务是否为投入比导向任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectNewTasksEstimated</td>
+<td>布尔值</td>
+<td>指定新任务是否有预计工期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectPoolAttachedTo</td>
+<td>文本</td>
+<td>与该项目文件共享资源的项目文件的名称；ProjectIsResourcePool 设置为 True 时必需。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectRevision</td>
+<td>文本</td>
+<td>项目文件的当前修订号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectSavePreviewPicture</td>
+<td>布尔值</td>
+<td>指定 Project 是否保存项目图片以供预览。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectScheduledFromStart</td>
+
+<td>布尔值</td>
+<td>指定项目是从项目开始日期（默认）还是从项目完成日期排定日程。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectShowEstimatedDurations</td>
+<td>布尔值</td>
+<td>指定 Project 是否在具有估计工期的所有任务的工期后显示 ?。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectSplitInProgressTasks</td>
+<td>布尔值</td>
+<td>指定是否可以拆分正在进行的任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectSpreadActualCost</td>
+<td>布尔值</td>
+<td>指定实际成本是否一直分布到状态日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectSpreadPercentComplete</td>
+<td>布尔值</td>
+<td>指定完成百分比是否一直分布到状态日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectStartDate</td>
+<td>日期</td>
+<td>项目的计划开始日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectStatusDate</td>
+<td>日期</td>
+<td>项目的状态日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectSubject</td>
+<td>文本</td>
+<td>项目主题；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectTaskUpdatesResource</td>
+<td>布尔值</td>
+<td>指定 Project 是否按您在日程中输入的任务完成百分比信息来自动计算实际和剩余工时和成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectTitle</td>
+<td>文本</td>
+<td>项目标题；用于将类似的项目组合在一起。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ProjectWorkFormat</td>
+<td>数字</td>
+<td>项目中所有工期的默认格式：
+<table>
+<tr>
+<td>3</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>小时（默认值）</td>
+</tr>
+<tr>
+<td>7</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Resources" name="Resources">Resources</a></h2>
+<p>该表包含与资源相关的信息。 </p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>资源的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourcePercentWorkComplete</td>
+<td>数字</td>
+<td>分配给资源的所有任务的当前状态，表示为资源工时已完成百分比的总和。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceAccrueAt</td>
+<td>数字</td>
+<td>指示资源标准成本和加班成本支付或累加到任务成本的方式和时间：
+<table>
+<tr>
+<td>1</td>
+<td>开始；按照 ActualStart 域中输入的日期，在任务开始的同时，成本的累算也开始进行。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>结束；直到剩余工时为零时才累算成本。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>按比例（默认）；在排定开始工时及报告实际工时时累算成本。</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualCost</td>
+<td>数字</td>
+<td>资源在所有分配任务中完成的工时所对应的成本总和。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualOvertimeCost</td>
+<td>数字</td>
+<td>资源在所有分配任务中已完成加班工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualOvertimeWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中已完成的实际加班工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualOvertimeWorkProtected</td>
+<td>文本</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中已完成的实际工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceActualWorkProtected</td>
+<td>文本</td>
+<td>受保护的实际工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceACWP</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，资源的所有工作分配的“已完成工时的实际成本 (ACWP)”值的总和。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceAvailableFrom</td>
+<td>日期</td>
+<td>资源可以按照当前时间段指定的单位进行工作的开始日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceAvailableTo </td>
+<td>日期</td>
+<td>资源可以按照当前时间段指定的单位进行工作的结束日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaseCalendar</td>
+<td>文本</td>
+<td>列出可应用于资源的所有日历，包括标准日历和所有自定义日历：
+<table>
+<tr>
+<td>0</td>
+<td>标准（默认值）</td>
+</tr>
+<tr>
+<td>1+</td>
+<td>自定义日历</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaselineCost</td>
+<td>数字</td>
+<td>接受任务的所有资源的计划总成本；也称为预算完成成本 (BAC)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaseline1Cost-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaselineFinish</td>
+<td>数字</td>
+<td>工作分配的计划完成日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaseline1Finish-10</td>
+<td>数字</td>
+<td>自定义比较基准完成日期信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaselineStart</td>
+<td>数字</td>
+<td>工作分配的计划开始日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaseline1Start-10</td>
+<td>数字</td>
+<td>自定义比较基准开始日期信息。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaselineWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中要完成的原计划工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBaseline1Work-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBCWP</td>
+<td>数字</td>
+<td>计算到状态日期或当前日期为止，资源对于所分配的所有任务的 BCWP 值的总成型摘要；也称作已完成工时的预算成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBCWS</td>
+<td>数字</td>
+<td>资源对于所分配的所有任务的 BCWS 值的总成型摘要；也称作计划工时的预算成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceBookingType</td>
+<td>文本</td>
+<td>指定资源的预订类型：<table>
+<tr>
+<td>0</td>
+<td>已提交</td>
+</tr>
+<tr>
+<td>2</td>
+<td>已建议</td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCanLevel</td>
+<td>布尔值</td>
+<td>指定是否可对资源进行资源调配。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCode</td>
+<td>文本</td>
+<td>作为资源信息的一部分输入的代码、缩写或数字。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceConfirmed</td>
+<td>布尔值</td>
+<td>指示在答复资源的任务分配消息时，资源是接受还是拒绝所有任务分配。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCost</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中的计划总成本，等于资源在所分配的所有任务中已完成工时的成本，加上所有剩余工时的计划成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCost1-10</td>
+<td>数字</td>
+<td>自定义成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceCost1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCostPerUse</td>
+<td>数字</td>
+<td>每次使用资源时都进行累算的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCostVariance</td>
+<td>数字</td>
+<td>资源的比较基准成本与总成本之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceCV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，资源达到当前完成程度应花费的成本与实际花费的成本之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceDate1-10</td>
+<td>日期</td>
+<td>自定义日期信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceDate1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceDuration1-10</td>
+<td>数字</td>
+<td>自定义工期信息。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceDuration1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceEmailAddress</td>
+<td>文本</td>
+<td>资源的电子邮件地址；如果该域为空，Project 将使用 ResourceName 域中的名称作为电子邮件地址。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseCost1-10</td>
+<td>数字</td>
+<td>企业自定义资源成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseCost1Indicator-10 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseDate1-30</td>
+<td>数字</td>
+<td>自定义企业级日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseDate1Indicator-30 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseDuration1-10</td>
+<td>数字</td>
+<td>企业自定义工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseDuration1-10Indicator</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseFlag1-20</td>
+<td>数字</td>
+<td>自定义企业级标志信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseFlag1Indicator-20 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseGeneric</td>
+<td>布尔值</td>
+<td>指定资源是否为常规资源。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseNumber1-40</td>
+<td>数字</td>
+<td>企业自定义数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseNumber1Indicator-40 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseOutlineCode1-30ID</td>
+<td>数字</td>
+<td>企业自定义大纲代码信息。企业大纲代码 20 到企业大纲代码 29 与 ResourceEnterpriseRMV 大纲代码相对应。企业大纲代码 30 用于“资源细分结构 (RBS)”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseRMV20-29ID</td>
+<td>数字</td>
+<td>企业资源多值大纲代码信息。ResourceEnterpriseRMV 大纲代码 20 到 ResourceEnterpriseRMV 大纲代码 29 与 ResourceEnterpriseOutlineCode 大纲代码相对应。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseOutlineCode1Indicator-30</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseText1-40</td>
+<td>数字</td>
+<td>企业自定义文本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceEnterpriseText1Indicator-40 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>企业资源的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceFinish</td>
+<td>日期</td>
+<td>资源计划完成所有分配的任务工时的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceFinish1-10 </td>
+<td>日期</td>
+<td>自定义完成日期信息。
+				
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceFinish1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceFlag1-20</td>
+<td>布尔值</td>
+<td>指定是否为某种进一步的操作或识别而对资源作了标记。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceFlag1Indicator-20</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceGroup</td>
+<td>文本</td>
+<td>资源所属组的名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceHyperlink</td>
+<td>文本</td>
+<td>与资源关联的超链接的标题或说明文字。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceHyperlinkAddress</td>
+<td>文本</td>
+<td>与资源关联的超链接的地址。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceHyperlinkHref</td>
+<td>文本</td>
+<td>与资源相关联的“超链接地址”域和“超链接子地址”域的组合（或连接）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceHyperlinkScreenTip</td>
+<td>文本</td>
+<td>“屏幕提示”中包含的与超链接相关联的文字。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceHyperlinkSubAddress</td>
+<td>文本</td>
+<td>与资源相关联的超链接内文档中的指定位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceID</td>
+<td>数字</td>
+<td>指定与其他资源相关联的资源的位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceInitials</td>
+<td>文本</td>
+<td>资源名称的缩写。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceIsNull</td>
+<td>布尔值</td>
+<td>指定资源是否为空资源。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceLinkedFields</td>
+<td>布尔值</td>
+<td>指示是否存在与此资源链接的 OLE，链接可能来自活动项目的任何位置、其他 Project 文件或其他程序。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceMaterialLabel</td>
+<td>文本</td>
+<td>为材料资源输入的度量单位，例如：吨、箱或立方码。与材料资源的“工作分配单位”联合使用，如果 ResourceType 设置为“材料”，只可以使用该度量单位。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceMaxUnits</td>
+<td>数字</td>
+<td>最大百分比或最大单位数，表示在当前时间段可用于完成任何任务的资源的最大量。可以超过 100%。
+
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceName</td>
+<td>文本</td>
+<td>资源名称；无论资源是否为活动资源，资源名称在 Project Server 中都必须是唯一的。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceNotes</td>
+<td>文本</td>
+<td>资源备注。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceNTAccount</td>
+<td>文本</td>
+<td>资源的 Windows NT 帐户名称；例如<i>域名\用户名</i>。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceNumber1-20</td>
+<td>数字</td>
+<td>自定义数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceNumber1Indicator-20</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceObjects</td>
+<td>数字</td>
+<td>与资源相关联的对象数目，不包括备注中的对象。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceOutlineCode1-10</td>
+<td>文本</td>
+<td>定义用来代表资源分层结构的字母数字代码。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceOverallocated</td>
+<td>布尔值</td>
+<td>指示在所有分配任务中是否为资源分配了超负荷的工作量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceOvertimeCost</td>
+<td>数字</td>
+<td>资源在所有分配任务中的总加班成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceOvertimeRate</td>
+<td>文本</td>
+<td>资源完成的加班工时的费率。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceOvertimeWork</td>
+<td>数字</td>
+<td>资源在分配的所有任务中要完成的加班工时量，按资源的加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourcePeakUnits</td>
+<td>数字</td>
+<td>对于资源所分配的所有任务，在任何时间为资源分配的最大百分比或最大单位数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourcePhonetics</td>
+<td>文本</td>
+<td>包含资源名称的“平假名”或“片假名”拼音信息；只用于 Project 日语版本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceRegularWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中计划完成的非加班工时总量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceRemainingCost</td>
+<td>数字</td>
+<td>在完成分配给资源的剩余工时期间，将花费的剩余计划费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceRemainingOvertimeCost</td>
+<td>数字</td>
+<td>资源在所有分配的任务中，完成剩余计划加班工时期间所花费的资源剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceRemainingOvertimeWork</td>
+<td>数字</td>
+<td>为完成所有任务，资源所需的剩余加班工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceRemainingWork</td>
+<td>数字</td>
+<td>为完成所有分配任务，资源仍需要的时间量（或人-小时）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceResponsePending</td>
+<td>布尔值</td>
+<td>指示在向资源发送任务分配消息后，是否接收到所有答复。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceStandardRate</td>
+<td>文本</td>
+<td>资源完成的正常、非加班工时的费率。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceStart</td>
+<td>日期</td>
+<td>所分配的资源计划开始执行所有分配任务的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceStart1-10</td>
+<td>日期</td>
+<td>自定义开始日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceStart1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceSV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，资源所分配的所有任务的当前进度与比较基准计划之间的成本差异；也称作日程差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceText1-30</td>
+<td>文本</td>
+<td>自定义文本信息。
+				
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>ResourceText1Indicator-30</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTeamStatusPending</td>
+<td>布尔值</td>
+<td>指示在向资源发送任务分配的请求进程信息的消息后，是否接收到答复。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceType</td>
+<td>数字</td>
+<td>资源类型（工时或材料）：
+<table>
+<tr>
+<td>0</td>
+<td>材料；钢材、混凝土或土料等耗材供应</td>
+</tr>
+<tr>
+<td>1</td>
+<td>工时（默认值）；人员和设备</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceUpdateNeeded</td>
+<td>布尔值</td>
+<td>指定在对资源所分配的任务进行更改后，是否需要向资源发送消息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceVAC</td>
+<td>数字</td>
+<td>资源的比较基准成本与总成本之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceWork</td>
+<td>数字</td>
+<td>资源在所有分配的任务中计划完成的总工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceWorkgroup</td>
+<td>文本</td>
+<td>与项目工作组进行通信使用的消息传递方法：
+<table>
+<tr>
+<td>0</td>
+<td>默认</td>
+</tr>
+<tr>
+<td>1</td>
+<td>无</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Project Server</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceWorkVariance</td>
+<td>数字</td>
+<td>资源的比较基准总工时与当前计划工时之间的差异。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="ResourceTimephased" name="ResourceTimephased">Resource Timephased by Minute, Hour, Day, Week, and Month</a></h2>
+<p>OLE DB 提供程序支持按时间分段的数据。共有五个资源时间分段表，分钟、小时、天、周和月各一。对于所有按时间分段的表名称，数据库使用统一的格式：<i>table</i>TimephasedBy<i>time</i>。例如：ResourceTimephasedByMinute。这些表从最早开始时间到最晚完成时间按分钟、小时、天、周或月返回所有资源的时间分段数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ResourceEnterpriseUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Resources 表中的有效企业标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeStart</td>
+<td>日期</td>
+<td>所分配的资源计划开始执行所有分配任务的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeFinish</td>
+<td>日期</td>
+<td>所分配的资源计划完成所有分配任务的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeActualCost</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中已完成工时所花费的时间分段成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeActualOvertimeWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中已完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeActualWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中已完成的工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeACWP</td>
+<td>数字</td>
+<td>所有资源工作分配的 ACWP（已完成工时的实际成本）值的时间分段总和。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBaselineCost</td>
+<td>数字</td>
+<td>该资源的比较基准成本；也称为预算完成成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBaseline1Cost-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBaselineWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBaseline1Work-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBCWP</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中 BCWP（已完成工时的预算成本）值的时间分段总成型摘要。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeBCWS</td>
+<td>数字</td>
+<td>资源的累计 BCWS（计划工时的预算成本）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeCost</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中按时间分段的计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeCumulativeCost</td>
+<td>数字</td>
+<td>到当前日期为止，资源在所分配的所有任务中的按时间分段的累计计划成本，等于资源在所有分配任务中已完成的工时的成本，加上剩余工时的计划成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeCumulativeWork</td>
+<td>数字</td>
+<td>资源的总工时（或人-小时），该值按时间进行累计。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeCV</td>
+
+<td>数字</td>
+<td>到状态日期或当前日期为止，资源达到当前完成程度应花费的成本与实际花费的成本之间的差异。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeOverallocation</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中按时间分布的过度分配工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeOvertimeWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中要完成的加班工时量，按资源的加班费率支付薪酬。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimePeakUnits</td>
+<td>数字</td>
+<td>资源在任何时间在所分配的所有任务中分配的单位百分比或单位数。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimePercentAllocation</td>
+<td>数字</td>
+<td>资源在所分配的所有任务中分配的总工时量的百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeRegularWork</td>
+<td>数字</td>
+<td>资源在分配的所有工作中计划完成的非加班工时总量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeRemainingAvailability</td>
+<td>数字</td>
+<td>在特定的时间段内资源可进行工作的剩余工时数。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeSV</td>
+<td>数字</td>
+<td>资源所分配的所有任务的当前计划成本与比较基准进度成本之间的差异。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeUnitAvailability</td>
+<td>数字</td>
+<td>在任何选定的时间段内，工时资源可用于完成任何任务的最大单位百分比或最大单位数。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeWorkAvailability</td>
+<td>数字</td>
+<td>在任何选定的时间段内，工时资源可用于排定工时的最大时间量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>ResourceTimeWork</td>
+<td>数字</td>
+<td>资源在所有分配的任务中计划完成的总工时量。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Successors" name="Successors">Successors</a></h2>
+<p>该表通常与 <a href="#Tasks">Tasks</a> 表一起使用，以显示后续任务的详细信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SuccessorTaskUniqueID</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SuccessorLag</td>
+<td>数字</td>
+<td>后续任务的前置重叠时间数（负数）或延隔时间数（正数）；例如：-3d 或 +4d。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SuccessorPath</td>
+<td>文本</td>
+<td>后续任务的路径（即使后续任务包含在其他项目中）；例如，C:\My Documents\Bldg E Construction.mpp\3FF。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SuccessorType</td>
+<td>数字</td>
+<td>后续任务的相关类型：
+<table>
+<tr>
+<td>0</td>
+<td>FF（完成-完成）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>FS（完成-开始）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>SF（开始-完成）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SS（开始-开始）</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SuccessorLagType</td>
+<td>文本</td>
+<td>指示 SuccessorLag 中指定的延隔时间的格式。
+<table>
+<tr>
+<td>3</td>
+<td>分钟工时</td>
+</tr>
+<tr>
+<td>4</td>
+<td>分钟</td>
+</tr>
+<tr>
+<td>5</td>
+<td>工时</td>
+</tr>
+<tr>
+<td>6</td>
+<td>小时</td>
+</tr>
+<tr>
+<td>7</td>
+<td>工作日</td>
+</tr>
+<tr>
+<td>8</td>
+<td>天</td>
+</tr>
+<tr>
+<td>9</td>
+<td>周工时</td>
+</tr>
+<tr>
+<td>10</td>
+<td>周</td>
+</tr>
+<tr>
+<td>11</td>
+<td>月工时</td>
+</tr>
+<tr>
+<td>12</td>
+<td>月</td>
+</tr>
+<tr>
+<td>19</td>
+<td>百分比工时</td>
+</tr>
+<tr>
+<td>20</td>
+<td>百分比</td>
+</tr>
+<tr>
+<td>35</td>
+<td>分钟工时?</td>
+</tr>
+<tr>
+<td>36</td>
+<td>分钟?</td>
+</tr>
+<tr>
+<td>37</td>
+<td>工时?</td>
+</tr>
+<tr>
+<td>38</td>
+<td>小时?</td>
+</tr>
+<tr>
+<td>39</td>
+<td>工作日?</td>
+</tr>
+<tr>
+<td>40</td>
+<td>天?</td>
+</tr>
+<tr>
+<td>41</td>
+<td>周工时?</td>
+</tr>
+<tr>
+<td>42</td>
+<td>周?</td>
+</tr>
+<tr>
+<td>43</td>
+<td>月工时?</td>
+</tr>
+<tr>
+<td>44</td>
+<td>月?</td>
+</tr>
+<tr>
+<td>51</td>
+<td>百分比工时?</td>
+</tr>
+<tr>
+<td>52</td>
+<td>百分比?</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="Tasks" name="Tasks">Tasks</a></h2>
+<p>该表存储组成项目的任务的有关信息。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>任务的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPercentComplete</td>
+<td>数字</td>
+<td>任务的当前状态，表示为已完成任务工期的百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPercentWorkComplete</td>
+<td>数字</td>
+<td>任务的当前状态，表示为已完成任务工时的百分比。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualCost</td>
+<td>数字</td>
+<td>所有资源在任务中已完成工时的成本，以及任何其他经记录的与该任务相关的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualDuration</td>
+<td>数字</td>
+<td>迄今为止任务实际工作时间的范围，该值基于计划工期和当前剩余工时或完成百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualFinish</td>
+<td>日期</td>
+<td>任务实际完成的日期和时间。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualOvertimeCost</td>
+<td>数字</td>
+<td>任务所分配的所有资源已完成加班工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualOvertimeWork</td>
+<td>数字</td>
+<td>接受任务的所有资源已经完成的实际加班工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualOvertimeWorkProtected</td>
+<td>数字</td>
+<td>受保护的实际加班工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualStart</td>
+<td>数字</td>
+<td>任务实际开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualWork</td>
+<td>数字</td>
+<td>接受任务的资源已经完成的工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskActualWorkProtected</td>
+<td>数字</td>
+<td>受保护的实际工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskACWP</td>
+<td>数字</td>
+<td>到项目状态日期或当前日期为止，任务中已完成工时的成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineCost</td>
+<td>数字</td>
+<td>任务的总计划成本，也称为预算完成成本 (BAC)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineCost1-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineDuration</td>
+<td>数字</td>
+<td>计划完成任务的原始时间范围。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineDuration1-10</td>
+<td>数字</td>
+<td>自定义比较基准工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineDurationEstimated</td>
+<td>布尔值</td>
+<td>指定比较基准工期是否为估计值。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineDurationEstimated1-10</td>
+<td>布尔值</td>
+<td>自定义比较基准估计工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineFinish</td>
+<td>日期</td>
+<td>保存比较基准时，任务的计划完成日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineFinish1-10</td>
+<td>数字</td>
+<td>自定义比较基准完成日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineStart</td>
+<td>日期</td>
+<td>保存比较基准时，任务的计划开始日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineStart1-10</td>
+<td>数字</td>
+<td>自定义比较基准开始日期信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineWork</td>
+<td>数字</td>
+<td>接受任务的所有资源要完成的原计划工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBaselineWork1-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBCWP</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务的时间分段完成百分比乘以任务的时间分段比较基准成本的累计值，也称作已完成工时的预算成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskBCWS</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，按时间分段的比较基准累计成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCalendar</td>
+<td>文本</td>
+<td>列出可应用于任务的所有日历，包括标准日历和所有自定义日历：
+<table>
+<tr>
+<td>0</td>
+<td>标准（默认值）</td>
+</tr>
+<tr>
+<td>1+</td>
+<td>自定义日历</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCompleteThrough</td>
+<td>日期</td>
+<td>“甘特图”上的任务进度，直到报告给任务的实际值所对应的时间为止。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskConfirmed</td>
+<td>布尔值</td>
+<td>指定在答复分配任务消息时，任务所分配的所有资源是否已接受或拒绝所分配的任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskConstraintDate</td>
+<td>日期</td>
+<td>根据 TaskConstraintType 中的定义指定限制开始日期或完成日期。除非 TaskConstraintType 设置为“越晚越好”或“越早越好”，否则该值为必需。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskConstraintType</td>
+<td>数字</td>
+<td>计划任务的限制：
+<table>
+<tr>
+<td>0</td>
+<td>越早越好</td>
+</tr>
+<tr>
+<td>1</td>
+<td>越晚越好</td>
+</tr>
+<tr>
+<td>2</td>
+<td>必须开始于；TaskConstraintDate 必需</td>
+</tr>
+<tr>
+<td>3</td>
+<td>必须完成于；TaskConstraintDate 必需</td>
+</tr>
+<tr>
+<td>4</td>
+<td>不得早于...开始；TaskConstraintDate 必需</td>
+
+</tr>
+<tr>
+<td>5</td>
+<td>不得晚于...开始；TaskConstraintDate 必需</td>
+</tr>
+<tr>
+<td>6</td>
+<td>不得早于...完成；TaskConstraintDate 必需</td>
+</tr>
+<tr>
+<td>7</td>
+<td>不得晚于...完成；TaskConstraintDate 必需</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskContact</td>
+<td>文本</td>
+<td>任务负责人的姓名。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCost</td>
+<td>数字</td>
+<td>任务的总规划（或计划）成本，等于任务所分配的所有资源已完成工时的成本，加上该工作分配剩余工时的计划成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCost1-10</td>
+<td>数字</td>
+<td>自定义成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskCost1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCostVariance</td>
+<td>数字</td>
+<td>任务的比较基准成本与总成本之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCPI</td>
+<td>数字</td>
+<td>成本业绩指数，或者预算成本与实际成本之比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCreated</td>
+<td>日期</td>
+<td>任务添加到项目的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCritical</td>
+<td>布尔值</td>
+<td>指定任务在日程中是否有延迟的余地，或者任务是否位于关键路径上。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务达到当前完成程度应花费的成本与实际花费的成本之间的差异；也称作“成本差异”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskCVP</td>
+<td>数字</td>
+<td>任务的成本差异百分比。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDate1-10</td>
+<td>日期</td>
+<td>自定义日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskDate1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDeadline</td>
+<td>日期</td>
+<td>输入作为任务期限的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDuration</td>
+<td>数字</td>
+<td>任务活动工作时间的总范围。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDurationElapsed</td>
+<td>数字</td>
+<td>指定在其基础上建立 BCWP 值的域。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskDuration1Estimated-10</td>
+<td>布尔值</td>
+<td>指定相应的 TaskDuration1-10 域是否为估计值。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDuration1-10</td>
+<td>数字</td>
+<td>自定义工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskDuration1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskDurationVariance</td>
+<td>数字</td>
+<td>任务的比较基准工期与任务总工期（当前估计）的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskEarlyFinish</td>
+<td>日期</td>
+<td>根据前置任务和后续任务的最早完成日期、其他限制和任何资源调配延迟而得出的任务可能完成的最早日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskEarlyStart</td>
+<td>日期</td>
+<td>根据前置任务和后续任务的最早开始日期及其他限制而得出的任务可能开始的最早日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskEffortDriven</td>
+<td>布尔值</td>
+<td>指定任务的日程排定是否为投入比导向。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseCost1-10</td>
+<td>数字</td>
+<td>自定义企业级成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseCost1Indicator-10 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseDate1-30</td>
+<td>数字</td>
+<td>自定义企业级日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseDate1Indicator-30 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseDuration1-10</td>
+<td>数字</td>
+<td>自定义企业级工期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseDuration1Indicator-10 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseFlag1-20</td>
+<td>数字</td>
+<td>自定义企业级标志信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseFlag1Indicator-20 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseNumber1-40</td>
+<td>数字</td>
+<td>自定义企业级数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseNumber1Indicator-40 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseOutlineCode1-30ID</td>
+<td>数字</td>
+<td>自定义企业级大纲代码信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseText1-40</td>
+<td>数字</td>
+<td>自定义企业级文本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskEnterpriseText1Indicator-40 </td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskEstimated</td>
+<td>布尔值</td>
+<td>指定任务的工期是否标记为估计值。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskExternalTask</td>
+<td>布尔值</td>
+<td>指定该任务是链接自其他项目还是来源于当前项目。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskEAC</td>
+<td>数字</td>
+<td>任务的总规划（或计划）成本，等于已花费成本加上剩余工时的计划成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFinish</td>
+<td>日期</td>
+<td>任务计划完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFinish1-10 </td>
+<td>日期</td>
+<td>自定义完成日期信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskFinish1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFinishSlack</td>
+<td>数字</td>
+<td>最早完成时间与最晚完成时间之间的工期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFinishVariance</td>
+<td>数字</td>
+<td>表示任务的比较基准完成日期与其当前完成日期之间差异的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFixedCost</td>
+<td>数字</td>
+<td>与资源成本无关的任务费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFixedCostAccrual</td>
+<td>数字</td>
+<td>指定如何将固定成本支付、累加到任务成本中：
+<table>
+<tr>
+<td>1</td>
+<td>开始；按照 ActualStart 域中输入的日期，在任务开始的同时，成本的累算也开始进行。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>结束；直到剩余工时为零时才累算成本。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>按比例（默认）；在排定开始工时及报告实际工时时累算成本。</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFlag1-20</td>
+<td>布尔值</td>
+<td>自定义标志信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskFlag1Indicator-20</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskFreeSlack</td>
+<td>数字</td>
+<td>在不延迟任何后续任务的情况下，任务可以延迟的时间量；如果任务没有后续任务，可用时差就是在不延迟整个项目的情况下，任务可以延迟的时间量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHideBar</td>
+<td>布尔值</td>
+<td>指定是否隐藏任务的“甘特条形图”和“日历条形图”。
+					
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHyperlink</td>
+<td>文本</td>
+<td>与任务相关联的超链接的标题或说明文字。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHyperlinkAddress</td>
+<td>文本</td>
+<td>与任务相关联的超链接的地址。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHyperlinkHref</td>
+<td>文本</td>
+<td>与任务相关联的超链接地址域和超链接子地址域的组合（或连接）。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHyperlinkScreenTip</td>
+<td>文本</td>
+<td>“屏幕提示”中包含的与超链接相关联的文字。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskHyperlinkSubAddress</td>
+<td>文本</td>
+<td>与任务相关联的超链接内文档中的指定位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskID</td>
+<td>数字</td>
+<td>指定与其他任务关联的任务的位置。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskIgnoreResourceCalendar</td>
+<td>布尔值</td>
+<td>指定任务的日程安排是否考虑了任务所分配资源的日历。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskIsNull</td>
+<td>布尔值</td>
+<td>指定任务是否为空任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLateFinish</td>
+<td>日期</td>
+<td>在不延迟项目完成时间的情况下，任务可以完成的最迟日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLateStart</td>
+<td>日期</td>
+<td>在不延迟项目完成时间的情况下，任务可以开始的最迟日期。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLevelAssignments</td>
+<td>布尔值</td>
+<td>指定为解决资源过度分配问题，调配功能是否可以延迟并拆分各个工作分配（而不是整个任务）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLevelingCanSplit</td>
+<td>布尔值</td>
+<td>指定资源的调配功能是否可以拆分任务中的剩余工时。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLevelingDelay</td>
+<td>数字</td>
+<td>作为资源调配的结果，任务比其早先开始日期延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskLinkedFields</td>
+<td>布尔值</td>
+<td>指示是否存在与此任务链接的 OLE，链接可能来自活动项目的任何位置、其他 Project 文件或其他程序。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskMarked</td>
+<td>布尔值</td>
+<td>指定是否为某种进一步的操作或识别而对任务作了标记。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskMilestone</td>
+<td>布尔值</td>
+<td>指定任务是否为里程碑。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskName</td>
+<td>文本</td>
+<td>任务名称。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskNotes</td>
+<td>文本</td>
+<td>为任务输入的备注。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskNumber1-20 </td>
+<td>数字</td>
+<td>自定义数字信息。</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskNumber1Indicator-20</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskObjects</td>
+<td>数字</td>
+<td>附加到任务的对象数目。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOutlineCode1-10</td>
+<td>文本</td>
+<td>表示任务的分层结构的字母数字代码。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOutlineLevel</td>
+<td>数字</td>
+<td>该数字指定任务在项目大纲层次结构中的级别。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOutlineNumber</td>
+<td>文本 </td>
+<td>表示大纲中任务的确切位置。例如，7.2 表示任务为排位第七的高级摘要任务下的第二个子任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOverallocated</td>
+<td>布尔值</td>
+<td>指示对接受任务的资源是否分配了超负荷的工作量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOvertimeCost</td>
+<td>数字</td>
+<td>任务的实际加班成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskOvertimeWork</td>
+<td>数字</td>
+<td>接受任务的所有资源计划完成的加班工时量，按加班费率支付薪酬。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskParentUID</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效 TaskUniqueID；任务的父任务的唯一标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPredecessors</td>
+<td>文本</td>
+<td>此任务的前置任务的任务标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPreleveledFinish</td>
+<td>日期</td>
+<td>在资源调配完成前的任务完成日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPreleveledStart</td>
+<td>日期</td>
+<td>在资源调配完成前的任务开始日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskPriority</td>
+<td>数字</td>
+<td>指定任务所分配的重要性级别；数字越大，优先级越高：
+<table>
+<tr>
+<td>0</td>
+<td>最低优先级；总是调配任务</td>
+</tr>
+<tr>
+<td>500</td>
+<td>默认值</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>最高优先级；从不调配任务</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRecurring</td>
+<td>布尔值</td>
+<td>指定任务是否为重复任务。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRegularWork</td>
+<td>数字</td>
+<td>计划由任务所分配的所有资源完成的非加班工时总量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRemainingCost</td>
+<td>数字</td>
+<td>在接受任务的所有资源完成剩余的计划工时期间，将花费的任务剩余计划费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRemainingDuration</td>
+<td>数字</td>
+<td>完成任务的未完成部分所需要的时间量。剩余工期可以通过两种方式进行计算（基于“完成百分比”或“实际工期”）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRemainingOvertimeCost</td>
+<td>数字</td>
+<td>任务的剩余计划加班费用。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRemainingOvertimeWork</td>
+<td>数字</td>
+<td>所有分配资源完成任务所计划的剩余加班量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRemainingWork</td>
+<td>数字</td>
+<td>所有分配的资源完成任务仍然需要的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResourceGroup</td>
+<td>文本</td>
+<td>接受任务的资源所属的资源组列表。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResourceInitials</td>
+<td>文本</td>
+<td>列出任务所分配资源名称的缩写。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResourceNames</td>
+<td>文本</td>
+<td>列出任务所分配的所有资源的名称。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResourcePhonetics</td>
+<td>文本</td>
+<td>包含接受任务的资源名称的“平假名”或“片假名”信息；只用于 Project 日语版本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResponsePending</td>
+<td>布尔值</td>
+<td>指示在向接受任务的资源发送消息（通知工作分配情况）后，是否接收到所有答复。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskResume</td>
+<td>日期</td>
+<td>在为“完成百分比”域输入新值后，任务的剩余部分计划重新开始的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskRollup</td>
+<td>布尔值</td>
+<td>指定摘要任务条形图是否显示总成型条形图，或者子任务“甘特条形图”上的信息是否上卷到摘要任务条形图中；对于子任务，该值必须设置为“True”才可上卷到摘要任务中。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSPI</td>
+<td>数字</td>
+<td>日程排定业绩指数，或已完成工时与计划工时之比。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStart</td>
+<td>日期</td>
+<td>任务计划开始的日期和时间；如果该任务有前置任务，将自动计算该值。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStart1-10</td>
+<td>日期</td>
+<td>自定义开始日期信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskStart1Indicator-10</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStartVariance</td>
+<td>数字</td>
+<td>任务的比较基准开始日期与其当前计划开始日期之间的差异。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStartSlack</td>
+<td>数字</td>
+<td>在不影响后续任务的开始日期或项目完成日期的情况下，任务可以延迟的时间量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStatus</td>
+<td></td>
+<td>任务的当前状态。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskStop</td>
+<td>日期</td>
+<td>表示任务实际部分结束时间的日期；在输入实际工时或完成百分比之前，包含的值为 NA。</td>
+</tr>
+
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSubprojectFile</td>
+<td>文本</td>
+<td>插入到活动项目文件中的项目名称，包括子项目的路径和文件名。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSubprojectReadOnly</td>
+<td>布尔值</td>
+<td>指定该任务的子项目是否为只读项目。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSuccessors</td>
+<td>文本</td>
+<td>该任务的后续任务的任务标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSummary</td>
+<td>布尔值</td>
+<td>指定任务是否为摘要任务。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSummaryProgress</td>
+<td>数字</td>
+<td>摘要任务的进度，取决于其子任务的进度。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务的当前进度与比较基准计划之间的差异；也称作日程差异 (SV)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskSVP</td>
+<td>数字</td>
+<td>任务的日程差异百分比 (SVP)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTCPI</td>
+<td>数字</td>
+<td>任务未完成的业绩指数 (TCPI)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTeamStatusPending</td>
+<td>布尔值</td>
+<td>指示在向接受任务的资源发送请求进度信息的消息后，是否接收到答复。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskText1-30</td>
+<td>文本</td>
+<td>自定义文本信息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm">E</b></td>
+<td>TaskText1Indicator-30</td>
+<td>数字</td>
+<td>自定义域的标记符号。有关详细信息，请参阅“标记符号”。
+				
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTotalSlack</td>
+<td>数字</td>
+<td>在不延迟项目完成日期的情况下，任务可以延迟的时间量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskType</td>
+<td>数字</td>
+<td>指定编辑工时、工作分配单位或工期对其他两个域计算的影响：
+<table>
+<tr>
+<td>0</td>
+<td>固定单位（默认）；无论任务的工时量或工期如何变化，“工作分配单位”的数量都保持不变</td>
+</tr>
+<tr>
+<td>1</td>
+<td>固定工期：无论分配的资源数量（工作分配单位）或工时量如何变化，任务工期都保持不变</td>
+</tr>
+<tr>
+<td>2</td>
+<td>固定工时：无论工期或接受任务的资源数量（工作分配单位）如何变化，工时量都保持不变</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskUniqueIDPredeccessors</td>
+<td>文本</td>
+<td>前置任务的唯一标识号。例如，15FS+3d 表示该任务的前置任务的标识号为 15、具有“完成-开始”相关性和 3 天延隔时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskUniqueIDSuccessors</td>
+<td>文本</td>
+<td>后续任务的唯一标识号。例如，15FS+3d 表示该任务的后续任务的标识号为 15、具有“完成-开始”相关性和 3 天延隔时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskUpdateNeeded</td>
+<td>布尔值</td>
+<td>指定在更改开始日期、完成日期或对任务进行重新分配后，是否需要向分配的资源发送消息。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskVAC</td>
+<td>数字</td>
+<td>任务的比较基准成本与总成本之间的差异；也称作完成差异 (VAC)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskWBS</td>
+<td>文本</td>
+<td>用于表示在项目的分层结构中任务位置的唯一代码 (WBS)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskWBSPredecessors</td>
+<td>文本</td>
+<td>与开始或完成任务所依据的前置任务相关联的 WBS 代码。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskWBSSuccessors</td>
+<td>文本</td>
+<td>列出与后续任务相关联的 WBS 代码。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskWork</td>
+<td>数字</td>
+<td>计划由任务所分配的所有资源完成的总工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskWorkVariance</td>
+<td>数字</td>
+<td>任务的比较基准工时与当前计划工时之间的差异。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="TaskSplits" name="TaskSplits">TaskSplits</a></h2>
+<p>该表存储任务拆分的开始日期和完成日期。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SplitFinish</td>
+<td>日期</td>
+<td>任务拆分结束的日期。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>SplitStart</td>
+<td>日期</td>
+<td>任务拆分开始的日期。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="TaskTimephased" name="TaskTimephased">Task Timephased by Minute, Hour, Day, Week, and Month</a></h2>
+<p>Project OLE DB 提供程序支持按时间分段的数据。共有五个任务时间分段表，分钟、小时、天、周和月各一。对于所有按时间分段的表名称，数据库使用统一的格式：<i>table</i>TimephasedBy<i>time</i>，例如：TaskTimephasedByMinute。这些表从最早开始时间到最晚完成时间按分钟、小时、天、周或月返回所有任务的时间分段数据。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">TaskUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Tasks 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeStart</td>
+<td>日期</td>
+<td>任务计划开始的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeFinish</td>
+<td>日期</td>
+<td>任务计划完成的日期和时间。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeActualCost</td>
+<td>数字</td>
+<td>所有资源在任务中已完成工时的成本，以及任何其他经记录的与该任务相关的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeActualOvertimeWork</td>
+<td>数字</td>
+<td>接受任务的所有资源已经完成的实际加班工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeActualWork</td>
+<td>数字</td>
+<td>接受任务的资源已经完成的工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeACWP</td>
+<td>数字</td>
+<td>到项目状态日期或当前日期为止，任务中已完成工时的成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBaselineCost</td>
+<td>数字</td>
+<td>任务的总计划成本，也称为预算完成成本 (BAC)。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBaseline1Cost-10</td>
+<td>数字</td>
+<td>自定义比较基准成本信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBaselineWork</td>
+<td>数字</td>
+<td>接受任务的所有资源要完成的原计划工时量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBaseline1Work-10</td>
+<td>数字</td>
+<td>自定义比较基准工时信息。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBCWP</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务的时间分段完成百分比乘以任务的时间分段比较基准成本的累计值，也称作已完成工时的预算成本。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeBCWS</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，按时间分段的比较基准累计成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeCost</td>
+<td>数字</td>
+<td>任务的总规划（或计划）成本，等于任务所分配的所有资源已完成工时的成本，加上工作分配剩余工时的计划成本；也称作估计完成成本 (EAC)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeCumulativeCost</td>
+<td>数字</td>
+<td>任务的总成本。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeCumulativeWork</td>
+<td>数字</td>
+<td>任务的总工时（或人-小时）。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeCV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务达到当前完成程度应花费的成本与实际花费的成本之间的差异；也称作成本差异。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeFixedCost</td>
+<td>数字</td>
+<td>与资源成本无关的任务费用。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeOvertimeWork</td>
+<td>数字</td>
+<td>计划由任务所分配的所有资源完成的加班工时量，按资源的加班费率支付薪酬。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeRegularWork</td>
+<td>数字</td>
+<td>计划由任务所分配的所有资源完成的非加班工时总量。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeSV</td>
+<td>数字</td>
+<td>到状态日期或当前日期为止，任务的当前进度与比较基准计划之间的成本差异；也称作日程差异 (SV)。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeWork</td>
+<td>数字</td>
+<td>计划由任务所分配的所有资源完成的总工时量。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>TaskTimeActualFixedCost</td>
+<td>数字</td>
+<td>与资源成本无关的按时间分段的任务实际费用，按所选成本累算方式计算加班工时。</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+<h2>
+<a id="WBS" name="WBS">WBS（工作分解结构）</a></h2>
+<p>该表存储项目的 WBS 代码定义及 WBS 代码设置。这些定义与<b class="ui">“WBS 代码定义”</b>对话框（<b class="ui">“项目”</b>菜单|<b class="ui">“WBS”</b>子菜单|<b class="ui">“定义代码”</b>命令）中创建的定义相同。</p>
+<table>
+<tr>
+<th>
+ 
+</th>
+<th>列名称</th>
+<th>数据类型</th>
+<th>说明</th>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">Project</b>
+</td>
+<td>文本</td>
+<td>项目名称，显示为项目位置的路径，例如：C:\pathname\MyProject.mpp。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td><b class="bterm">ProjectUniqueID</b>
+</td>
+<td>数字</td>
+<td>引用 Project 表中的有效标识号。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSProjectCodePrefix</td>
+<td>文本</td>
+<td>WBS 代码的前缀。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSLevel</td>
+<td>数字</td>
+<td>为每个 WBS 级别分配的级别，从 1 开始。</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSSequence</td>
+<td>数字</td>
+<td>第一级任务的代码字符串类型：
+<table>
+<tr>
+<td>0</td>
+<td>数字（有序）；该级别的数字 WBS 代码（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>大写字母（有序）；按字母排序的大写 WBS 代码（例如：项目中前三个摘要任务 A、B 和 C）</td>
+</tr>
+<tr>
+<td>2</td>
+<td>小写字母（有序）；按字母排序的小写 WBS 代码（例如：项目中前三个摘要任务 a、b 和 c）</td>
+</tr>
+<tr>
+<td>3</td>
+<td>字符（无序）；数字和大写或小写字母的任意组合（例如：项目中前三个摘要任务 Arch1、Const1 或 Insp1）。在键入或输入该代码的字符串之前，Project 在自定义大纲域中显示星号 (*)</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSLength</td>
+<td>数字</td>
+<td>在第一级代码字符串中所允许的最大字符数（请参阅 WBSSequence）：
+<table>
+<tr>
+<td>0</td>
+<td> 任意（默认值）</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1 个字符</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2 个字符</td>
+</tr>
+<tr>
+<td> ... 255</td>
+<td>最多 255 个字符</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSSeparator</td>
+<td>文本</td>
+<td>用于分隔 WBS 代码级别的字符。在 Project 的<b class="ui">“WBS 代码定义”</b>对话框中显示了以下字符；但是，任何符号均可用作 WBS 代码的分隔符：
+<table>
+<tr>
+<td> .</td>
+<td>句点（默认值）</td>
+</tr>
+<tr>
+<td>+</td>
+<td>加号</td>
+</tr>
+<tr>
+<td>/</td>
+<td>正斜杠</td>
+</tr>
+<tr>
+<td>-</td>
+<td>减号</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSGenerateNew</td>
+<td>布尔值</td>
+<td>指定在创建新任务时，Project 是否自动生成新的 WBS 代码。
+				</td>
+</tr>
+<tr>
+<td><b class="bterm"></b></td>
+<td>WBSVerifyUnique</td>
+<td>布尔值</td>
+<td>指定在编辑任务的 WBS 代码时，Project 是否实施唯一性。
+				</td>
+</tr>
+</table>
+<a href="#top">页首</a>
+    
+    
+    
+    
+
+    
+
+  </body></html>

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<toc>
+  <book>
+    <label>通用脚本编辑器信息</label>
+    <topic>
+      <label>关于“Microsoft 脚本编辑器”窗口</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sewinAboutMSEWindow.htm</url>
+    </topic>
+    <topic>
+      <label>Microsoft 脚本编辑器帮助</label>
+      <url>mk:@MSITStore:mse10.chm::/html/seconIntroduction.htm</url>
+    </topic>
+    <topic>
+      <label>关于“刷新”工具栏</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sewinAboutRefreshToolbar.htm</url>
+    </topic>
+    <topic>
+      <label>关于“调试”工具</label>
+      <url>mk:@MSITStore:mse10.chm::/html/secodAboutDebugTools.htm</url>
+    </topic>
+    <topic>
+      <label>“选项”对话框中的“常规”选项卡下的“环境”</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxurfGeneralEnvironOptionsDialogBox.htm</url>
+    </topic>
+  </book>
+  <book>
+    <label>Microsoft Office 应用程序中的 HTML</label>
+    <topic>
+      <label>关于 Office 文档的 HTML 源</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sedocOfficeHTML.htm</url>
+    </topic>
+    <topic>
+      <label>Microsoft Access 数据访问页</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sedocDataAccessPageHTML.htm</url>
+    </topic>
+    <topic>
+      <label>Microsoft Excel 工作簿</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sedocExcelWorkbookHTML.htm</url>
+    </topic>
+    <topic>
+      <label>Microsoft PowerPoint 演示文稿</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sedocPowerPointPresentationHTML.htm</url>
+    </topic>
+    <topic>
+      <label>Microsoft Word 文档</label>
+      <url>mk:@MSITStore:mse10.chm::/html/sedocWordDocumentHTML.htm</url>
+    </topic>
+  </book>
+  <book>
+    <label>在脚本编辑器中使用脚本和 HTML</label>
+    <topic>
+      <label>关于事件</label>
+      <url>mk:@MSITStore:mse10.chm::/html/secodOfficeDocumentEvents.htm</url>
+    </topic>
+    <topic>
+      <label>更改默认脚本语言</label>
+      <url>mk:@MSITStore:mse10.chm::/html/secodDefaultScriptLanguage.htm</url>
+    </topic>
+    <topic>
+      <label>在 HTML 页上创建和编辑脚本</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_csconCreatingScriptsInHTMLEditor.htm</url>
+    </topic>
+    <topic>
+      <label>更改和选取文本</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskChangingCustomizingText.htm</url>
+    </topic>
+    <topic>
+      <label>设置 targetSchema 属性</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxurfTargetSchemeProperty.htm</url>
+    </topic>
+  </book>
+  <book>
+    <label>自定义脚本编辑器</label>
+    <topic>
+      <label>辅助选项</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxconAccessibilityOptions.htm</url>
+    </topic>
+    <topic>
+      <label>管理代码格式</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskManagingCodeFormatting.htm</url>
+    </topic>
+    <topic>
+      <label>自定义工具栏</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskAddingButtonsToToolbars.htm</url>
+    </topic>
+    <topic>
+      <label>“Microsoft 脚本编辑器”的默认快捷键</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxurfVisualStudio70DefShortcutKeys.htm</url>
+    </topic>
+  </book>
+  <book>
+    <label>管理视图和窗口</label>
+    <topic>
+      <label>管理“脚本编辑器”和“视图”</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskManagingCodeEditorWindowView.htm</url>
+    </topic>
+    <topic>
+      <label>排列窗口</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskCustomizingWindowLayouts.htm</url>
+    </topic>
+    <topic>
+      <label>大纲显示和隐藏代码</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskOutliningCode.htm</url>
+    </topic>
+    <topic>
+      <label>管理工具箱中的选项卡和项</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskManagingToolsTabsOnToolbox.htm</url>
+    </topic>
+    <topic>
+      <label>设计视图</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_csdlgDesignViewHTMLEditor.htm</url>
+    </topic>
+  </book>
+  <book>
+    <label>浏览、搜索和替换</label>
+    <topic>
+      <label>定位文本</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxtskNavigatingText.htm</url>
+    </topic>
+    <topic>
+      <label>在“文档大纲”窗口中定位</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxoriNavigatingInOutlineWindow.htm</url>
+    </topic>
+    <topic>
+      <label>搜索和替换</label>
+      <url>mk:@MSITStore:mse10.chm::/html/of_vxoriSearchingReplacing.htm</url>
+    </topic>
+  </book>
+</toc>

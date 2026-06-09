@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+	<topic>
+		<label>避免命名冲突</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconavoidingnamingconflicts.htm</url>
+	</topic>
+	<topic>
+		<label>利用相同的名称来调用程序</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconcallingprocedureswiththesamename.htm</url>
+	</topic>
+	<topic>
+		<label>调用属性过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconcallingpropertyprocedures.htm</url>
+	</topic>
+	<topic>
+		<label>调用 Sub 以及 Function 过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconcallingsubandfunctionprocedures.htm</url>
+	</topic>
+	<topic>
+		<label>生成对象变量</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconcreatingobjvar.htm</url>
+	</topic>
+	<topic>
+		<label>创建递归过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconcreatingrecursiveprocedures.htm</url>
+	</topic>
+	<topic>
+		<label>声明数组</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vacondeclaringarrays.htm</url>
+	</topic>
+	<topic>
+		<label>声明常数</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vacondeclaringconstants.htm</url>
+	</topic>
+	<topic>
+		<label>声明变量</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vacondeclaringvariables.htm</url>
+	</topic>
+	<topic>
+		<label>当设置属性时执行代码</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconexecutingcodewhensettingproperties.htm</url>
+	</topic>
+	<topic>
+		<label>通过代码做循环</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconloopingthroughcode.htm</url>
+	</topic>
+	<topic>
+		<label>使 For...Next 循环更加快速</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconmakingfasterloops.htm</url>
+	</topic>
+	<topic>
+		<label>有效率地传递参数</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconpassingargs.htm</url>
+	</topic>
+	<topic>
+		<label>从函数中返回字符串</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconreturningstrings.htm</url>
+	</topic>
+	<topic>
+		<label>了解自动化</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingoleautomation.htm</url>
+	</topic>
+	<topic>
+		<label>了解条件式编译</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingconditionalcompilation.htm</url>
+	</topic>
+	<topic>
+		<label>了解命名参数与可选的参数</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingnamedoptionalargs.htm</url>
+	</topic>
+	<topic>
+		<label>了解对象、属性、方法和事件</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingobjects.htm</url>
+	</topic>
+	<topic>
+		<label>了解参数数组</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingparamarrays.htm</url>
+	</topic>
+	<topic>
+		<label>了解范围与可见性</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingscope.htm</url>
+	</topic>
+	<topic>
+		<label>了解变量的存活期</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandinglifetime.htm</url>
+	</topic>
+	<topic>
+		<label>了解变体</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingvariants.htm</url>
+	</topic>
+	<topic>
+		<label>了解 Visual Basic 语法</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconunderstandingvbsyntax.htm</url>
+	</topic>
+	<topic>
+		<label>使用数组</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingarrays.htm</url>
+	</topic>
+	<topic>
+		<label>使用常数</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingconstants.htm</url>
+	</topic>
+	<topic>
+		<label>有效的使用数据类型</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingdata.htm</url>
+	</topic>
+	<topic>
+		<label>使用 Do...Loop 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingdoloop.htm</url>
+	</topic>
+	<topic>
+		<label>使用 For Each...Next 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingforeach.htm</url>
+	</topic>
+	<topic>
+		<label>使用 For...Next 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingfornext.htm</url>
+	</topic>
+	<topic>
+		<label>使用 If...Then...Else 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingifthen.htm</url>
+	</topic>
+	<topic>
+		<label>在代码中使用括号</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingparens.htm</url>
+	</topic>
+	<topic>
+		<label>使用 Select Case 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingselectcase.htm</url>
+	</topic>
+	<topic>
+		<label>使用 With 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconusingwith.htm</url>
+	</topic>
+	<topic>
+		<label>Visual Basic 的命名规则</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconvbnamingrules.htm</url>
+	</topic>
+	<topic>
+		<label>在应用程序间交叉运作</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconworkingacrossapps.htm</url>
+	</topic>
+	<topic>
+		<label>写 Function 过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingfunctions.htm</url>
+	</topic>
+	<topic>
+		<label>写 Property 过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingproperties.htm</url>
+	</topic>
+	<topic>
+		<label>写 Sub 过程</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingsubs.htm</url>
+	</topic>
+	<topic>
+		<label>写赋值语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingassignments.htm</url>
+	</topic>
+	<topic>
+		<label>将数据写到文件中</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingdata.htm</url>
+	</topic>
+	<topic>
+		<label>写声明语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingdeclarations.htm</url>
+	</topic>
+	<topic>
+		<label>写可执行的语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingexecutablestatements.htm</url>
+	</topic>
+	<topic>
+		<label>写 Visual Basic 语句</label>
+		<url>mk:@MSITStore:vbcn6.chm::/html/vaconwritingvbstatements.htm</url>
+	</topic>
+</toc>
