@@ -1,9 +1,0 @@
-tabbar图标占位文件
-实际使用时请放置以下图标文件：
-- home.png / home-active.png
-- project.png / project-active.png
-- task.png / task-active.png
-- stats.png / stats-active.png
-- mine.png / mine-active.png
-
-图标建议尺寸：81px * 81px

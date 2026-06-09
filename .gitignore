@@ -1,0 +1,23 @@
+# 编译生成的文件
+node_modules/
+*.exe
+*.class
+*.o
+*.obj
+dist/
+build/
+unpackage/
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.log
+*.tmp
+*.temp
+*.cache
+.DS_Store
+Thumbs.db
